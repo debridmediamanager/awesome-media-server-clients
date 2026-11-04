@@ -14,7 +14,7 @@ CI runs `python3 scripts/generate.py --check`. It fails when the data is invalid
 
 ## What belongs here
 
-- **Clients only.** The app must browse and play or read media from Plex or Jellyfin or Emby through the server's own API. An app that only reaches a server through DLNA or SMB or a browser bookmark does not count. Remotes and admin tools and bridges go in the companion section with the matching `category`.
+- **Clients only.** The app must browse and play or read media from Plex or Jellyfin or Emby through the server's own API. An app that only reaches a server through DLNA or SMB or a browser bookmark does not count. The same goes for an app that only opens the server's own web interface. A packaged app that wraps that interface can stay. Examples are the official Jellyfin app for iOS and Emby for PS4. Remotes and admin tools and bridges go in the companion section with the matching `category`.
 - **It must work.** No empty repositories. No plans or READMEs without code. No projects that cannot play anything yet.
 - **One entry per app.** An app on several platforms or stores is one entry. List its platforms and add the extra store links under `links`. A renamed app keeps one entry with the old name in `aliases`. A fork gets its own entry only when it is a separate app with its own name or releases.
 - **Official links only.** The main `url` must be the app's own repository or store listing or website. Never link mirrors or re-uploads or APK sites or download portals.
@@ -46,13 +46,24 @@ Some repositories on GitHub and GitLab and Codeberg use the Plex and Jellyfin an
 ```
 
 - **description** is one plain line for users of about 110 characters at most. Say what the app is and what you get. No hype words and no star counts. The servers and platforms show as tags so there is no need to repeat them.
-- **platforms** takes only values from `PLATFORMS` in [scripts/generate.py](scripts/generate.py). Examples are `android-tv` (also Google TV) and `fire-tv` and `vega-os` and `tvos` and `webos` and `tizen` and `roku` and `ps4` and `switch` and `quest` and `carplay` and `wear-os` and `kodi` and `cli`. Tag `visionos` or `macos` only for real builds. An iPad app that the App Store merely allows on those devices does not count.
+- **platforms** takes only values from `PLATFORMS` in [scripts/generate.py](scripts/generate.py). Examples are `android-tv` (also Google TV) and `fire-tv` and `vega-os` and `tvos` and `webos` and `tizen` and `roku` and `ps4` and `switch` and `quest` and `carplay` and `wear-os` and `kodi` and `cli`. The rules for each tag are under [Platform tags](#platform-tags).
 - **category** is one of `player` `music` `audiobooks` `books` `photos` `live-tv` `shim` `remote` `admin` or `bridge`. A shim plays server items in mpv or another external player.
 - **links** keys are `repo` `site` `appstore` `play` `msstore` `amazon` `flathub` `fdroid` `snap` `aur` `roku` `meta` `appgallery` `steam` `testflight` `lgstore` and `other`. Add a suffix for a second link of the same kind such as `repo:Roku`.
 - **long_tail: true** moves an entry to `more-clients.md`. Use it for projects that live only on GitHub with no release and under 10 stars.
 - **distinct: true** is needed on every entry whose name matches another entry's name. It confirms they are different apps.
 
 The generator sorts entries by name so the order in the YAML file does not matter. Keeping it alphabetical makes diffs easier to read.
+
+## Platform tags
+
+Tag a platform only for a build that ships for it or that the app documents for it. Planned platforms and ones marked coming soon are never tagged.
+
+- `ipados` needs an iPad build of its own. An iPhone app that runs on an iPad in compatibility mode does not get it. The same rule keeps iPad apps out of `macos` and `visionos` when the App Store merely allows them there.
+- `chromecast` is only for Cast receiver apps. Casting from a phone app does not count. An app you install on a Chromecast with Google TV gets `android-tv`.
+- `fire-tv` needs the app to say it runs on Fire TV or a listing of its own in the Amazon Appstore.
+- `android-auto` means Android Auto itself. An Android head unit is not Android Auto. Android Automotive has its own tag `android-automotive`.
+- `wear-os` needs an app that runs on the watch. A phone app that shows its controls on the watch does not count.
+- Terminal apps get `cli` and no OS tags. A project that also ships a separate desktop app gets the OS tags of that app too.
 
 ## Updating an entry
 

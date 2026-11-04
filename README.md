@@ -1,13 +1,16 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and 1,857 third-party ones, from polished store apps to small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,857 third-party ones. Some are polished store apps. Others are small open-source projects.
 
-Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) have a page of their own, linked under More clients below.
+> **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
-Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop), [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). Repositories that offer a "full version", "unlocked" or "installer" for these apps are scams.
+Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects have a page of their own under More clients below.
+
+Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop) and [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). A repository that offers a "full version" or an "unlocked" build or an "installer" for these apps is a scam.
 
 ## Contents
 
+- [From the maintainers](#from-the-maintainers)
 - [Legend](#legend)
 - [Official apps](#official-apps)
   - [Plex](#plex)
@@ -66,18 +69,36 @@ Official downloads come only from [plex.tv](https://www.plex.tv/media-server-dow
 - [More clients](#more-clients)
 - [Contribution Guidelines](#contribution-guidelines)
 
+## From the maintainers
+
+This list is kept by the team behind Debrid Media Manager. We also make the projects below. They give the apps on this page a library to play.
+
+- **[rex](https://rex.debridmediamanager.com/)** · Any source. Every Plex app. Your films and shows stay on a debrid service or a Usenet provider or any web server. rex shows them to the Plex apps as a normal server. When you press play it streams the file straight from where it lives. Nothing is downloaded first. [Docs](https://notes.debridmediamanager.com/rex/)
+- **[zurg](https://zurg.debridmediamanager.com/)** · Every debrid account and Usenet in one folder. Plex and Jellyfin and Emby read the folder through rclone like a normal drive. Infuse reads it directly. The public release covers Real-Debrid. [Sponsors](https://gatekeeper.debridmediamanager.com/) also get TorBox and AllDebrid and Premiumize and Debrid-Link and Offcloud and Usenet in the same folder. [Docs](https://notes.debridmediamanager.com/zurg/)
+- **[Debrid Media Manager](https://debridmediamanager.com/)** · Curate an infinite media library. A free and open source web app that adds films and shows to your debrid library. [Docs](https://notes.debridmediamanager.com/dmm/)
+
+Questions? Ask in the rex-support or zurg-support or dmm-support forum on [Discord](https://discord.com/invite/7u4YjMThXP).
+
 ## Legend
 
-- Servers: `Plex` `Jellyfin` `Emby`. Other back ends appear as `+Subsonic` (also Navidrome), `+Audiobookshelf`, `+Stremio addons`, `+fnOS`, `+Silo`, `+IPTV` and similar.
-- Platforms: `Android TV` covers Google TV and SHIELD, `Fire TV` is Fire OS, `Vega OS` is the newer Fire TV OS, `tvOS` is Apple TV.
-- A licence such as `GPL-3.0` or `Open source` means the source code is public. No licence tag means the app is closed source or the licence is unknown.
-- Price: `Free`, `Freemium` (free with paid extras), `Paid` (pay up front) or `Subscription`.
-- Status: `Beta` (pre-release, TestFlight or closed testing), `Stale 2024` (no update since that year), `Ended 2023`. Entries without a status tag were updated within the last year, or their store or forum page shows no date.
-- Store and source links follow each entry. Server support comes from each app's own repository, store listing or site; apps change quickly, so check before you pay.
+| Tag | Meaning |
+|---|---|
+| `Plex` `Jellyfin` `Emby` | The servers the app plays from |
+| `+Subsonic`, `+Audiobookshelf`, `+Stremio addons`, `+fnOS`, `+Silo`, `+IPTV` | Other back ends it also reads. Subsonic includes Navidrome |
+| `Android TV` | Also Google TV and SHIELD |
+| `Fire TV`, `Vega OS` | Fire OS, and the newer Fire TV OS |
+| `tvOS` | Apple TV |
+| `GPL-3.0`, `MIT`, `Open source` | The source code is public. No licence tag means closed source or unknown |
+| `Free`, `Freemium`, `Paid`, `Subscription` | Freemium is free with paid extras. Paid means you pay up front |
+| `Beta` | Pre-release, TestFlight or closed testing |
+| `Stale 2024` | No update since that year |
+| `Ended 2023` | Withdrawn or abandoned that year |
+
+No status tag means the app was updated in the last year or its page shows no date. Store and source links follow each entry. Server support comes from each app's own repository or store listing or site. Apps change fast so check before you pay.
 
 ## Official apps
 
-Apps made by Plex Inc., the Jellyfin project and Emby LLC.
+Apps made by Plex Inc. and the Jellyfin project and Emby LLC.
 
 ### Plex
 
@@ -133,7 +154,7 @@ Apps made by Plex Inc., the Jellyfin project and Emby LLC.
 
 ## Multi-server players
 
-Video and general clients for two or all three servers.
+Video and general clients that play from two or all three servers.
 
 ### Cross-platform
 
@@ -766,7 +787,7 @@ Third-party video and general clients for Plex only.
 
 ## Emby video clients
 
-Third-party video and general clients for Emby only, including the large Chinese-language ecosystem.
+Third-party video and general clients for Emby only. Many come from the large Chinese-language scene.
 
 ### Cross-platform
 
@@ -1178,7 +1199,7 @@ Music players and music-first clients.
 
 ## Audiobooks, books and photos
 
-Audiobook players, book and comic readers, and photo viewers.
+Audiobook players and book or comic readers and photo viewers.
 
 ### Audiobooks
 
@@ -1241,7 +1262,7 @@ Audiobook players, book and comic readers, and photo viewers.
 
 ## Live TV and channel apps
 
-IPTV players that also read media servers, and apps that turn a library into scheduled channels.
+IPTV players that also read media servers. Apps that turn a library into scheduled channels.
 
 - [90sTV](https://apps.apple.com/us/app/90stv-retro-tv-channels/id6800050490) - Turns a Jellyfin movie and show library into always-running retro TV channels you tune into. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
@@ -1299,7 +1320,7 @@ IPTV players that also read media servers, and apps that turn a library into sch
 
 ## Niche platforms
 
-Apps that only run on consoles, headsets, cars, watches, TV operating systems, Kodi, terminals and other less common systems.
+Apps for consoles and headsets and cars and watches. Also TV systems and Kodi and terminals and other less common platforms.
 
 ### Consoles and homebrew
 
@@ -1552,7 +1573,7 @@ Apps that only run on consoles, headsets, cars, watches, TV operating systems, K
 
 ## Companion and remote apps
 
-These do not play media themselves: they control, manage or connect a server to other software.
+These do not play media themselves. They control or manage a server or connect it to other software.
 
 ### Remotes and controllers
 
@@ -1616,7 +1637,7 @@ These do not play media themselves: they control, manage or connect a server to 
 
 ## Discontinued
 
-Apps that were withdrawn, archived or abandoned. Kept for reference.
+Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 - [ABJC-tvOS](https://github.com/ABJC/ABJC-tvOS) - Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Ended 2022`
 - [AmpFin](https://github.com/rasmuslos/AmpFin) - Music player. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Ended 2025`
@@ -1690,10 +1711,10 @@ Apps that were withdrawn, archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 478 smaller projects: GitHub-only apps with no release and under 10 stars, grouped by platform.
+[more-clients.md](more-clients.md) lists 478 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
 
 ## Contribution Guidelines
 
-Contributions are welcome. Read the [contributing guidelines](contributing.md) first: entries live in [data/clients.yaml](data/clients.yaml) and the Markdown files are generated from it.
+Contributions are welcome. Read the [contributing guidelines](contributing.md) first. Entries live in [data/clients.yaml](data/clients.yaml) and the Markdown files are generated from it.
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

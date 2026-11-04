@@ -2,7 +2,9 @@
 
 # More clients
 
-Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release and under 10 stars, most of them from 2025 and 2026. Many are one-person experiments, so expect rough edges. The main list is in [README.md](README.md); the legend there applies here too.
+Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no release and under 10 stars. Most are from 2025 and 2026. Many are one-person experiments so expect rough edges. The main list is in [README.md](README.md) and its legend applies here too.
+
+> **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](README.md#from-the-maintainers)
 
 ## Contents
 

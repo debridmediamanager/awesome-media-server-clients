@@ -308,26 +308,26 @@ def section_of(a):
 
 
 SECTIONS = [
-    ("official", "Official apps", "Apps made by Plex Inc., the Jellyfin project and Emby LLC.",
+    ("official", "Official apps", "Apps made by Plex Inc. and the Jellyfin project and Emby LLC.",
      [("plex", "Plex"), ("jellyfin", "Jellyfin"), ("emby", "Emby")]),
-    ("multi", "Multi-server players", "Video and general clients for two or all three servers.", FAMILIES),
+    ("multi", "Multi-server players", "Video and general clients that play from two or all three servers.", FAMILIES),
     ("jellyfin", "Jellyfin video clients", "Third-party video and general clients for Jellyfin only.", FAMILIES),
     ("plex", "Plex video clients", "Third-party video and general clients for Plex only.", FAMILIES),
     ("emby", "Emby video clients",
-     "Third-party video and general clients for Emby only, including the large Chinese-language ecosystem.", FAMILIES),
+     "Third-party video and general clients for Emby only. Many come from the large Chinese-language scene.", FAMILIES),
     ("music", "Music", "Music players and music-first clients.",
      [("multi", "Multi-server music"), ("plex", "Plex music"), ("jellyfin", "Jellyfin music"), ("emby", "Emby music")]),
-    ("books", "Audiobooks, books and photos", "Audiobook players, book and comic readers, and photo viewers.",
+    ("books", "Audiobooks, books and photos", "Audiobook players and book or comic readers and photo viewers.",
      [("audiobooks", "Audiobooks"), ("books", "Books, comics and manga"), ("photos", "Photos")]),
     ("livetv", "Live TV and channel apps",
-     "IPTV players that also read media servers, and apps that turn a library into scheduled channels.", None),
-    ("niche", "Niche platforms", "Apps that only run on consoles, headsets, cars, watches, TV operating systems, "
-     "Kodi, terminals and other less common systems.", NICHE),
-    ("companions", "Companion and remote apps", "These do not play media themselves: they control, manage or "
-     "connect a server to other software.", [("remote", "Remotes and controllers"),
+     "IPTV players that also read media servers. Apps that turn a library into scheduled channels.", None),
+    ("niche", "Niche platforms", "Apps for consoles and headsets and cars and watches. Also TV systems "
+     "and Kodi and terminals and other less common platforms.", NICHE),
+    ("companions", "Companion and remote apps", "These do not play media themselves. They control or manage a server "
+     "or connect it to other software.", [("remote", "Remotes and controllers"),
                                               ("admin", "Admin, stats and requests"),
                                               ("bridge", "Bridges and integrations")]),
-    ("discontinued", "Discontinued", "Apps that were withdrawn, archived or abandoned. Kept for reference.", None),
+    ("discontinued", "Discontinued", "Apps that were withdrawn or archived or abandoned. Kept for reference.", None),
 ]
 
 
@@ -398,21 +398,42 @@ def entry(a):
 
 INTRO = """# Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and {third:,} third-party ones, from polished store apps to small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and {third:,} third-party ones. Some are polished store apps. Others are small open-source projects.
 
-Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) have a page of their own, linked under More clients below.
+> **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
-Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop), [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). Repositories that offer a "full version", "unlocked" or "installer" for these apps are scams.
+Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects have a page of their own under More clients below.
+
+Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop) and [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). A repository that offers a "full version" or an "unlocked" build or an "installer" for these apps is a scam.
+"""
+
+MAINTAINERS = """## From the maintainers
+
+This list is kept by the team behind Debrid Media Manager. We also make the projects below. They give the apps on this page a library to play.
+
+- **[rex](https://rex.debridmediamanager.com/)** · Any source. Every Plex app. Your films and shows stay on a debrid service or a Usenet provider or any web server. rex shows them to the Plex apps as a normal server. When you press play it streams the file straight from where it lives. Nothing is downloaded first. [Docs](https://notes.debridmediamanager.com/rex/)
+- **[zurg](https://zurg.debridmediamanager.com/)** · Every debrid account and Usenet in one folder. Plex and Jellyfin and Emby read the folder through rclone like a normal drive. Infuse reads it directly. The public release covers Real-Debrid. [Sponsors](https://gatekeeper.debridmediamanager.com/) also get TorBox and AllDebrid and Premiumize and Debrid-Link and Offcloud and Usenet in the same folder. [Docs](https://notes.debridmediamanager.com/zurg/)
+- **[Debrid Media Manager](https://debridmediamanager.com/)** · Curate an infinite media library. A free and open source web app that adds films and shows to your debrid library. [Docs](https://notes.debridmediamanager.com/dmm/)
+
+Questions? Ask in the rex-support or zurg-support or dmm-support forum on [Discord](https://discord.com/invite/7u4YjMThXP).
 """
 
 LEGEND = """## Legend
 
-- Servers: `Plex` `Jellyfin` `Emby`. Other back ends appear as `+Subsonic` (also Navidrome), `+Audiobookshelf`, `+Stremio addons`, `+fnOS`, `+Silo`, `+IPTV` and similar.
-- Platforms: `Android TV` covers Google TV and SHIELD, `Fire TV` is Fire OS, `Vega OS` is the newer Fire TV OS, `tvOS` is Apple TV.
-- A licence such as `GPL-3.0` or `Open source` means the source code is public. No licence tag means the app is closed source or the licence is unknown.
-- Price: `Free`, `Freemium` (free with paid extras), `Paid` (pay up front) or `Subscription`.
-- Status: `Beta` (pre-release, TestFlight or closed testing), `Stale 2024` (no update since that year), `Ended 2023`. Entries without a status tag were updated within the last year, or their store or forum page shows no date.
-- Store and source links follow each entry. Server support comes from each app's own repository, store listing or site; apps change quickly, so check before you pay.
+| Tag | Meaning |
+|---|---|
+| `Plex` `Jellyfin` `Emby` | The servers the app plays from |
+| `+Subsonic`, `+Audiobookshelf`, `+Stremio addons`, `+fnOS`, `+Silo`, `+IPTV` | Other back ends it also reads. Subsonic includes Navidrome |
+| `Android TV` | Also Google TV and SHIELD |
+| `Fire TV`, `Vega OS` | Fire OS, and the newer Fire TV OS |
+| `tvOS` | Apple TV |
+| `GPL-3.0`, `MIT`, `Open source` | The source code is public. No licence tag means closed source or unknown |
+| `Free`, `Freemium`, `Paid`, `Subscription` | Freemium is free with paid extras. Paid means you pay up front |
+| `Beta` | Pre-release, TestFlight or closed testing |
+| `Stale 2024` | No update since that year |
+| `Ended 2023` | Withdrawn or abandoned that year |
+
+No status tag means the app was updated in the last year or its page shows no date. Store and source links follow each entry. Server support comes from each app's own repository or store listing or site. Apps change fast so check before you pay.
 """
 
 
@@ -424,8 +445,9 @@ def render_readme(main, more_count):
     third = sum(1 for a in main if not a.get("official")) + more_count
     anchor = Slugger()
     anchor("Contents")
-    out = [INTRO.format(third=third), "## Contents\n", f"- [Legend](#{anchor('Legend')})"]
-    body = [LEGEND]
+    out = [INTRO.format(third=third), "## Contents\n",
+           f"- [From the maintainers](#{anchor('From the maintainers')})", f"- [Legend](#{anchor('Legend')})"]
+    body = [MAINTAINERS, LEGEND]
     for key, title, blurb, subs in SECTIONS:
         if key not in by_sec:
             continue
@@ -443,10 +465,10 @@ def render_readme(main, more_count):
             body += [entry(a) for a in sorted(items, key=sort_key)] + [""]
     out += [f"- [More clients](#{anchor('More clients')})",
             f"- [Contribution Guidelines](#{anchor('Contribution Guidelines')})", ""]
-    body.append(f"## More clients\n\n[more-clients.md](more-clients.md) lists {more_count:,} smaller projects: "
-                "GitHub-only apps with no release and under 10 stars, grouped by platform.\n")
+    body.append(f"## More clients\n\n[more-clients.md](more-clients.md) lists {more_count:,} smaller projects "
+                "by platform. They live only on GitHub with no release and under 10 stars.\n")
     body.append("## Contribution Guidelines\n\nContributions are welcome. Read the [contributing guidelines]"
-                "(contributing.md) first: entries live in [data/clients.yaml](data/clients.yaml) and the "
+                "(contributing.md) first. Entries live in [data/clients.yaml](data/clients.yaml) and the "
                 "Markdown files are generated from it.\n")
     body.append(FOOTER)
     return "\n".join(out) + "\n" + "\n".join(body)
@@ -456,6 +478,10 @@ FOOTER = ("**More from DMM:** [Debrid Media Manager](https://debridmediamanager.
           "[zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · "
           "[Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · "
           "[Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)\n")
+
+CALLOUT = ("> **Want these apps to play straight from debrid or Usenet?** "
+           "[rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) "
+           "are made by the team that keeps this list. [See what they do.](README.md#from-the-maintainers)\n")
 
 GENERATED = "<!-- Generated from data/clients.yaml by scripts/generate.py. Do not edit by hand. -->\n"
 
@@ -467,9 +493,9 @@ def more_group(a):
 
 def render_more(more):
     out = [GENERATED, "# More clients\n",
-           "Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release and under 10 stars, "
-           "most of them from 2025 and 2026. Many are one-person experiments, so expect rough edges. "
-           "The main list is in [README.md](README.md); the legend there applies here too.\n"]
+           "Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no release and under 10 stars. "
+           "Most are from 2025 and 2026. Many are one-person experiments so expect rough edges. "
+           "The main list is in [README.md](README.md) and its legend applies here too.\n", CALLOUT]
     groups_ = defaultdict(list)
     for a in more:
         groups_[more_group(a)].append(a)
@@ -495,9 +521,9 @@ def render_platforms(apps):
              ("Audiobooks, books and photos", {"audiobooks", "books", "photos"}),
              ("Companions", {"remote", "admin", "bridge"})]
     out = [GENERATED, "# Apps by platform\n",
-           "Every listed app, grouped by the platform it runs on. Letters after a name show its servers: "
-           "**P** Plex, **J** Jellyfin, **E** Emby; an asterisk marks an official app. Full entries are in "
-           "[README.md](README.md) and [more-clients.md](more-clients.md).\n", "## Contents\n"]
+           "Every listed app grouped by the platform it runs on. Letters after a name show its servers. "
+           "**P** is Plex. **J** is Jellyfin. **E** is Emby. An asterisk marks an official app. Full entries are in "
+           "[README.md](README.md) and [more-clients.md](more-clients.md).\n", CALLOUT, "## Contents\n"]
     group_titles = {"desktop": "Desktop", "web": "Web", "android": "Android", "apple": "Apple", "tv": "TV",
                     "console": "Consoles", "vr": "VR and XR", "car": "Car", "watch": "Watch",
                     "voice": "Voice and speakers", "kodi": "Kodi", "cli": "Terminal", "other": "Other"}

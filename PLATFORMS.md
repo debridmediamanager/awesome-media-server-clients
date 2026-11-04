@@ -2,7 +2,9 @@
 
 # Apps by platform
 
-Every listed app, grouped by the platform it runs on. Letters after a name show its servers: **P** Plex, **J** Jellyfin, **E** Emby; an asterisk marks an official app. Full entries are in [README.md](README.md) and [more-clients.md](more-clients.md).
+Every listed app grouped by the platform it runs on. Letters after a name show its servers. **P** is Plex. **J** is Jellyfin. **E** is Emby. An asterisk marks an official app. Full entries are in [README.md](README.md) and [more-clients.md](more-clients.md).
+
+> **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](README.md#from-the-maintainers)
 
 ## Contents
 

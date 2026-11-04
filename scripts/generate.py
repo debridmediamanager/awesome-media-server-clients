@@ -155,6 +155,9 @@ def self_test():
         assert norm_url(a) != norm_url(b), (a, b)
     assert norm_name("Plezy!") == norm_name("plezy") and norm_name("Dee Jellie") == norm_name("DeeJellie")
     assert norm_name("映屿 CineIsle") != norm_name("影屿 CineIsle")
+    anchor = Slugger()
+    assert [anchor("Web"), anchor("Web"), anchor("Android, Android TV and HarmonyOS"), anchor("Web")] == \
+        ["web", "web-1", "android-android-tv-and-harmonyos", "web-2"]
 
 
 # ---------------------------------------------------------------- validation

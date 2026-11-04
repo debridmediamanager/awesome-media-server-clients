@@ -3200,7 +3200,7 @@
   media: [music]
   open_source: null
   status: unknown
-  description: Mac desktop music player.
+  description: Desktop music player for Plex and Jellyfin libraries.
 
 - name: chromebox-mediaplayer
   url: https://github.com/HelamanWarrior/chromebox-mediaplayer
@@ -3953,7 +3953,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [windows, macos, linux, web]
+  platforms: [windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -6375,7 +6375,7 @@
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
-  platforms: [windows, macos, linux, web]
+  platforms: [windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -8152,7 +8152,7 @@
   url: https://github.com/andrew-meis/hex-music-player-2.0
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -8160,7 +8160,7 @@
   status: stale
   status_year: 2025
   description: Electron desktop music player for Plex.
-  notes: Successor to the author's earlier Hex music player.
+  notes: Successor to the author's earlier Hex music player. Only a Windows installer has been released.
 
 - name: hibiki
   url: https://github.com/karbowiak/hibiki
@@ -10466,7 +10466,7 @@
   url: https://github.com/deniskostadinov1995/jellyfin-home-theater
   servers: [jellyfin]
   official: false
-  platforms: [linux, web]
+  platforms: [web, windows]
   category: player
   media: [video]
   open_source: true
@@ -11391,7 +11391,7 @@
     appstore: https://apps.apple.com/us/app/jellyflix/id6476043683
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, linux, macos, web, ipados]
+  platforms: [android, ios, windows, linux, macos, ipados]
   category: player
   media: [video]
   open_source: true
@@ -11399,7 +11399,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Cross-platform client for phones, desktop and the web.
+  description: Cross-platform client for phones and desktops.
   notes: App Store and Google Play builds by Jonathan-David Kienzle (bundle com.ambark.jellyflix); store builds last updated June 2025, repo still pushed in 2026.
   distinct: true
 
@@ -13470,7 +13470,7 @@
     repo: https://github.com/alicegay/kotone
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux, android, ios, web]
+  platforms: [windows, macos, linux, android, ios]
   category: music
   media: [music]
   open_source: true
@@ -15656,7 +15656,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [windows, linux, web]
+  platforms: [windows, linux]
   category: music
   media: [music]
   open_source: true
@@ -16688,7 +16688,7 @@
   servers: [emby]
   also: [local]
   official: false
-  platforms: [android, web]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -17567,7 +17567,7 @@
   url: https://github.com/ollivv-hash/obmax
   servers: [jellyfin]
   official: false
-  platforms: [web, android-tv]
+  platforms: [web, android-tv, android, macos, windows]
   category: player
   media: [video]
   open_source: true
@@ -17575,8 +17575,8 @@
   price: free
   status: active
   status_year: 2026
-  description: Invitation-only TV client based on Moonfin.
-  notes: Invitation-only; Moonfin-based, so TV-first (platforms not stated).
+  description: Invitation-only client based on Moonfin for phones, TVs, desktops and the browser.
+  notes: Invitation-only builds for Android phones, Android TV, Mac, Windows and the browser.
   long_tail: true
 
 - name: Obscurify
@@ -18452,7 +18452,7 @@
   url: https://github.com/minhtran162/phimne-flutter
   servers: [jellyfin]
   official: false
-  platforms: [macos, android, ios]
+  platforms: [macos, android, ios, web]
   category: player
   media: [video]
   open_source: true
@@ -18755,7 +18755,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, other]
   official: false
-  platforms: [other-device, windows, macos, linux]
+  platforms: [other-device]
   category: player
   media: [video]
   open_source: true
@@ -19547,7 +19547,7 @@
   url: https://github.com/GyozaGuy/Plex-Electron
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -21933,7 +21933,7 @@
   url: https://github.com/suhiymof/ReEmby
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -21942,7 +21942,7 @@
   status: active
   status_year: 2026
   description: Qt 6 and libmpv desktop client for Emby and Jellyfin.
-  notes: fork of AlanHJ/qEmby.
+  notes: fork of AlanHJ/qEmby. Linux and macOS build scripts are kept but unverified.
 
 - name: Reflex
   url: https://github.com/StuCM/Reflex
@@ -26011,7 +26011,7 @@
   url: https://github.com/PPX-LuBing/vela-emby-player
   servers: [emby]
   official: false
-  platforms: [web]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: true
@@ -26019,7 +26019,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Browser-based player built with Vue.
+  description: Tauri desktop player for Emby with mpv playback.
   notes: Not the same as roethlar/vela or Vela Player.
   long_tail: true
 
@@ -26949,7 +26949,7 @@
   url: https://github.com/LukasParke/Warden
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux, web]
+  platforms: [web]
   category: music
   media: [music]
   open_source: true
@@ -26957,7 +26957,8 @@
   price: free
   status: active
   status_year: 2026
-  description: Plex music player for desktop and web.
+  description: Plex music player that runs in the browser.
+  notes: Electron source; only the web build is published, on GitHub Pages.
   long_tail: true
 
 - name: WatchAmp
@@ -27820,7 +27821,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
-  platforms: [ios, ipados, android, web, carplay, android-auto]
+  platforms: [ios, ipados, android, carplay, android-auto]
   category: music
   media: [music]
   open_source: false

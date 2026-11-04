@@ -142,7 +142,7 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [Nook](https://gitee.com/ksd678/nook) - Android TV client that merges several servers into one library, with libVLC for ISO, BDMV and ASS. `Jellyfin` `Emby` · `Android TV`
 - [NostalgiaTV](https://play.google.com/store/apps/details?id=com.nostalgiatv) - Android and Android TV app that plays your library as a retro cable lineup. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [Nuvio Arc](https://github.com/ysosrs123/NuvioTV-Fork) - Stremio-style Android TV app extended with personal-server libraries and Silo. `Jellyfin` `Emby` `+Stremio addons` `+Silo` · `Android TV` `Fire TV` · `GPL-3.0` `Free`
-- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only TV client based on Moonfin. `Jellyfin` · `Web` `Android TV` · `GPL-2.0` `Free`
+- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only client based on Moonfin for phones, TVs, desktops and the browser. `Jellyfin` · `Windows` `macOS` `Web` `Android` `Android TV` · `GPL-2.0` `Free`
 - [OmniPlay](https://github.com/nandieling/OmniPlay) - Native poster-wall player on libmpv for local, WebDAV, SMB and server libraries. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Android` `Android TV` · `AGPL-3.0`
 - [OpenEmby TV](https://github.com/shareven/openemby_tv) - Open-source client for Android TV boxes. `Emby` · `Android TV` · `Open source` `Free`
 - [Orca X](https://github.com/jkrishna289/OrcaX) - TV-first Android client built on Wholphin. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`

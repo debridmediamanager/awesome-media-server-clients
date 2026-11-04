@@ -2,7 +2,7 @@
 
 # Android
 
-Every app in this list that runs on Android. That is 370 apps with 111 for Plex and 269 for Jellyfin and 136 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android. That is 371 apps with 111 for Plex and 270 for Jellyfin and 136 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -118,7 +118,7 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [Jellyfin KitKat](https://gitee.com/moto1717/jellyfin-kitkat) - Lightweight client for Android 4.4 boxes that direct-plays and falls back to server HLS transcoding. `Jellyfin` · `Android` `Android TV` · `MulanPSL-2.0`
 - [jellyfin_local_mirror](https://github.com/Asion001/jellyfin_local_mirror) - Android app that syncs a remote library to local storage. `Jellyfin` · `Android` · `MIT` `Free`
 - [Jellyfish](https://github.com/Jellyfish-Client/Mobile-Desktop) - Flutter Jellyfin client with built-in Jellyseerr requests. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `Open source` `Free`
-- [Jellyflix](https://github.com/jellyflix-app/jellyflix) - Cross-platform client for phones, desktop and the web. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=com.ambark.jellyflix) · [App Store](https://apps.apple.com/us/app/jellyflix/id6476043683)
+- [Jellyflix](https://github.com/jellyflix-app/jellyflix) - Cross-platform client for phones and desktops. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=com.ambark.jellyflix) · [App Store](https://apps.apple.com/us/app/jellyflix/id6476043683)
 - [JellyFlow](https://github.com/boberic12321/JellyFlow) - Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [jellyflut](https://github.com/Thomas-Sohier/jellyflut) - Flutter Jellyfin client started as a side project. `Jellyfin` · `Windows` `Linux` `Android` `iOS` · `MIT` `Free` `Stale 2025`
 - [JellyMax](https://github.com/Doulvis/JellyMax) - Jellyfin client styled after HBO Max. `Jellyfin` · `Windows` `Android` `Tizen` · `MIT` `Free`
@@ -151,7 +151,7 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [MuseVu](https://musevu.com) - TV-first video client with phone and tablet builds. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.thefuturecoderx.musevu) · [Amazon](https://www.amazon.com/dp/B0HG8GPR6Z)
 - [MyPlexPlayer](https://github.com/biskyt/MyPlexPlayer) - Client for Android TV, Fire TV and phones. `Plex` · `Android` `Android TV` `Fire TV` · `GPL-3.0`
 - [nahcon](https://github.com/Nandanrmenon/nahcon) - Android client built with Flutter. `Jellyfin` · `Android` · `MIT` `Stale 2025` · [Google Play](https://play.google.com/store/apps/details?id=com.nahnah.nahcon)
-- [nasplayer](https://gitee.com/shruihu/nasplayer) - Flutter video player for local files and Emby streaming. `Emby` · `Web` `Android` · `Apache-2.0`
+- [nasplayer](https://gitee.com/shruihu/nasplayer) - Flutter video player for local files and Emby streaming. `Emby` · `Android` · `Apache-2.0`
 - [nasvideoplayer](https://gitee.com/shruihu/nasvideoplayer) - Kotlin Android NAS video player that browses and plays an Emby library. `Emby` · `Android` · `Open source`
 - [Nekofin](https://github.com/lonzzi/nekofin) - Expo-based mobile player for Jellyfin and Emby libraries. `Jellyfin` `Emby` · `Android` `iOS` · `MPL-2.0` `Free`
 - [NeoPlayer](https://play.google.com/store/apps/details?id=live.alist.mpv.gp) - Android player for NAS shares, WebDAV and media servers, with AI live subtitles. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `Android` · `Freemium`
@@ -165,11 +165,12 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [NostalgiaTV](https://play.google.com/store/apps/details?id=com.nostalgiatv) - Android and Android TV app that plays your library as a retro cable lineup. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [Novafin](https://github.com/rene-roid/novafin) - Android phone and tablet video client. `Jellyfin` · `Android` · `MIT` `Free`
 - [NovaX Player](https://github.com/liuyouwu1999/NovaX-Player) - Android player for SMB, SFTP, WebDAV and Jellyfin sources. `Jellyfin` · `Android` · `GPL-3.0` `Free`
+- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only client based on Moonfin for phones, TVs, desktops and the browser. `Jellyfin` · `Windows` `macOS` `Web` `Android` `Android TV` · `GPL-2.0` `Free`
 - [OmniPlay](https://github.com/nandieling/OmniPlay) - Native poster-wall player on libmpv for local, WebDAV, SMB and server libraries. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Android` `Android TV` · `AGPL-3.0`
 - [OpenPlayer](https://github.com/xmfx11/OpenPlayer) - Android player styled after the 极影视 app. `Emby` · `Android` · `Open source` `Free`
 - [Optic Player](https://optic-player.github.io/?lang=en) - Cross-platform video player distributed through the Microsoft Store and GitHub releases. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `Free` · [Source](https://github.com/optic-player/optic-player.github.io) · [Microsoft Store](https://apps.microsoft.com/detail/9pmt50svspl0)
 - [Pathfin](https://github.com/li88iioo/Pathfin) - Android client with MediaFlux STRM support. `Jellyfin` · `Android` · `Open source` `Free`
-- [Phim Nè](https://github.com/minhtran162/phimne-flutter) - Flutter client for a Jellyfin server. `Jellyfin` · `macOS` `Android` `iOS` · `GPL-3.0` `Free`
+- [Phim Nè](https://github.com/minhtran162/phimne-flutter) - Flutter client for a Jellyfin server. `Jellyfin` · `macOS` `Web` `Android` `iOS` · `GPL-3.0` `Free`
 - [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn)
 - [Playable](https://gitee.com/leeczli/playable-apk) - Android and Android TV player with a poster wall, direct play and progress write-back. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [Plex-HTML5-Cordova-Client](https://github.com/lotsofdan/Plex-HTML5-Cordova-Client) - Cordova-wrapped HTML5 Plex client for mobile, from 2016. `Plex` · `Android` `iOS` · `MIT` `Free` `Stale 2016`
@@ -287,7 +288,7 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [kiiaud](https://github.com/kii-notes/kiiaud) - Rust bit-perfect music player that also talks to LMS and MPD. `Jellyfin` · `Windows` `Linux` `Android` · `Apache-2.0` `Free`
 - [Kikidame](https://github.com/t-seki/kikidame) - Offline-first player for recorded radio shows. `Jellyfin` · `Android` `Android Auto` · `MPL-2.0` `Free`
 - [klingar](https://github.com/simonnorberg/klingar) - Android music player for Plex with Google Cast support. `Plex` · `Android` · `Apache-2.0` `Free` `Stale 2020`
-- [Kotone](https://github.com/alicegay/kotone-desktop) - Desktop music client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `Open source` `Free` · [Source](https://github.com/alicegay/kotone)
+- [Kotone](https://github.com/alicegay/kotone-desktop) - Desktop music client. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `Open source` `Free` · [Source](https://github.com/alicegay/kotone)
 - [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
 - [Linthra](https://github.com/TheZupZup/Linthra) - Local-first music player that can also connect to your own server. `Plex` `Jellyfin` `+Subsonic` · `Linux` `Android` `Android Auto` · `AGPL-3.0` `Free` · [F-Droid](https://f-droid.org/packages/io.github.thezupzup.linthra/)
 - [liquidWave](https://github.com/liquidguru/emby-sonic) - Android player for music and audiobooks with Android Auto. `Emby` · `Web` `Android` `Android Auto` · `Beta`
@@ -348,7 +349,7 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [Wavelength](https://github.com/Spacegoose02/wavelength) - Music player that combines several self-hosted audio sources, with 62 skins. `Plex` `+Subsonic` `+Audiobookshelf` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` `Android Auto` · `MIT` `Free`
 - [XYMusic](https://github.com/xianyvbang/XyMusic) - NAS music player for Android and Windows. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `Android` · `Apache-2.0` `Free`
 - [Yueyin TV](https://github.com/Traceci/yueyin-tv) - Android TV and phone music player for self-hosted libraries. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `Android` `Android TV` · `GPL-3.0` `Free`
-- [Yuzic](https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497) - Music player for Navidrome and Jellyfin libraries with offline downloads and a recently-played home. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Free` · [Source](https://github.com/yuzicapp/yuzic) · [Google Play](https://play.google.com/store/apps/details?id=com.arinora.rawarr)
+- [Yuzic](https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497) - Music player for Navidrome and Jellyfin libraries with offline downloads and a recently-played home. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Free` · [Source](https://github.com/yuzicapp/yuzic) · [Google Play](https://play.google.com/store/apps/details?id=com.arinora.rawarr)
 - [ZMT](https://github.com/Rezerox39/zmt) - Terminal-inspired Android music player. `Jellyfin` · `Android` `Android Auto` · `GPL-3.0` `Free`
 - [ZMusic](https://meta.appinn.net/t/topic/94903) - Music player under 3 MB with no ads or tracking. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Android` `HarmonyOS` · `Free`
 - [ZSpaceCarPlayer](https://github.com/Dangerous828/ZSpaceCarPlayer) - Car music player for old Android 4.3 head units. `Jellyfin` · `Android` · `Open source` `Free`

@@ -15,7 +15,7 @@ Every app in this list that runs on Other device. That is 29 apps with 16 for Pl
 - [FlipFin](https://github.com/jackharvest/FlipFin) - Text-only app for the TCL 4058G flip phone. `Jellyfin` · `Other device` · `MIT` `Free`
 - [FlipFlex](https://github.com/jackharvest/FlipFlex) - Client for a TCL flip phone. `Plex` · `Other device` · `MIT`
 - [Home Cinema Control](https://github.com/tousled/home-cinema-control) - Sends library items to OPPO and Chinoppo disc players for playback. `Jellyfin` `Emby` · `Other device` · `Open source`
-- [PixelReel](https://github.com/Samarth-programming/PixelReel) - Minecraft mod that plays your library on in-game TV and cinema screens. `Plex` `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `Linux` `Other device` · `CC0-1.0` `Free`
+- [PixelReel](https://github.com/Samarth-programming/PixelReel) - Minecraft mod that plays your library on in-game TV and cinema screens. `Plex` `Jellyfin` `Emby` `+IPTV` · `Other device` · `CC0-1.0` `Free`
 - [plex-enyo-client](https://github.com/b0bben/plex-enyo-client) - Plex client built with Enyo for HP webOS devices. `Plex` · `Other device` · `Open source` `Stale 2012`
 - [Portalfin](https://github.com/luke-hurd/portalfin) - Native Facebook Portal app for browsing and playing your library. `Jellyfin` · `Other device` · `GPL-2.0` `Free`
 - [Showtime-Plex-Client](https://github.com/Dahlgren/Showtime-Plex-Client) - Plex client plugin for the Showtime media center (now Movian). `Plex` · `Other device` · `Open source` `Stale 2013`

@@ -2,7 +2,7 @@
 
 # Roku
 
-Every app in this list that runs on Roku. That is 18 apps with 6 for Plex and 12 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Roku. That is 16 apps with 6 for Plex and 10 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -16,7 +16,6 @@ Every app in this list that runs on Roku. That is 18 apps with 6 for Plex and 12
 
 - [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [daumiller/suplex](https://github.com/daumiller/suplex) - Plex client app for Roku players. `Plex` · `Roku` · `Open source` `Stale 2018`
-- [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) - Roku client that adds a delete action to the stock Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [JellyRock](https://github.com/jellyrock/jellyrock) - Roku client forked from the official channel. `Jellyfin` · `Roku` · `GPL-2.0` `Free` · [Roku](https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock)
 - [Luma](https://github.com/jravolio/luma-roku) - Roku channel with an Apple TV-style interface. `Jellyfin` · `Roku` · `MIT` `Free`
@@ -26,7 +25,6 @@ Every app in this list that runs on Roku. That is 18 apps with 6 for Plex and 12
 - [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [Starfin](https://github.com/thedavidhoffman/starfin-roku) - Roku channel for browsing and playing your library. `Jellyfin` · `Roku` · `GPL-3.0` `Free`
 - [Supernova](https://github.com/arvaus/Supernova) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
-- [Viv](https://github.com/cewert/viv) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
 
 ## Music
 

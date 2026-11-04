@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,836 third-party ones. Some are polished store apps. Others are small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,832 third-party ones. Some are polished store apps. Others are small open-source projects.
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
@@ -1562,7 +1562,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [KOReader-Jellyfin-Plugin](https://github.com/DeclanChidlow/KOReader-Jellyfin-Plugin) - KOReader plugin that reads books from the server on e-readers. `Jellyfin` · `Other device` · `AGPL-3.0`
 - [Light Amp](https://github.com/sublunarian/light-amp) - Music player for the Light Phone III. `Plex` `Jellyfin` `+Subsonic` · `Other device` · `Open source` `Free`
 - [Matinee](https://github.com/adyoull/riscos-matinee) - RISC OS app that plays what the machine decodes; the server converts the rest. `Plex` `Jellyfin` · `RISC OS` · `GPL-2.0` `Free`
-- [Plex for Ubuntu Touch](https://open-store.io/app/plex-local.luksus) - Unofficial Ubuntu Touch app for Plex. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Stale 2018`
 - [Portalfin](https://github.com/luke-hurd/portalfin) - Native Facebook Portal app for browsing and playing your library. `Jellyfin` · `Other device` · `GPL-2.0` `Free`
 - [Sailfin](https://github.com/heartfin/harbour-sailfin) - Sailfish OS client. `Jellyfin` · `Sailfish OS` · `LGPL-2.1`
 - [volumio-jellyfin](https://github.com/patrickkfkan/volumio-jellyfin) - Volumio plugin that plays the music library on Volumio players. `Jellyfin` · `Other device` · `Open source` `Free`
@@ -1685,6 +1684,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 - [Plex for Kodi](https://github.com/plexinc/plex-for-kodi) - Plex's own Kodi add-on; abandoned since December 2023 and broken on Kodi 20 and later. `Plex` · `Kodi` · `GPL-2.0` `Ended 2023`
 - Plex for LG NetCast - App for older LG NetCast and webOS 1-2 TVs, since dropped. `Plex` · `webOS` `Other TV` · `Ended`
 - Plex for PS3 - PlayStation 3 app, frozen in 2017 and removed from the store on 24 March 2023. `Plex` · `PS3` · `Ended 2023`
+- [Plex for Ubuntu Touch](https://open-store.io/app/plex-local.luksus) - Unofficial Ubuntu Touch app for Plex. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Ended 2018` · [Source](https://github.com/luksus42/plex-app)
 - Plex for Xbox 360 - Xbox 360 app, no longer maintained. `Plex` · `Xbox 360` · `Ended`
 - [Plex Home Theater](https://github.com/plexinc/plex-home-theater-public) - The original XBMC-based Plex media-centre app, replaced by Plex Media Player. `Plex` · `Windows` `macOS` `Linux` · `GPL-2.0` `Ended 2016`
 - [plexio](https://github.com/vanchaxy/plexio) - Stremio addon that puts your server's library into Stremio. `Plex` `+Stremio addons` · `Web` · `MIT` `Ended 2025`
@@ -1706,7 +1706,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 462 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
+[more-clients.md](more-clients.md) lists 458 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
 
 ## Contribution Guidelines
 

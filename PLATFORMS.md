@@ -12,7 +12,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 - Web: [Web](#web-201)
 - Android: [Android](#android-361) · [HarmonyOS](#harmonyos-26) · [Android TV](#android-tv-193) · [Fire TV](#fire-tv-62)
 - Apple: [iOS](#ios-608) · [iPadOS](#ipados-417) · [tvOS](#tvos-257)
-- TV: [Vega OS](#vega-os-6) · [Roku](#roku-18) · [webOS](#webos-34) · [Tizen](#tizen-26) · [VIDAA](#vidaa-3) · [Vizio](#vizio-1) · [Titan OS](#titan-os-1) · [Enigma2](#enigma2-2) · [Other TV](#other-tv-14) · [Chromecast](#chromecast-3)
+- TV: [Vega OS](#vega-os-6) · [Roku](#roku-16) · [webOS](#webos-34) · [Tizen](#tizen-25) · [VIDAA](#vidaa-3) · [Vizio](#vizio-1) · [Titan OS](#titan-os-1) · [Enigma2](#enigma2-2) · [Other TV](#other-tv-14) · [Chromecast](#chromecast-3)
 - Consoles: [Xbox](#xbox-18) · [Xbox 360](#xbox-360-3) · [Original Xbox](#original-xbox-2) · [PS2](#ps2-3) · [PS3](#ps3-4) · [PS4](#ps4-7) · [PS5](#ps5-7) · [PS Vita](#ps-vita-3) · [PSP](#psp-2) · [Switch](#switch-6) · [Wii](#wii-1) · [Wii U](#wii-u-2) · [3DS](#3ds-7) · [Retro handheld](#retro-handheld-10) · [MiSTer](#mister-7) · [Playdate](#playdate-1) · [Steam Deck](#steam-deck-5)
 - VR and XR: [Quest](#quest-15) · [Pico](#pico-3) · [PC VR](#pc-vr-5) · [visionOS](#visionos-15) · [Smart glasses](#smart-glasses-3)
 - Car: [CarPlay](#carplay-118) · [Android Auto](#android-auto-48) · [Android Automotive](#android-automotive-10) · [Tesla](#tesla-6)
@@ -20,7 +20,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 - Voice and speakers: [Alexa](#alexa-8) · [Google Assistant](#google-assistant-2) · [Sonos](#sonos-1)
 - Kodi: [Kodi](#kodi-20)
 - Terminal: [CLI](#cli-77)
-- Other: [Windows Phone](#windows-phone-2) · [Symbian](#symbian-1) · [Sailfish OS](#sailfish-os-2) · [Ubuntu Touch](#ubuntu-touch-4) · [RISC OS](#risc-os-1) · [Classic Mac](#classic-mac-1) · [Discord](#discord-2) · [Home Assistant](#home-assistant-5) · [Other device](#other-device-31)
+- Other: [Windows Phone](#windows-phone-2) · [Symbian](#symbian-1) · [Sailfish OS](#sailfish-os-2) · [Ubuntu Touch](#ubuntu-touch-3) · [RISC OS](#risc-os-1) · [Classic Mac](#classic-mac-1) · [Discord](#discord-2) · [Home Assistant](#home-assistant-5) · [Other device](#other-device-31)
 
 ## Windows (316)
 
@@ -154,11 +154,11 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 **Video and general:** [agb-livetv](https://github.com/agb1986/agb-livetv) J · [Astra](https://github.com/AmbientFlare/astra-tv) J · [Caravela](https://github.com/melojms/caravela) J · [Jellyfin for Vega](https://github.com/jellyfin/jellyfin-vega) J\* · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [react-native-jellyfin-client](https://github.com/finloop/react-native-jellyfin-client) J
 
-## Roku (18)
+## Roku (16)
 
 [Full Roku entries with tags and store links](platforms/roku.md)
 
-**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [daumiller/suplex](https://github.com/daumiller/suplex) P · [Emby for Roku](https://emby.media/emby-for-roku.html) E\* · [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) J · [Jellyfin for Roku](https://github.com/jellyfin/jellyfin-roku) J\* · [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) J · [JellyRock](https://github.com/jellyrock/jellyrock) J · [Luma](https://github.com/jravolio/luma-roku) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Mr Fusion](https://github.com/luke-hurd/mr-fusion-roku) J · [Naqafin Roku](https://github.com/naqadata/naqafin-roku) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) J · [Starfin](https://github.com/thedavidhoffman/starfin-roku) J · [Supernova](https://github.com/arvaus/Supernova) J · [Viv](https://github.com/cewert/viv) J
+**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [daumiller/suplex](https://github.com/daumiller/suplex) P · [Emby for Roku](https://emby.media/emby-for-roku.html) E\* · [Jellyfin for Roku](https://github.com/jellyfin/jellyfin-roku) J\* · [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) J · [JellyRock](https://github.com/jellyrock/jellyrock) J · [Luma](https://github.com/jravolio/luma-roku) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Mr Fusion](https://github.com/luke-hurd/mr-fusion-roku) J · [Naqafin Roku](https://github.com/naqadata/naqafin-roku) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) J · [Starfin](https://github.com/thedavidhoffman/starfin-roku) J · [Supernova](https://github.com/arvaus/Supernova) J
 
 **Music:** [PlexAudio](https://github.com/L0st-S0ul/PlexAudio) P
 
@@ -170,11 +170,11 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 **Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [AresApp](https://github.com/thisbansal/AresApp) P · [Breezyfin](https://github.com/botagas/Breezyfin) J · [bufferzone](https://github.com/dkrb56/bufferzone) P · [Cinefin (Ashiroen)](https://github.com/Ashiroen/cinefin) J · [Emby for LG](https://emby.media/emby-for-lg-smart-tv.html) E\* · [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) E · [Fin Native](https://github.com/tiper/fin-native) J · [flex](https://github.com/vargamolnarbertalan/flex) P · [JellyCast](https://github.com/JellyCast/jellycast-androidtv) J · [Jellyfin for webOS](https://github.com/jellyfin/jellyfin-webos) J\* · [jellyfin-webos-native](https://github.com/HookedBehemoth/jellyfin-webos-native) J · [JF Native](https://github.com/BradSainty/jf-native) J · [Litefin](https://github.com/MoazSalem/litefin) JE · [Lupoflin](https://github.com/dinolupo/lupoflin) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Native Jelly](https://github.com/sostk/native-jelly) J · [OcenFin](https://github.com/seluce/OcenFin) J · [Pelagica](https://github.com/PelagicaApp/pelagica) J · [Phim Nè webOS](https://github.com/minhtran162/phimne-webos) J · [Plax](https://github.com/aa-hh/Plax) P · [Plex](https://www.plex.tv/apps-devices/) P\* · [plezy-webos](https://github.com/GLNick/plezy-webos) PJE · [ploff-webos](https://github.com/lucabravi/ploff-webos) P · [PlxNative](https://github.com/GLinnik21/plx-native) P · [Reflex](https://github.com/StuCM/Reflex) P · [ScreenPlay](https://github.com/sleuth255/screenplay) E · [Selvania Ciné](https://github.com/LeD0c4/cine-android) J · [Spool](https://github.com/spool-player/spool) JE · [Tally](https://github.com/Scdouglas1999/Tally) J · [Vibe Reel](https://github.com/kirill-menke/vibe-reel) J · [WebOS-Jellyfin-Native](https://github.com/SchulzCode/WebOS-Jellyfin-Native) J · [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) J · [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) J
 
-## Tizen (26)
+## Tizen (25)
 
 [Full Tizen entries with tags and store links](platforms/tizen.md)
 
-**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [Atlas TV](https://github.com/AzatSharip/atlas-tv) J · [ATV for Plex](https://github.com/Izazzubayer/atv-for-plex) P · [Emby for Samsung](https://emby.media/emby-for-samsung-smart-tv.html) E\* · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Jellyfin for Tizen](https://github.com/jellyfin/jellyfin-tizen) J\* · [Jellyfin Lite](https://github.com/Grumm3l/jellyfin-lite) J · [JellyFin-SamsungTizenTV](https://github.com/ChessDragon136/JellyFin-SamsungTizenTV) J · [JellyMax](https://github.com/Doulvis/JellyMax) J · [JellyZen](https://github.com/chazforge/jellyzen) J · [Litefin](https://github.com/MoazSalem/litefin) JE · [LumaFin](https://github.com/bagodees/LumaFin-AndroidTV) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Pelagica](https://github.com/PelagicaApp/pelagica) J · [Phim Nè Tizen](https://github.com/minhtran162/phimne-tizen) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [plezy-tizen](https://github.com/George-Fam/plezy-tizen) PJ · [Reiverr](https://github.com/aleksilassila/reiverr) J · [SamSUCKS](https://github.com/rfaile313/samsucks) P · [tacplayer](https://github.com/sfsdffesfsfg-cloud/tacplayer) J · [Tally](https://github.com/Scdouglas1999/Tally) J · [tizen-jellystream](https://github.com/Nerfherder16/tizen-jellystream) J · [Velox](https://github.com/SuperDOS/velox) P · [vemm](https://github.com/dragoshont/vemm) P · [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) J · [Yudia](https://github.com/cupimimi/yudia) J
+**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [Atlas TV](https://github.com/AzatSharip/atlas-tv) J · [ATV for Plex](https://github.com/Izazzubayer/atv-for-plex) P · [Emby for Samsung](https://emby.media/emby-for-samsung-smart-tv.html) E\* · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Jellyfin for Tizen](https://github.com/jellyfin/jellyfin-tizen) J\* · [Jellyfin Lite](https://github.com/Grumm3l/jellyfin-lite) J · [JellyFin-SamsungTizenTV](https://github.com/ChessDragon136/JellyFin-SamsungTizenTV) J · [JellyMax](https://github.com/Doulvis/JellyMax) J · [Litefin](https://github.com/MoazSalem/litefin) JE · [LumaFin](https://github.com/bagodees/LumaFin-AndroidTV) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Pelagica](https://github.com/PelagicaApp/pelagica) J · [Phim Nè Tizen](https://github.com/minhtran162/phimne-tizen) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [plezy-tizen](https://github.com/George-Fam/plezy-tizen) PJ · [Reiverr](https://github.com/aleksilassila/reiverr) J · [SamSUCKS](https://github.com/rfaile313/samsucks) P · [tacplayer](https://github.com/sfsdffesfsfg-cloud/tacplayer) J · [Tally](https://github.com/Scdouglas1999/Tally) J · [tizen-jellystream](https://github.com/Nerfherder16/tizen-jellystream) J · [Velox](https://github.com/SuperDOS/velox) P · [vemm](https://github.com/dragoshont/vemm) P · [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) J · [Yudia](https://github.com/cupimimi/yudia) J
 
 ## VIDAA (3)
 
@@ -486,11 +486,11 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 **Music:** [plexfreq](https://github.com/nappa85/plexfreq) P
 
-## Ubuntu Touch (4)
+## Ubuntu Touch (3)
 
 [Full Ubuntu Touch entries with tags and store links](platforms/ubuntu-touch.md)
 
-**Video and general:** [Emby (Unofficial) for Ubuntu Touch](https://gitlab.com/bhdouglass/emby-ubuntu-touch) E · [Jellyfin Media Center (Tafitson)](https://open-store.io/app/jellyfin.tafitson) J · [JellyfUn](https://open-store.io/app/jellyfun.jellyfun) J · [Plex for Ubuntu Touch](https://open-store.io/app/plex-local.luksus) P
+**Video and general:** [Emby (Unofficial) for Ubuntu Touch](https://gitlab.com/bhdouglass/emby-ubuntu-touch) E · [Jellyfin Media Center (Tafitson)](https://open-store.io/app/jellyfin.tafitson) J · [JellyfUn](https://open-store.io/app/jellyfun.jellyfun) J
 
 ## RISC OS (1)
 

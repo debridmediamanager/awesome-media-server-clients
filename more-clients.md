@@ -15,14 +15,14 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [Web](#web) (77)
 - [Consoles and homebrew](#consoles-and-homebrew) (16)
 - [VR and XR](#vr-and-xr) (6)
-- [TV operating systems](#tv-operating-systems) (36)
+- [TV operating systems](#tv-operating-systems) (33)
 - [Car](#car) (4)
 - [Watches](#watches) (5)
 - [Voice assistants and speakers](#voice-assistants-and-speakers) (2)
 - [Kodi add-ons](#kodi-add-ons) (3)
 - [Terminal](#terminal) (29)
 - [Desktop shims and external players](#desktop-shims-and-external-players) (11)
-- [Other devices and legacy systems](#other-devices-and-legacy-systems) (12)
+- [Other devices and legacy systems](#other-devices-and-legacy-systems) (11)
 
 ## Cross-platform
 
@@ -417,10 +417,8 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) - Remote-first LG webOS client. `Emby` · `webOS` · `Open source` `Free`
 - [Fin](https://github.com/harleykradovill/fin) - Unofficial Roku channel for playing your library. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Ended 2025`
 - [flex](https://github.com/vargamolnarbertalan/flex) - Minimal Plex client for rooted LG webOS TVs. `Plex` · `webOS` · `MIT`
-- [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [jellyfin-netcast](https://github.com/pablouser1/jellyfin-netcast) - App for older LG NetCast smart TVs. `Jellyfin` · `Other TV` · `GPL-3.0` `Free` `Ended 2023`
 - [jellyfin-webos-native](https://github.com/HookedBehemoth/jellyfin-webos-native) - Native LG webOS app rendering with SDL, OpenGL and ffmpeg. `Jellyfin` · `webOS` · `AGPL-3.0` `Free`
-- [JellyZen](https://github.com/chazforge/jellyzen) - Fork of the Tizen client. `Jellyfin` · `Tizen` · `Open source` `Free` `Stale 2025`
 - [JF Native](https://github.com/BradSainty/jf-native) - Native LG webOS app with a GPU-drawn interface. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
 - [Lupoflin](https://github.com/dinolupo/lupoflin) - Experimental LG webOS app. `Jellyfin` · `webOS` · `MIT` `Free` `Beta`
 - [Mr Fusion](https://github.com/luke-hurd/mr-fusion-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
@@ -440,7 +438,6 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [tizen-jellystream](https://github.com/Nerfherder16/tizen-jellystream) - Samsung Tizen TV client with Jellyseerr requests and Quick Connect sign-in. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [vemm](https://github.com/dragoshont/vemm) - Unofficial Plex-compatible player for Samsung Tizen TVs. `Plex` · `Tizen` · `GPL-3.0`
 - [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for LG webOS TVs, stock or rooted, that direct-plays original files through the TV's own player. `Jellyfin` · `webOS` · `MIT` `Free`
-- [Viv](https://github.com/cewert/viv) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
 - [vizio-via-plex-widget](https://github.com/atessmer/vizio-via-plex-widget) - Plex widget for older VIZIO Internet Apps (VIA) TVs. `Plex` · `Vizio` · `MIT` `Ended 2013`
 - [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) - LG webOS app designed for ultrawide displays. `Jellyfin` · `webOS` · `MPL-2.0` `Free`
 
@@ -523,7 +520,6 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [Handyplex](https://github.com/jopdeklein/Handyplex) - Kinect gesture control for Plex. `Plex` · `Other device` · `GPL-3.0` `Stale 2012`
 - [JellyfinForWP](https://github.com/vincenzosco/JellyfinForWP) - Player for Windows Phone 8.1. `Jellyfin` · `Windows Phone` · `Open source` `Free`
 - [jellyfin-yoto-bridge](https://github.com/mattstjean/jellyfin-yoto-bridge) - Sends audiobooks from the server to Yoto children's audio players. `Jellyfin` · `Other device` · `MIT`
-- [plex-app](https://github.com/luksus42/plex-app) - HTML5 app for browsing Plex on Ubuntu Touch. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Ended 2018`
 - [plex-ebike](https://github.com/amegz/plex-ebike) - Plexamp controls on the Bosch eBike Flow screen. `Plex` · `Other device` · `Open source`
 - [plex-enyo-client](https://github.com/b0bben/plex-enyo-client) - Plex client built with Enyo for HP webOS devices. `Plex` · `Other device` · `Open source` `Stale 2012`
 - [plexthing](https://github.com/zachatrocity/plexthing) - Car Thing and DeskThing controller for Plexamp. `Plex` · `Other device` · `MIT`

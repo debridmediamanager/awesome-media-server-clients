@@ -9424,23 +9424,6 @@
   notes: Hobby project.
   long_tail: true
 
-- name: JellyBoat
-  url: https://github.com/okayguysdan/jellyboat-roku
-  servers: [jellyfin]
-  official: false
-  platforms: [roku]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [jellyboat-roku]
-  description: Roku client forked from the official Jellyfin Roku app.
-  notes: Fork of jellyfin/jellyfin-roku; repo name jellyboat-roku.
-  long_tail: true
-
 - name: JellyBook
   url: https://github.com/JellyBookOrg/JellyBook
   servers: [jellyfin]
@@ -12893,21 +12876,6 @@
   aliases: [JellyZapping]
   description: iOS client with a TikTok-style Zapping Timeline for finding what to watch next.
   notes: by Tadanobu Sekiguchi
-
-- name: JellyZen
-  url: https://github.com/chazforge/jellyzen
-  servers: [jellyfin]
-  official: false
-  platforms: [tizen]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2025
-  description: Fork of the Tizen client.
-  notes: fork of jellyfin/jellyfin-tizen.
-  long_tail: true
 
 - name: jel-music-app
   url: https://github.com/obiwanconobi/jel-music-app
@@ -19471,20 +19439,6 @@
   notes: Unofficial clone.
   long_tail: true
 
-- name: plex-app
-  url: https://github.com/luksus42/plex-app
-  servers: [plex]
-  official: false
-  platforms: [ubuntu-touch]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: discontinued
-  status_year: 2018
-  description: HTML5 app for browsing Plex on Ubuntu Touch.
-  long_tail: true
-
 - name: plex_assistant
   url: https://github.com/maykar/plex_assistant
   servers: [plex]
@@ -19942,6 +19896,8 @@
 
 - name: Plex for Ubuntu Touch
   url: https://open-store.io/app/plex-local.luksus
+  links:
+    repo: https://github.com/luksus42/plex-app
   servers: [plex]
   official: false
   platforms: [ubuntu-touch]
@@ -19949,8 +19905,9 @@
   media: [video]
   open_source: true
   license: GPL-3.0
-  status: stale
+  status: discontinued
   status_year: 2018
+  aliases: [plex-app]
   description: Unofficial Ubuntu Touch app for Plex.
   notes: Listed as 'Plex' in the OpenStore by luksus42; not made by Plex Inc. v0.4.4.
 
@@ -26898,22 +26855,6 @@
   status_year: 2026
   description: Video player for NAS and media servers over WebDAV, SMB, FTP, NFS and DLNA with no downloads needed.
   notes: by 晗 林
-
-- name: Viv
-  url: https://github.com/cewert/viv
-  servers: [jellyfin]
-  official: false
-  platforms: [roku]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  price: free
-  status: stale
-  status_year: 2025
-  description: Fork of the Roku client.
-  notes: fork of jellyfin/jellyfin-roku.
-  long_tail: true
 
 - name: Vivid
   url: https://apps.apple.com/us/app/vivid-video-player-for-nas/id6763759019

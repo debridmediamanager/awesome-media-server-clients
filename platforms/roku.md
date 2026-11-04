@@ -2,7 +2,7 @@
 
 # Roku
 
-Every app in this list that runs on Roku. That is 20 apps with 7 for Plex and 12 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Roku. That is 18 apps with 6 for Plex and 12 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -15,7 +15,6 @@ Every app in this list that runs on Roku. That is 20 apps with 7 for Plex and 12
 ## Video and general
 
 - [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
-- [Blue Neon Night Two](https://github.com/speechles/BN-TWO) - SceneGraph Emby app for Roku. `Emby` · `Roku` · `Open source` `Stale 2018`
 - [daumiller/suplex](https://github.com/daumiller/suplex) - Plex client app for Roku players. `Plex` · `Roku` · `Open source` `Stale 2018`
 - [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) - Roku client that adds a delete action to the stock Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
@@ -24,7 +23,6 @@ Every app in this list that runs on Roku. That is 20 apps with 7 for Plex and 12
 - [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) - Cross-platform client with music, Live TV and DVR, built for TVs as well as phones and desktops. `Plex` `Jellyfin` `Emby` `+Silo` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `Xbox` · `GPL-2.0` `Free` · [Source (Smart TV)](https://github.com/Moonfin-Client/Smart-TV) · [Source (Roku)](https://github.com/Moonfin-Client/Roku) · [App Store](https://apps.apple.com/app/id6761283970) · [Google Play](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) · [Microsoft Store](https://apps.microsoft.com/detail/9plb327dd51d) · [Amazon](https://www.amazon.com/dp/B0H76BG3DW) · [AUR](https://aur.archlinux.org/packages/moonfin-bin) · [Roku](https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin)
 - [Mr Fusion](https://github.com/luke-hurd/mr-fusion-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [Naqafin Roku](https://github.com/naqadata/naqafin-roku) - Fork of the official Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
-- [nuPLEX](https://github.com/lukebarber/nuPLEX) - Custom Plex app for Roku players and Now TV boxes. `Plex` · `Roku` · `GPL-2.0` `Stale 2016`
 - [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [Starfin](https://github.com/thedavidhoffman/starfin-roku) - Roku channel for browsing and playing your library. `Jellyfin` · `Roku` · `GPL-3.0` `Free`
 - [Supernova](https://github.com/arvaus/Supernova) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`

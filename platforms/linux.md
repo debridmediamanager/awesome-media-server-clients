@@ -2,7 +2,7 @@
 
 # Linux
 
-Every app in this list that runs on Linux. That is 282 apps with 95 for Plex and 198 for Jellyfin and 70 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Linux. That is 278 apps with 94 for Plex and 196 for Jellyfin and 69 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -35,7 +35,6 @@ Every app in this list that runs on Linux. That is 282 apps with 95 for Plex and
 - [Catfyn](https://github.com/coderastic/Catfyn) - Couch-friendly client with a TV-style interface, written in Rust. `Plex` `Jellyfin` · `Linux` · `MIT` `Free`
 - [champ](https://github.com/dz0ny/champ) - Raspberry Pi Plex player from 2016. `Plex` · `Linux` · `MIT` `Free` `Stale 2016`
 - [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free`
-- [Cindara](https://github.com/camcast3/cindara) - Native couch-first client for Linux, Windows, macOS and Xbox. `Jellyfin` · `Windows` `macOS` `Linux` `Xbox` · `MIT` `Free`
 - [cinefin/cinefin](https://github.com/cinefin/cinefin) - Home-theater playout app that runs a programme schedule from library media through mpv. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `AGPL-3.0`
 - [Cinetry](https://github.com/gstory0404/Cinetry) - Multi-source player that also reads CMS video sites, IPTV, WebDAV, Alist, Subsonic and Audiobookshelf. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+IPTV` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `Open source`
 - [Cinode](https://github.com/Bakare-Ayomide/CinodeClient) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
@@ -58,7 +57,6 @@ Every app in this list that runs on Linux. That is 282 apps with 95 for Plex and
 - [Faun](https://github.com/kuuldor/Faun) - QML desktop client for Plex Media Server. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Finar](https://gitlab.com/Openlyst/finar) - Flutter client for video and music with downloads, multiple accounts and game controller support. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `AGPL-3.0` · [Website](https://openlyst.ink) · [AUR](https://aur.archlinux.org/packages/finar-bin)
 - [Finplay](https://github.com/kings431/finplay) - Desktop Jellyfin client that plays through mpv. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
-- [Fish Player](https://github.com/flyfishxu/fish-player-kmp) - Kotlin Multiplatform client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [Fjord](https://github.com/KalasKonrad/Fjord) - Rust and Slint front end for Jellyfin. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flick](https://github.com/seoloon/flick_desktop) - Customisable Rust desktop client for media servers. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
@@ -123,7 +121,6 @@ Every app in this list that runs on Linux. That is 282 apps with 95 for Plex and
 - [mpv-handler (Kosette)](https://github.com/Kosette/mpv-handler) - Protocol handler that opens web-player links in mpv. `Emby` · `Windows` `macOS` `Linux` · `MIT`
 - [mpv-jellyfin](https://github.com/EmperorPenguin18/mpv-jellyfin) - mpv Lua plugin that browses and plays the server's library inside mpv. `Jellyfin` · `Windows` `macOS` `Linux` · `Unlicense`
 - [MyEmby](https://github.com/tnt19886/MyEmby) - Tauri desktop client for Emby that plays through mpv. `Emby` · `Windows` `macOS` `Linux` · `Open source`
-- [Myfin](https://github.com/caslash-org/MyFin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Nebula Player](https://github.com/NotTimm/NebulaPlayer) - Native Linux video player for Jellyfin libraries and local files. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
 - [NekoPlayer](https://github.com/L51xyz12138/nekoplayer) - Electron and mpv desktop player for Emby, Jellyfin and Plex. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [NevuDesktop](https://github.com/Ipmake/NevuDesktop) - Desktop wrapper around the Nevu Plex web interface. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free` `Stale 2025`
@@ -284,7 +281,6 @@ Every app in this list that runs on Linux. That is 282 apps with 95 for Plex and
 
 ## Audiobooks, books and photos
 
-- [Athenaeum](https://github.com/PadawanBlK/Athenaeum) - Audiobook player for Plex. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Cosmic Comics](https://github.com/Nytuo/CosmicComics) - Comic, manga and ebook reader that integrates with a Jellyfin library. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free` · [Snap](https://snapcraft.io/cosmiccomics)
 - [Foliofin](https://github.com/sanjjayrj/foliofin) - Desktop book reader for Linux, macOS and Windows. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [music-manga-linux](https://github.com/xHitech/music-manga-linux) - Linux desktop client for music, manga and audiobooks. `Jellyfin` · `Linux` · `Open source` `Free`

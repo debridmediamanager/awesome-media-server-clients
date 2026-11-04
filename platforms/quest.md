@@ -2,7 +2,7 @@
 
 # Quest
 
-Every app in this list that runs on Quest. That is 17 apps with 9 for Plex and 13 for Jellyfin and 5 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Quest. That is 15 apps with 9 for Plex and 11 for Jellyfin and 5 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -25,8 +25,6 @@ Every app in this list that runs on Quest. That is 17 apps with 9 for Plex and 1
 - [Movie Deck for Plex](https://www.meta.com/experiences/movie-deck-for-plex/6664246617031653/) - Meta Quest player. `Plex` · `Quest` · `Paid` · [Info](https://sidequestvr.com/app/27537/movie-deck-for-plex)
 - [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn)
 - [PlexQuest](https://github.com/dalt0n0/PlexQuest) - Native Plex app for Meta Quest headsets. `Plex` · `Quest` · `Open source`
-- [QuestFin](https://github.com/alam-anwar/questfin) - Media client for Meta Quest. `Jellyfin` · `Quest` · `Open source` `Free` `Stale 2025`
-- [QuestKit](https://github.com/Josh-Archer/questkit) - Quest and OpenXR toolkit that includes a media client. `Jellyfin` · `Quest` · `Apache-2.0` `Free`
 - [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) - Paid Meta Quest video player. `Jellyfin` `Emby` · `Quest` · `Paid`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

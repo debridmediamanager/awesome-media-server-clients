@@ -2,7 +2,7 @@
 
 # Other device
 
-Every app in this list that runs on Other device. That is 34 apps with 17 for Plex and 15 for Jellyfin and 6 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Other device. That is 31 apps with 16 for Plex and 13 for Jellyfin and 6 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -17,11 +17,9 @@ Every app in this list that runs on Other device. That is 34 apps with 17 for Pl
 - [FlipFin](https://github.com/jackharvest/FlipFin) - Text-only app for the TCL 4058G flip phone. `Jellyfin` · `Other device` · `MIT` `Free`
 - [FlipFlex](https://github.com/jackharvest/FlipFlex) - Client for a TCL flip phone. `Plex` · `Other device` · `MIT`
 - [Home Cinema Control](https://github.com/tousled/home-cinema-control) - Sends library items to OPPO and Chinoppo disc players for playback. `Jellyfin` `Emby` · `Other device` · `Open source`
-- [jellyfin-qnap-hd](https://github.com/pdulvp/jellyfin-qnap-hd) - App for QNAP HybridDesk Station, the NAS HDMI media interface. `Jellyfin` · `Other device` · `Open source` `Free` `Stale 2024`
 - [JellyXR](https://github.com/Cuteminded/JellyXR) - VR media client for Quest and Steam Frame. `Jellyfin` · `Quest` `PC VR` `Other device` · `Apache-2.0` `Free`
 - [PixelReel](https://github.com/Samarth-programming/PixelReel) - Minecraft mod that plays your library on in-game TV and cinema screens. `Plex` `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `Linux` `Other device` · `CC0-1.0` `Free`
 - [plex-enyo-client](https://github.com/b0bben/plex-enyo-client) - Plex client built with Enyo for HP webOS devices. `Plex` · `Other device` · `Open source` `Stale 2012`
-- [PlexTVFirefoxOS](https://github.com/ClosestStorm/PlexTVFirefoxOS) - Plex app for Firefox OS. `Plex` · `Other device` · `Open source` `Stale 2017`
 - [Portalfin](https://github.com/luke-hurd/portalfin) - Native Facebook Portal app for browsing and playing your library. `Jellyfin` · `Other device` · `GPL-2.0` `Free`
 - [Showtime-Plex-Client](https://github.com/Dahlgren/Showtime-Plex-Client) - Plex client plugin for the Showtime media center (now Movian). `Plex` · `Other device` · `Open source` `Stale 2013`
 - [Xnoppo](https://github.com/siberian-git/Xnoppo) - Lets Emby act as the interface while an Oppo UDP-203 player does the playback. `Emby` · `Other device` · `Open source` `Free` `Stale 2025`
@@ -38,7 +36,6 @@ Every app in this list that runs on Other device. That is 34 apps with 17 for Pl
 ## Audiobooks, books and photos
 
 - [KOReader-Jellyfin-Plugin](https://github.com/DeclanChidlow/KOReader-Jellyfin-Plugin) - KOReader plugin that reads books from the server on e-readers. `Jellyfin` · `Other device` · `AGPL-3.0`
-- [m5paper-reader](https://github.com/Clowdyffs/m5paper-reader) - E-reader app for the M5Paper device that reads from a home server over the local network. `Jellyfin` · `Other device` · `Apache-2.0` `Free`
 
 ## Companions
 

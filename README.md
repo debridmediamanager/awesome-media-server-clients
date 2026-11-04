@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,857 third-party ones. Some are polished store apps. Others are small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,836 third-party ones. Some are polished store apps. Others are small open-source projects.
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
@@ -1383,7 +1383,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Lumenoir](https://lumenoir.app/plex-meta-quest/) - Meta Quest movie theatre player. `Plex` `Jellyfin` `Emby` `+Silo` · `Quest` · `Freemium` · [Meta Store](https://www.meta.com/en-gb/experiences/lumenoir-movie-theater-video-player/1552281053325883/)
 - [MetaPlexVR](https://github.com/IvanVojtko/meta-plex-vr) - Meta Quest client. `Plex` · `Quest` · `GPL-3.0`
 - [Movie Deck for Plex](https://www.meta.com/experiences/movie-deck-for-plex/6664246617031653/) - Meta Quest player. `Plex` · `Quest` · `Paid` · [Info](https://sidequestvr.com/app/27537/movie-deck-for-plex)
-- [QuestKit](https://github.com/Josh-Archer/questkit) - Quest and OpenXR toolkit that includes a media client. `Jellyfin` · `Quest` · `Apache-2.0` `Free`
 - [Reel Room](https://store.steampowered.com/app/4762320) - Paid PC VR theatre on Steam, also usable via Quest Link. `Jellyfin` · `PC VR` · `Paid`
 - [Screenlit](https://apps.apple.com/us/app/screenlit/id6499478407) - Vision Pro player for MV-HEVC, side-by-side 3D, VR180 and 360 video. `Plex` `Jellyfin` `Emby` · `visionOS` · `Paid`
 - [Suite Browser](https://www.reddit.com/r/VisionPro/comments/1wnddw0/suite_7_brings_virtual_projection_and/) - Apple Vision Pro browser with virtual projection that plays from media servers. `Plex` `Jellyfin` `Emby` · `visionOS`
@@ -1446,7 +1445,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [alexa-plex-music-player-skill](https://github.com/erinlkolp/alexa-plex-music-player-skill) - Self-hosted Alexa skill for playing your music. `Plex` · `Alexa` · `MIT`
 - [Ear Wax](https://ear-wax-config.marvinbrown9999.workers.dev/) - Alexa skill for playing your music library by voice. `Plex` `Emby` · `Alexa` · [Info](https://forums.plex.tv/t/ear-wax-is-now-live-in-the-amazon-skill-store/940414)
 - [jellyfin_alexa_skill](https://github.com/infinityofspace/jellyfin_alexa_skill) - Self-hosted Alexa skill that plays music from the server. `Jellyfin` · `Alexa` · `GPL-3.0` `Stale 2023`
-- [My Media for Alexa](https://mymediaalexa.com/home/mymedia_vs_plex) - Alexa skill that plays your music library on Echo devices. `Plex` · `Alexa` · [Website](https://mymediaalexa.com/)
 - [plexMusicPlayer (Tyzer34)](https://github.com/Tyzer34/plexMusicPlayer) - Self-hosted Alexa skill for playing your music. `Plex` · `Alexa` · `GPL-3.0` `Stale 2017`
 
 ### Kodi add-ons
@@ -1557,7 +1555,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Jellyfin68K](https://github.com/pukikiko/Jellyfin68K) - Music player for classic 68K Macintosh computers. `Jellyfin` · `Classic Mac` · `Open source` `Free`
 - [Jellyfin Discord Music Bot](https://github.com/manuel-rw/jellyfin-discord-music-bot) - Discord bot that plays music from the library in voice channels. `Jellyfin` · `Discord` · `MIT` `Free`
 - [Jellyfin Media Center (Tafitson)](https://open-store.io/app/jellyfin.tafitson) - Ubuntu Touch wrapper for the Jellyfin web client. `Jellyfin` · `Ubuntu Touch` · `GPL-2.0` `Stale 2023`
-- [jellyfin-qnap-hd](https://github.com/pdulvp/jellyfin-qnap-hd) - App for QNAP HybridDesk Station, the NAS HDMI media interface. `Jellyfin` · `Other device` · `Open source` `Free` `Stale 2024`
 - [jellyfin-s60v3](https://github.com/Hinduc0der/jellyfin-s60v3) - Symbian S60v3 phone app; a companion service transcodes for the phone. `Jellyfin` · `Symbian` · `GPL-3.0` `Free`
 - [Jellyfin.W10M](https://github.com/Starkka15/Jellyfin.W10M) - Client for Windows 10 Mobile. `Jellyfin` · `Windows Phone` · `Open source` `Free`
 - [JellyfUn](https://open-store.io/app/jellyfun.jellyfun) - Unofficial Ubuntu Touch app for using Jellyfin. `Jellyfin` · `Ubuntu Touch` · `GPL-3.0` `Stale 2021`
@@ -1568,7 +1565,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Plex for Ubuntu Touch](https://open-store.io/app/plex-local.luksus) - Unofficial Ubuntu Touch app for Plex. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Stale 2018`
 - [Portalfin](https://github.com/luke-hurd/portalfin) - Native Facebook Portal app for browsing and playing your library. `Jellyfin` · `Other device` · `GPL-2.0` `Free`
 - [Sailfin](https://github.com/heartfin/harbour-sailfin) - Sailfish OS client. `Jellyfin` · `Sailfish OS` · `LGPL-2.1`
-- [Sj's Jukebox](https://forums.plex.tv/t/showing-app-activity-in-dashboard/937249) - Discord bot that streams Plex music into voice channels. `Plex` · `Discord`
 - [volumio-jellyfin](https://github.com/patrickkfkan/volumio-jellyfin) - Volumio plugin that plays the music library on Volumio players. `Jellyfin` · `Other device` · `Open source` `Free`
 
 ## Companion and remote apps
@@ -1641,7 +1637,6 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 - [ABJC-tvOS](https://github.com/ABJC/ABJC-tvOS) - Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Ended 2022`
 - [AmpFin](https://github.com/rasmuslos/AmpFin) - Music player. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Ended 2025`
-- [BetterDiscord music client](https://forum.jellyfin.org/t-music-client-for-betterdiscord) - BetterDiscord plugin that plays music inside the Discord desktop app. `Jellyfin` · `Discord` · `Ended`
 - [bruhdudeisdead/Jellyfin-Legacy-iOS](https://github.com/bruhdudeisdead/Jellyfin-Legacy-iOS) - Client for legacy iOS versions; the repository is archived. `Jellyfin` · `iOS` · `Open source` `Free` `Ended 2026`
 - [carstream-android-auto](https://github.com/thekirankumar/carstream-android-auto) - Android Auto video player for Plex and YouTube. `Plex` · `Android Auto` · `Apache-2.0` `Ended 2021`
 - [DreamPlex](https://github.com/DonDavici/DreamPlex) - Plex client plugin for Enigma2 Linux set-top boxes. `Plex` · `Enigma2` · `Open source` `Free` `Ended 2021`
@@ -1711,7 +1706,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 478 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
+[more-clients.md](more-clients.md) lists 462 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
 
 ## Contribution Guidelines
 

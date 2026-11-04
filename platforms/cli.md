@@ -2,7 +2,7 @@
 
 # CLI
 
-Every app in this list that runs on CLI. That is 78 apps with 31 for Plex and 50 for Jellyfin and 8 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on CLI. That is 77 apps with 31 for Plex and 49 for Jellyfin and 8 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -33,7 +33,6 @@ Every app in this list that runs on CLI. That is 78 apps with 31 for Plex and 50
 - [jfcli](https://github.com/cumulus13/jfcli) - Command-line client written in Go. `Jellyfin` · `CLI` · `Open source` `Free`
 - [jfsh](https://github.com/hacel/jfsh) - Terminal client that plays in mpv. `Jellyfin` · `CLI` · `Unlicense` · [AUR](https://aur.archlinux.org/packages/jfsh)
 - [jftui](https://github.com/Aanok/jftui) - Terminal client that plays in mpv. `Jellyfin` · `CLI` · `Unlicense` `Free` · [AUR](https://aur.archlinux.org/packages/jftui)
-- [jjc](https://github.com/rwtolbert/jjc) - Command-line client written in Janet. `Jellyfin` · `CLI` · `MIT` `Free`
 - [jtui](https://github.com/Banh-Canh/jtui) - Terminal UI for searching and playing videos. `Jellyfin` · `CLI` · `MIT` `Free`
 - [kino](https://github.com/mmcdole/kino) - Terminal client for browsing and playing media. `Plex` `Jellyfin` · `CLI` · `MIT` `Free` · [AUR](https://aur.archlinux.org/packages/kino-tui)
 - [Kuchteq/tuifin](https://github.com/Kuchteq/tuifin) - Terminal UI client. `Jellyfin` · `CLI` · `GPL-3.0` `Free`

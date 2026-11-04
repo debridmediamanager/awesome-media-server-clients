@@ -2,7 +2,7 @@
 
 # Web
 
-Every app in this list that runs on Web. That is 202 apps with 59 for Plex and 139 for Jellyfin and 43 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 139 for Jellyfin and 42 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -153,7 +153,6 @@ Every app in this list that runs on Web. That is 202 apps with 59 for Plex and 1
 - [DashStream](https://github.com/bierzelt-kind/dashstream) - Web frontend tuned for the Tesla in-car browser. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
 - [Discophile](https://github.com/debba/discophile) - Record-collection style music player for desktop and web. `Jellyfin` `+Subsonic` `+Audiobookshelf` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `MIT` `Free` · [Website](https://www.discophile.app/) · [AUR](https://aur.archlinux.org/packages/discophile-bin)
 - [egamipeaks/plexify](https://github.com/egamipeaks/plexify) - Spotify-style web app for Plex music. `Plex` · `Web` · `Open source` `Free`
-- [EMP](https://github.com/TheChaosCli/emp) - Music player. `Emby` · `Web` · `GPL-3.0` `Free` `Stale 2025`
 - [Feishin](https://github.com/jeffvli/feishin) - Desktop and web music player. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free` · [Website](https://feishin.vercel.app) · [Flathub](https://flathub.org/apps/org.jeffvli.feishin)
 - [Feishin Plex fork](https://github.com/lux032/feishin) - Fork of the Feishin desktop music player that adds Plex. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [Finact](https://github.com/bleov/finact) - React-based web music client. `Jellyfin` · `Web` · `MIT` `Free`

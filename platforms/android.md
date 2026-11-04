@@ -2,7 +2,7 @@
 
 # Android
 
-Every app in this list that runs on Android. That is 362 apps with 109 for Plex and 263 for Jellyfin and 134 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android. That is 361 apps with 109 for Plex and 263 for Jellyfin and 133 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -75,7 +75,6 @@ Every app in this list that runs on Android. That is 362 apps with 109 for Plex 
 - [Finly](https://github.com/xjazc03/Finly) - Android Jellyfin client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [Finora](https://github.com/MEHDImp4/FINORA) - Android client with offline support, built with Expo. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [FirstTV](https://github.com/brucelee135/FirstTV) - Android client for Emby and Jellyfin. `Jellyfin` `Emby` · `Android` · `Open source` `Free`
-- [Fish Player](https://github.com/flyfishxu/fish-player-kmp) - Kotlin Multiplatform client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [Fjora](https://github.com/chrisox1/Fjora) - Third-party native Android app. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flixor](https://github.com/Flixorui/flixor) - Client for the web, Mac, iPhone and Android. `Plex` · `macOS` `Web` `Android` `iOS` `tvOS` · `Open source` `Free`

@@ -2,7 +2,7 @@
 
 # Tizen
 
-Every app in this list that runs on Tizen. That is 27 apps with 8 for Plex and 20 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Tizen. That is 26 apps with 8 for Plex and 19 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -18,7 +18,6 @@ Every app in this list that runs on Tizen. That is 27 apps with 8 for Plex and 2
 - [Atlas TV](https://github.com/AzatSharip/atlas-tv) - Moonfin-based client for home video libraries. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [ATV for Plex](https://github.com/Izazzubayer/atv-for-plex) - Samsung Tizen client. `Plex` · `Tizen` · `MIT`
 - [FinLightning](https://github.com/hjourdain-ryvr/finlightning) - TV app built on the Lightning 3 / Blits UI framework. `Jellyfin` · `Tizen` `Other TV` · `Apache-2.0` `Free`
-- [jellyfin-client-tizen-legacy](https://github.com/crycodebaby/jellyfin-client-tizen-legacy) - Samsung TV app for older Smart TV models. `Jellyfin` · `Tizen` · `Open source` `Free`
 - [Jellyfin Lite](https://github.com/Grumm3l/jellyfin-lite) - Samsung Tizen 2.3 TV app using AVPlay, for older sets. `Jellyfin` · `Tizen` · `MIT` `Free`
 - [JellyFin-SamsungTizenTV](https://github.com/ChessDragon136/JellyFin-SamsungTizenTV) - Samsung Tizen TV app for playing your library. `Jellyfin` · `Tizen` · `Open source` `Free` `Stale 2022`
 - [JellyMax](https://github.com/Doulvis/JellyMax) - Jellyfin client styled after HBO Max. `Jellyfin` · `Windows` `Android` `Tizen` · `MIT` `Free`

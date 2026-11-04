@@ -1395,21 +1395,6 @@
   description: Client for Fire TV sticks running Vega OS.
   notes: Amazon package com.astra.tv. Emby and Kodi back ends planned.
 
-- name: Athenaeum
-  url: https://github.com/PadawanBlK/Athenaeum
-  servers: [plex]
-  official: false
-  platforms: [windows, macos, linux]
-  category: audiobooks
-  media: [audiobooks]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Audiobook player for Plex.
-  notes: Platform not stated; listed among desktop clients.
-  long_tail: true
-
 - name: Atlas TV
   url: https://github.com/AzatSharip/atlas-tv
   servers: [jellyfin]
@@ -2012,18 +1997,6 @@
   description: Player app for Android TV.
   notes: Announced around 2026-09-24; the author replaced the post with 'gone'.
 
-- name: BetterDiscord music client
-  url: https://forum.jellyfin.org/t-music-client-for-betterdiscord
-  servers: [jellyfin]
-  official: false
-  platforms: [discord]
-  category: music
-  media: [music]
-  open_source: null
-  status: discontinued
-  description: BetterDiscord plugin that plays music inside the Discord desktop app.
-  notes: Linked repo TySP-Dev/BetterDiscord_Plugins returns 404.
-
 - name: bettermint-plex
   url: https://github.com/mjryan253/bettermint-plex
   servers: [plex]
@@ -2219,20 +2192,6 @@
   aliases: ['BlueMusic: Music Player, Radio']
   description: Music player combining phone files, cloud storage and home servers, with internet radio.
   notes: by Pedro Antonio Flores Casquet
-
-- name: Blue Neon Night Two
-  url: https://github.com/speechles/BN-TWO
-  servers: [emby]
-  official: false
-  platforms: [roku]
-  category: player
-  media: [video]
-  open_source: true
-  status: stale
-  status_year: 2018
-  aliases: [BN-TWO]
-  description: SceneGraph Emby app for Roku.
-  long_tail: true
 
 - name: Bobine
   url: https://github.com/KristenJestin/bobine
@@ -3336,21 +3295,6 @@
   status: active
   status_year: 2026
   description: Opinionated fork of the Fladder Flutter client.
-
-- name: Cindara
-  url: https://github.com/camcast3/cindara
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, xbox, linux, macos]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2026
-  description: Native couch-first client for Linux, Windows, macOS and Xbox.
-  long_tail: true
 
 - name: Cine
   url: https://github.com/LK59/cine-app
@@ -6090,22 +6034,6 @@
   description: Third-party Android TV client.
   notes: Closed-source releases repo.
 
-- name: EMP
-  url: https://github.com/TheChaosCli/emp
-  servers: [emby]
-  official: false
-  platforms: [web]
-  category: music
-  media: [music]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: stale
-  status_year: 2025
-  description: Music player.
-  notes: Platform not stated.
-  long_tail: true
-
 - name: EMPlayer (sonsongithub)
   url: https://github.com/sonsongithub/EMPlayer
   servers: [emby]
@@ -7020,23 +6948,6 @@
   status: active
   status_year: 2026
   description: Android client for Emby and Jellyfin.
-
-- name: Fish Player
-  url: https://github.com/flyfishxu/fish-player-kmp
-  servers: [emby]
-  official: false
-  platforms: [windows, macos, linux, android, ios]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [fish-player-kmp]
-  description: Kotlin Multiplatform client.
-  notes: Target platforms not stated.
-  long_tail: true
 
 - name: fjkfwz/iina-emby
   url: https://github.com/fjkfwz/iina-emby
@@ -10324,21 +10235,6 @@
   status_year: 2026
   description: Small terminal music player.
 
-- name: jellyfin-client-tizen-legacy
-  url: https://github.com/crycodebaby/jellyfin-client-tizen-legacy
-  servers: [jellyfin]
-  official: false
-  platforms: [tizen]
-  category: player
-  media: [video]
-  open_source: true
-  license: other
-  price: free
-  status: active
-  status_year: 2026
-  description: Samsung TV app for older Smart TV models.
-  long_tail: true
-
 - name: jellyfin-client-uwp
   url: https://github.com/ujvarigergo1/jellyfin-client-uwp
   servers: [jellyfin]
@@ -11246,20 +11142,6 @@
   notes: Jailbroken PS4 only.
   long_tail: true
 
-- name: jellyfin-qnap-hd
-  url: https://github.com/pdulvp/jellyfin-qnap-hd
-  servers: [jellyfin]
-  official: false
-  platforms: [other-device]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2024
-  description: App for QNAP HybridDesk Station, the NAS HDMI media interface.
-  notes: QNAP NAS HybridDesk Station.
-
 - name: jellyfin-random-macos-screensaver
   url: https://github.com/ndom91/jellyfin-random-macos-screensaver
   servers: [jellyfin]
@@ -11344,21 +11226,6 @@
   status: discontinued
   status_year: 2021
   description: Early app for Samsung Orsay TVs.
-
-- name: jellyfin-saphiOS
-  url: https://github.com/edvdourado/jellyfin-saphiOS
-  servers: [jellyfin]
-  official: false
-  platforms: [other-tv]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: beta
-  status_year: 2026
-  description: Framework-free web app aimed at Philips SAPHI / NetTV smart TVs.
-  notes: Experimental; README calls it Jellyfin TV.
-  long_tail: true
 
 - name: Jellyfin & SMB Video Player
   url: https://apps.apple.com/us/app/jellyfin-smb-video-player/id6784719986
@@ -11684,21 +11551,6 @@
   status_year: 2026
   description: Fork of the web client tracking the unstable branch.
   notes: fork of jellyfin/jellyfin-web. By soultaco83.
-
-- name: jellyfin-wii
-  url: https://github.com/MATTHIAS2709/jellyfin-wii
-  servers: [jellyfin]
-  official: false
-  platforms: [wii]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: active
-  status_year: 2026
-  description: Nintendo Wii homebrew client.
-  notes: Hobby project.
-  long_tail: true
 
 - name: jellyfin-yoto-bridge
   url: https://github.com/mattstjean/jellyfin-yoto-bridge
@@ -13262,21 +13114,6 @@
   aliases: [JINX-EmbyClient, JINX EmbyClient]
   description: Simple Windows client using mpv with Anime4K upscaling; release builds only.
   notes: Closed-source releases repo.
-
-- name: jjc
-  url: https://github.com/rwtolbert/jjc
-  servers: [jellyfin]
-  official: false
-  platforms: [cli]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2026
-  description: Command-line client written in Janet.
-  long_tail: true
 
 - name: jlfine
   url: https://github.com/prietus/jlfine
@@ -15020,21 +14857,6 @@
   aliases: ['Lysn: Audiobook Player']
   description: Audiobook player for imported books and self-hosted servers, with streaming or download.
   notes: by Sunny Kumar; Plex needs the premium tier
-
-- name: m5paper-reader
-  url: https://github.com/Clowdyffs/m5paper-reader
-  servers: [jellyfin]
-  official: false
-  platforms: [other-device]
-  category: books
-  media: [books]
-  open_source: true
-  license: Apache-2.0
-  price: free
-  status: active
-  status_year: 2026
-  description: E-reader app for the M5Paper device that reads from a home server over the local network.
-  long_tail: true
 
 - name: m7-jellyfin
   url: https://github.com/LouisMarotta/m7-jellyfin
@@ -16888,20 +16710,6 @@
   description: File manager and media player with a compressor and PDF scanner that also streams from media servers.
   notes: by 亮辉 赵. Portuguese-language listing; file manager first.
 
-- name: Myfin
-  url: https://github.com/caslash-org/MyFin
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Desktop Jellyfin client.
-  long_tail: true
-
 - name: MyFlix
   url: https://github.com/npollak1207/myflix
   servers: [jellyfin]
@@ -16947,21 +16755,6 @@
   status: active
   status_year: 2026
   description: Windows and macOS client built with Tauri, React and a native mpv player.
-
-- name: My Media for Alexa
-  url: https://mymediaalexa.com/home/mymedia_vs_plex
-  links:
-    site: https://mymediaalexa.com/
-  servers: [plex]
-  also: [other]
-  official: false
-  platforms: [alexa]
-  category: music
-  media: [music, audiobooks, podcasts]
-  open_source: null
-  status: unknown
-  description: Alexa skill that plays your music library on Echo devices.
-  notes: Third-party skill; says it is Alexa+ certified (vendor claim).
 
 - name: MyPlexPlayer
   url: https://github.com/biskyt/MyPlexPlayer
@@ -17960,21 +17753,6 @@
   aliases: [NineSong]
   description: Music player and server pair with clients for desktop and web.
   notes: The Microsoft Store edition is a closed-source paid Flutter build.
-
-- name: nuPLEX
-  url: https://github.com/lukebarber/nuPLEX
-  servers: [plex]
-  official: false
-  platforms: [roku]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  status: stale
-  status_year: 2016
-  description: Custom Plex app for Roku players and Now TV boxes.
-  notes: '2016.'
-  long_tail: true
 
 - name: Nuvio Arc
   url: https://github.com/ysosrs123/NuvioTV-Fork
@@ -20335,21 +20113,6 @@
   description: Closed-source Android TV Plex player distributed as an APK.
   notes: Repo only hosts APK releases (closed source). Same author as PlexiPlay Mobile.
 
-- name: Plex-IR
-  url: https://github.com/ep1cman/Plex-IR
-  servers: [plex]
-  official: false
-  platforms: [other-device]
-  category: remote
-  media: [video]
-  open_source: true
-  license: MIT
-  status: discontinued
-  status_year: 2015
-  description: Infrared remote control for Plex.
-  notes: Archived.
-  long_tail: true
-
 - name: Plexito
   url: https://github.com/salfab/Plexito
   servers: [plex]
@@ -20971,20 +20734,6 @@
   status: active
   status_year: 2026
   description: Terminal music player for Plex.
-  long_tail: true
-
-- name: PlexTVFirefoxOS
-  url: https://github.com/ClosestStorm/PlexTVFirefoxOS
-  servers: [plex]
-  official: false
-  platforms: [other-device]
-  category: player
-  media: [video]
-  open_source: true
-  status: stale
-  status_year: 2017
-  description: Plex app for Firefox OS.
-  notes: Firefox OS app (2017); tagged other-device.
   long_tail: true
 
 - name: Plex-TVOS
@@ -22099,35 +21848,6 @@
   status: unknown
   description: Builds linear TV-style channels from your own library, with a channel guide.
   notes: Listed on Amazon for Fire TV.
-
-- name: QuestFin
-  url: https://github.com/alam-anwar/questfin
-  servers: [jellyfin]
-  official: false
-  platforms: [quest]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2025
-  description: Media client for Meta Quest.
-  long_tail: true
-
-- name: QuestKit
-  url: https://github.com/Josh-Archer/questkit
-  servers: [jellyfin]
-  official: false
-  platforms: [quest]
-  category: player
-  media: [video]
-  open_source: true
-  license: Apache-2.0
-  price: free
-  status: active
-  status_year: 2026
-  description: Quest and OpenXR toolkit that includes a media client.
-  notes: Crates for Quest/OpenXR; releases include a jellyfin-client build.
 
 - name: Radar Player
   url: https://apps.apple.com/br/app/radar-player/id6804476203
@@ -23734,18 +23454,6 @@
   notes: Fork of Tempo. Play closed testing.
   long_tail: true
 
-- name: Sj's Jukebox
-  url: https://forums.plex.tv/t/showing-app-activity-in-dashboard/937249
-  servers: [plex]
-  official: false
-  platforms: [discord]
-  category: music
-  media: [music]
-  open_source: null
-  status: unknown
-  description: Discord bot that streams Plex music into voice channels.
-  notes: Mentioned on the Plex forum 2026-03-19; no link given.
-
 - name: SkyPlayer
   url: https://www.bilibili.com/video/BV1UKh36dEX2/
   servers: [emby]
@@ -24312,21 +24020,6 @@
   status_year: 2026
   description: Bridge that plays the music library on Lyrion (Logitech Media Server) players.
   notes: Last push 2026-10-20.
-
-- name: squeeze-plex-player
-  url: https://github.com/onmomo/squeeze-plex-player
-  servers: [plex]
-  official: false
-  platforms: [other-device]
-  category: bridge
-  media: [music]
-  open_source: true
-  license: MIT
-  status: discontinued
-  status_year: 2016
-  description: Bridge for playing your music on Squeezebox players.
-  notes: Archived; replaced by squeeze-plex-hub.
-  long_tail: true
 
 - name: Squire
   url: https://apps.apple.com/gb/app/xtream-iptv-player-squire/id951483331

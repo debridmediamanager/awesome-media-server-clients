@@ -2,7 +2,7 @@
 
 # iOS
 
-Every app in this list that runs on iOS. That is 609 apps with 268 for Plex and 459 for Jellyfin and 268 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on iOS. That is 608 apps with 268 for Plex and 459 for Jellyfin and 267 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -130,7 +130,6 @@ Every app in this list that runs on iOS. That is 609 apps with 268 for Plex and 
 - [FinFlix](https://apps.apple.com/de/app/finflix/id6756268520) - Native client to browse, stream and download a personal movie and TV library. `Jellyfin` · `iOS` `iPadOS` · `Free`
 - [FinPlus](https://apps.apple.com/gb/app/finplus/id6757364763) - Companion app for browsing, streaming and watching live TV from a personal library, built for iOS and tvOS. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
 - [FinStream](https://github.com/SilverMarcs/SwiftJelly) - SwiftUI client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free` · [App Store](https://apps.apple.com/app/id6761840798)
-- [Fish Player](https://github.com/flyfishxu/fish-player-kmp) - Kotlin Multiplatform client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flicktote](https://apps.apple.com/de/app/flicktote/id6822864981) - Offline-first player that downloads movies and shows and searches across several servers at once. `Jellyfin` `Emby` · `iOS` `iPadOS` · `Freemium`
 - [Flixor](https://github.com/Flixorui/flixor) - Client for the web, Mac, iPhone and Android. `Plex` · `macOS` `Web` `Android` `iOS` `tvOS` · `Open source` `Free`

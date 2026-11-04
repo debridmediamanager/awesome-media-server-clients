@@ -2,7 +2,7 @@
 
 # macOS
 
-Every app in this list that runs on macOS. That is 389 apps with 152 for Plex and 301 for Jellyfin and 150 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on macOS. That is 385 apps with 151 for Plex and 299 for Jellyfin and 149 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -55,7 +55,6 @@ Every app in this list that runs on macOS. That is 389 apps with 152 for Plex an
 - [Caviar Media Client](https://apps.apple.com/us/app/caviar-media-client/id6805609607) - Jellyfin client for browsing libraries and resuming playback, with Seerr request management. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [Ceau Player](https://apps.apple.com/us/app/ceau-player/id6811592403) - Private-first player for live TV, media servers and local files with multi-view of up to four streams. `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
 - [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free`
-- [Cindara](https://github.com/camcast3/cindara) - Native couch-first client for Linux, Windows, macOS and Xbox. `Jellyfin` · `Windows` `macOS` `Linux` `Xbox` · `MIT` `Free`
 - [cinefin/cinefin](https://github.com/cinefin/cinefin) - Home-theater playout app that runs a programme schedule from library media through mpv. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `AGPL-3.0`
 - [Cinemarr](https://apps.apple.com/us/app/cinemarr-private-cinema/id6799851978) - Player for Plex, Jellyfin and Emby libraries with Seerr requests, watchlists and request status. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `Fire TV` `tvOS` · `Subscription`
 - [cinerama-player](https://github.com/kenkenchu/cinerama-player) - Cinematic-style Plex client for Mac and Apple TV. `Plex` · `macOS` `tvOS` · `MIT` `Free`
@@ -93,7 +92,6 @@ Every app in this list that runs on macOS. That is 389 apps with 152 for Plex an
 - [Finar](https://gitlab.com/Openlyst/finar) - Flutter client for video and music with downloads, multiple accounts and game controller support. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `AGPL-3.0` · [Website](https://openlyst.ink) · [AUR](https://aur.archlinux.org/packages/finar-bin)
 - [Finplay](https://github.com/kings431/finplay) - Desktop Jellyfin client that plays through mpv. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [FinStream](https://github.com/SilverMarcs/SwiftJelly) - SwiftUI client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free` · [App Store](https://apps.apple.com/app/id6761840798)
-- [Fish Player](https://github.com/flyfishxu/fish-player-kmp) - Kotlin Multiplatform client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [fjkfwz/iina-emby](https://github.com/fjkfwz/iina-emby) - IINA plugin that plays your library with MPV hardware decoding on macOS. `Emby` · `macOS` · `Open source` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flick](https://github.com/seoloon/flick_desktop) - Customisable Rust desktop client for media servers. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
@@ -182,7 +180,6 @@ Every app in this list that runs on macOS. That is 389 apps with 152 for Plex an
 - [Muxi Player](https://github.com/HectorGao/muxi-player) - Native macOS player. `Jellyfin` `Emby` · `macOS` · `MIT` `Free`
 - [Muxivo](https://apps.apple.com/us/app/muxivo-mkv-player-cast/id6796830155) - MKV, AVI and TS player that converts on-device so casts to a TV keep picture and sound. `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` · `Freemium`
 - [MyEmby](https://github.com/tnt19886/MyEmby) - Tauri desktop client for Emby that plays through mpv. `Emby` · `Windows` `macOS` `Linux` · `Open source`
-- [Myfin](https://github.com/caslash-org/MyFin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [MyJellyfinClient](https://github.com/eater-altria/MyJellyfinClient) - Windows and macOS client built with Tauri, React and a native mpv player. `Jellyfin` `Emby` · `Windows` `macOS` · `Open source` `Free`
 - [NanoShelf](https://apps.apple.com/us/app/nanoshelf/id6800173831) - Video and music player for media servers, NAS shares and local folders with continue watching and listening. `Plex` `Jellyfin` `Emby` `+Subsonic` · `macOS` `iOS` `iPadOS` `tvOS` · `Paid`
 - [NAS Media Viewer](https://apps.apple.com/us/app/nas-media-viewer/id6759468790) - Vision Pro, iPhone and Mac player that also opens SMB shares. `Plex` `Jellyfin` · `macOS` `iOS` `visionOS` · `Subscription`
@@ -395,7 +392,6 @@ Every app in this list that runs on macOS. That is 389 apps with 152 for Plex an
 
 ## Audiobooks, books and photos
 
-- [Athenaeum](https://github.com/PadawanBlK/Athenaeum) - Audiobook player for Plex. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Bardley](https://apps.apple.com/us/app/bardley/id6747647606) - Privacy-first audiobook player with LibriVox access; Pro adds Jellyfin, iCloud sync and unlimited books. `Jellyfin` · `macOS` `iOS` `iPadOS` · `Freemium`
 - [Cosmic Comics](https://github.com/Nytuo/CosmicComics) - Comic, manga and ebook reader that integrates with a Jellyfin library. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free` · [Snap](https://snapcraft.io/cosmiccomics)
 - [Foliofin](https://github.com/sanjjayrj/foliofin) - Desktop book reader for Linux, macOS and Windows. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`

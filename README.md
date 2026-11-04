@@ -381,7 +381,7 @@ Video and general clients for two or all three servers.
 - [Rodel Player](https://player.richasy.net) - Windows desktop player with a Fluent UI. `Plex` `Jellyfin` `Emby` · `Windows` · `Freemium` · [Source](https://github.com/Richasy/Rodel.Player.Public) · [Microsoft Store](https://apps.microsoft.com/detail/9nb0h051m4v4)
 - [Vela](https://github.com/roethlar/vela) - Desktop front end that plays through mpv for HDR output. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `MIT` `Free`
 - [Vivid Player](https://apps.microsoft.com/detail/9pf8wt09d2nt) - Windows player that also opens fnOS, SMB, WebDAV, OpenList/Alist and rclone sources. `Plex` `Jellyfin` `Emby` `+fnOS` · `Windows` `Xbox` · `Paid`
-- [WWPlayer](https://github.com/Carrottor/WWPlayer) - Desktop libmpv player for server libraries, cloud drives, NAS and local files, with HDR and Dolby Vision. `Jellyfin` `Emby` `+fnOS` · `Windows`
+- [WWPlayer](https://github.com/Carrottor/WWPlayer) - Desktop libmpv player for server libraries, cloud drives, NAS and local files, with HDR and Dolby Vision. `Jellyfin` `Emby` `+fnOS` · `Windows` · `Freemium`
 - [xPlayer](https://github.com/xtq94kws7z-droid/Xplayer) - Windows desktop client for Emby and Jellyfin. `Jellyfin` `Emby` · `Windows` · `MIT` `Free`
 - [YarmiplayTV](https://tv.yarmiplay.com/) - mpv-based watch-together player that finds a Syncplay room's file on your media server. `Plex` `Jellyfin` · `Linux` · `Free` · [Snap](https://snapcraft.io/yarmiplaytv)
 
@@ -449,7 +449,7 @@ Third-party video and general clients for Jellyfin only.
 - [Android TV Plus](https://github.com/maybe-maeb/jellyfin-androidtv-plus) - Android TV client forked from the official Jellyfin Android TV app. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [Aurorama](https://github.com/zhangwenkang-github/Aurorama) - Findroid-based client for Android phones and tablets, with an EPUB, PDF and CBZ reader. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [Blade](https://github.com/Torresmi9294/blade) - Android TV frontend styled like the Xbox 360 dashboard, also browsing a RomM game library. `Jellyfin` · `Android TV` · `Open source` `Free`
-- [CinefinTV](https://github.com/rpeters1430/CinefinTV) - Android TV client for Jellyfin. `Jellyfin` · `Android TV` · `MIT` `Free`
+- [CinefinTV](https://github.com/rpeters1430/CinefinTV) - Android TV client for Jellyfin. `Jellyfin` · `Android TV` · `MIT` `Free` `Beta`
 - [CineIsle](https://gitee.com/angeladoudou/cineisle) - HarmonyOS NEXT client with picture-in-picture, background audio, offline downloads and a PIN lock. `Jellyfin` · `HarmonyOS` · `GPL-3.0`
 - [CookeInCode/jellyfin-androidtv](https://github.com/CookeInCode/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Stale 2024`
 - [Driftfin](https://github.com/dhrandy/Driftfin) - Google TV and Android TV client that also runs on older Fire TVs. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`

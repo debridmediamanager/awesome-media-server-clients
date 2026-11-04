@@ -217,7 +217,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [Crabfin](https://github.com/sayeed205/crabfin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [dasunNimantha/plex-client](https://github.com/dasunNimantha/plex-client) - Native Plex client for Linux. `Plex` · `Linux` · `Open source` `Free`
 - [Embart](https://github.com/somnifex/Embart) - Desktop client for Windows. `Emby` · `Windows` · `Open source` `Free`
-- [embyapp](https://github.com/1mshy/embyapp) - Simple desktop client written in Rust. `Emby` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2025`
+- [embyapp](https://github.com/1mshy/embyapp) - Simple desktop client written in Rust. `Emby` · `Windows` `macOS` · `MIT` `Free` `Stale 2025`
 - [emby-client-winui3](https://github.com/moooyo/emby-client-winui3) - Windows client written with WinUI 3. `Emby` · `Windows` · `Open source` `Free`
 - [emby-desktop](https://github.com/stuntsnakee/emby-desktop) - Native C++20 desktop and 10-foot client using libmpv. `Emby` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Emby Explorer](https://github.com/SideFx/EmbyExplorerforWindows) - Emby Explorer client for Windows written in Go. `Emby` · `Windows` · `MPL-2.0` `Stale 2025`

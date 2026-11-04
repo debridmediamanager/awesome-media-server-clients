@@ -3434,7 +3434,7 @@
   open_source: true
   license: MIT
   price: free
-  status: active
+  status: beta
   status_year: 2026
   description: Android TV client for Jellyfin.
 
@@ -5163,7 +5163,7 @@
   url: https://github.com/1mshy/embyapp
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -27999,6 +27999,7 @@
   category: player
   media: [video]
   open_source: false
+  price: freemium
   status: active
   status_year: 2026
   description: Desktop libmpv player for server libraries, cloud drives, NAS and local files, with HDR and Dolby Vision.

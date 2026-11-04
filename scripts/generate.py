@@ -336,6 +336,19 @@ def slug(heading):
     return s.replace(" ", "-")
 
 
+class Slugger:
+    """GitHub heading anchors for one document: a repeated heading gets -1, -2, ... in document order."""
+
+    def __init__(self):
+        self.seen = defaultdict(int)
+
+    def __call__(self, heading):
+        base = slug(heading)
+        n = self.seen[base]
+        self.seen[base] += 1
+        return f"{base}-{n}" if n else base
+
+
 def sort_key(a):
     return (norm_name(a["name"]) or a["name"].casefold(), a["name"], a.get("url") or "")
 
@@ -384,11 +397,12 @@ INTRO = """# Awesome Media Server Clients [![Awesome](https://awesome.re/badge.s
 
 A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and {third:,} third-party ones, from polished store apps to small open-source projects.
 
-Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) are in [more-clients.md](more-clients.md).
+Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) have a page of their own, linked under More clients below.
 
-Official downloads come only from [plex.tv](https://www.plex.tv/apps-devices/), [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). Repositories that offer a "full version", "unlocked" or "installer" for these apps are scams.
+Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop), [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). Repositories that offer a "full version", "unlocked" or "installer" for these apps are scams.
+"""
 
-## Legend
+LEGEND = """## Legend
 
 - Servers: `Plex` `Jellyfin` `Emby`. Other back ends appear as `+Subsonic` (also Navidrome), `+Audiobookshelf`, `+Stremio addons`, `+fnOS`, `+Silo`, `+IPTV` and similar.
 - Platforms: `Android TV` covers Google TV and SHIELD, `Fire TV` is Fire OS, `Vega OS` is the newer Fire TV OS, `tvOS` is Apple TV.
@@ -405,12 +419,14 @@ def render_readme(main, more_count):
         sec, sub = section_of(a)
         by_sec[sec][sub].append(a)
     third = sum(1 for a in main if not a.get("official")) + more_count
-    out = [INTRO.format(third=third), "## Contents\n"]
-    body = []
+    anchor = Slugger()
+    anchor("Contents")
+    out = [INTRO.format(third=third), "## Contents\n", f"- [Legend](#{anchor('Legend')})"]
+    body = [LEGEND]
     for key, title, blurb, subs in SECTIONS:
         if key not in by_sec:
             continue
-        out.append(f"- [{title}](#{slug(title)})")
+        out.append(f"- [{title}](#{anchor(title)})")
         body.append(f"## {title}\n\n{blurb}\n")
         if subs is None:
             body += [entry(a) for a in sorted(by_sec[key][None], key=sort_key)] + [""]
@@ -419,20 +435,16 @@ def render_readme(main, more_count):
             items = by_sec[key].get(sk)
             if not items:
                 continue
-            heading = f"{title} - {stitle}" if key in ("multi", "jellyfin", "plex", "emby") else stitle
-            out.append(f"  - [{stitle}](#{slug(heading)})")
-            body.append(f"### {heading}\n")
+            out.append(f"  - [{stitle}](#{anchor(stitle)})")
+            body.append(f"### {stitle}\n")
             body += [entry(a) for a in sorted(items, key=sort_key)] + [""]
-    out += ["- [More clients](#more-clients)", "- [Contribution Guidelines](#contribution-guidelines)",
-            "- [License](#license)", ""]
+    out += [f"- [More clients](#{anchor('More clients')})",
+            f"- [Contribution Guidelines](#{anchor('Contribution Guidelines')})", ""]
     body.append(f"## More clients\n\n[more-clients.md](more-clients.md) lists {more_count:,} smaller projects: "
                 "GitHub-only apps with no release and under 10 stars, grouped by platform.\n")
     body.append("## Contribution Guidelines\n\nContributions are welcome. Read the [contributing guidelines]"
                 "(contributing.md) first: entries live in [data/clients.yaml](data/clients.yaml) and the "
                 "Markdown files are generated from it.\n")
-    body.append("## License\n\nThis list is available under the [CC0 1.0 Universal (CC0 1.0) Public Domain "
-                "Dedication](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to share, modify, "
-                "or use it as you see fit.\n")
     body.append(FOOTER)
     return "\n".join(out) + "\n" + "\n".join(body)
 

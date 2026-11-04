@@ -2,7 +2,7 @@
 
 # Tizen
 
-Every app in this list that runs on Tizen. That is 25 apps with 8 for Plex and 18 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Tizen. That is 26 apps with 8 for Plex and 19 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -27,6 +27,7 @@ Every app in this list that runs on Tizen. That is 25 apps with 8 for Plex and 1
 - [Pelagica](https://github.com/PelagicaApp/pelagica) - Self-hosted web client that is also packaged for TVs. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `tvOS` `webOS` `Tizen` · `GPL-3.0` `Free` · [App Store](https://apps.apple.com/app/id6811079730) · [Source (Apple TV)](https://github.com/PelagicaApp/pelagica-atv) · [TestFlight](https://testflight.apple.com/join/CUsEZtDK)
 - [Phim Nè Tizen](https://github.com/minhtran162/phimne-tizen) - Samsung TV client forked from the Jellyfin Tizen app and branded Phim Nè. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [plezy-tizen](https://github.com/George-Fam/plezy-tizen) - Tizen TV port of the Plezy Flutter client. `Plex` `Jellyfin` · `Tizen` · `GPL-3.0` `Free`
+- [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` `Roku` `webOS` `Tizen` · `MIT` `Free`
 - [Reiverr](https://github.com/aleksilassila/reiverr) - Web and TV interface combining TMDB discovery, Sonarr/Radarr management and playback via a server plugin. `Jellyfin` · `Web` `Tizen` · `AGPL-3.0`
 - [SamSUCKS](https://github.com/rfaile313/samsucks) - Sideloaded Samsung TV client. `Plex` · `Tizen` · `GPL-3.0` `Free`
 - [tacplayer](https://github.com/sfsdffesfsfg-cloud/tacplayer) - Custom Samsung Tizen TV app. `Jellyfin` · `Tizen` · `Open source` `Free`

@@ -2,7 +2,7 @@
 
 # Android Auto
 
-Every app in this list that runs on Android Auto. That is 72 apps with 32 for Plex and 57 for Jellyfin and 18 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android Auto. That is 73 apps with 32 for Plex and 58 for Jellyfin and 18 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -64,6 +64,7 @@ Every app in this list that runs on Android Auto. That is 72 apps with 32 for Pl
 - [Namida](https://github.com/namidaco/namida) - Flutter music and video player with multiple libraries and offline caching for server sources. `Jellyfin` `+Subsonic` · `Windows` `Android` `Android Auto` · `Open source`
 - [NAS Music Mobile](https://github.com/lahuolou/NAS-Music-mobile) - Android music player for a NAS music library. `Jellyfin` `+Subsonic` · `Android` `Android Auto` · `Open source` `Free`
 - [Phoebe](https://github.com/j-roskopf/Phoebe) - Compose Multiplatform music player that also reaches Music Assistant. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `CarPlay` `Android Auto` · `MIT` `Free`
+- [Resonus](https://github.com/juananzzz/resonus) - Music player for Jellyfin, Navidrome and OpenSubsonic servers and local files. `Jellyfin` `+Subsonic` · `Android` `iOS` `Android Auto` · `GPL-3.0`
 - [RewindAmp](https://github.com/rknell/rewindamp) - Winamp-style Android music player. `Jellyfin` · `Android` `Android Auto` · `MIT` `Free`
 - [Segue](https://github.com/segue-music/segue-app) - Music player for several self-hosted servers. `Jellyfin` `+Subsonic` · `Windows` `Linux` `Android` `iOS` `Android TV` `Android Auto` · `MIT` `Free`
 - [Shrimphony](https://apps.apple.com/us/app/shrimphony/id6809664949) - Focused Jellyfin music player with albums, artists, genres, playlists and grouped search. `Jellyfin` · `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Free` · [Source](https://github.com/HucksleyNash/shrimphony)

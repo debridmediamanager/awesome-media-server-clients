@@ -834,7 +834,7 @@
   url: https://github.com/maybe-maeb/jellyfin-androidtv-plus
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3387,7 +3387,7 @@
   servers: [plex, jellyfin, emby]
   also: [other]
   official: false
-  platforms: [ios, ipados, macos, fire-tv, tvos]
+  platforms: [ios, ipados, macos, tvos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -6391,7 +6391,7 @@
   url: https://github.com/fengymi/jellyfin-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -9721,7 +9721,7 @@
   url: https://github.com/skipydg/jellydv-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -9893,7 +9893,7 @@
   url: https://github.com/sp960817/jellyfin-androidtv-danmaku
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -10540,7 +10540,7 @@
   url: https://gitee.com/moto1717/jellyfin-kitkat
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -12266,7 +12266,7 @@
   url: https://github.com/ricki2828/jellytip
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -16717,13 +16717,13 @@
   url: https://gitee.com/shruihu/nasvideoplayer
   servers: [emby]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
   status: active
   status_year: 2026
-  description: Kotlin Android NAS video player that browses and plays an Emby library.
+  description: Kotlin NAS video player for Android phones and TVs that browses and plays an Emby library.
   notes: Same author as nasplayer.
 
 - name: Native Jelly
@@ -21829,7 +21829,7 @@
   url: https://github.com/cj-vana/reel-client
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos, macos, web, windows, linux]
+  platforms: [ios, ipados, tvos, macos, web, windows, linux, webos, tizen, roku]
   category: player
   media: [video]
   open_source: true
@@ -22091,17 +22091,19 @@
   long_tail: true
 
 - name: Resonus
-  url: https://4pda.to/forum/index.php?showtopic=1124671
+  url: https://github.com/juananzzz/resonus
   servers: [jellyfin]
   also: [subsonic, local]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, android-auto]
   category: music
   media: [music]
-  open_source: null
-  status: unknown
-  description: Music player for Navidrome and OpenSubsonic servers and local files.
-  notes: Known from a 4PDA thread title; platform not stated.
+  open_source: true
+  license: GPL-3.0
+  status: active
+  status_year: 2026
+  description: Music player for Jellyfin, Navidrome and OpenSubsonic servers and local files.
+  notes: Android APK and an experimental iOS build through AltStore; Android Auto is experimental. Also plays Navidrome, OpenSubsonic and Ampache.
 
 - name: RetroGuide.TV
   url: https://apps.apple.com/us/app/retroguide-tv/id6816213425
@@ -24570,7 +24572,7 @@
   servers: [jellyfin]
   also: [webdav, ftp, other, local]
   official: false
-  platforms: [switch, ps4, ps-vita, windows, macos, linux, xbox, android]
+  platforms: [switch, ps4, ps-vita, windows, macos, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -24579,7 +24581,7 @@
   status: active
   status_year: 2026
   description: Homebrew client for Switch, PS Vita and PS4.
-  notes: PS4 build needs a jailbroken console. Windows 7+.
+  notes: 'PS4 build needs a jailbroken console. Windows 7+. No Xbox build: the Xbox app is the third-party port ikas-mc/switchfin-uwp.'
 
 - name: SylphyMusic
   url: https://github.com/ymltsh/SylphyMusic
@@ -26632,14 +26634,14 @@
   url: https://github.com/sifacaii/VlcXWJellyfin
   servers: [jellyfin, emby]
   official: false
-  platforms: [android-tv, android]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
   price: free
   status: stale
   status_year: 2025
-  description: VLC-based Android TV client, the successor to VlcJellyfin.
+  description: VLC-based Android client, the successor to VlcJellyfin.
   notes: Successor to sifacaii/VlcJellyfin.
 
 - name: Vlinder
@@ -27979,7 +27981,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [android, harmonyos]
+  platforms: [android]
   category: music
   media: [music]
   open_source: null
@@ -27987,7 +27989,7 @@
   price_note: No ads or tracking
   status: unknown
   description: Music player under 3 MB with no ads or tracking.
-  notes: Developer tested it on a BYD Han car head unit and a Huawei P80 Pro; platform list not stated.
+  notes: Android APK; the developer tested it on a BYD Han car head unit and a Huawei P80 Pro. No native HarmonyOS build.
 
 - name: Zoeyflix
   url: https://apps.apple.com/us/app/zoeyflix/id6757206770

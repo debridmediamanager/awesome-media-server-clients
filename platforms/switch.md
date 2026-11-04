@@ -11,7 +11,7 @@ Every app in this list that runs on Switch. That is 6 apps with 2 for Plex and 5
 - [Anyfin](https://github.com/bartando/anyfin) - One React codebase targeting PS5, Switch and Android TV. `Jellyfin` · `Android TV` `PS5` `Switch` · `GPL-3.0` `Free`
 - [GMCA](https://github.com/thcolin/gamepad-media-center-aggregator) - Gamepad-driven media centre for Switch, PS Vita and PS4 homebrew, Raspberry Pi and desktops. `Plex` `Jellyfin` `Emby` `+Stremio addons` · `Windows` `macOS` `Linux` `Android` `PS4` `PS Vita` `Switch` · `Apache-2.0` `Free` · [Info](https://forums.plex.tv/t/gmca-an-open-source-third-party-native-plex-client-for-the-nintendo-switch/939571)
 - [Saffron](https://github.com/xlanor/saffron) - Nintendo Switch homebrew client. `Plex` · `Switch` · `Apache-2.0`
-- [Switchfin](https://github.com/dragonflylee/switchfin) - Homebrew client for Switch, PS Vita and PS4. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Xbox` `PS4` `PS Vita` `Switch` · `Apache-2.0` `Free` · [Flathub](https://flathub.org/apps/fun.dragonfly.switchfin)
+- [Switchfin](https://github.com/dragonflylee/switchfin) - Homebrew client for Switch, PS Vita and PS4. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `PS4` `PS Vita` `Switch` · `Apache-2.0` `Free` · [Flathub](https://flathub.org/apps/fun.dragonfly.switchfin)
 - [YubariPlay](https://github.com/marjoefinn-spec/YubariPlay) - Switch video player that also opens cloud drives and WebDAV shares. `Jellyfin` `Emby` · `Switch` · `AGPL-3.0` `Free`
 
 ## Music

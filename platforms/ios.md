@@ -83,7 +83,7 @@ Every app in this list that runs on iOS. That is 582 apps with 261 for Plex and 
 - [Chroma](https://apps.apple.com/us/app/chroma-spatial-cinema/id6478800800) - Cinema-style video player with direct play of MKV, Dolby Vision and HDR across several servers. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` `visionOS` `CarPlay` · `Freemium`
 - [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `Android TV` · `GPL-3.0` `Free`
 - [Cinefin](https://apps.apple.com/hk/app/cinefin/id6824275546) - iPhone Jellyfin player with Continue Watching, Next Up and intro and recap skipping. `Jellyfin` · `iOS` · `Free`
-- [Cinemarr](https://apps.apple.com/us/app/cinemarr-private-cinema/id6799851978) - Player for Plex, Jellyfin and Emby libraries with Seerr requests, watchlists and request status. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `Fire TV` `tvOS` · `Subscription`
+- [Cinemarr](https://apps.apple.com/us/app/cinemarr-private-cinema/id6799851978) - Player for Plex, Jellyfin and Emby libraries with Seerr requests, watchlists and request status. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Subscription`
 - [Cinereel Media Server Player](https://apps.apple.com/us/app/cinereel-media-server-player/id6792861697) - Plex and Jellyfin player with natural-language search such as funny movies from the 30s. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Freemium`
 - [Cinetry](https://github.com/gstory0404/Cinetry) - Multi-source player that also reads CMS video sites, IPTV, WebDAV, Alist, Subsonic and Audiobookshelf. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+IPTV` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `Open source`
 - [Cmby](https://github.com/CeRu-007/Cmby) - Flutter client for phones, TV boxes and desktops, distributed as release builds only. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV`
@@ -280,7 +280,7 @@ Every app in this list that runs on iOS. That is 582 apps with 261 for Plex and 
 - [Radar Player](https://apps.apple.com/br/app/radar-player/id6804476203) - Media player for Files, linked folders and network URLs, with library streaming and subtitle import. `Plex` · `iOS` `iPadOS` · `Free`
 - [Railux](https://apps.apple.com/cn/app/id6773220930) - iPhone video player that connects to home media servers. `Plex` `Emby` · `iOS` `iPadOS`
 - [ReclineTV](https://apps.apple.com/us/app/reclinetv/id6820317648) - Video player that combines a Jellyfin library, M3U playlists, IPTV subscriptions and free public channels. `Jellyfin` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
-- [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
+- [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` `Roku` `webOS` `Tizen` · `MIT` `Free`
 - [ReelCove](https://github.com/frankliu2023/reelcove) - Apple-device client built on the Swiftfin codebase. `Jellyfin` · `iOS` `iPadOS` · `MPL-2.0` `Free`
 - [ReelFin](https://apps.apple.com/app/id6762079357) - Client for iPhone and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [Reel Player](https://apps.apple.com/us/app/reel-player-video-player/id6471356040) - Video player for a server library with broad MP4, MKV, M4V and MOV support. `Emby` · `macOS` `iOS` `iPadOS` · `Freemium` `Stale 2024`
@@ -512,7 +512,7 @@ Every app in this list that runs on iOS. That is 582 apps with 261 for Plex and 
 - [ramus](https://github.com/1337raspberry/ramus) - Tauri music client for Plex that browses by genre first. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [redfin](https://github.com/kodydeda4/redfin) - Music player. `Jellyfin` · `macOS` `iOS` · `Open source`
 - [Reeltone](https://apps.apple.com/us/app/reeltone-music-for-jellyfin/id6792892065) - Jellyfin music player with background playback, offline downloads, AirPlay and synced lyrics. `Jellyfin` · `macOS` `iOS` `iPadOS` · `Free`
-- [Resonus](https://4pda.to/forum/index.php?showtopic=1124671) - Music player for Navidrome and OpenSubsonic servers and local files. `Jellyfin` `+Subsonic` · `Android` `iOS`
+- [Resonus](https://github.com/juananzzz/resonus) - Music player for Jellyfin, Navidrome and OpenSubsonic servers and local files. `Jellyfin` `+Subsonic` · `Android` `iOS` `Android Auto` · `GPL-3.0`
 - [Rivelo](https://apps.apple.com/us/app/rivelo/id6807153144) - Music player that merges a private library with Apple Music and imports Apple Music playlists. `Jellyfin` · `macOS` `iOS` `CarPlay` · `Free`
 - [RoadSonic](https://www.roadsonic.com/) - iPhone music player built for CarPlay. `Plex` `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` `CarPlay` · `Freemium` · [App Store](https://apps.apple.com/app/id6811639958)
 - [Segue](https://github.com/segue-music/segue-app) - Music player for several self-hosted servers. `Jellyfin` `+Subsonic` · `Windows` `Linux` `Android` `iOS` `Android TV` `Android Auto` · `MIT` `Free`

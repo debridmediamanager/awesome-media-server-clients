@@ -2,7 +2,7 @@
 
 # webOS
 
-Every app in this list that runs on webOS. That is 35 apps with 12 for Plex and 22 for Jellyfin and 7 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on webOS. That is 36 apps with 12 for Plex and 23 for Jellyfin and 7 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -37,6 +37,7 @@ Every app in this list that runs on webOS. That is 35 apps with 12 for Plex and 
 - [plezy-webos](https://github.com/GLNick/plezy-webos) - webOS port of the Plezy Flutter client. `Plex` `Jellyfin` `Emby` · `webOS` · `GPL-3.0` `Free`
 - [ploff-webos](https://github.com/lucabravi/ploff-webos) - Client for legacy LG webOS TVs. `Plex` · `webOS` · `MIT`
 - [PlxNative](https://github.com/GLinnik21/plx-native) - Native LG TV client with an interface written in Rust and OpenGL. `Plex` · `webOS` · `GPL-3.0` `Free` · [Website](http://plxnative.com/)
+- [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` `Roku` `webOS` `Tizen` · `MIT` `Free`
 - [Reflex](https://github.com/StuCM/Reflex) - Custom Plex client for LG webOS 4 TVs. `Plex` · `webOS` · `Open source`
 - [ScreenPlay](https://github.com/sleuth255/screenplay) - LG webOS app for browsing and playing a media library; last updated in 2020. `Emby` · `webOS` · `MIT` `Free` `Stale 2020`
 - [Selvania Ciné](https://github.com/LeD0c4/cine-android) - Android and Android TV client. `Jellyfin` · `Web` `Android` `Android TV` `webOS` · `GPL-3.0` `Free` · [Source](https://github.com/LeD0c4/cine-web) · [Source 2](https://github.com/LeD0c4/cine-webos)

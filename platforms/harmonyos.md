@@ -2,7 +2,7 @@
 
 # HarmonyOS
 
-Every app in this list that runs on HarmonyOS. That is 25 apps with 6 for Plex and 20 for Jellyfin and 17 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on HarmonyOS. That is 24 apps with 5 for Plex and 19 for Jellyfin and 16 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -35,6 +35,5 @@ Every app in this list that runs on HarmonyOS. That is 25 apps with 6 for Plex a
 - [FinMusic](https://github.com/OHPG/FinMusic) - HarmonyOS music client. `Jellyfin` · `HarmonyOS` · `GPL-3.0`
 - [FinTune](https://github.com/henryHe5638/fintune) - Music player for Huawei HarmonyOS watches. `Jellyfin` · `HarmonyOS` · `Unlicense` `Free`
 - [SonaWave](https://github.com/Tlntin/SonaWave-Release) - Multi-source music player for desktop and mobile. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+fnOS` · `Windows` `macOS` `Linux` `Android` `HarmonyOS` `Android TV` · [AppGallery](https://appgallery.huawei.com/app/detail?id=com.tlntin.sonawave)
-- [ZMusic](https://meta.appinn.net/t/topic/94903) - Music player under 3 MB with no ads or tracking. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Android` `HarmonyOS` · `Free`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

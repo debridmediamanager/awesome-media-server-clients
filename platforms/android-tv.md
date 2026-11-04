@@ -2,7 +2,7 @@
 
 # Android TV
 
-Every app in this list that runs on Android TV. That is 215 apps with 66 for Plex and 159 for Jellyfin and 85 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android TV. That is 214 apps with 66 for Plex and 157 for Jellyfin and 85 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -23,7 +23,7 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [Allegedly](https://github.com/fanofsteel2013/allegedly-releases) - Client distributed as an installer. `Plex` · `Windows` `Android TV` `Fire TV` · `Open source`
 - [Ambient TV](https://github.com/seinist/ambient-tv) - Android TV and phone client that also reaches TVHeadend and DLNA sources. `Plex` `Jellyfin` `Emby` · `Android` `Android TV` `Android Auto` · `CC0-1.0` `Free` `Beta`
 - [AndroidTV-FireTV](https://github.com/TSK-Entertainment/AndroidTV-FireTV) - Android TV and Fire TV client. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
-- [Android TV Plus](https://github.com/maybe-maeb/jellyfin-androidtv-plus) - Android TV client forked from the official Jellyfin Android TV app. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [Android TV Plus](https://github.com/maybe-maeb/jellyfin-androidtv-plus) - Android TV client forked from the official Jellyfin Android TV app. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [Android-TV-VHS-Video-Player](https://github.com/tonypeters/Android-TV-VHS-Video-Player) - Android TV Plex player with a VHS-style look. `Plex` · `Android TV` · `Apache-2.0` `Free`
 - [Anemone](https://github.com/DylanDuff/anemone) - Jellyfin client for iPhone, Android and Android TV; the Apple TV app is still in progress. `Jellyfin` · `Android` `iOS` `Android TV` · `Open source` `Free`
 - [Angelplayer](https://github.com/Sanbuge777/Angelplayer-Releases) - Emby client for Android TV with its own playback core; release builds only. `Emby` · `Android TV`
@@ -66,7 +66,7 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [EzPzTV](https://github.com/Xaque8787/ezpztv-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [FamilyFlix](https://github.com/sjdigitall-maker/FamilyFlix) - Customised Android TV client for a private Jellyfin server. `Jellyfin` · `Android TV` · `Open source` `Free`
 - [Fathom](https://github.com/TraceApps/fathom) - Desktop client with a built-in YouTube player and Seerr requests. `Jellyfin` · `Windows` `Linux` `Android` `Android TV` `Android Auto` · `AGPL-3.0`
-- [fengymi/jellyfin-androidtv](https://github.com/fengymi/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [fengymi/jellyfin-androidtv](https://github.com/fengymi/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [Firefin](https://github.com/ZepiGit/Firefin) - Native 32-bit Kotlin client for older Fire TV devices. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [firetv-jellyfin-client](https://github.com/RT993/firetv-jellyfin-client) - Lightweight client for old Fire Stick devices. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
@@ -93,12 +93,11 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [JellyCast](https://github.com/JellyCast/jellycast-androidtv) - Android TV app from the JellyCast project. `Jellyfin` · `iOS` `iPadOS` `Android TV` `webOS` · `MIT` `Free` · [Source](https://github.com/JellyCast/jellycast-ios) · [Source 2](https://github.com/JellyCast/jellycast-lgtv)
 - [JellyCast-Dev](https://github.com/Jordigb44/JellyCast-Dev) - Android client forked from Findroid. `Jellyfin` · `Android` `Android TV` · `GPL-3.0` `Free` `Stale 2025`
 - [JellyCine](https://github.com/sureshfizzy/JellyCine) - Android video client. `Jellyfin` `Emby` · `Android` `Android TV` · `GPL-3.0` · [Google Play](https://play.google.com/store/apps/details?id=com.jellycine.app)
-- [JellyDV](https://github.com/skipydg/jellydv-androidtv) - Android TV client adapted for Dolby Vision playback. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
-- [jellyfin-androidtv-danmaku](https://github.com/sp960817/jellyfin-androidtv-danmaku) - Android TV client that overlays scrolling danmaku comments on video. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [JellyDV](https://github.com/skipydg/jellydv-androidtv) - Android TV client adapted for Dolby Vision playback. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [jellyfin-androidtv-danmaku](https://github.com/sp960817/jellyfin-androidtv-danmaku) - Android TV client that overlays scrolling danmaku comments on video. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [jellyfin-androidtv-ip4p](https://github.com/firexbox/jellyfin-androidtv-ip4p) - Android TV client with built-in IP4P NAT traversal. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [Jellyfin-Broadcast](https://github.com/NeoRed-domo/Jellyfin-Broadcast) - Lightweight Android client for TV streaming. `Jellyfin` · `Android` `Android TV` · `GPL-3.0` `Free`
 - [jellyfin-client-avalonia](https://github.com/crobibero/jellyfin-client-avalonia) - Avalonia desktop Jellyfin client written by a Jellyfin core developer. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` `Fire TV` · `GPL-3.0` `Free`
-- [Jellyfin KitKat](https://gitee.com/moto1717/jellyfin-kitkat) - Lightweight client for Android 4.4 boxes that direct-plays and falls back to server HLS transcoding. `Jellyfin` · `Android` `Android TV` · `MulanPSL-2.0`
 - [jellyfin-pro-fire-tv](https://github.com/man1710/jellyfin-pro-fire-tv) - Fire TV app that reproduces a custom Jellyfin web interface. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`
 - [jellyfin-tvbox](https://github.com/zdl1982/jellyfin-tvbox) - Client for old Android 4 TV boxes. `Jellyfin` · `Android TV` · `Open source` `Free`
 - [JellyKidsTV](https://github.com/dahool/JellyKidsTV) - Kids-focused Android TV client. `Jellyfin` · `Android TV` · `Open source` `Free` `Stale 2025`
@@ -106,7 +105,7 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [JellyPlayer (qiuleidee)](https://github.com/qiuleidee/JellyPlayer) - Jellyfin web client with an Infuse-inspired design. `Jellyfin` · `Web` `Android TV` · `Open source` `Free`
 - [JellyShell](https://github.com/DmytroKhrishu/jellyshell) - TV-first Jellyfin client for Xbox, Android TV and phones. `Jellyfin` · `Android` `Android TV` `Xbox` · `GPL-3.0` `Free`
 - [JellyStack](https://github.com/Darkatek7/jellystack) - Android client with built-in Seerr requests, built with Kotlin Multiplatform. `Jellyfin` · `Android` `Android TV` `Fire TV` · `GPL-3.0` `Free` · [Website](https://jellystack.org) · [Google Play](https://play.google.com/store/apps/details?id=app.jellystack.mobile)
-- [Jellytip](https://github.com/ricki2828/jellytip) - TV client forked from Wholphin. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [Jellytip](https://github.com/ricki2828/jellytip) - TV client forked from Wholphin. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [JellyWatch](https://jellywatch.app/player) - Android TV and Fire TV client with Live TV and server admin. `Jellyfin` `Emby` · `Android` `Android TV` `Fire TV` `Android Auto` · [Google Play](https://play.google.com/store/apps/details?id=com.jellywatch.tv)
 - [JSync](https://github.com/thecomputer07/jsync) - Player for iPhone, iPad, Android and Android TV that keeps viewers in sync. `Jellyfin` · `Android` `iOS` `iPadOS` `Android TV` · `MIT` `Free`
 - [K3ntas/vlc-jellyfin](https://github.com/K3ntas/vlc-jellyfin) - Android TV client with a streaming-app style interface and libVLC playback. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
@@ -132,6 +131,7 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [MuseVu](https://musevu.com) - TV-first video client with phone and tablet builds. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.thefuturecoderx.musevu) · [Amazon](https://www.amazon.com/dp/B0HG8GPR6Z)
 - [MyFlix (theimmortal68)](https://github.com/theimmortal68/myflix-wholphin) - Customised build of the Wholphin Android TV client. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
 - [MyPlexPlayer](https://github.com/biskyt/MyPlexPlayer) - Client for Android TV, Fire TV and phones. `Plex` · `Android` `Android TV` `Fire TV` · `GPL-3.0`
+- [nasvideoplayer](https://gitee.com/shruihu/nasvideoplayer) - Kotlin NAS video player for Android phones and TVs that browses and plays an Emby library. `Emby` · `Android` `Android TV` · `Open source`
 - [NetEase Popcorn](https://bmh.163.com/) - Player for cloud drives, NAS, WebDAV, SMB, Emby and Jellyfin that matches posters into a personal library. `Jellyfin` `Emby` `+fnOS` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` · `Free` · [App Store](https://apps.apple.com/us/app/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1-%E6%99%BA%E8%83%BD%E5%AA%92%E4%BD%93%E5%BA%93-%E5%85%A8%E8%83%BD%E4%BA%91%E7%9B%98-%E7%BD%91%E7%9B%98%E6%92%AD%E6%94%BE%E5%99%A8/id6553989480) · [App Store 2](https://apps.apple.com/app/id6480252695)
 - [Nevu](https://github.com/Ipmake/NevuForPlex) - Redesigned web interface for Plex built on the Plex Media Server API. `Plex` · `Web` `Android` `Android TV` · `GPL-3.0` `Free`
 - [Nex](https://github.com/mattGUK97/nex-releases) - Windows and Android TV client, with a self-hosted web client for Plex. `Plex` `Jellyfin` · `Windows` `Web` `Android TV`
@@ -191,7 +191,6 @@ Every app in this list that runs on Android TV. That is 215 apps with 66 for Ple
 - [Viora](https://github.com/RoaycL/Viora) - Player that gathers Emby and Jellyfin libraries in one app. `Jellyfin` `Emby` · `Windows` `Android` `Android TV` · `Open source` `Free`
 - [Visink](https://github.com/skymei/VisInkAndroidTVRelease) - Free Android TV client distributed as ready-made releases only. `Emby` · `Android TV` · `Free`
 - [VlcJellyfin](https://github.com/sifacaii/VlcJellyfin) - VLC-based Android TV client for old Android 4.2+ devices; replaced by VlcXWJellyfin. `Jellyfin` `Emby` · `Android TV` · `Open source` `Free` `Stale 2025`
-- [VlcXWJellyfin](https://github.com/sifacaii/VlcXWJellyfin) - VLC-based Android TV client, the successor to VlcJellyfin. `Jellyfin` `Emby` · `Android` `Android TV` · `Open source` `Free` `Stale 2025`
 - [Void](https://github.com/hritwikjohri/Void-for-jellyfin) - Client for Android phones and Android TV. `Jellyfin` · `Android` `Android TV` · `GPL-3.0`
 - [VoidTV for Jellyfin](https://github.com/hritwikjohri/VoidTV-for-jellyfin) - Android TV client with ExoPlayer and mpv playback engines. `Jellyfin` · `Android TV` `Fire TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=com.hritwik.avoid)
 - [Vupl](https://vupl.stream/) - Video client with Watch Together sessions. `Plex` `Jellyfin` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Xbox` `visionOS` · `Free` · [App Store](https://apps.apple.com/app/id6811736454) · [Microsoft Store](https://apps.microsoft.com/detail/9ns56d9hqn2w)

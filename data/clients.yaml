@@ -153,7 +153,7 @@
   url: https://github.com/acedgold/jellyclient
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -276,6 +276,7 @@
 - name: AFinity
   url: https://github.com/MakD/AFinity
   servers: [jellyfin]
+  also: [audiobookshelf]
   official: false
   platforms: [android]
   category: player
@@ -562,7 +563,7 @@
   url: https://github.com/filipefilardi/altcast
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, macos]
   category: player
   media: [video]
   open_source: true
@@ -620,10 +621,10 @@
   url: https://apps.apple.com/us/app/amcfy-music-navidrome-client/id6758010612
   links:
     repo: https://github.com/amcfy-music/amcfy-music
-  servers: [jellyfin, emby]
+  servers: [plex, jellyfin, emby]
   also: [subsonic, fnos, webdav, other]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, android, android-tv, macos, windows]
   category: music
   media: [music]
   open_source: false
@@ -754,7 +755,7 @@
   url: https://github.com/brdunn/Amplify
   servers: [plex]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -811,7 +812,7 @@
   url: https://github.com/TannerHolm/AndroidAudioBook
   servers: [plex]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: audiobooks
   media: [audiobooks]
   open_source: true
@@ -842,7 +843,7 @@
   url: https://github.com/maybe-maeb/jellyfin-androidtv-plus
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -872,14 +873,14 @@
   url: https://github.com/DylanDuff/anemone
   servers: [jellyfin]
   official: false
-  platforms: [ios, android, android-tv, tvos]
+  platforms: [ios, android, android-tv]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Jellyfin client for iPhone, Android, Android TV and Apple TV.
+  description: Jellyfin client for iPhone, Android and Android TV; the Apple TV app is still in progress.
   notes: dylanduff's Anemone; not revanthv11/Anemone.
   long_tail: true
   distinct: true
@@ -919,7 +920,7 @@
   url: https://github.com/m00nie/angleramp
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, carplay]
+  platforms: [android, ios, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -1030,14 +1031,14 @@
   url: https://github.com/visageeee/apistat-music-player
   servers: [plex]
   official: false
-  platforms: [linux]
+  platforms: [linux, macos, windows]
   category: music
   media: [music]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Native GTK music player for Plex on Linux.
+  description: Native GTK music player for Plex.
   notes: Latest release is a draft.
 
 - name: A Playa Named Gus
@@ -1070,17 +1071,17 @@
 
 - name: Apotheosis
   url: https://github.com/peewee5/apotheosis-public
-  servers: [emby]
+  servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video, live-tv]
   open_source: false
   status: active
   status_year: 2026
   aliases: [apotheosis-public]
-  description: iOS client; this repository only tracks issues, the app itself is closed source.
+  description: iPhone, iPad and Apple TV client; this repository only tracks issues, the app itself is closed source.
   notes: Public issue tracker for a closed-source app.
   long_tail: true
 
@@ -1301,7 +1302,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, other]
   official: false
-  platforms: [android-tv, android, web]
+  platforms: [android-tv, android, web, fire-tv]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -1668,7 +1669,7 @@
   servers: [plex, jellyfin]
   also: [subsonic, local]
   official: false
-  platforms: [android, windows, linux]
+  platforms: [android, windows, linux, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -1873,7 +1874,7 @@
 
 - name: BackseatFin
   url: https://github.com/jiaton/backseatfin
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [web, tesla]
   category: player
@@ -1883,7 +1884,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Emby client that runs in a car's web browser.
+  description: Client that runs in a car's web browser, even while the car is moving.
 
 - name: Bandit Media Player
   url: https://apps.apple.com/us/app/bandit-media-player/id6792535052
@@ -1918,10 +1919,10 @@
 
 - name: Beacon
   url: https://github.com/mihaitom/beacon
-  servers: [jellyfin]
+  servers: [plex, jellyfin]
   also: [subsonic]
   official: false
-  platforms: [web]
+  platforms: [web, windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -1929,7 +1930,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Self-hosted web music client with casting.
+  description: Self-hosted web and desktop music client with casting.
 
 - name: BeamOS
   url: https://testflight.apple.com/join/h7VmeSqz
@@ -2139,7 +2140,7 @@
   url: https://github.com/crowquillx/Bloom
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -2630,7 +2631,7 @@
   url: https://github.com/callephi/callephiin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -2941,7 +2942,7 @@
   url: https://github.com/Cha0s1nc/Cascade-Project
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [windows, macos, linux, ios, tvos]
   category: player
   media: [video, music]
   open_source: true
@@ -2976,7 +2977,7 @@
   servers: [jellyfin]
   also: [subsonic, local]
   official: false
-  platforms: [android, windows, macos, linux]
+  platforms: [android, windows, macos, linux, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -3021,7 +3022,7 @@
   url: https://github.com/coderastic/Catfyn
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -3284,7 +3285,7 @@
     play: https://play.google.com/store/apps/details?id=io.github.mattpvaughn.chronicle
   servers: [plex]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: audiobooks
   media: [audiobooks]
   open_source: true
@@ -3318,7 +3319,7 @@
   url: https://github.com/JenteJan/Chudder
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -3332,7 +3333,7 @@
   url: https://github.com/camcast3/cindara
   servers: [jellyfin]
   official: false
-  platforms: [windows, xbox]
+  platforms: [windows, xbox, linux, macos]
   category: player
   media: [video]
   open_source: true
@@ -3340,7 +3341,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Native client for Windows desktop and Xbox.
+  description: Native couch-first client for Linux, Windows, macOS and Xbox.
   long_tail: true
 
 - name: Cine
@@ -3598,8 +3599,8 @@
 
 - name: cliamp
   url: https://github.com/bjarneo/cliamp
-  servers: [plex]
-  also: [other]
+  servers: [plex, jellyfin, emby]
+  also: [other, subsonic, audiobookshelf]
   official: false
   platforms: [cli]
   category: music
@@ -3628,7 +3629,7 @@
   url: https://github.com/Happyzippy/clipfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
@@ -4361,7 +4362,7 @@
   url: https://github.com/hanshengcc/dengying-player
   servers: [jellyfin, emby]
   official: false
-  platforms: [android, android-tv, ios]
+  platforms: [android, android-tv, ios, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -4436,9 +4437,9 @@
     site: https://www.discophile.app/
     aur: https://aur.archlinux.org/packages/discophile-bin
   servers: [jellyfin]
-  also: [subsonic]
+  also: [subsonic, audiobookshelf]
   official: false
-  platforms: [windows, macos, linux, web]
+  platforms: [windows, macos, linux, web, android, ios]
   category: music
   media: [music]
   open_source: true
@@ -4530,7 +4531,7 @@
   url: https://github.com/jackra1n/Dooplex
   servers: [plex]
   official: false
-  platforms: [other-tv]
+  platforms: [other-tv, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -4561,6 +4562,7 @@
 - name: dotamp
   url: https://github.com/brady1408/dotamp
   servers: [plex]
+  also: [subsonic]
   official: false
   platforms: [cli]
   category: music
@@ -4636,7 +4638,7 @@
   servers: [jellyfin, emby]
   also: [local, smb, webdav, dlna]
   official: false
-  platforms: [ios, ipados, android, android-tv]
+  platforms: [ios, ipados, android, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: false
@@ -5063,7 +5065,7 @@
 
 - name: Embience
   url: https://github.com/mps233/Embience
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [web]
   category: player
@@ -5071,7 +5073,7 @@
   open_source: true
   status: active
   status_year: 2026
-  description: Alternative web interface for Emby.
+  description: Alternative web interface with danmaku comments.
   long_tail: true
 
 - name: EmBook
@@ -5114,7 +5116,7 @@
 
 - name: Emby5
   url: https://github.com/bornaradusin/Emby5
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [ps5]
   category: player
@@ -5235,7 +5237,7 @@
   url: https://github.com/SideFx/EmbyDesk
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -5644,7 +5646,7 @@
   url: https://github.com/stqfdyr/embymini
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -5657,14 +5659,14 @@
   url: https://github.com/jsdfhasuh/emby_my_client
   servers: [emby]
   official: false
-  platforms: [android]
+  platforms: [android, ios]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Android client with a focused feature set.
+  description: Android and iOS client with a focused feature set.
 
 - name: EmbyPlayer (LKyoona)
   url: https://github.com/LKyoona/EmbyPlayer
@@ -5843,7 +5845,7 @@
   url: https://github.com/1525745393/EmbyTok-Flutter
   servers: [emby]
   official: false
-  platforms: [web]
+  platforms: [web, android]
   category: player
   media: [video]
   open_source: true
@@ -6030,9 +6032,9 @@
 
 - name: EmbyX
   url: https://github.com/juneix/EmbyX
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
-  platforms: [web]
+  platforms: [web, android]
   category: player
   media: [video]
   open_source: true
@@ -6227,9 +6229,9 @@
 - name: Entryway
   url: https://github.com/YuSheng-Jack/Entryway_Release
   servers: [plex, jellyfin, emby]
-  also: [fnos, iptv, cloud]
+  also: [fnos, iptv, cloud, subsonic]
   official: false
-  platforms: [android, android-tv, windows]
+  platforms: [android, android-tv]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -6322,7 +6324,7 @@
   url: https://github.com/Expuz66/extify
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, android-auto, carplay]
   category: music
   media: [music]
   open_source: true
@@ -6336,7 +6338,7 @@
   url: https://github.com/Xaque8787/ezpztv-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -6369,20 +6371,20 @@
   url: https://github.com/sjdigitall-maker/FamilyFlix
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Desktop Jellyfin client.
+  description: Customised Android TV client for a private Jellyfin server.
 
 - name: Faraday
   url: https://github.com/sadgen/jellyfin-faraday
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
@@ -6391,7 +6393,7 @@
   status: active
   status_year: 2026
   aliases: [jellyfin-faraday]
-  description: Lightweight desktop Jellyfin client.
+  description: Lightweight React web client with floating random-playback windows.
   notes: Source description is terse ('lightweight random kanban client').
   long_tail: true
 
@@ -6523,7 +6525,7 @@
   url: https://github.com/fengymi/jellyfin-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -6619,7 +6621,7 @@
     appstore: https://apps.apple.com/us/app/finamp/id1574922594
   servers: [jellyfin]
   official: false
-  platforms: [ios, android, carplay, ipados, android-auto, windows, linux]
+  platforms: [ios, android, carplay, ipados, android-auto, windows, linux, macos]
   category: music
   media: [music]
   open_source: true
@@ -6668,15 +6670,15 @@
   url: https://github.com/Bananz0/Fincord
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
+  platforms: [android]
+  category: music
+  media: [music]
   open_source: true
   license: GPL-3.0
   price: free
-  status: active
+  status: discontinued
   status_year: 2026
-  description: Jellyfin client built on the Accord codebase.
+  description: Android music player forked from Accord with Jellyfin streaming, shipped only as debug builds before it was deprecated.
   notes: Fork of v3ndable/Accord.
 
 - name: Findroid
@@ -6743,7 +6745,7 @@
   url: https://github.com/hjourdain-ryvr/finlightning
   servers: [jellyfin]
   official: false
-  platforms: [other-tv]
+  platforms: [other-tv, tizen]
   category: player
   media: [video]
   open_source: true
@@ -6917,7 +6919,7 @@
 
 - name: FinVideo
   url: https://github.com/OHPG/FinVideo
-  servers: [jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [harmonyos]
   category: player
@@ -7045,7 +7047,7 @@
   url: https://github.com/KalasKonrad/Fjord
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -7211,7 +7213,7 @@
   url: https://github.com/Flixorui/flixor
   servers: [plex]
   official: false
-  platforms: [web, macos, ios, android]
+  platforms: [web, macos, ios, android, tvos]
   category: player
   media: [video]
   open_source: true
@@ -7330,7 +7332,7 @@
   servers: [jellyfin, emby]
   also: [webdav, smb]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -7345,7 +7347,7 @@
   url: https://github.com/stainlesteel/Flutterfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, linux]
   category: player
   media: [video]
   open_source: true
@@ -7436,14 +7438,14 @@
   url: https://github.com/sanjjayrj/foliofin
   servers: [jellyfin]
   official: false
-  platforms: [linux]
+  platforms: [linux, macos, windows]
   category: books
   media: [books]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Book reader for Linux.
+  description: Desktop book reader for Linux, macOS and Windows.
   long_tail: true
 
 - name: Forward
@@ -7569,7 +7571,7 @@
   url: https://github.com/lopiv2/fynitiv
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, linux, windows]
   category: player
   media: [video]
   open_source: true
@@ -7615,7 +7617,7 @@
   url: https://github.com/ManiProjs/gelatin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -7846,8 +7848,8 @@
 
 - name: Glide
   url: https://github.com/sssnto/Glide
-  servers: [jellyfin]
-  also: [webdav]
+  servers: [jellyfin, emby]
+  also: [webdav, smb]
   official: false
   platforms: [ios, ipados]
   category: player
@@ -7856,7 +7858,7 @@
   price: free
   status: active
   status_year: 2026
-  description: iPhone and iPad player for Jellyfin and WebDAV sources.
+  description: iPhone and iPad player for server, NAS SMB/WebDAV and local videos.
   long_tail: true
 
 - name: Glimpse Media Viewer
@@ -7908,7 +7910,7 @@
   servers: [plex, jellyfin, emby]
   also: [stremio]
   official: false
-  platforms: [switch, ps-vita, ps4, windows, macos, linux]
+  platforms: [switch, ps-vita, ps4, windows, macos, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -8058,15 +8060,14 @@
   url: https://github.com/bjh021149/gvpv3
   servers: [emby]
   official: false
-  platforms: [android, ios]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
   price: free
-  status: active
+  status: beta
   status_year: 2026
-  description: Flutter video player.
-  notes: Flutter; platforms not named, assumed Android and iOS.
+  description: Flutter Emby client; only the experimental web build works so far, mobile and desktop builds are planned.
   long_tail: true
 
 - name: Hacksawdio
@@ -8203,7 +8204,7 @@
 
 - name: Harrik Player
   url: https://github.com/harriks/harrik-player
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [android-tv]
   category: player
@@ -8280,7 +8281,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [web]
+  platforms: [web, android, linux, windows]
   category: music
   media: [music]
   open_source: true
@@ -8322,7 +8323,7 @@
   url: https://github.com/bybrooklyn/Hestia
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -8337,7 +8338,7 @@
   url: https://github.com/NickHemeryckeHevan/Hevyfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [linux, android, android-tv, web]
   category: player
   media: [video]
   open_source: true
@@ -8351,7 +8352,7 @@
   url: https://github.com/andrew-meis/hex-music-player
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -8424,6 +8425,7 @@
 - name: HifiMule
   url: https://github.com/HifiMule/HifiMule
   servers: [jellyfin]
+  also: [subsonic, audiobookshelf]
   official: false
   platforms: [windows, macos, linux]
   category: admin
@@ -8455,7 +8457,7 @@
   url: https://github.com/JzeroM/himi-syncwatch
   servers: [emby]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, android-tv, harmonyos]
   category: player
   media: [video]
   open_source: true
@@ -8523,7 +8525,7 @@
   servers: [plex]
   also: [subsonic, streaming-services, iptv]
   official: false
-  platforms: [web]
+  platforms: [web, android-tv]
   category: player
   media: [video, music, live-tv]
   open_source: true
@@ -8536,7 +8538,7 @@
 
 - name: Home Cinema Control
   url: https://github.com/tousled/home-cinema-control
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [other-device]
   category: shim
@@ -8656,7 +8658,7 @@
   servers: [jellyfin]
   also: [streaming-services]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -8899,7 +8901,7 @@
   url: https://github.com/intro-skipper/jellyfin-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -8991,14 +8993,14 @@
   url: https://github.com/faulander/Jailfin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Small personal desktop Jellyfin client.
+  description: Personal browser and PWA client tuned for landscape tablets, with a hideable Next Up list.
   long_tail: true
 
 - name: Jamfin
@@ -9698,7 +9700,7 @@
   url: https://github.com/Jordigb44/JellyCast-Dev
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -9759,7 +9761,7 @@
   url: https://github.com/sureshfizzy/JellyCine
   servers: [jellyfin, emby]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -9788,7 +9790,7 @@
   url: https://github.com/tryffel/jellycli
   links:
     aur: https://aur.archlinux.org/packages/jellycli
-  servers: [jellyfin]
+  servers: [jellyfin, emby]
   also: [subsonic]
   official: false
   platforms: [cli]
@@ -9835,7 +9837,7 @@
   url: https://github.com/depeter/jellycouch
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -9878,7 +9880,7 @@
   url: https://github.com/JellyDesk/JellyDesk-archiv
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [macos, ios, android, android-tv, linux]
   category: player
   media: [video]
   open_source: true
@@ -9887,7 +9889,7 @@
   status: discontinued
   status_year: 2025
   aliases: [JellyDesk-archiv]
-  description: Archived desktop Jellyfin client; a new version has been announced.
+  description: Archived cross-platform Jellyfin client; a new version has been announced.
   notes: Archive repo; a new version was announced.
   long_tail: true
 
@@ -9955,14 +9957,14 @@
   url: https://github.com/chrisharrington/jellydroid
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, ios]
   category: player
   media: [video]
   open_source: true
   price: free
   status: stale
   status_year: 2025
-  description: Android client.
+  description: React Native client for Android and iOS.
   notes: chrisharrington/jellydroid; not the same app as charlie-niekirk/JellyDroid.
   long_tail: true
   distinct: true
@@ -9971,7 +9973,7 @@
   url: https://github.com/skipydg/jellydv-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -10143,7 +10145,7 @@
   url: https://github.com/sp960817/jellyfin-androidtv-danmaku
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -10305,14 +10307,14 @@
   url: https://github.com/ujvarigergo1/jellyfin-client-uwp
   servers: [jellyfin]
   official: false
-  platforms: [windows]
+  platforms: [windows, xbox]
   category: player
   media: [video]
   open_source: true
   price: free
   status: stale
   status_year: 2024
-  description: UWP client for Windows.
+  description: UWP client for Windows and Xbox.
 
 - name: jellyfin-cli (green)
   url: https://git.gay/green/jellyfin-cli
@@ -10390,7 +10392,7 @@
   url: https://github.com/DevLn737/jellyfin-desktop-next
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -11139,7 +11141,7 @@
   url: https://github.com/man1710/jellyfin-pro-fire-tv
   servers: [jellyfin]
   official: false
-  platforms: [fire-tv]
+  platforms: [fire-tv, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -11381,10 +11383,10 @@
   media: [video]
   open_source: true
   license: MIT
-  status: active
+  status: discontinued
   status_year: 2026
   aliases: [jellyfin-tui]
-  description: Rust terminal client.
+  description: Rust terminal client; the repository became a Navidrome client in 2026, v0.5.1 is the last Jellyfin build.
   notes: Distinct from dhonus/jellyfin-tui.
 
 - name: jellyfin-tvbox
@@ -11670,7 +11672,7 @@
   url: https://github.com/Jellyfish-Client/Mobile-Desktop
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, macos, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -11685,7 +11687,7 @@
   url: https://github.com/RED0XI/Jellyflex
   servers: [jellyfin]
   official: false
-  platforms: [windows]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -11693,7 +11695,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Windows client built with Flutter and mpv.
+  description: Windows and macOS client built with Flutter and mpv.
 
 - name: Jellyflix (6xingyv)
   url: https://github.com/6xingyv/jellyflix
@@ -11768,7 +11770,7 @@
   url: https://github.com/Thomas-Sohier/jellyflut
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, linux, windows]
   category: player
   media: [video]
   open_source: true
@@ -11796,7 +11798,7 @@
   url: https://github.com/OverGlass/jellyfuse-rn-legacy
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [ios]
   category: player
   media: [video]
   open_source: true
@@ -11987,7 +11989,7 @@
   url: https://github.com/BadBagger/jellymix
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -12017,7 +12019,7 @@
   url: https://github.com/Stannnnn/jelly-app
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -12026,7 +12028,7 @@
   status: active
   status_year: 2026
   aliases: [jelly-app]
-  description: Web music player.
+  description: Web music player with desktop builds.
 
 - name: jellymusic-legacy
   url: https://github.com/DerAustistYT/jellymusic-legacy
@@ -12117,24 +12119,24 @@
 
 - name: JellyPilot
   url: https://github.com/hewel/jellypilot
-  servers: [jellyfin]
+  servers: [jellyfin, emby]
   official: false
   platforms: [windows, linux, macos]
-  category: shim
+  category: player
   media: [video]
   open_source: true
   license: MIT
   status: active
   status_year: 2026
   aliases: [jmsr, pigfun.jmsr]
-  description: Cast receiver that controls an external mpv player.
+  description: Native Rust desktop client with embedded mpv playback that also works as a cast receiver.
   notes: Formerly jmsr (winget id pigfun.jmsr); github.com/hewel/jmsr redirects here.
 
 - name: Jellyplay
   url: https://github.com/raulshma/jellyplay
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv, fire-tv]
+  platforms: [android, android-tv, fire-tv, windows]
   category: player
   media: [video]
   open_source: true
@@ -12359,7 +12361,7 @@
   url: https://github.com/lineargraph/JellyShoal
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -12391,7 +12393,7 @@
     repo: https://github.com/AadiSPrabs/JellySpot-Web
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, android]
   category: music
   media: [music]
   open_source: true
@@ -12587,7 +12589,7 @@
   url: https://github.com/ricki2828/jellytip
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -12623,7 +12625,7 @@
   url: https://github.com/Mars160/jellytok
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
@@ -12802,7 +12804,7 @@
   url: https://github.com/Stannnnn/jelly-video-app
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, windows]
   category: player
   media: [video]
   open_source: true
@@ -12961,7 +12963,7 @@
   url: https://github.com/Cuteminded/JellyXR
   servers: [jellyfin]
   official: false
-  platforms: [quest, other-device]
+  platforms: [quest, other-device, pc-vr]
   category: player
   media: [video]
   open_source: true
@@ -13007,7 +13009,7 @@
   url: https://github.com/obiwanconobi/jel-music-app
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, windows, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -13035,7 +13037,7 @@
 
 - name: Jeva
   url: https://github.com/tearerry/Jeva
-  servers: [jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [windows]
   category: player
@@ -13299,7 +13301,7 @@
   url: https://github.com/thecomputer07/jsync
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, android]
+  platforms: [ios, ipados, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -13307,7 +13309,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Jellyfin player for iPhone, iPad and Android.
+  description: Player for iPhone, iPad, Android and Android TV that keeps viewers in sync.
   long_tail: true
 
 - name: JTplayer
@@ -13420,7 +13422,7 @@
   url: https://github.com/KartulUdus/Kartunes
   servers: [jellyfin, emby]
   official: false
-  platforms: [watchos, ios]
+  platforms: [watchos, ios, carplay]
   category: music
   media: [music]
   open_source: true
@@ -13510,7 +13512,7 @@
   url: https://github.com/t-seki/kikidame
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music, podcasts]
   open_source: true
@@ -13829,7 +13831,7 @@
   url: https://github.com/crunchy-in-milk/krispy
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -14101,6 +14103,7 @@
 - name: Lidifin
   url: https://github.com/jamzercise/lidifin
   servers: [jellyfin]
+  also: [audiobookshelf]
   official: false
   platforms: [web, android-tv]
   category: music
@@ -14454,7 +14457,7 @@
   url: https://github.com/NPCDW/loemby
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -14468,7 +14471,7 @@
   servers: [jellyfin]
   also: [local]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -14482,7 +14485,7 @@
   url: https://github.com/303inmyheart/Lowfin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -14695,7 +14698,7 @@
   url: https://github.com/Zafery-Cosmos/lumen-streaming
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -14703,7 +14706,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Native desktop Jellyfin client.
+  description: Native desktop client, with an Android build.
   notes: Not the other apps named Lumen.
 
 - name: Lumen TV
@@ -14725,7 +14728,7 @@
   url: https://github.com/portwhy/Luminary
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: true
@@ -14737,7 +14740,7 @@
 
 - name: Lumora
   url: https://github.com/LumoraPlayer/Lumora
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   also: [iptv, silo, stremio]
   official: false
   platforms: [android, android-tv, fire-tv]
@@ -14801,13 +14804,13 @@
   url: https://github.com/jagandeepbrar/lunasea
   servers: [plex]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, windows, macos, linux]
   category: admin
   media: [video]
   open_source: true
   status: discontinued
   status_year: 2025
-  description: Mobile controller for the *arr stack and Tautulli.
+  description: Controller for the *arr stack and Tautulli, for phones and desktops.
   notes: Archived April 2025. Plex via Tautulli.
 
 - name: LunaVideo
@@ -14882,7 +14885,7 @@
 
 - name: LuSound
   url: https://github.com/ion-lgb/lusound
-  servers: [jellyfin]
+  servers: [plex, jellyfin]
   also: [subsonic, local]
   official: false
   platforms: [android]
@@ -15233,7 +15236,7 @@
   url: https://github.com/kernastra/matinee
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -15310,7 +15313,7 @@
   url: https://github.com/Madmaxx636/MediaCenter-Jellyfin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -15353,8 +15356,8 @@
 
 - name: MediaHub
   url: https://github.com/fwzm/MediaHub
-  servers: [plex, jellyfin, emby]
-  also: [webdav]
+  servers: [emby]
+  also: [local]
   official: false
   platforms: [android]
   category: player
@@ -15362,7 +15365,7 @@
   open_source: true
   status: beta
   status_year: 2026
-  description: Compose-based Android player that combines media servers with NAS and WebDAV sources.
+  description: Compose-based Android player for Emby and local files; Jellyfin, Plex and WebDAV sources are planned.
   notes: Latest release is v0.1.0-alpha.1. Also reads NAS shares.
   distinct: true
 
@@ -15427,6 +15430,7 @@
 - name: MediaPi
   url: https://github.com/SEary342/mediapi
   servers: [jellyfin]
+  also: [audiobookshelf]
   official: false
   platforms: [linux]
   category: music
@@ -15443,7 +15447,7 @@
   url: https://github.com/SakuraLoveSmile/Media-Player
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, android]
   category: player
   media: [video]
   open_source: true
@@ -15527,7 +15531,7 @@
 
 - name: Medio
   url: https://github.com/blueone-6/medio
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [windows, android, android-tv]
   category: player
@@ -15588,7 +15592,7 @@
   url: https://github.com/Malinskiy/mellow
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -15648,7 +15652,7 @@
 
 - name: MeowFlixEmby
   url: https://github.com/EasyTidy/MeowFlixEmby
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [windows, macos, linux]
   category: shim
@@ -15657,7 +15661,7 @@
   license: MIT
   status: active
   status_year: 2026
-  description: External-player launcher for Emby.
+  description: External-player launcher for the Emby and Jellyfin web apps.
 
 - name: Mercury Player
   url: https://apps.apple.com/hk/app/mercury-player/id6811932858
@@ -15704,7 +15708,7 @@
   url: https://github.com/abcming/MfPlayer
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -15731,7 +15735,7 @@
   url: https://github.com/xhobx/MigFin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -15803,7 +15807,7 @@
   url: https://github.com/CodingFries/minimal_fin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -15968,7 +15972,7 @@
   url: https://github.com/mitchelljfranklin/mitch-jelly
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -16144,7 +16148,7 @@
   servers: [plex]
   also: [stremio, other]
   official: false
-  platforms: [android-tv, windows, macos, linux]
+  platforms: [android-tv, windows, macos, linux, ios]
   category: player
   media: [video]
   open_source: true
@@ -16342,7 +16346,7 @@
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
-  platforms: [ios, macos]
+  platforms: [ios, macos, android, linux, windows, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -16356,7 +16360,7 @@
   url: https://github.com/Kosette/mpv-handler
   servers: [emby]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows, linux, macos]
   category: shim
   media: [video]
   open_source: true
@@ -16515,7 +16519,8 @@
 
 - name: Museck
   url: https://github.com/Nezreka/Museck
-  servers: [plex]
+  servers: [plex, jellyfin, emby]
+  also: [subsonic]
   official: false
   platforms: [steam-deck]
   category: music
@@ -16563,6 +16568,7 @@
 - name: musica
   url: https://github.com/codila125/musica
   servers: [jellyfin]
+  also: [subsonic]
   official: false
   platforms: [cli]
   category: music
@@ -16714,7 +16720,7 @@
 
 - name: Muxi Player
   url: https://github.com/HectorGao/muxi-player
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [macos]
   category: player
@@ -16870,14 +16876,14 @@
   url: https://github.com/eater-altria/MyJellyfinClient
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Windows client built with Tauri, React and a native mpv player.
+  description: Windows and macOS client built with Tauri, React and a native mpv player.
 
 - name: My Media for Alexa
   url: https://mymediaalexa.com/home/mymedia_vs_plex
@@ -16898,14 +16904,14 @@
   url: https://github.com/biskyt/MyPlexPlayer
   servers: [plex]
   official: false
-  platforms: [android, fire-tv]
+  platforms: [android, fire-tv, android-tv]
   category: player
   media: [video]
   open_source: true
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Client for Android and Fire TV.
+  description: Client for Android TV, Fire TV and phones.
   notes: Hobby project.
 
 - name: N1ko Music
@@ -16913,7 +16919,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, ipados, windows, macos, linux]
+  platforms: [ios, ipados, windows, macos, linux, android]
   category: music
   media: [music]
   open_source: true
@@ -16921,7 +16927,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Music streaming app for iPhone, iPad and desktop libraries.
+  description: Music streaming app for phones, tablets and desktops.
   notes: Navidrome/Subsonic-first; Jellyfin and Emby also supported.
 
 - name: nahcon
@@ -16942,7 +16948,7 @@
   servers: [jellyfin]
   also: [subsonic, webdav, smb, local, streaming-services]
   official: false
-  platforms: [windows]
+  platforms: [windows, android, android-auto, wear-os]
   category: music
   media: [music, video]
   open_source: true
@@ -17376,7 +17382,7 @@
   url: https://github.com/Ipmake/NevuForPlex
   servers: [plex]
   official: false
-  platforms: [web, android]
+  platforms: [web, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -17407,14 +17413,14 @@
   url: https://github.com/mattGUK97/nex-releases
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows]
+  platforms: [windows, android-tv, web]
   category: player
   media: [video]
   open_source: null
   status: active
   status_year: 2026
   aliases: [nex-releases]
-  description: Windows-first desktop client.
+  description: Windows and Android TV client, with a self-hosted web client for Plex.
   notes: Small 2026 hobby project; repo name nex-releases suggests a release-only repo.
 
 - name: NexHub
@@ -17422,7 +17428,7 @@
   servers: [emby]
   also: [other]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, harmonyos, linux, macos, windows]
   category: player
   media: [video, books]
   open_source: true
@@ -17714,7 +17720,7 @@
   url: https://github.com/NonSpecific44/platter
   servers: [plex]
   official: false
-  platforms: [linux]
+  platforms: [linux, android]
   category: music
   media: [music]
   open_source: true
@@ -17722,7 +17728,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Plex music player for Linux.
+  description: Plex music player for Linux and Android.
 
 - name: Nook
   url: https://gitee.com/ksd678/nook
@@ -17902,7 +17908,7 @@
   servers: [jellyfin, emby]
   also: [stremio, silo]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -18016,7 +18022,7 @@
   url: https://github.com/1824239290/OcPlayer
   servers: [jellyfin, emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, macos]
   category: player
   media: [video]
   open_source: true
@@ -18454,7 +18460,7 @@
   url: https://github.com/jkrishna289/OrcaX
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -18547,7 +18553,7 @@
   url: https://github.com/gustavomgama/ownjelly
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -18908,7 +18914,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, other]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, ios, windows, macos, linux, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -19178,7 +19184,7 @@
   servers: [jellyfin, emby]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, visionos, ipados, watchos, carplay]
+  platforms: [ios, visionos, ipados, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: true
@@ -19191,7 +19197,8 @@
 
 - name: Platter
   url: https://github.com/Silvercyclops999/platter
-  servers: [plex]
+  servers: [plex, jellyfin]
+  also: [subsonic]
   official: false
   platforms: [windows, macos]
   category: music
@@ -19345,7 +19352,7 @@
 
 - name: playlink
   url: https://github.com/lulalulaluobo/playlink
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [web, windows, macos]
   category: shim
@@ -19353,7 +19360,7 @@
   open_source: true
   status: active
   status_year: 2026
-  description: External-player launcher for Emby.
+  description: Chrome extension that opens Emby and Jellyfin web playback in IINA or PotPlayer.
 
 - name: PlaylistTV
   url: https://apps.apple.com/us/app/playlisttv/id6804035471
@@ -19435,7 +19442,7 @@
   servers: [plex]
   also: [subsonic]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados, watchos, carplay]
   category: music
   media: [music]
   open_source: true
@@ -20109,14 +20116,14 @@
   url: https://github.com/nappa85/plexfreq
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [sailfish, linux]
   category: music
   media: [music]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Native Rust desktop music player positioned as an alternative to Plexamp.
+  description: Native Rust music player for Sailfish OS phones and the Linux desktop.
 
 - name: Plex-Gamified
   url: https://github.com/lordcrekit/Plex-Gamified
@@ -20199,14 +20206,14 @@
   url: https://github.com/serrebidev/Plexible
   servers: [plex]
   official: false
-  platforms: [windows]
+  platforms: [windows, linux, macos]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Windows Plex client designed for use with screen readers.
+  description: Plex client designed for screen readers, with Windows, macOS and Linux builds.
 
 - name: plexify
   url: https://github.com/bomer/plexify
@@ -20661,13 +20668,13 @@
   url: https://github.com/rickhall/plexora
   servers: [plex]
   official: false
-  platforms: [android-automotive]
+  platforms: [android-automotive, android, android-auto]
   category: player
   media: [video, music]
   open_source: true
   status: active
   status_year: 2026
-  description: Plex client for Android Automotive car systems.
+  description: Plex music client for Android Automotive cars, Android Auto and phones.
   long_tail: true
 
 - name: plex-outplayer-tamper
@@ -21081,7 +21088,7 @@
 
 - name: Plezo
   url: https://github.com/edrock200/plezo
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [android, ios]
   category: player
@@ -21122,7 +21129,7 @@
 
 - name: PlezyFold
   url: https://github.com/emersonCase/plezyFold
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [android]
   category: player
@@ -21137,7 +21144,7 @@
 
 - name: PlezyNG
   url: https://github.com/snapetech-org/PlezyNG
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [windows, macos, linux]
   category: player
@@ -21168,7 +21175,7 @@
 
 - name: plezy-webos
   url: https://github.com/GLNick/plezy-webos
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [webos]
   category: player
@@ -21245,7 +21252,7 @@
   url: https://github.com/Jman100/plix
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -21547,7 +21554,7 @@
 
 - name: Posterrama
   url: https://github.com/Posterrama/posterrama
-  servers: [plex]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [web]
   category: photos
@@ -21560,9 +21567,9 @@
 
 - name: PowerPlay
   url: https://github.com/The-Power-0/PowerPlay
-  servers: [plex, jellyfin]
+  servers: [plex]
   official: false
-  platforms: [android, ios]
+  platforms: [fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -21570,14 +21577,14 @@
   price: free
   status: active
   status_year: 2026
-  description: Plezy-derived client.
+  description: Plezy-derived Plex player for Fire TV sticks, with Home Assistant deep links.
   notes: fork of edde746/plezy.
 
 - name: Premflix
   url: https://github.com/IamThejus/PremFlix
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, android-tv, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -21850,7 +21857,7 @@
   links:
     flathub: https://flathub.org/apps/io.github.hypengw.Qcm
   servers: [jellyfin]
-  also: [streaming-services]
+  also: [streaming-services, subsonic]
   official: false
   platforms: [linux]
   category: music
@@ -22090,7 +22097,7 @@
   url: https://github.com/LuckiRakki/rakki
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, linux, windows]
   category: music
   media: [music]
   open_source: true
@@ -22098,7 +22105,7 @@
   price: free
   status: active
   status_year: 2026
-  description: iPhone music client with word-by-word synced lyrics.
+  description: Music client for iPhone and desktop with word-by-word synced lyrics.
   notes: Release tags are prefixed desktop-, so a desktop build probably exists too.
 
 - name: ramus
@@ -22325,7 +22332,7 @@
   url: https://github.com/cj-vana/reel-client
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos, macos, visionos]
+  platforms: [ios, ipados, tvos, macos, visionos, web, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -22334,7 +22341,7 @@
   status: active
   status_year: 2026
   aliases: [reel-client]
-  description: Client for iPhone, iPad, Apple TV, Mac and Vision Pro.
+  description: Client for Apple devices, the web and desktops, with experimental TV builds.
   notes: cj-vana/reel-client; not the GTK Reel (arsfeld/reel).
   long_tail: true
   distinct: true
@@ -22616,7 +22623,7 @@
   url: https://github.com/rknell/rewindamp
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -22768,7 +22775,7 @@
   url: https://github.com/l984-451/Rivulet
   links:
     testflight: https://testflight.apple.com/join/TcCsF5As
-  servers: [plex]
+  servers: [plex, jellyfin]
   also: [iptv]
   official: false
   platforms: [tvos]
@@ -22839,7 +22846,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, webdav, smb, local]
   official: false
-  platforms: [web]
+  platforms: [web, windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -22930,7 +22937,7 @@
     site: https://saga-app.no
   servers: [plex]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: audiobooks
   media: [audiobooks]
   open_source: true
@@ -23178,7 +23185,7 @@
 
 - name: seerrplay
   url: https://github.com/seerrplay-project/seerrplay
-  servers: [emby]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [android, android-tv, ios, macos, windows, tvos]
   category: player
@@ -23209,7 +23216,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [linux, windows, android, android-tv, ios, carplay]
+  platforms: [linux, windows, android, android-tv, ios, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -23477,7 +23484,7 @@
     repo: https://github.com/HucksleyNash/shrimphony
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, android]
+  platforms: [ios, ipados, android, carplay, android-auto]
   category: music
   media: [music]
   open_source: false
@@ -23492,7 +23499,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -23924,7 +23931,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows, linux, android]
   category: music
   media: [music]
   open_source: true
@@ -23932,7 +23939,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Windows and Linux music player for your own collection.
+  description: Music player for your own collection on Windows, Linux and Android.
 
 - name: Sonixd
   url: https://github.com/jeffvli/sonixd
@@ -23983,7 +23990,7 @@
 
 - name: Sonzra
   url: https://github.com/sonzra/sonzra
-  servers: [jellyfin]
+  servers: [plex, jellyfin]
   official: false
   platforms: [web]
   category: music
@@ -24092,7 +24099,7 @@
   url: https://github.com/Toomiiverse/spin-desktop
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -24739,7 +24746,7 @@
   url: https://github.com/sunfin-dev/sunfin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, android, ios, windows, macos, linux]
+  platforms: [android-tv, android, windows]
   category: player
   media: [video]
   open_source: true
@@ -25015,7 +25022,7 @@
   links:
     appstore: https://apps.apple.com/app/id6806824067
     play: https://play.google.com/store/apps/details?id=de.paulherter.swiftly
-  servers: [jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [ios, ipados, tvos, macos, android, android-tv, linux, windows]
   category: player
@@ -25062,7 +25069,8 @@
 
 - name: SwipePlay
   url: https://github.com/stan0312/SwipePlay
-  servers: [emby]
+  servers: [jellyfin, emby]
+  also: [smb, webdav]
   official: false
   platforms: [android, ios]
   category: player
@@ -25080,7 +25088,7 @@
   servers: [jellyfin]
   also: [webdav, ftp, other, local]
   official: false
-  platforms: [switch, ps4, ps-vita, windows, macos, linux, xbox]
+  platforms: [switch, ps4, ps-vita, windows, macos, linux, xbox, android]
   category: player
   media: [video]
   open_source: true
@@ -25162,7 +25170,7 @@
   url: https://github.com/SyncweApp/syncwe
   servers: [emby]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, ios, windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -25263,7 +25271,7 @@
   url: https://github.com/Scdouglas1999/Tally
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv, tizen, webos]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -25278,7 +25286,7 @@
   url: https://github.com/trans76544/Taluxa
   servers: [emby]
   official: false
-  platforms: [web, windows, macos, linux]
+  platforms: [web, windows]
   category: player
   media: [video]
   open_source: true
@@ -25303,8 +25311,8 @@
 
 - name: Tauon Music Box
   url: https://github.com/Taiko2k/Tauon
-  servers: [jellyfin]
-  also: [local]
+  servers: [plex, jellyfin]
+  also: [local, subsonic]
   official: false
   platforms: [windows, linux, macos]
   category: music
@@ -25475,7 +25483,7 @@
   url: https://github.com/majoseph25/tentacle
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android, android-tv, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -25492,7 +25500,7 @@
   url: https://github.com/Terminus-Media/jellyfin-media-player
   servers: [jellyfin]
   official: false
-  platforms: [macos, windows, ios, tvos, linux, android-tv]
+  platforms: [windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -25536,7 +25544,7 @@
     repo: https://github.com/chicring/Themby
   servers: [emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, android]
   category: player
   media: [video]
   open_source: false
@@ -25607,9 +25615,9 @@
 
 - name: Tigerest Theater
   url: https://github.com/Tigerest/Tigerest-Theater
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, android, ios, ipados, tvos]
   category: player
   media: [video]
   open_source: true
@@ -25617,7 +25625,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Desktop client with embedded mpv playback and danmaku comment overlay.
+  description: Client with embedded mpv playback and danmaku comments for desktop, Android, iPad and Apple TV.
 
 - name: Tilus
   url: https://apps.apple.com/us/app/tilus-media-player/id6761753229
@@ -25682,10 +25690,10 @@
 
 - name: TinyPlay
   url: https://github.com/YangHanqing/tinyplay
-  servers: [emby]
+  servers: [plex, jellyfin, emby]
   also: [iptv, other]
   official: false
-  platforms: [windows, macos]
+  platforms: [windows, macos, tvos]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -26110,7 +26118,7 @@
     repo: https://github.com/TobekSoft/TunerFishAndroid
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [linux]
   category: music
   media: [music]
   open_source: true
@@ -26158,7 +26166,7 @@
   url: https://github.com/Xelopteryx/Turtlefin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -26390,14 +26398,14 @@
   servers: [jellyfin, emby]
   also: [smb, webdav]
   official: false
-  platforms: [android]
+  platforms: [android, windows]
   category: player
   media: [video]
   open_source: true
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Android anime player with danmaku comments.
+  description: Anime player for Android and Windows with danmaku comments.
 
 - name: UTUVO Player Go
   url: https://apps.apple.com/tw/app/utuvo-player-go/id6803722484
@@ -26432,14 +26440,14 @@
   url: https://github.com/Jellyfin-PG/Vantage
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android, android-tv, windows]
   category: player
   media: [video]
   open_source: true
   price: free
   status: discontinued
   status_year: 2026
-  description: Flutter Jellyfin client for Android phones and Android TV.
+  description: Flutter client for Android phones, Android TV and Windows.
   notes: Described as a jellyemu client; archived.
 
 - name: Vanto
@@ -26477,7 +26485,7 @@
   url: https://github.com/Tvdc1998/vdc-tv
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -27017,7 +27025,7 @@
   url: https://github.com/RoaycL/Viora
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, android-tv]
+  platforms: [windows, android-tv, android]
   category: player
   media: [video]
   open_source: true
@@ -27243,7 +27251,7 @@
 - name: VoidCast
   url: https://github.com/ronnyporsch/Voidcast
   servers: [jellyfin]
-  also: [streaming-services]
+  also: [streaming-services, subsonic]
   official: false
   platforms: [android, linux, windows, macos, web]
   category: music
@@ -27380,7 +27388,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [ios, windows]
+  platforms: [ios, windows, android, linux, macos]
   category: music
   media: [music]
   open_source: true
@@ -27423,7 +27431,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android]
   category: music
   media: [music]
   open_source: true
@@ -27431,7 +27439,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Compose-built music player for phones and desktop.
+  description: Jetpack Compose music player for Android; iOS and desktop builds are planned.
   notes: Repo KolektivComputer/wake.
   long_tail: true
 
@@ -27456,7 +27464,7 @@
     repo:2: https://github.com/djmanri3/walkman-server
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, ios, web]
+  platforms: [android, ios, web, macos]
   category: music
   media: [music]
   open_source: true
@@ -27465,7 +27473,7 @@
   status: active
   status_year: 2026
   aliases: [walkman-server-android-app, walkman-server-apple-app]
-  description: Walkman-style Android music player.
+  description: Walkman-style music player for Android, iOS, Mac and the web.
   notes: Android build; Apple build is djmanri3/walkman-server-apple-app.
 
 - name: WalkmanX10
@@ -27725,7 +27733,7 @@
   url: https://github.com/JoeKer1/Wholphin-webOS
   servers: [jellyfin]
   official: false
-  platforms: [webos]
+  platforms: [webos, tizen, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -27733,21 +27741,23 @@
   price: free
   status: active
   status_year: 2026
-  description: LG webOS client inspired by the Wholphin Android TV app.
+  aliases: [Ember for Jellyfin]
+  description: 'Ember: LG webOS, Samsung Tizen and Fire TV client inspired by the Wholphin Android TV app.'
   notes: Inspired by Wholphin.
 
 - name: Wicaby
   url: https://github.com/WicaebethTheo/wicaby
   servers: [plex, jellyfin, emby]
+  also: [subsonic]
   official: false
-  platforms: [windows]
+  platforms: [windows, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Windows-first desktop client.
+  description: Windows-first client with Linux, Android and Android TV builds.
   notes: Small 2026 hobby project; Windows and more.
 
 - name: WiiFin
@@ -27872,7 +27882,7 @@
   servers: [jellyfin, emby]
   also: [fnos, cloud, local]
   official: false
-  platforms: [windows, macos]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: false
@@ -28126,7 +28136,7 @@
 
 - name: XYMusic
   url: https://github.com/xianyvbang/XyMusic
-  servers: [jellyfin, emby]
+  servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
   platforms: [android, windows]
@@ -28362,7 +28372,7 @@
   url: https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497
   links:
     repo: https://github.com/yuzicapp/yuzic
-  servers: [jellyfin]
+  servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
   platforms: [ios, ipados, android, web]
@@ -28507,7 +28517,7 @@
   url: https://github.com/Rezerox39/zmt
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -28551,7 +28561,7 @@
   url: https://github.com/zog-tech/zoggyfin
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, android, web, macos]
+  platforms: [ios, ipados, web, macos]
   category: player
   media: [video]
   open_source: true
@@ -28559,7 +28569,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Jellyfin client for iPhone, iPad, Android, web and Mac.
+  description: Client for iPhone, iPad, the web and Mac; Android is coming soon.
 
 - name: Zoom-Player-emby-jellyfin-client-plugin
   url: https://github.com/bLightZP/Zoom-Player-emby-jellyfin-client-plugin

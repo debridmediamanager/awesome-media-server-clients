@@ -39,7 +39,7 @@ Every app in this list that runs on visionOS. That is 34 apps with 24 for Plex a
 - [ThisFrame](https://github.com/THISJOWI/THISFRAME) - Native client for iPhone, Mac, Apple TV and Vision Pro. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `MIT` `Free`
 - [Veoday](https://apps.apple.com/us/app/veoday/id6799393674) - Personal media player for playlists, provider accounts and media servers with live TV and favourites. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` `visionOS` · `Free`
 - [Vesper](https://testflight.apple.com/join/mcCk473Y) - Video player with Library Sync for media servers and WebDAV shares. `Plex` `Jellyfin` `Emby` `+Silo` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Beta`
-- [Vupl](https://vupl.stream/) - Video client with Watch Together sessions. `Plex` `Jellyfin` · `Windows` `macOS` `Android` `iOS` `iPadOS` `tvOS` `Xbox` `visionOS` · `Free` · [App Store](https://apps.apple.com/app/id6811736454) · [Microsoft Store](https://apps.microsoft.com/detail/9ns56d9hqn2w)
+- [Vupl](https://vupl.stream/) - Video client with Watch Together sessions. `Plex` `Jellyfin` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Xbox` `visionOS` · `Free` · [App Store](https://apps.apple.com/app/id6811736454) · [Microsoft Store](https://apps.microsoft.com/detail/9ns56d9hqn2w)
 - [X Play](https://apps.apple.com/us/app/x-play/id6806874973) - Emby player and library that can also import HTTPS JSON media lists and CMS endpoints. `Emby` · `iOS` `iPadOS` `tvOS` `visionOS` · `Paid`
 
 ## Music

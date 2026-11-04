@@ -40,7 +40,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [EmbyTok](https://github.com/migumigu/EmbyTok) - Vertical TikTok-style video browser. `Plex` `Emby` · `Web` `Android` `Android TV` · `Open source` · [Source (Gitee)](https://gitee.com/miguyomi/embytok)
 - [EmbyTok-Flutter](https://github.com/1525745393/EmbyTok-Flutter) - TikTok-style vertical feed for browsing an Emby library. `Emby` · `Web` `Android` · `MIT`
 - [EmbyX](https://github.com/juneix/EmbyX) - Web app that browses a library as a TikTok-style vertical short-video feed. `Jellyfin` `Emby` · `Web` `Android` · `MIT` `Free`
-- [EmbyX (Paurika1113)](https://github.com/Paurika1113/EmbyX) - TikTok-style short-video player for Emby with a long-video mode. `Emby` · `Web` · `Open source`
+- [EmbyX (Paurika1113)](https://github.com/Paurika1113/EmbyX) - TikTok-style short-video player for Emby with a long-video mode. `Emby` · `Web` `Android` · `Open source`
 - [Faraday](https://github.com/sadgen/jellyfin-faraday) - Lightweight React web client with floating random-playback windows. `Jellyfin` · `Web` · `MIT` `Free`
 - [fast-emby](https://gitee.com/chenshaogui/fast-emby) - Vue short-video style front end for Emby. `Emby` · `Web` · `Open source`
 - [Finar](https://gitlab.com/Openlyst/finar) - Flutter client for video and music with downloads, multiple accounts and game controller support. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `AGPL-3.0` · [Website](https://openlyst.ink) · [AUR](https://aur.archlinux.org/packages/finar-bin)
@@ -52,7 +52,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [Glassfin (pkyanam)](https://github.com/pkyanam/jellyflex) - Plex-inspired Jellyfin web front end. `Jellyfin` · `Web` · `Open source` `Free`
 - [Glimpse Media Viewer](https://github.com/jeremehancock/Glimpse) - Self-hosted web viewer for browsing and playing media-server libraries. `Plex` `Jellyfin` `Emby` · `Web` · `MIT`
 - [GVP v3](https://github.com/bjh021149/gvpv3) - Flutter Emby client; only the experimental web build works so far, mobile and desktop builds are planned. `Emby` · `Web` · `Open source` `Free` `Beta`
-- [halcyon-video](https://github.com/halcyon-video/halcyon-video) - Self-hosted web UI that shows your library as a walkable 1990s video-rental store. `Plex` `Jellyfin` `Emby` · `Web` · `GPL-3.0` · [Website](https://halcyon-video.github.io/halcyon-video/)
+- [halcyon-video](https://github.com/halcyon-video/halcyon-video) - Self-hosted web UI that shows your library as a walkable 1990s video-rental store. `Plex` `Jellyfin` `Emby` · `Web` `Android TV` `Fire TV` · `GPL-3.0` · [Website](https://halcyon-video.github.io/halcyon-video/)
 - [Harpoon](https://github.com/siddhantmadhur/harpoon) - Flutter Jellyfin client for all platforms. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `GPL-3.0` `Free`
 - [Heisuca](https://github.com/CaioGuerras/heisuca) - Player suite for web, Android, Android TV and iPhone. `Plex` `Jellyfin` · `Web` `Android` `iOS` `Android TV` · `Open source`
 - [Hestia](https://github.com/bybrooklyn/Hestia) - Web client built on Jellyfin Vue. `Jellyfin` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
@@ -78,7 +78,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [JellyFlow (louisllw)](https://github.com/louisllw/Jellyflow) - Responsive independent Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
 - [jellykids (philips)](https://github.com/philips/jellykids) - Text-only Jellyfin front end for kids. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
 - [JellyNext](https://github.com/mugurc/jellynext) - Cinematic Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
-- [JellyPlayer (qiuleidee)](https://github.com/qiuleidee/JellyPlayer) - Jellyfin web client with an Infuse-inspired design. `Jellyfin` · `Web` · `Open source` `Free`
+- [JellyPlayer (qiuleidee)](https://github.com/qiuleidee/JellyPlayer) - Jellyfin web client with an Infuse-inspired design. `Jellyfin` · `Web` `Android TV` · `Open source` `Free`
 - [Jelly Shark (HeavyLvy)](https://github.com/HeavyLvy/jelly-shark) - Jellyfin web front end with a Spotify-style music player. `Jellyfin` · `Web` · `Apache-2.0` `Free`
 - [JellyTok](https://github.com/Mars160/jellytok) - Vertical short-video feed that plays Jellyfin clips TikTok-style. `Jellyfin` · `Web` · `Open source` `Free`
 - [JellyTube](https://github.com/nilesjarvis/jellytube) - YouTube-style Jellyfin web client built with Svelte. `Jellyfin` · `Web` · `Open source` `Free`
@@ -95,7 +95,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [Marinefin](https://github.com/Aspenini/Marinefin) - Single-HTML-file Jellyfin web client. `Jellyfin` · `Web` · `Open source` `Free`
 - [MiceYaa](https://www.nodeseek.com/post-547061-1) - Web client for a single server. `Emby` · `Web`
 - [mitch-jelly](https://github.com/mitchelljfranklin/mitch-jelly) - Browser-based client built with Next.js. `Jellyfin` · `Windows` `macOS` `Linux` `Web` · `AGPL-3.0` `Free`
-- [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) - Cross-platform client with music, Live TV and DVR, built for TVs as well as phones and desktops. `Plex` `Jellyfin` `Emby` `+Silo` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `Xbox` · `GPL-2.0` `Free` · [Source (Smart TV)](https://github.com/Moonfin-Client/Smart-TV) · [Source (Roku)](https://github.com/Moonfin-Client/Roku) · [App Store](https://apps.apple.com/app/id6761283970) · [Google Play](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) · [Microsoft Store](https://apps.microsoft.com/detail/9plb327dd51d) · [Amazon](https://www.amazon.com/dp/B0H76BG3DW) · [AUR](https://aur.archlinux.org/packages/moonfin-bin) · [Roku](https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin)
+- [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) - Cross-platform client with music, Live TV and DVR, built for TVs as well as phones and desktops. `Plex` `Jellyfin` `Emby` `+Silo` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `Xbox` `Android Auto` · `GPL-2.0` `Free` · [Source (Smart TV)](https://github.com/Moonfin-Client/Smart-TV) · [Source (Roku)](https://github.com/Moonfin-Client/Roku) · [App Store](https://apps.apple.com/app/id6761283970) · [Google Play](https://play.google.com/store/apps/details?id=org.moonfin.androidtv) · [Microsoft Store](https://apps.microsoft.com/detail/9plb327dd51d) · [Amazon](https://www.amazon.com/dp/B0H76BG3DW) · [AUR](https://aur.archlinux.org/packages/moonfin-bin) · [Roku](https://channelstore.roku.com/details/92a83c9f4112b76a7bcee3dc076254ca:3251a91bf7af7339652d5409ccfdcb39/moonfin)
 - [MyFlix](https://github.com/npollak1207/myflix) - Web frontend with a Netflix-style layout. `Jellyfin` · `Web` · `Open source` `Free`
 - [nasplayer](https://gitee.com/shruihu/nasplayer) - Flutter video player for local files and Emby streaming. `Emby` · `Web` `Android` · `Apache-2.0`
 - [Nevu](https://github.com/Ipmake/NevuForPlex) - Redesigned web interface for Plex built on the Plex Media Server API. `Plex` · `Web` `Android` `Android TV` · `GPL-3.0` `Free`
@@ -103,7 +103,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [node-media-centre](https://github.com/philcluff/node-media-centre) - Node.js media-centre web app that plays Plex items on a Raspberry Pi through OMXPlayer. `Plex` · `Linux` `Web` · `Open source` `Free` `Stale 2022`
 - [NSFin](https://github.com/nandoscarpa/nsFIN) - Configurable Jellyfin web front end. `Jellyfin` · `Web` · `GPL-3.0` `Free`
 - [obsidian](https://github.com/ViperJooy/obsidian) - Alternative web UI for Emby. `Emby` · `Web` · `Open source`
-- [openiptv](https://github.com/jorda0mega/openiptv) - Client that combines an Emby library with Xtream live TV, built on a Rust core. `Emby` `+IPTV` · `Web` `iOS` `iPadOS` `Fire TV` `tvOS` · `MIT`
+- [openiptv](https://github.com/jorda0mega/openiptv) - Client that combines an Emby library with Xtream live TV, built on a Rust core. `Emby` `+IPTV` · `Web` `iOS` `iPadOS` `tvOS` · `MIT`
 - [OpenWatchParty](https://github.com/mhbxyz/OpenWatchParty) - Watch-party tool for synchronised Jellyfin playback. `Jellyfin` · `Web` · `MIT` `Free`
 - [Overfin](https://github.com/Overfin/web) - Web client for browsing and playing your library. `Jellyfin` · `Web` · `MIT` `Free`
 - [Palcia](https://github.com/jxstn0501/pelagicaplusFORK) - Fork of Pelagica Plus. `Jellyfin` · `Web` · `GPL-3.0` `Free`
@@ -169,7 +169,7 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [JellySpot](https://github.com/AadiSPrabs/JellySpot_React) - Music client for a Jellyfin library, built with React. `Jellyfin` · `Web` `Android` · `MIT` `Free` · [Source](https://github.com/AadiSPrabs/JellySpot-Web)
 - [Kotone](https://github.com/alicegay/kotone-desktop) - Desktop music client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `Open source` `Free` · [Source](https://github.com/alicegay/kotone)
 - [Lazuli](https://github.com/Eclypsed/Lazuli) - Work-in-progress music client that pulls from streaming services as well as Jellyfin. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
-- [Lidifin](https://github.com/jamzercise/lidifin) - Jellyfin music client derived from the Lidify music app. `Jellyfin` `+Audiobookshelf` · `Web` `Android TV` · `GPL-3.0` `Free`
+- [Lidifin](https://github.com/jamzercise/lidifin) - Jellyfin music client derived from the Lidify music app. `Jellyfin` `+Audiobookshelf` · `Web` `Android TV` `Fire TV` · `GPL-3.0` `Free`
 - [LM Music](https://github.com/laomou/lm-music) - Browser-based music player. `Jellyfin` `+Subsonic` · `Web` · `Open source` `Free`
 - [MiguPod](https://github.com/migumigu/migupod) - Cover-flow music player for the browser. `Plex` `Emby` · `Web` · `Open source`
 - [milantrax/plex-web-client](https://github.com/milantrax/plex-web-client) - React web music client for Plex. `Plex` · `Web` · `Open source` `Free`
@@ -189,11 +189,11 @@ Every app in this list that runs on Web. That is 201 apps with 59 for Plex and 1
 - [Tokyo Music](https://github.com/iFanatical/tokyo-music-jellyfin) - Web frontend for browsing and playing music. `Jellyfin` · `Web` · `GPL-3.0` `Free`
 - [Tunetuna](https://github.com/AlessioLaiso/tunetuna) - Music player delivered as a PWA. `Jellyfin` · `Web` · `GPL-3.0`
 - [Velella](https://github.com/Reilynn-Olsen/Velella) - Music client for a Jellyfin library. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
-- [VoidCast](https://github.com/ronnyporsch/Voidcast) - Music client with YouTube integration. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` · `Open source` `Free`
+- [VoidCast](https://github.com/ronnyporsch/Voidcast) - Music client with YouTube integration. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `Android Auto` · `Open source` `Free`
 - [vr_music_library_vibes](https://github.com/Corey255A1/vr_music_library_vibes) - Browser-based VR music library built on the Emby API. `Emby` · `Web` · `Open source`
-- [walkman-server](https://github.com/djmanri3/walkman-server-android-app) - Walkman-style music player for Android, iOS, Mac and the web. `Plex` `Jellyfin` `Emby` · `macOS` `Web` `Android` `iOS` `iPadOS` · `GPL-3.0` `Free` · [Source](https://github.com/djmanri3/walkman-server-apple-app) · [Source 2](https://github.com/djmanri3/walkman-server)
+- [walkman-server](https://github.com/djmanri3/walkman-server-android-app) - Walkman-style music player for Android, iOS, Mac and the web. `Plex` `Jellyfin` `Emby` · `macOS` `Web` `Android` `iOS` `iPadOS` `Android Auto` · `GPL-3.0` `Free` · [Source](https://github.com/djmanri3/walkman-server-apple-app) · [Source 2](https://github.com/djmanri3/walkman-server)
 - [Warden](https://github.com/LukasParke/Warden) - Plex music player for desktop and web. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT` `Free`
-- [Yuzic](https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497) - Music player for Navidrome and Jellyfin libraries with offline downloads and a recently-played home. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Web` `Android` `iOS` `iPadOS` `CarPlay` · `Free` · [Source](https://github.com/yuzicapp/yuzic) · [Google Play](https://play.google.com/store/apps/details?id=com.arinora.rawarr)
+- [Yuzic](https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497) - Music player for Navidrome and Jellyfin libraries with offline downloads and a recently-played home. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Free` · [Source](https://github.com/yuzicapp/yuzic) · [Google Play](https://play.google.com/store/apps/details?id=com.arinora.rawarr)
 
 ## Audiobooks, books and photos
 

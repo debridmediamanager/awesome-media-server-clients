@@ -8,7 +8,7 @@ Every app in this list that runs on VIDAA. That is 3 apps with 1 for Plex and 2 
 
 ## Official apps
 
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 
 ## Video and general
 

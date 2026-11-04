@@ -153,7 +153,7 @@
   url: https://github.com/acedgold/jellyclient
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [ios, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -198,7 +198,7 @@
   url: https://github.com/aeon01100101/aeontv
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -216,7 +216,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, stremio]
   official: false
-  platforms: [tvos, ios, ipados, macos, android]
+  platforms: [android-tv, tvos, ios, ipados, macos, android]
   category: player
   media: [video, live-tv]
   open_source: null
@@ -612,7 +612,7 @@
   servers: [plex, jellyfin, emby]
   also: [dlna, other]
   official: false
-  platforms: [android-tv, android]
+  platforms: [android-tv, android, android-auto]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -761,7 +761,7 @@
   url: https://github.com/brdunn/Amplify
   servers: [plex]
   official: false
-  platforms: [android, android-auto]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -926,7 +926,7 @@
   url: https://github.com/m00nie/angleramp
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, carplay, android-auto]
+  platforms: [android, ios, carplay]
   category: music
   media: [music]
   open_source: true
@@ -1614,7 +1614,7 @@
   url: https://github.com/xorwyrm/aurelia
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -2001,7 +2001,7 @@
   url: https://github.com/mjryan253/bettermint-plex
   servers: [plex]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -3140,7 +3140,7 @@
   url: https://github.com/jumpingfox-dev/chameleon
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3286,7 +3286,7 @@
   url: https://github.com/JenteJan/Chudder
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, ios, windows, macos, linux, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3507,7 +3507,7 @@
   url: https://github.com/Bakare-Ayomide/CinodeClient
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3808,7 +3808,7 @@
   url: https://github.com/CookeInCode/jellyfin-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -4536,7 +4536,7 @@
   servers: [plex, jellyfin]
   also: [subsonic, streaming-services]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -4642,7 +4642,7 @@
   url: https://github.com/dhrandy/Driftfin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -4857,7 +4857,7 @@
   url: https://eclipsemusic.app
   servers: [plex]
   official: false
-  platforms: [android, ipados, carplay, windows, ios]
+  platforms: [android, ipados, carplay, windows, ios, android-auto]
   category: music
   media: [music]
   open_source: null
@@ -4912,7 +4912,7 @@
   url: https://github.com/flex36ty/elefin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -4939,7 +4939,7 @@
   url: https://github.com/flex36ty/Ellefin-Jellyfin-Client-ATV
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -5978,7 +5978,7 @@
   url: https://github.com/Paurika1113/EmbyX
   servers: [emby]
   official: false
-  platforms: [web]
+  platforms: [web, android]
   category: player
   media: [video]
   open_source: true
@@ -6158,7 +6158,7 @@
   url: https://github.com/enthu2005/reel
   servers: [plex]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows, linux, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -6913,7 +6913,7 @@
   url: https://github.com/ZepiGit/Firefin
   servers: [jellyfin]
   official: false
-  platforms: [fire-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -6927,7 +6927,7 @@
   url: https://github.com/RT993/firetv-jellyfin-client
   servers: [jellyfin]
   official: false
-  platforms: [fire-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -7221,7 +7221,7 @@
   url: https://github.com/RousseAddict/fluffin
   servers: [jellyfin]
   official: false
-  platforms: [ios, carplay]
+  platforms: [android, ios, carplay]
   category: music
   media: [music]
   open_source: true
@@ -7403,7 +7403,7 @@
   url: https://github.com/zillazero/foxfin
   servers: [jellyfin, emby]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android, android-tv, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -7463,7 +7463,7 @@
   url: https://github.com/crucifix86/freeplexity
   servers: [plex]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -8055,7 +8055,7 @@
     site: https://halcyon-video.github.io/halcyon-video/
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [web]
+  platforms: [web, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -9003,7 +9003,7 @@
   url: https://github.com/BlackstormFirst/jBreakTV
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -9529,7 +9529,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, android, carplay, android-auto, android-automotive, ipados, macos, windows, linux]
+  platforms: [ios, android, carplay, android-auto, ipados, macos, windows, linux]
   category: music
   media: [music]
   open_source: true
@@ -10016,7 +10016,7 @@
   url: https://github.com/en6ads/jellyfin-android-av1-transcode
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -10046,7 +10046,7 @@
   url: https://github.com/firexbox/jellyfin-android-ip4p
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -10122,7 +10122,7 @@
   url: https://github.com/sukerxi/jellyfin-android-with-mpv
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -10149,7 +10149,7 @@
   url: https://github.com/NeoRed-domo/Jellyfin-Broadcast
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -10179,7 +10179,7 @@
   url: https://github.com/crobibero/jellyfin-client-avalonia
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, android, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -10932,7 +10932,7 @@
   url: https://github.com/endoflineservice/jellyfin-music
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto, android-automotive]
   category: music
   media: [music]
   open_source: true
@@ -12005,7 +12005,7 @@
   url: https://github.com/hewel/jellypilot
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, linux, macos]
+  platforms: [windows, linux, macos, android]
   category: player
   media: [video]
   open_source: true
@@ -12020,7 +12020,7 @@
   url: https://github.com/raulshma/jellyplay
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv, fire-tv, windows]
+  platforms: [android, android-tv, fire-tv, windows, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -12065,7 +12065,7 @@
   url: https://github.com/qiuleidee/JellyPlayer
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [web, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -12153,7 +12153,7 @@
   url: https://github.com/TeeWare2026/JellyRemote
   servers: [jellyfin]
   official: false
-  platforms: [android, wear-os]
+  platforms: [android]
   category: remote
   media: [video]
   open_source: true
@@ -12299,7 +12299,7 @@
   servers: [jellyfin]
   also: [other]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android, android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -12749,7 +12749,7 @@
     play: https://play.google.com/store/apps/details?id=com.jellywatch.tv
   servers: [jellyfin, emby]
   official: false
-  platforms: [android-tv, fire-tv, android-auto]
+  platforms: [android, android-tv, fire-tv, android-auto]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -12822,7 +12822,7 @@
   url: https://github.com/birdrock00/jellywing
   servers: [jellyfin]
   official: false
-  platforms: [android, android-auto]
+  platforms: [android]
   category: music
   media: [music]
   open_source: true
@@ -13816,7 +13816,7 @@
   url: https://lagu.fm
   servers: [plex]
   official: false
-  platforms: [macos, android, ipados, tvos, carplay, windows, ios, watchos]
+  platforms: [macos, android, ipados, android-tv, fire-tv, tvos, carplay, windows, ios, android-auto, watchos]
   category: music
   media: [music]
   open_source: null
@@ -13966,7 +13966,7 @@
   servers: [jellyfin]
   also: [audiobookshelf]
   official: false
-  platforms: [web, android-tv]
+  platforms: [web, android-tv, fire-tv]
   category: music
   media: [music]
   open_source: true
@@ -14606,7 +14606,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, silo, stremio]
   official: false
-  platforms: [android, android-tv, fire-tv]
+  platforms: [android, android-tv, fire-tv, android-auto]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -14638,7 +14638,7 @@
   servers: [plex, jellyfin, emby]
   also: [fnos]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -15117,7 +15117,7 @@
   url: https://github.com/8layer8/Mayhem
   servers: [plex]
   official: false
-  platforms: [tesla]
+  platforms: [android-tv, tesla]
   category: music
   media: [music]
   open_source: true
@@ -15529,7 +15529,7 @@
   url: https://meringo.app
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: false
@@ -15949,7 +15949,7 @@
   servers: [plex, jellyfin, emby]
   also: [silo]
   official: false
-  platforms: [android, ipados, android-tv, fire-tv, vega-os, ios, tvos, macos, windows, linux, web, tizen, webos, xbox, roku]
+  platforms: [android, ipados, android-tv, fire-tv, vega-os, ios, tvos, macos, windows, linux, web, tizen, webos, xbox, roku, android-auto]
   category: player
   media: [video, music, live-tv]
   open_source: true
@@ -15999,7 +15999,7 @@
   servers: [plex]
   also: [stremio, other]
   official: false
-  platforms: [android-tv, windows, macos, linux, ios]
+  platforms: [android, android-tv, windows, macos, linux, ios]
   category: player
   media: [video]
   open_source: true
@@ -16302,7 +16302,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: null
@@ -16774,7 +16774,7 @@
   servers: [jellyfin]
   also: [subsonic, webdav, smb, local, streaming-services]
   official: false
-  platforms: [windows, android, android-auto, wear-os]
+  platforms: [windows, android, android-auto]
   category: music
   media: [music, video]
   open_source: true
@@ -16866,7 +16866,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -17314,7 +17314,7 @@
   servers: [plex, jellyfin, emby]
   also: [smb, dlna]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: photos
   media: [photos]
   open_source: null
@@ -17597,7 +17597,7 @@
   url: https://play.google.com/store/apps/details?id=com.nostalgiatv
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, android-tv, fire-tv]
+  platforms: [android, android-tv]
   category: live-tv
   media: [video, live-tv]
   open_source: false
@@ -17960,7 +17960,7 @@
   servers: [plex, jellyfin, emby]
   also: [local, webdav, smb]
   official: false
-  platforms: [macos, windows, android-tv]
+  platforms: [macos, windows, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -18140,7 +18140,7 @@
   servers: [emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, tvos, fire-tv, web]
+  platforms: [ios, ipados, tvos, web]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -18797,7 +18797,7 @@
     play: https://play.google.com/store/apps/details?id=com.appsynergyts.phyn
   servers: [jellyfin]
   official: false
-  platforms: [macos, ios, android, ipados, quest, tvos]
+  platforms: [macos, ios, android, ipados, android-tv, quest, tvos]
   category: player
   media: [video]
   open_source: false
@@ -19282,7 +19282,7 @@
   servers: [plex]
   official: true
   vendor: plex
-  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, roku, webos, tizen, vizio, vidaa, ps4, ps5, xbox, android-auto, quest, chromecast]
+  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, vega-os, roku, webos, tizen, vizio, vidaa, ps4, ps5, xbox, android-auto, quest, chromecast]
   category: player
   media: [video, music, photos, live-tv]
   open_source: null
@@ -20002,7 +20002,7 @@
   url: https://github.com/brunoenten/plexi
   servers: [plex]
   official: false
-  platforms: [cli, harmonyos]
+  platforms: [cli]
   category: player
   media: [video]
   open_source: true
@@ -21034,7 +21034,7 @@
   url: https://github.com/Jman100/plix
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux, android]
+  platforms: [windows, macos, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -22106,7 +22106,7 @@
   url: https://github.com/Midge-dev/reelay
   servers: [plex]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -23352,7 +23352,7 @@
   url: https://github.com/embergabor/simplex
   servers: [plex]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -23503,7 +23503,7 @@
   url: https://github.com/aaron13100/SlopTank-android
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -23662,7 +23662,7 @@
   servers: [jellyfin, emby]
   also: [subsonic, fnos, audiobookshelf, webdav]
   official: false
-  platforms: [android, windows, macos, linux, harmonyos]
+  platforms: [android, windows, macos, linux, harmonyos, android-tv]
   category: music
   media: [music, audiobooks]
   open_source: false
@@ -23768,7 +23768,7 @@
   url: https://github.com/michaelishri/soup
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -23937,7 +23937,7 @@
   url: https://github.com/EduardoV-V/spotifin
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows, linux, android]
   category: music
   media: [music]
   open_source: true
@@ -24177,7 +24177,7 @@
   url: https://github.com/nischalsir/Streamix
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -24494,7 +24494,7 @@
   url: https://github.com/sunfin-dev/sunfin
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, android, windows]
+  platforms: [android-tv, android, windows, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -24520,7 +24520,7 @@
   url: https://github.com/xsunnygal/SunnySong
   servers: [jellyfin]
   official: false
-  platforms: [android, linux]
+  platforms: [android, linux, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -24535,7 +24535,7 @@
   servers: [emby]
   also: [cloud]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -24780,7 +24780,7 @@
     testflight: https://testflight.apple.com/join/BKtrBmbz
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, ipados, tvos, macos, android, android-tv, linux, windows]
+  platforms: [ios, ipados, fire-tv, tvos, macos, android, android-tv, linux, windows]
   category: player
   media: [video]
   open_source: true
@@ -24881,7 +24881,7 @@
   servers: [emby]
   also: [subsonic]
   official: false
-  platforms: [ios, ipados, android, windows, linux, macos]
+  platforms: [ios, ipados, android, windows, linux, macos, android-tv]
   category: music
   media: [music]
   open_source: false
@@ -25029,7 +25029,7 @@
   url: https://github.com/Scdouglas1999/Tally
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, fire-tv, tizen, webos]
+  platforms: [android, android-tv, fire-tv, tizen, webos]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -25244,7 +25244,7 @@
   url: https://github.com/majoseph25/tentacle
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv, android-auto]
+  platforms: [android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -25872,7 +25872,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [macos, windows, linux, android]
+  platforms: [macos, windows, linux, android, android-tv, fire-tv]
   category: live-tv
   media: [video, live-tv]
   open_source: null
@@ -26395,7 +26395,7 @@
   url: https://github.com/winesOr/velo
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -26995,7 +26995,7 @@
   servers: [jellyfin]
   also: [streaming-services, subsonic]
   official: false
-  platforms: [android, linux, windows, macos, web]
+  platforms: [android, linux, windows, macos, web, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -27011,7 +27011,7 @@
     play: https://play.google.com/store/apps/details?id=com.hritwik.avoid
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -27099,7 +27099,7 @@
     msstore: https://apps.microsoft.com/detail/9ns56d9hqn2w
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos, windows, xbox, android, visionos]
+  platforms: [ios, ipados, macos, android-tv, tvos, windows, xbox, android, visionos]
   category: player
   media: [video]
   open_source: null
@@ -27208,7 +27208,7 @@
     repo:2: https://github.com/djmanri3/walkman-server
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, ios, web, macos, ipados]
+  platforms: [android, ios, web, macos, ipados, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -27305,7 +27305,7 @@
   servers: [plex]
   also: [subsonic, audiobookshelf]
   official: false
-  platforms: [windows, macos, linux, android, android-tv, ios]
+  platforms: [windows, macos, linux, android, android-tv, ios, android-auto]
   category: music
   media: [music, audiobooks]
   open_source: true
@@ -27497,7 +27497,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [windows, linux, android, android-tv]
+  platforms: [windows, linux, android, android-tv, fire-tv, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -27686,7 +27686,7 @@
   url: https://github.com/JustDr00py/xFIN
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, android]
+  platforms: [android-tv, android, fire-tv]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -28046,7 +28046,7 @@
   url: https://player.yonto.app/
   servers: [emby]
   official: false
-  platforms: [android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: null
@@ -28124,7 +28124,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
-  platforms: [ios, ipados, android, web, carplay]
+  platforms: [ios, ipados, android, web, carplay, android-auto]
   category: music
   media: [music]
   open_source: false
@@ -28204,7 +28204,7 @@
   url: https://github.com/sommepo/zerifin
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: player
   media: [video]
   open_source: true

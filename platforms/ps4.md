@@ -9,7 +9,7 @@ Every app in this list that runs on PS4. That is 7 apps with 2 for Plex and 5 fo
 ## Official apps
 
 - [Emby for PS4](https://emby.media/emby-ps4.html) - Web app for the PlayStation 4 browser at tv.emby.media, driven by the controller. `Emby` · `PS4` · `Subscription`
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 
 ## Video and general
 

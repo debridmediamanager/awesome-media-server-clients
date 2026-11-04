@@ -42,7 +42,7 @@ Every app in this list that runs on CLI. That is 77 apps with 31 for Plex and 49
 - [mov-cli-jellyplex](https://github.com/mov-cli/mov-cli-jellyplex) - mov-cli plugin that plays server content through mov-cli's external player. `Plex` `Jellyfin` · `CLI` · `MIT` `Stale 2025`
 - [Patina](https://github.com/madrazaldi/patina) - Desktop client with a Rust terminal interface. `Plex` · `CLI` · `Apache-2.0`
 - [plex-cli](https://github.com/Hellowlol/plex-cli) - Simple command-line client for browsing a Plex library. `Plex` · `CLI` · `MIT` `Stale 2022` · [Info](https://pypi.org/project/plexcli/) · [Info 2](https://pypi.org/project/plex-cli/)
-- [plexi](https://github.com/brunoenten/plexi) - Terminal client. `Plex` · `HarmonyOS` `CLI` · `MIT`
+- [plexi](https://github.com/brunoenten/plexi) - Terminal client. `Plex` · `CLI` · `MIT`
 - [plexshell](https://pypi.org/project/plexshell/) - Old Python command-line Plex client. `Plex` · `CLI` · `Open source` `Stale 2011`
 - [Plext](https://github.com/altheus/Plext) - Text-based Plex client for the terminal. `Plex` · `CLI` · `Open source`
 - [plex-tui](https://github.com/so1omon563/plex-tui) - Terminal client. `Plex` · `CLI` · `MIT` · [AUR](https://aur.archlinux.org/packages/plex-tui)

@@ -1329,7 +1329,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Jelly3DS](https://github.com/DarthTigerson/Jelly3DS) - Work-in-progress app for the 3DS and New 3DS. `Jellyfin` · `3DS` · `Open source` `Free` `Beta`
 - [Jelly5](https://github.com/02dnot/Jelly5) - Native app for jailbroken PS5 with hardware-decoded 4K HDR. `Jellyfin` `Emby` · `PS5` · `GPL-3.0` `Free`
 - [JellyBox](https://github.com/dfederm/JellyBox) - Native Xbox app. `Jellyfin` · `Xbox` · `MIT` `Free`
-- [JellyCTR](https://github.com/colokoko1/JellyCTR) - Nintendo 3DS homebrew app for browsing and playing your library. `Jellyfin` · `3DS` · `GPL-2.0` `Free`
+- [JellyCTR](https://github.com/colokoko1/JellyCTR) - Nintendo 3DS homebrew app for browsing and playing your music library. No video yet. `Jellyfin` · `3DS` · `GPL-2.0` `Free`
 - [jellyfin-3ds](https://github.com/bogocat/jellyfin-3ds) - Nintendo 3DS homebrew client. `Jellyfin` · `3DS` · `GPL-3.0`
 - [JellyFin \[PS\]](https://github.com/jw-notes/JellyFin-PS3) - Homebrew client for PS3 (HEN or CFW) and jailbroken PS4, with USB and offline playback; the PS4 build direct-plays up to 1080p. `Jellyfin` · `PS3` `PS4` · `GPL-3.0` `Free` · [Source (original PS3)](https://github.com/MontyMcK/JellyFin-PS3) · [Source (lossless audio)](https://github.com/vortigauntlet/JellyFin-PS3-LosslessAudio) · [Source (PS4)](https://github.com/jw-notes/JellyFin-PS4)
 - [jellyfin-ps2](https://github.com/jimmyBizMobile/jellyfin-ps2) - Homebrew PlayStation 2 client. `Jellyfin` · `PS2` · `MIT`
@@ -1396,7 +1396,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Jellyfin Lite](https://github.com/Grumm3l/jellyfin-lite) - Samsung Tizen 2.3 TV app using AVPlay, for older sets. `Jellyfin` · `Tizen` · `MIT` `Free`
 - [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) - Roku client that adds a delete action to the stock Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [JellyFin-SamsungTizenTV](https://github.com/ChessDragon136/JellyFin-SamsungTizenTV) - Samsung Tizen TV app for playing your library. `Jellyfin` · `Tizen` · `Open source` `Free` `Stale 2022`
-- [jellyfin-vidaa](https://github.com/lourensdev/jellyfin-vidaa) - Hisense VIDAA app that packages the web client for sideloading. `Jellyfin` · `VIDAA` · `Open source` `Stale 2024`
+- [jellyfin-vidaa](https://github.com/lourensdev/jellyfin-vidaa) - Hisense VIDAA app with its own interface on the Jellyfin API. HLS streaming was still a work in progress in 2024. `Jellyfin` · `VIDAA` · `Open source` `Stale 2024`
 - [JellyRock](https://github.com/jellyrock/jellyrock) - Roku client forked from the official channel. `Jellyfin` · `Roku` · `GPL-2.0` `Free` · [Roku](https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock)
 - [Local Photos Screensaver](https://forums.plex.tv/t/roku-screensaver-app-to-use-plex-photos/939633) - Roku screensaver that shows your photo libraries. `Plex` · `Roku`
 - [Luma](https://github.com/jravolio/luma-roku) - Roku channel with an Apple TV-style interface. `Jellyfin` · `Roku` · `MIT` `Free`

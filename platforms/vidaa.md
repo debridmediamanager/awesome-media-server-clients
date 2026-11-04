@@ -13,6 +13,6 @@ Every app in this list that runs on VIDAA. That is 3 apps with 1 for Plex and 2 
 ## Video and general
 
 - [JellyClient](https://github.com/LordLoras/JellyClient) - Hisense VIDAA TV app with a Windows build. `Jellyfin` · `Windows` `VIDAA` · `GPL-3.0` `Free`
-- [jellyfin-vidaa](https://github.com/lourensdev/jellyfin-vidaa) - Hisense VIDAA app that packages the web client for sideloading. `Jellyfin` · `VIDAA` · `Open source` `Stale 2024`
+- [jellyfin-vidaa](https://github.com/lourensdev/jellyfin-vidaa) - Hisense VIDAA app with its own interface on the Jellyfin API. HLS streaming was still a work in progress in 2024. `Jellyfin` · `VIDAA` · `Open source` `Stale 2024`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

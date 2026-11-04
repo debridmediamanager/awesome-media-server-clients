@@ -32,6 +32,7 @@ Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 1
 - [Cine](https://github.com/LK59/cine-app) - Netflix-style streaming web app for Jellyfin. `Jellyfin` · `Web` · `AGPL-3.0` `Free`
 - [Clipfin](https://github.com/Happyzippy/clipfin) - Jellyfin client for short clips. `Jellyfin` · `Web` · `Open source` `Free`
 - [CryPlex](https://github.com/ehudokai/CryPlex) - HTML5 Plex client packaged as a Chrome app. `Plex` · `Web` · `Open source` `Stale 2012`
+- [DashStream](https://github.com/bierzelt-kind/dashstream) - Web player tuned for the Tesla in-car browser, for films from Jellyfin and audiobooks from Audiobookshelf. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
 - [Embience](https://github.com/mps233/Embience) - Alternative web interface with danmaku comments. `Jellyfin` `Emby` · `Web` · `Open source`
 - [Emby Flow (liyongliao)](https://github.com/liyongliao/emby-flow) - Online player with a built-in downloader. `Emby` · `Web` · `Open source` `Free`
 - [emby-frontend](https://github.com/arielherself/emby-frontend) - Alternative web frontend for Emby. `Emby` · `Web` · `Open source`
@@ -153,7 +154,6 @@ Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 1
 - [aurora-emby-music](https://github.com/ywhgh/aurora-emby-music) - Web music player. `Emby` · `Web` · `Open source`
 - [Beacon](https://github.com/mihaitom/beacon) - Self-hosted web and desktop music client with casting. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [CTZZG/feishin](https://github.com/CTZZG/feishin) - Feishin fork that adds Emby support. `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
-- [DashStream](https://github.com/bierzelt-kind/dashstream) - Web frontend tuned for the Tesla in-car browser. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
 - [Discophile](https://github.com/debba/discophile) - Record-collection style music player for desktop and web. `Jellyfin` `+Subsonic` `+Audiobookshelf` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `MIT` `Free` · [Website](https://www.discophile.app/) · [AUR](https://aur.archlinux.org/packages/discophile-bin)
 - [Eclipse Music](https://eclipsemusic.app) - Music player for Android, CarPlay and Windows. `Plex` · `Windows` `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto`
 - [egamipeaks/plexify](https://github.com/egamipeaks/plexify) - Spotify-style web app for Plex music. `Plex` · `Web` · `Open source` `Free`

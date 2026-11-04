@@ -3049,13 +3049,13 @@
   servers: [jellyfin]
   official: false
   platforms: [other-device]
-  category: player
-  media: [video]
+  category: music
+  media: [music]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: ComputerCraft (Minecraft) client.
+  description: Jellyfin music client for ComputerCraft computers and speakers in Minecraft.
   notes: Minecraft ComputerCraft program; media types not stated.
   long_tail: true
 
@@ -4119,13 +4119,13 @@
   also: [audiobookshelf]
   official: false
   platforms: [web, tesla]
-  category: music
-  media: [music, audiobooks]
+  category: player
+  media: [video, audiobooks]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Web frontend tuned for the Tesla in-car browser.
+  description: Web player tuned for the Tesla in-car browser, for films from Jellyfin and audiobooks from Audiobookshelf.
   long_tail: true
 
 - name: DashTune
@@ -9782,14 +9782,14 @@
   servers: [jellyfin]
   official: false
   platforms: [3ds]
-  category: player
-  media: [video]
+  category: music
+  media: [music]
   open_source: true
   license: GPL-2.0
   price: free
   status: active
   status_year: 2026
-  description: Nintendo 3DS homebrew app for browsing and playing your library.
+  description: Nintendo 3DS homebrew app for browsing and playing your music library. No video yet.
 
 - name: Jellydate
   url: https://github.com/bretdstudio/Jellydate
@@ -11322,7 +11322,7 @@
   open_source: true
   status: stale
   status_year: 2024
-  description: Hisense VIDAA app that packages the web client for sideloading.
+  description: Hisense VIDAA app with its own interface on the Jellyfin API. HLS streaming was still a work in progress in 2024.
   notes: Installed via jellyfin-vidaa-install, which uses a DNS spoof.
 
 - name: Jellyfin VLC Bridge
@@ -19355,12 +19355,12 @@
   servers: [plex]
   official: false
   platforms: [alexa]
-  category: bridge
+  category: music
   media: [music]
   open_source: true
   status: active
   status_year: 2026
-  description: Self-hosted bridge that connects Alexa to a Plex server.
+  description: Self-hosted Alexa skill that streams your Plex music to Echo devices by voice.
   notes: Last push 2026-05-10.
   long_tail: true
 

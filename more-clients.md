@@ -312,7 +312,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [Cine](https://github.com/LK59/cine-app) - Netflix-style streaming web app for Jellyfin. `Jellyfin` · `Web` · `AGPL-3.0` `Free`
 - [Clipfin](https://github.com/Happyzippy/clipfin) - Jellyfin client for short clips. `Jellyfin` · `Web` · `Open source` `Free`
 - [CryPlex](https://github.com/ehudokai/CryPlex) - HTML5 Plex client packaged as a Chrome app. `Plex` · `Web` · `Open source` `Stale 2012`
-- [DashStream](https://github.com/bierzelt-kind/dashstream) - Web frontend tuned for the Tesla in-car browser. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
+- [DashStream](https://github.com/bierzelt-kind/dashstream) - Web player tuned for the Tesla in-car browser, for films from Jellyfin and audiobooks from Audiobookshelf. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
 - [egamipeaks/plexify](https://github.com/egamipeaks/plexify) - Spotify-style web app for Plex music. `Plex` · `Web` · `Open source` `Free`
 - [Embience](https://github.com/mps233/Embience) - Alternative web interface with danmaku comments. `Jellyfin` `Emby` · `Web` · `Open source`
 - [Emby Flow (liyongliao)](https://github.com/liyongliao/emby-flow) - Online player with a built-in downloader. `Emby` · `Web` · `Open source` `Free`
@@ -460,7 +460,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 
 ## Voice assistants and speakers
 
-- [plex-alexa-skill-bridge](https://github.com/falk0069/plex-alexa-skill-bridge) - Self-hosted bridge that connects Alexa to a Plex server. `Plex` · `Alexa` · `Open source`
+- [plex-alexa-skill-bridge](https://github.com/falk0069/plex-alexa-skill-bridge) - Self-hosted Alexa skill that streams your Plex music to Echo devices by voice. `Plex` · `Alexa` · `Open source`
 - [plexMusicPlayer (mwstowe)](https://github.com/mwstowe/plexMusicPlayer) - Voice-assistant music player for the library. `Plex` · `Alexa` · `Open source`
 
 ## Kodi add-ons
@@ -515,7 +515,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 
 ## Other devices and legacy systems
 
-- [ccfin](https://github.com/luna-system/ccfin) - ComputerCraft (Minecraft) client. `Jellyfin` · `Other device` · `Open source` `Free`
+- [ccfin](https://github.com/luna-system/ccfin) - Jellyfin music client for ComputerCraft computers and speakers in Minecraft. `Jellyfin` · `Other device` · `Open source` `Free`
 - [Finch](https://github.com/dharmapoudel/finch-remote) - Car Thing screen for browsing music and controlling playback on another player. `Jellyfin` · `Other device` · `Open source` `Free`
 - [Handyplex](https://github.com/jopdeklein/Handyplex) - Kinect gesture control for Plex. `Plex` · `Other device` · `GPL-3.0` `Stale 2012`
 - [JellyfinForWP](https://github.com/vincenzosco/JellyfinForWP) - Player for Windows Phone 8.1. `Jellyfin` · `Windows Phone` · `Open source` `Free`

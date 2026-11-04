@@ -12,7 +12,6 @@ Every app in this list that runs on Other device. That is 29 apps with 16 for Pl
 
 ## Video and general
 
-- [ccfin](https://github.com/luna-system/ccfin) - ComputerCraft (Minecraft) client. `Jellyfin` · `Other device` · `Open source` `Free`
 - [FlipFin](https://github.com/jackharvest/FlipFin) - Text-only app for the TCL 4058G flip phone. `Jellyfin` · `Other device` · `MIT` `Free`
 - [FlipFlex](https://github.com/jackharvest/FlipFlex) - Client for a TCL flip phone. `Plex` · `Other device` · `MIT`
 - [Home Cinema Control](https://github.com/tousled/home-cinema-control) - Sends library items to OPPO and Chinoppo disc players for playback. `Jellyfin` `Emby` · `Other device` · `Open source`
@@ -25,6 +24,7 @@ Every app in this list that runs on Other device. That is 29 apps with 16 for Pl
 ## Music
 
 - [Bookshelf-jukebox](https://github.com/YosoraLife/Bookshelf-jukebox) - Bookshelf jukebox hardware build around headless Plexamp. `Plex` · `Other device` · `Open source`
+- [ccfin](https://github.com/luna-system/ccfin) - Jellyfin music client for ComputerCraft computers and speakers in Minecraft. `Jellyfin` · `Other device` · `Open source` `Free`
 - [emby-skill](https://github.com/rickyphewitt/emby-skill) - Mycroft voice-assistant skill that plays Emby audio. `Emby` · `Other device` · `Open source`
 - [JF-BeamNG.drive-Audio-Player](https://github.com/Inevitabby/JF-BeamNG.drive-Audio-Player) - BeamNG.drive mod that plays your music in the game. `Jellyfin` · `Other device` · `Open source` `Free`
 - [Light Amp](https://github.com/sublunarian/light-amp) - Music player for the Light Phone III. `Plex` `Jellyfin` `+Subsonic` · `Other device` · `Open source` `Free`

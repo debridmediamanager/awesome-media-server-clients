@@ -4,7 +4,7 @@ Thank you for helping keep this list complete and right. It aims to list every a
 
 ## How the list is built
 
-All entries live in [data/clients.yaml](data/clients.yaml). `README.md` and `PLATFORMS.md` and `more-clients.md` are generated from it. Never edit those three files by hand.
+All entries live in [data/clients.yaml](data/clients.yaml). `README.md` and `PLATFORMS.md` and `more-clients.md` and the pages in `platforms/` are generated from it. Never edit them by hand.
 
 1. Fork the repository and edit `data/clients.yaml`.
 2. Run `python3 scripts/generate.py`. It needs Python 3.8 or newer and PyYAML (`pip install pyyaml`). It checks the data and rewrites the Markdown files.

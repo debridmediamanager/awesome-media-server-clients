@@ -4,7 +4,7 @@ Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://j
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
-Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects have a page of their own under More clients below.
+Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device and links a full page for each one such as [Roku](platforms/roku.md) or [Apple TV](platforms/tvos.md) or [Android TV](platforms/android-tv.md). Smaller projects have a page of their own under More clients below.
 
 Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop) and [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). A repository that offers a "full version" or an "unlocked" build or an "installer" for these apps is a scam.
 

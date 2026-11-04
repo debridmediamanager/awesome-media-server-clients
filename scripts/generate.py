@@ -402,7 +402,7 @@ Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://j
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
-Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects have a page of their own under More clients below.
+Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device and links a full page for each one such as [Roku](platforms/roku.md) or [Apple TV](platforms/tvos.md) or [Android TV](platforms/android-tv.md). Smaller projects have a page of their own under More clients below.
 
 Official downloads come only from [plex.tv](https://www.plex.tv/media-server-downloads/?cat=plex+desktop) and [jellyfin.org](https://jellyfin.org/downloads/) and [emby.media](https://emby.media/download.html). A repository that offers a "full version" or an "unlocked" build or an "installer" for these apps is a scam.
 """
@@ -511,15 +511,42 @@ def render_more(more):
     return "\n".join(out) + "\n" + "\n".join(toc) + "\n\n" + "\n".join(body) + "\n" + FOOTER
 
 
-def render_platforms(apps):
+KINDS = [("Video and general", {"player", "shim", "live-tv"}), ("Music", {"music"}),
+         ("Audiobooks, books and photos", {"audiobooks", "books", "photos"}),
+         ("Companions", {"remote", "admin", "bridge"})]
+
+
+def by_platform(apps):
     by_plat = defaultdict(list)
     for a in apps:
         if a["status"] != "discontinued" and a.get("url"):
             for p in a["platforms"]:
                 by_plat[p].append(a)
-    kinds = [("Video and general", {"player", "shim", "live-tv"}), ("Music", {"music"}),
-             ("Audiobooks, books and photos", {"audiobooks", "books", "photos"}),
-             ("Companions", {"remote", "admin", "bridge"})]
+    return by_plat
+
+
+def render_platform_page(p, items):
+    label = PLATFORMS[p][0]
+    counts = " and ".join(f"{sum(1 for a in items if s in a['servers']):,} for {SERVERS[s]}"
+                          for s in ("plex", "jellyfin", "emby"))
+    out = [GENERATED, f"# {label}\n",
+           f"Every app in this list that runs on {label}. That is {len(items):,} apps with {counts}. "
+           "Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) "
+           "and every other platform is in [PLATFORMS.md](../PLATFORMS.md).\n",
+           CALLOUT.replace("(README.md", "(../README.md")]
+    official = sorted((a for a in items if a.get("official")), key=sort_key)
+    sections = [("Official apps", official)] + [
+        (title, sorted((a for a in items if not a.get("official") and a["category"] in cats), key=sort_key))
+        for title, cats in KINDS]
+    for title, group in sections:
+        if group:
+            out += [f"## {title}\n"] + [entry(a) for a in group] + [""]
+    return "\n".join(out) + "\n" + FOOTER
+
+
+def render_platforms(apps):
+    by_plat = by_platform(apps)
+    kinds = KINDS
     out = [GENERATED, "# Apps by platform\n",
            "Every listed app grouped by the platform it runs on. Letters after a name show its servers. "
            "**P** is Plex. **J** is Jellyfin. **E** is Emby. An asterisk marks an official app. Full entries are in "
@@ -536,6 +563,7 @@ def render_platforms(apps):
         title = f"{label} ({len(items)})"
         toc[g].append(f"[{label}](#{slug(title)})")
         body.append(f"## {title}\n")
+        body.append(f"[Full {label} entries with tags and store links](platforms/{p}.md)\n")
         for ktitle, cats in kinds:
             names = []
             for a in sorted((a for a in items if a["category"] in cats), key=sort_key):
@@ -572,6 +600,8 @@ def main(argv):
     more = [a for a in apps if a.get("long_tail")]
     outputs = {"README.md": render_readme(main_list, len(more)), "more-clients.md": render_more(more),
                "PLATFORMS.md": render_platforms(apps)}
+    outputs.update({f"platforms/{p}.md": render_platform_page(p, items)
+                    for p, items in by_platform(apps).items()})
     stale = []
     for fname, text in outputs.items():
         path = ROOT / fname
@@ -579,13 +609,24 @@ def main(argv):
             if not path.exists() or path.read_text(encoding="utf-8") != text:
                 stale.append(fname)
         else:
+            path.parent.mkdir(exist_ok=True)
             path.write_text(text, encoding="utf-8")
+    # A platform that lost its last app must not keep an old page.
+    for path in (ROOT / "platforms").glob("*.md"):
+        fname = f"platforms/{path.name}"
+        if fname not in outputs:
+            if "--check" in argv:
+                stale.append(fname)
+            else:
+                path.unlink()
     if stale:
         print("Out of date: " + ", ".join(stale) + ". Run python3 scripts/generate.py and commit the result.",
               file=sys.stderr)
         return 1
-    sizes = ", ".join(f"{f} {len(t.encode()) // 1024} KB" for f, t in outputs.items())
-    print(f"{len(apps)} apps ({len(main_list)} in README, {len(more)} in more-clients.md); {sizes}")
+    pages = sum(1 for f in outputs if f.startswith("platforms/"))
+    sizes = ", ".join(f"{f} {len(t.encode()) // 1024} KB" for f, t in outputs.items() if "/" not in f)
+    print(f"{len(apps)} apps ({len(main_list)} in README, {len(more)} in more-clients.md); {sizes}; "
+          f"{pages} platform pages")
     return 0
 
 

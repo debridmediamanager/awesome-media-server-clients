@@ -1730,20 +1730,6 @@
   description: Self-hosted Jellyfin client for Android phones and TV.
   notes: Based on Findroid.
 
-- name: austinkregel/simplex
-  url: https://github.com/austinkregel/simplex
-  servers: [plex]
-  official: false
-  platforms: [linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Alternative Plex client for Linux built with GTK4 and Rust.
-  long_tail: true
-
 - name: autoplex
   url: https://github.com/spuriousdata/autoplex
   servers: [plex]
@@ -3823,20 +3809,6 @@
   description: Apple-platform video player for home media servers.
   notes: Developer 健 刘.
 
-- name: Consolefin
-  url: https://github.com/Francorr1/ConsoleFin
-  servers: [jellyfin]
-  official: false
-  platforms: [android, windows]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Controller-friendly client for Android and Windows gaming handhelds.
-  long_tail: true
-
 - name: Constella
   url: https://github.com/sandunwira/Constella
   servers: [jellyfin]
@@ -4804,20 +4776,6 @@
   status: active
   status_year: 2026
   description: iPhone client laid out for a foldable dual-screen device.
-  long_tail: true
-
-- name: DuShengTV
-  url: https://github.com/SatanDS/DuShengTV
-  servers: [emby]
-  official: false
-  platforms: [android-tv]
-  category: player
-  media: [video]
-  open_source: true
-  status: active
-  status_year: 2026
-  description: Emby client for Android TV.
-  notes: Android TV platform not confirmed (listed as Android TV?).
   long_tail: true
 
 - name: Dusk for Plex
@@ -6958,16 +6916,19 @@
   long_tail: true
 
 - name: Finzy
-  url: https://www.reddit.com/r/jellyfin/comments/1vavixi/please_suggest_a_good_windows_client/
+  url: https://github.com/dkmcgowan/finzy
   servers: [jellyfin]
   official: false
-  platforms: [windows]
+  platforms: [windows, macos, linux, android, ios]
   category: player
   media: [video]
-  open_source: null
-  status: unknown
-  description: Windows client using mpv.
-  notes: One Reddit mention.
+  open_source: true
+  license: GPL-3.0
+  price: free
+  status: discontinued
+  status_year: 2026
+  description: Jellyfin fork of Plezy for desktop and mobile; archived in 2026 and pulled from the stores.
+  notes: Repo dkmcgowan/finzy archived 2026-05 (last release 0.4.2). App Store id6759632535 and Play com.dkmcgowan.finzy return nothing (2026-11-04).
 
 - name: Firefin
   url: https://github.com/ZepiGit/Firefin
@@ -7400,7 +7361,6 @@
   url: https://www.flymby.top/
   links:
     repo: https://github.com/fbinba3955/Flymby
-    appgallery: https://appgallery.huawei.com/app/detail?id=com.yaii.flymby
   servers: [jellyfin, emby]
   also: [fnos, webdav, cloud, iptv]
   official: false
@@ -7410,8 +7370,7 @@
   open_source: false
   status: unknown
   description: MPV-based player with HDR/Dolby Vision, AI subtitles and Anime4K for servers, cloud drives and IPTV.
-  notes: 'Correction: not HarmonyOS- or Emby-only. Separate Android TV build. Old source repo (last commit 2025-07) and Gitee
-    copy; app now looks closed.'
+  notes: 'Correction: not HarmonyOS- or Emby-only. Separate Android TV build. Old source repo (last commit 2025-07) and Gitee copy; app now looks closed.'
 
 - name: fn-music
   url: https://github.com/pany4321/fn-music
@@ -10905,20 +10864,6 @@
   description: Android app that syncs a remote library to local storage.
   long_tail: true
 
-- name: jellyfin-maui
-  url: https://github.com/spencerlandis/jellyfin-maui
-  servers: [jellyfin]
-  official: false
-  platforms: [android, ios, windows, macos]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: .NET MAUI client for Jellyfin.
-  long_tail: true
-
 - name: JellyfinMauiPlayer
   url: https://github.com/jaysonsantos/JellyfinMauiPlayer
   servers: [jellyfin]
@@ -12515,8 +12460,6 @@
 
 - name: JellyStreamz
   url: https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066
-  links:
-    testflight: https://testflight.apple.com/join/exvNn34w
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, tvos]
@@ -12528,8 +12471,7 @@
   status_year: 2026
   aliases: [JellyStreamz – Jellyfin Client]
   description: Native video client for Apple devices.
-  notes: 'By Darryl Polo. Correction: thought TestFlight-only, but listed on the App Store (seen in the Turkish store). TestFlight
-    closed.'
+  notes: 'By Darryl Polo. Correction: thought TestFlight-only, but listed on the App Store (seen in the Turkish store). TestFlight closed.'
 
 - name: JellyTauri
   url: https://github.com/dan-online/jellytauri
@@ -14588,22 +14530,6 @@
   aliases: [Lull, 'Lull Player: Podcasts & Books']
   description: Podcast and audiobook player whose sleep timer fades into sleep sounds; a paid tier adds more.
   notes: by Corey FELDMAN
-
-- name: Luma
-  url: https://github.com/beltrnjordi/luma
-  servers: [emby]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Cross-platform client.
-  notes: Platforms not stated. Not the same as carelessty/luma (macOS).
-  long_tail: true
-  distinct: true
 
 - name: Luma
   url: https://github.com/carelessty/luma
@@ -18212,8 +18138,6 @@
 
 - name: Onban
   url: https://onban.app
-  links:
-    testflight: https://testflight.apple.com/join/DTjNdUV9
   servers: [plex]
   official: false
   platforms: [watchos]
@@ -20785,21 +20709,6 @@
   status_year: 2026
   description: Android viewer for Plex photos and videos.
   notes: Same author as Plex-Pix and PlexiPlay.
-
-- name: plex-player-
-  url: https://github.com/LotDog1984/plex-player-
-  servers: [plex]
-  official: false
-  platforms: [android-tv]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Custom Plex player for Google TV.
-  notes: Repo name ends with a hyphen.
-  long_tail: true
 
 - name: plexplayerd
   url: https://github.com/knoopx/plexplayerd
@@ -24930,20 +24839,6 @@
   description: Desktop music player.
   notes: Linux build on Flathub.
 
-- name: SuPlex
-  url: https://github.com/ChibiTomo/SuPlex
-  servers: [plex]
-  official: false
-  platforms: [webos]
-  category: player
-  media: [video]
-  open_source: true
-  status: stale
-  status_year: 2019
-  description: Plex client for LG webOS TVs.
-  notes: Different app from daumiller/suplex (Roku).
-  long_tail: true
-
 - name: Surf for Plex
   url: https://surfforplex.com
   servers: [plex]
@@ -27060,20 +26955,6 @@
   aliases: [Vina – NAS Video Player]
   description: NAS and media server player for video, music and photos over SMB, WebDAV, FTP, SFTP and NFS.
   notes: by jianjie lian.
-
-- name: Vinicius
-  url: https://github.com/clement-mistral/vinicius
-  servers: [jellyfin]
-  official: false
-  platforms: [web]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Browser-based music player.
-  long_tail: true
 
 - name: Vinnyfin
   url: https://github.com/vinnysaj/vinnyfin

@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and 1,875 third-party ones, from polished store apps to small open-source projects.
+A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and 1,867 third-party ones, from polished store apps to small open-source projects.
 
 Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) are in [more-clients.md](more-clients.md).
 
@@ -184,7 +184,7 @@ Video and general clients for two or all three servers.
 - [Finmony](https://appgallery.huawei.com/app/detail?id=com.hontt.finmony) - HarmonyOS video player for media servers on phones, tablets and PCs. `Jellyfin` `Emby` · `HarmonyOS`
 - [FirstTV](https://github.com/brucelee135/FirstTV) - Android client for Emby and Jellyfin. `Jellyfin` `Emby` · `Android` · `Open source` `Free`
 - [Flow](https://github.com/Flow-Media-Client/Flow-release) - Chinese Android TV client. `Jellyfin` `Emby` · `Android TV` · `Paid`
-- [Flymby](https://www.flymby.top/) - MPV-based player with HDR/Dolby Vision, AI subtitles and Anime4K for servers, cloud drives and IPTV. `Jellyfin` `Emby` `+fnOS` `+IPTV` · `Android` `HarmonyOS` `Android TV` · [Source](https://github.com/fbinba3955/Flymby) · [AppGallery](https://appgallery.huawei.com/app/detail?id=com.yaii.flymby)
+- [Flymby](https://www.flymby.top/) - MPV-based player with HDR/Dolby Vision, AI subtitles and Anime4K for servers, cloud drives and IPTV. `Jellyfin` `Emby` `+fnOS` `+IPTV` · `Android` `HarmonyOS` `Android TV` · [Source](https://github.com/fbinba3955/Flymby)
 - [Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) - Android and Android TV player that also plays cloud drives and IPTV. `Jellyfin` `Emby` `+IPTV` · `Android` `Android TV` · `AGPL-3.0` `Free`
 - [HosPlayer](https://appgallery.huawei.com/app/detail?id=com.colorlifee.hosplayer) - HarmonyOS phone, tablet and PC player that also opens fnOS, WebDAV and IPTV. `Plex` `Jellyfin` `Emby` `+fnOS` `+IPTV` · `HarmonyOS`
 - [JellyCine](https://github.com/sureshfizzy/JellyCine) - Android video client. `Jellyfin` `Emby` · `Android` · `GPL-3.0`
@@ -530,7 +530,7 @@ Third-party video and general clients for Jellyfin only.
 - [JellyMold](https://jellymold.app/) - Client with its own playback engine so files play directly and are never transcoded. `Jellyfin` · `iOS` `iPadOS` · `Free` · [App Store](https://apps.apple.com/us/app/jellymold/id6813179451)
 - [JellySee](https://apps.apple.com/app/id6748783768) - Paid Apple TV client. `Jellyfin` · `tvOS` · `Paid`
 - [Jelly Shark](https://github.com/axeslasher/Jelly-Shark) - Apple TV and Vision Pro client. `Jellyfin` · `tvOS` `visionOS` · `MIT` `Free`
-- [JellyStreamz](https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066) - Native video client for Apple devices. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free` · [TestFlight](https://testflight.apple.com/join/exvNn34w)
+- [JellyStreamz](https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066) - Native video client for Apple devices. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Jelly TV](https://apps.apple.com/hk/app/jelly-tv/id6795124030) - Private client to browse, resume and download movies and episodes for offline viewing. `Jellyfin` · `iOS` `iPadOS` · `Free`
 - [JellyTV](https://apps.apple.com/app/id6752357290) - Video client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Freemium`
 - [JellyZaping](https://apps.apple.com/us/app/jellyzaping/id6757639322) - iOS client with a TikTok-style Zapping Timeline for finding what to watch next. `Jellyfin` · `iOS` `iPadOS` · `Freemium`
@@ -592,7 +592,6 @@ Third-party video and general clients for Jellyfin only.
 - [FamilyFlix](https://github.com/sjdigitall-maker/FamilyFlix) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Fincord](https://github.com/Bananz0/Fincord) - Jellyfin client built on the Accord codebase. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
 - [Finplay](https://github.com/kings431/finplay) - Desktop Jellyfin client that plays through mpv. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
-- [Finzy](https://www.reddit.com/r/jellyfin/comments/1vavixi/please_suggest_a_good_windows_client/) - Windows client using mpv. `Jellyfin` · `Windows`
 - [Fjord](https://github.com/KalasKonrad/Fjord) - Rust and Slint front end for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
 - [FluentFin](https://github.com/insomniachi/FluentFin) - Native Windows desktop client. `Jellyfin` · `Windows` · `GPL-3.0`
 - [Gelata](https://gitlab.com/bscubed/gelata) - GTK4/libadwaita desktop client written in Rust. `Jellyfin` · `Linux` · `GPL-3.0` `Stale 2025` · [AUR](https://aur.archlinux.org/packages/gelata-git)
@@ -1415,7 +1414,7 @@ Apps that only run on consoles, headsets, cars, watches, TV operating systems, K
 ### Watches
 
 - [JellyWear](https://github.com/AndrewEllen/JellyWear) - Smartwatch client. `Jellyfin` · `Wear OS` · `GPL-3.0` `Free`
-- [Onban](https://onban.app) - Standalone Apple Watch player for music and audiobooks. `Plex` · `watchOS` · `Beta` · [TestFlight](https://testflight.apple.com/join/DTjNdUV9)
+- [Onban](https://onban.app) - Standalone Apple Watch player for music and audiobooks. `Plex` · `watchOS` · `Beta`
 - [SubMusic](https://github.com/memen45/SubMusic) - Garmin watch app that syncs music for offline listening. `Plex` `+Subsonic` · `Garmin` · `Open source` `Stale 2024`
 - [WearAmp](https://github.com/03c/WearAmp) - Standalone Wear OS music player. `Plex` · `Wear OS` · `GPL-3.0`
 - [WearJelly](https://github.com/Nanakusa-Nazuna7/WearJelly) - Standalone Wear OS music player that works on the watch without a phone. `Jellyfin` · `Wear OS` · `Open source` `Free`
@@ -1632,6 +1631,7 @@ Apps that were withdrawn, archived or abandoned. Kept for reference.
 - [Emby for Windows Phone](https://github.com/MediaBrowser/Emby.WindowsPhone) - Windows Phone app, archived. `Emby` · `Windows Phone` · `GPL-2.0` `Ended 2016`
 - [Emby Theater for Windows](https://github.com/MediaBrowser/emby-theater-windows) - Former Windows desktop app; it and the old UWP app were replaced by the Store app in December 2024. `Emby` · `Windows` · `GPL-2.0` `Ended 2024`
 - [feishin-connect](https://github.com/mihaitom/feishin-connect) - Feishin fork that adds Sonos, Chromecast, AirPlay and DLNA casting. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free` `Ended 2026`
+- [Finzy](https://github.com/dkmcgowan/finzy) - Jellyfin fork of Plezy for desktop and mobile; archived in 2026 and pulled from the stores. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free` `Ended 2026`
 - Forward - iOS and Apple TV media player with cloud and Stremio-style modules; removed from the App Store (link dead as of 2026-11). `Jellyfin` `Emby` `+Stremio addons` · `macOS` `iOS` `iPadOS` `tvOS` · `Subscription` `Ended 2026`
 - [Gelli](https://github.com/dkanada/gelli) - Music player. `Jellyfin` · `Android` · `Open source` `Ended 2023`
 - [intro-skipper/jellyfin-androidtv](https://github.com/intro-skipper/jellyfin-androidtv) - Android TV client with the Intro Skipper feature built in. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Ended 2025`
@@ -1689,7 +1689,7 @@ Apps that were withdrawn, archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 497 smaller projects: GitHub-only apps with no release and under 10 stars, grouped by platform.
+[more-clients.md](more-clients.md) lists 489 smaller projects: GitHub-only apps with no release and under 10 stars, grouped by platform.
 
 ## Contribution Guidelines
 

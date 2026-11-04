@@ -386,7 +386,7 @@ Every app in this list that runs on Android. That is 370 apps with 111 for Plex 
 - [MSM](https://github.com/prinzpiuz/MSM) - Android app for managing files on a media server. `Plex` `Jellyfin` `Emby` `+Kodi` · `Android` · `GPL-3.0` · [F-Droid](https://apt.izzysoft.de/fdroid/index/apk/com.prinzpiuz.msm)
 - [Plex-Remote (WFH)](https://github.com/WFH/Plex-Remote) - Plex remote control. `Plex` · `Android` · `Open source` `Stale 2012`
 - [Purger for Plex](https://play.google.com/store/apps/details?id=it.devcells.plexpurger) - Android app for swipe-to-delete library cleanup. `Plex` · `Android` · `Freemium`
-- [Scyphomote](https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote) - Android remote control for the server's players. `Jellyfin` · `Android`
+- [Scyphomote](https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote) - Remote control for the server's players, with builds for Android, iOS and desktops. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `AGPL-3.0` · [Source](https://github.com/eiffelbeef/scyphomote)
 - [SlickRemote for Plex](https://github.com/jetshred/SlickRemote-for-Plex-Android) - Android remote control for Plex. `Plex` · `Android` · `MIT` `Stale 2010`
 - [Tautulli Remote](https://github.com/Tautulli/Tautulli-Remote) - Official Tautulli app for server statistics and activity. `Plex` · `Android` `iOS` `iPadOS` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id1570909086) · [Google Play](https://play.google.com/store/apps/details?id=com.tautulli.tautulli_remote)
 - [Twig](https://f-droid.org/packages/com.twig.app/) - Android file manager for the server. `Jellyfin` · `Android` · `Open source`

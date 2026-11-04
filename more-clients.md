@@ -11,7 +11,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [Cross-platform](#cross-platform) (49)
 - [Android, Android TV and HarmonyOS](#android-android-tv-and-harmonyos) (64)
 - [Apple platforms](#apple-platforms) (59)
-- [Desktop](#desktop) (76)
+- [Desktop](#desktop) (75)
 - [Web](#web) (76)
 - [Consoles and homebrew](#consoles-and-homebrew) (15)
 - [VR and XR](#vr-and-xr) (6)
@@ -263,7 +263,6 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [plex-viewer](https://github.com/ztoben/plex-viewer) - Keyboard-driven Electron viewer for Plex. `Plex` · `Windows` `macOS` · `MIT` `Free`
 - [plex-win32-client](https://github.com/GERN2015/plex-win32-client) - Windows Plex client exported from Google Code, from 2015. `Plex` · `Windows` · `Open source` `Free` `Stale 2015`
 - [plexwmc](https://github.com/ammmze/plexwmc) - Plex app attempt for Windows Media Center. `Plex` · `Windows` · `Open source` `Ended 2023`
-- [PlezyNG](https://github.com/snapetech-org/PlezyNG) - Fork of the Plezy Flutter client. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `GPL-3.0`
 - [polybar-plexamp](https://github.com/jtkick/polybar-plexamp) - Polybar module showing and controlling Plexamp playback. `Plex` · `Linux` · `MIT` `Stale 2024`
 - [python-plex-client](https://github.com/dysproseum/python-plex-client) - Lightweight Python Plex client for Raspberry Pi. `Plex` · `Linux` · `Open source` `Free`
 - [qoda-player](https://github.com/42lizard/qoda-player) - Plex music player for Linux built with Quickshell, made for Omarchy. `Plex` · `Linux` · `MIT` `Free`

@@ -20686,21 +20686,6 @@
   description: Plezy fork adapted for foldable phones.
   notes: fork of edde746/plezy.
 
-- name: PlezyNG
-  url: https://github.com/snapetech-org/PlezyNG
-  servers: [plex, jellyfin, emby]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: active
-  status_year: 2026
-  description: Fork of the Plezy Flutter client.
-  notes: fork of edde746/plezy
-  long_tail: true
-
 - name: plezy-tizen
   url: https://github.com/George-Fam/plezy-tizen
   servers: [plex, jellyfin]
@@ -22667,15 +22652,18 @@
 
 - name: Scyphomote
   url: https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote
+  links:
+    repo: https://github.com/eiffelbeef/scyphomote
   servers: [jellyfin]
   official: false
-  platforms: [android]
+  platforms: [android, ios, linux, macos, windows]
   category: remote
   media: [video]
-  open_source: null
+  open_source: true
+  license: AGPL-3.0
   status: active
   status_year: 2026
-  description: Android remote control for the server's players.
+  description: Remote control for the server's players, with builds for Android, iOS and desktops.
 
 - name: seerrplay
   url: https://github.com/seerrplay-project/seerrplay

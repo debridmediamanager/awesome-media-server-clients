@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,810 third-party ones. Some are polished store apps. Others are small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,809 third-party ones. Some are polished store apps. Others are small open-source projects.
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
@@ -1583,7 +1583,7 @@ These do not play media themselves. They control or manage a server or connect i
 - [plexamp-nfc-listener](https://github.com/aubrey-wodonga/plexamp-nfc-listener) - Starts Plexamp playback from NFC tags. `Plex` · `Other device` · `MIT` `Stale 2023`
 - [plexamp-tui](https://github.com/spiercey/plexamp-tui) - Terminal remote that controls music players on the LAN. `Plex` · `CLI` · `MIT`
 - [Plex & Kodi Remote](https://apps.apple.com/app/id403716879) - iPhone remote control. `Plex` `+Kodi` · `iOS` `iPadOS` `watchOS` · `Stale 2019`
-- [Scyphomote](https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote) - Android remote control for the server's players. `Jellyfin` · `Android`
+- [Scyphomote](https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote) - Remote control for the server's players, with builds for Android, iOS and desktops. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `AGPL-3.0` · [Source](https://github.com/eiffelbeef/scyphomote)
 - [whatsplaying](https://github.com/gloaysa/whatsplaying) - Now-playing display for Plex. `Plex` · `Web` · `MIT` `Stale 2024`
 - [wym-tv](https://github.com/danmmr/wym-tv) - Fire TV remote and browser for WiiM streamers, with a Plex music library. `Plex` · `Fire TV` · `MIT` `Free`
 
@@ -1703,7 +1703,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 439 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
+[more-clients.md](more-clients.md) lists 438 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
 
 ## Contribution Guidelines
 

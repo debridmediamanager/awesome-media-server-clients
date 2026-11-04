@@ -2,7 +2,7 @@
 
 # iOS
 
-Every app in this list that runs on iOS. That is 582 apps with 261 for Plex and 441 for Jellyfin and 257 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on iOS. That is 583 apps with 261 for Plex and 442 for Jellyfin and 257 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -599,6 +599,7 @@ Every app in this list that runs on iOS. That is 582 apps with 261 for Plex and 
 - [Plex & Kodi Remote](https://apps.apple.com/app/id403716879) - iPhone remote control. `Plex` `+Kodi` · `iOS` `iPadOS` `watchOS` · `Stale 2019`
 - [Quartermaster](https://apps.apple.com/us/app/quartermaster-homelab-stack/id6779994284) - Homelab control app with media requests, download status, server controls and library playback. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` · `Freemium`
 - [Remote for Tautulli](https://apps.apple.com/us/app/remote-for-tautulli/id1343177312) - Statistics app for Tautulli on iPhone, iPad and Apple Watch. `Plex` · `iOS` `iPadOS` `watchOS` · `Freemium` `Stale 2024`
+- [Scyphomote](https://play.google.com/store/apps/details?id=com.eiffelbeef.scyphomote) - Remote control for the server's players, with builds for Android, iOS and desktops. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `AGPL-3.0` · [Source](https://github.com/eiffelbeef/scyphomote)
 - [Tautulli Remote](https://github.com/Tautulli/Tautulli-Remote) - Official Tautulli app for server statistics and activity. `Plex` · `Android` `iOS` `iPadOS` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id1570909086) · [Google Play](https://play.google.com/store/apps/details?id=com.tautulli.tautulli_remote)
 - [Varys for Plex](https://apps.apple.com/us/app/varys-for-plex/id1450380518) - iPhone server statistics app. `Plex` · `iOS` `iPadOS` `watchOS` · `Freemium`
 - [Zwind](https://apps.apple.com/us/app/zwind-webdav-server-player/id6755239096) - Turns the phone into a WebDAV hub that maps local files, SMB, cloud drives, feeds and media libraries. `Emby` · `iOS` `iPadOS` · `Freemium`

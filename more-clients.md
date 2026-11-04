@@ -202,7 +202,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [Velora](https://github.com/ravikishore-m/velora-tvos) - Apple TV client built on Swiftfin. `Jellyfin` · `tvOS` · `MPL-2.0` `Free`
 - [Vinnyfin](https://github.com/vinnysaj/vinnyfin) - Video player for iPhone, iPad, Mac and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free`
 - [Vlinder](https://github.com/wackyvert/Vlinder) - Client for Mac, iPhone, iPad and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Open source` `Free`
-- [Wavetile](https://github.com/derrellwilliams/wavetile) - iPhone player for music and podcasts. `Jellyfin` · `iOS` · `MPL-2.0` `Free` · [TestFlight](https://testflight.apple.com/join/pk9dyfMq)
+- [Wavetile](https://github.com/derrellwilliams/wavetile) - iPhone player for music and podcasts. `Jellyfin` · `iOS` `CarPlay` · `MPL-2.0` `Free` · [TestFlight](https://testflight.apple.com/join/pk9dyfMq)
 
 ## Desktop
 

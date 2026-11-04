@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,832 third-party ones. Some are polished store apps. Others are small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and 1,810 third-party ones. Some are polished store apps. Others are small open-source projects.
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
@@ -850,7 +850,6 @@ Third-party video and general clients for Emby only. Many come from the large Ch
 
 - [APTVMAN](https://apps.apple.com/us/app/aptvman-your-nas-player/id6808655545) - NAS player for movies, shows and music over SMB, WebDAV or a media server, on iPhone and Apple TV. `Emby` · `iOS` `tvOS` · `Free`
 - [CATV](https://apps.apple.com/us/app/catv/id6783948214) - Native media-server client with layouts tuned to each device; ships with no content. `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
-- [csgplayer](https://gitee.com/chenshaogui/csgplayer) - Swift Emby player for iOS. `Emby` · `iOS` · `Open source`
 - [Cylux](https://apps.apple.com/us/app/cylux/id6789887867) - Simple third-party Emby video player with no ads. `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Den](https://apps.apple.com/us/app/den/id6807652177) - Self-hosted media hub for music, films, shows, audiobooks, comics and novels, with iCloud-synced settings. `Emby` `+Audiobookshelf` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Free`
 - [DreamBy](https://testflight.apple.com/join/Vet98X4r) - Aggregator player for several servers, with Dolby Vision support. `Emby` · `iOS` · `Beta`
@@ -961,7 +960,6 @@ Music players and music-first clients.
 - [NSMusicS](https://github.com/Super-Badmen-Viper/NSMusicS) - Music player and server pair with clients for desktop and web. `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `AGPL-3.0` `Free` · [Microsoft Store](https://apps.microsoft.com/detail/9n0rws2tjxg1)
 - [PearTune](https://apps.apple.com/us/app/peartune-self-hosted-music/id6796709523) - Music app that streams your library from a machine you own over a direct encrypted link. `Jellyfin` `Emby` · `iOS` · `Free`
 - [Phoebe](https://github.com/j-roskopf/Phoebe) - Compose Multiplatform music player that also reaches Music Assistant. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `CarPlay` `Android Auto` · `MIT` `Free`
-- [Pixie](https://pixieplayer.app) - Music and audiobook player with a standalone Apple Watch app. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Beta`
 - [Platter](https://github.com/Silvercyclops999/platter) - Desktop music player for Windows and macOS. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` · `GPL-3.0`
 - [Plinth Player](https://apps.apple.com/us/app/plinth-player/id6772366960) - iPhone player for music and podcasts. `Jellyfin` `Emby` · `iOS`
 - [Primuse](https://apps.apple.com/us/app/primuse-self-hosted-music/id6761675450) - Self-hosted music player that also handles podcasts, audiobooks and internet radio, with synced lyrics. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Free`
@@ -1212,7 +1210,6 @@ Audiobook players and book or comic readers and photo viewers.
 - [Chronicle Epilogue](https://github.com/fabiogermann/chronicle) - Android audiobook player with Android Auto. `Plex` · `Android` `Android Auto` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=local.oss.chronicle) · [Info](https://forums.plex.tv/t/reviving-chronicle-audiobook-app-for-plex/935438)
 - [CLAUDIO](https://apps.apple.com/us/app/claudio-audiobooks-music/id6760961153) - Audiobook player for M4B and MP3 with chapters and sleep timer; server connections need a paid tier. `Jellyfin` `+Subsonic` `+Audiobookshelf` · `iOS` `iPadOS` `CarPlay` · `Freemium`
 - [Codex](https://apps.apple.com/de/app/codex-audiobook-player/id6759009860) - Audiobook player with three interface skins, including a Braun-inspired dial design. `Jellyfin` `+Audiobookshelf` · `iOS` `CarPlay` · `Paid`
-- [EmBook](https://emby.media/community/topic/50141-embook-proper-support-for-audiobooks) - Audiobook player for Android, iPhone and Windows. `Emby` · `Windows` `Android` `iOS`
 - [Jellyfin-Audiobook](https://github.com/adSORRYvance/Jellyfin-Audiobook) - Server plugin that replaces the web player with a chapter-aware audiobook player. `Jellyfin` · `Web` · `Open source`
 - [Listen Audiobook Player](https://play.google.com/store/apps/details?id=com.acmeandroid.listen) - Audiobook player that downloads books from your own server. `Plex` `+Audiobookshelf` · `Android` `Android Auto` · `Paid`
 - [Listening Library](https://apps.apple.com/us/app/listening-library/id6778243568) - Audiobook player for iCloud, Google Drive, servers and local files, with sleep timer and widgets. `Plex` `Jellyfin` `+Audiobookshelf` · `iOS` `iPadOS` `watchOS` · `Free`
@@ -1706,7 +1703,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 458 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
+[more-clients.md](more-clients.md) lists 439 smaller projects by platform. They live only on GitHub with no release and under 10 stars.
 
 ## Contribution Guidelines
 

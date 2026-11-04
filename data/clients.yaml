@@ -163,22 +163,6 @@
   status_year: 2026
   description: Flutter Jellyfin client with a dark cinema-style design.
 
-- name: acmerocket/plex-client
-  url: https://github.com/acmerocket/plex-client
-  servers: [plex]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: stale
-  status_year: 2016
-  description: Java desktop Plex client from 2016.
-  notes: Owner acmerocket; a different project from dasunNimantha/plex-client.
-  long_tail: true
-
 - name: Aduoer Music
   url: https://apps.apple.com/us/app/aduoer-music/id6794036425
   servers: [jellyfin]
@@ -2377,20 +2361,6 @@
   description: Video, music and book player linking local files, NAS, cloud drives and media servers on every screen.
   notes: by Hatch Co., Ltd
 
-- name: Brewfin
-  url: https://github.com/coffeelakedevv/brewfin
-  servers: [jellyfin]
-  official: false
-  platforms: [android, ios]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Jellyfin client app.
-  long_tail: true
-
 - name: Brockbuster
   url: https://github.com/brocksexton/Brockbuster-AppleOS
   servers: [jellyfin]
@@ -3902,21 +3872,6 @@
   description: Steam Deck Decky plugin that shows web apps such as Plex or Jellyfin in a picture-in-picture window.
   notes: Web wrapper; home servers are added as bookmarks. Controller remote.
 
-- name: Crabfin
-  url: https://github.com/sayeed205/crabfin
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: other
-  price: free
-  status: active
-  status_year: 2026
-  description: Desktop Jellyfin client.
-  long_tail: true
-
 - name: Crate for Plex
   url: https://apps.apple.com/us/app/crate-for-plex/id6767005738
   servers: [plex]
@@ -3976,33 +3931,6 @@
   aliases: [Crucible]
   description: Plex client with a resume-first home, the system player and native menus.
   notes: by Midgar Oy.
-
-- name: CryPlex
-  url: https://github.com/ehudokai/CryPlex
-  servers: [plex]
-  official: false
-  platforms: [web]
-  category: player
-  media: [video]
-  open_source: true
-  status: stale
-  status_year: 2012
-  description: HTML5 Plex client packaged as a Chrome app.
-  notes: Chrome packaged app; 2012.
-  long_tail: true
-
-- name: csgplayer
-  url: https://gitee.com/chenshaogui/csgplayer
-  servers: [emby]
-  official: false
-  platforms: [ios]
-  category: player
-  media: [video]
-  open_source: true
-  status: active
-  status_year: 2026
-  description: Swift Emby player for iOS.
-  notes: README is empty.
 
 - name: ctismer/jellyfin-desktop-qt
   url: https://github.com/ctismer/jellyfin-desktop-qt
@@ -4155,7 +4083,7 @@
   status: active
   status_year: 2026
   description: Native Plex client for Linux.
-  notes: Owner dasunNimantha; a different project from acmerocket/plex-client.
+  notes: Owner dasunNimantha.
   long_tail: true
 
 - name: daudk3/JellyCLI
@@ -5035,18 +4963,6 @@
   status_year: 2026
   description: Alternative web interface with danmaku comments.
   long_tail: true
-
-- name: EmBook
-  url: https://emby.media/community/topic/50141-embook-proper-support-for-audiobooks
-  servers: [emby]
-  official: false
-  platforms: [android, ios, windows]
-  category: audiobooks
-  media: [audiobooks]
-  open_source: null
-  status: unknown
-  description: Audiobook player for Android, iPhone and Windows.
-  notes: Unavailable during a rewrite; status unknown.
 
 - name: Embrr
   url: https://emby.media/community/topic/149916-embrr-%E2%80%94-a-premium-android-tv-client-for-emby/
@@ -6352,7 +6268,7 @@
   open_source: true
   status: unknown
   description: Vue short-video style front end for Emby.
-  notes: No README; same author as csgplayer.
+  notes: No README.
 
 - name: Fathom (Get-Coral)
   url: https://github.com/Get-Coral/fathom
@@ -7250,20 +7166,6 @@
   description: Music player that picks the next song for you, with gapless albums and loudness matching.
   notes: by Hyoik Lee
 
-- name: Flumby
-  url: https://github.com/Ender-Kylin/Flumby
-  servers: [emby]
-  official: false
-  platforms: [android, windows, linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Flutter client.
-  long_tail: true
-
 - name: flutter_danmaku_player
   url: https://github.com/huangshi10492/flutter_danmaku_player
   servers: [jellyfin, emby]
@@ -7293,21 +7195,6 @@
   status: active
   status_year: 2026
   description: Flutter client for Jellyfin.
-
-- name: FluTunes
-  url: https://github.com/V3ntus/flutunes
-  servers: [jellyfin]
-  official: false
-  platforms: [android, ios]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2025
-  description: Flutter music player.
-  notes: Flutter; platforms not named.
-  long_tail: true
 
 - name: FluxPlay
   url: https://apps.apple.com/br/app/fluxplay/id6759933301
@@ -7517,21 +7404,6 @@
   status: active
   status_year: 2026
   description: Flutter client for Jellyfin.
-  long_tail: true
-
-- name: Geeb
-  url: https://github.com/toastxc/Geeb
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2025
-  description: C# music client.
-  notes: Platform not stated.
   long_tail: true
 
 - name: Gelata
@@ -8010,21 +7882,6 @@
   description: Flutter Emby client; only the experimental web build works so far, mobile and desktop builds are planned.
   long_tail: true
 
-- name: Hacksawdio
-  url: https://github.com/ericsakmar/hacksawdio
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Offline-first, keyboard-driven music client.
-  notes: Platform not stated.
-  long_tail: true
-
 - name: hail-frequency
   url: https://github.com/SpaceinvaderOne/hail-frequency
   servers: [jellyfin, emby]
@@ -8126,21 +7983,6 @@
   status_year: 2026
   description: HarmonyOS video player; a phone-first project that is still adding features.
   notes: Gitee mirror exists.
-
-- name: Harpoon
-  url: https://github.com/siddhantmadhur/harpoon
-  servers: [jellyfin]
-  official: false
-  platforms: [android, ios, windows, macos, linux, web]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  description: Flutter Jellyfin client for all platforms.
-  long_tail: true
 
 - name: Harrik Player
   url: https://github.com/harriks/harrik-player
@@ -8872,21 +8714,6 @@
   description: Cross-platform player for phones, Apple TV, Windows and Xbox.
   notes: Release pace slowing.
 
-- name: iPlex
-  url: https://github.com/Sytten/iPlex
-  servers: [plex]
-  official: false
-  platforms: [windows, macos, linux]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2023
-  description: Native desktop music player for Plex.
-  notes: Last pushed 2023.
-  long_tail: true
-
 - name: IPTViX
   url: https://apps.apple.com/ru/app/iptv-%D0%BF%D0%BB%D0%B5%D0%B5%D1%80-%D0%B8-%D1%82%D0%B2-%D0%B3%D0%B8%D0%B4-iptvix/id6762452941
   servers: [plex]
@@ -9118,22 +8945,6 @@
   status: active
   status_year: 2026
   description: Native SwiftUI music client for the Mac.
-
-- name: Jellible
-  url: https://github.com/Jellible-Audiobooks/App
-  servers: [jellyfin]
-  official: false
-  platforms: [android, ios]
-  category: audiobooks
-  media: [audiobooks]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2025
-  description: Cross-platform audiobook player built with React Native.
-  notes: Repo Jellible-Audiobooks/App.
-  long_tail: true
 
 - name: Jellibozia
   url: https://apps.apple.com/hk/app/jellibozia/id6798027478
@@ -10824,21 +10635,6 @@
   description: Android app that syncs a remote library to local storage.
   long_tail: true
 
-- name: JellyfinMauiPlayer
-  url: https://github.com/jaysonsantos/JellyfinMauiPlayer
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos]
-  category: player
-  media: [video]
-  open_source: true
-  license: other
-  price: free
-  status: active
-  status_year: 2026
-  description: Jellyfin player built with .NET MAUI and mpv.
-  long_tail: true
-
 - name: Jellyfin Media Center (Tafitson)
   url: https://open-store.io/app/jellyfin.tafitson
   servers: [jellyfin]
@@ -10960,21 +10756,6 @@
   status_year: 2025
   description: Music client for a Jellyfin library.
   notes: Archived repo; platform not stated.
-  long_tail: true
-
-- name: jellyfin-music-player
-  url: https://github.com/thurainhtetko/jellyfin-music-player
-  servers: [jellyfin]
-  official: false
-  platforms: [windows]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Native Windows music player.
-  notes: Repo thurainhtetko/jellyfin-music-player.
   long_tail: true
 
 - name: Jellyfin Music Player (06Games)
@@ -18979,19 +18760,6 @@
   description: Minecraft mod that plays your library on in-game TV and cinema screens.
   notes: NeoForge mod for Minecraft 1.21.1; also works with Tunarr channels.
 
-- name: Pixie
-  url: https://pixieplayer.app
-  servers: [plex, jellyfin]
-  official: false
-  platforms: [ios, ipados, macos, tvos, carplay, watchos]
-  category: music
-  media: [music, audiobooks]
-  open_source: null
-  status: beta
-  status_year: 2026
-  description: Music and audiobook player with a standalone Apple Watch app.
-  notes: TestFlight only.
-
 - name: Plankton
   url: https://github.com/schembora/plankton
   servers: [jellyfin]
@@ -19579,21 +19347,6 @@
   description: Web audiobook player that streams M4B files from Plex.
   long_tail: true
 
-- name: plex-browser
-  url: https://github.com/dresswithpockets/plex-browser
-  servers: [plex]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2018
-  description: Simple Electron app for Plex, from 2018.
-  notes: Last pushed 2018.
-  long_tail: true
-
 - name: plex-browser-card
   url: https://github.com/stoffer123/plex-browser-card
   servers: [plex]
@@ -19946,21 +19699,6 @@
   status: active
   status_year: 2026
   description: Native Rust music player for Sailfish OS phones and the Linux desktop.
-
-- name: Plex-Gamified
-  url: https://github.com/lordcrekit/Plex-Gamified
-  servers: [plex]
-  official: false
-  platforms: [windows]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: stale
-  status_year: 2023
-  description: Unity-based gamified interface for a Plex library.
-  notes: Unity project from 2023; target platforms and playback not stated.
-  long_tail: true
 
 - name: Plex Home Theater
   url: https://github.com/plexinc/plex-home-theater-public
@@ -21620,21 +21358,6 @@
   description: Android app for swipe-to-delete library cleanup.
   notes: Deletions are permanent.
 
-- name: python-jellyfin
-  url: https://github.com/cmerk2021/python-jellyfin
-  servers: [jellyfin]
-  official: false
-  platforms: [windows]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2026
-  description: Windows client written in Python.
-  long_tail: true
-
 - name: python-plex-client
   url: https://github.com/dysproseum/python-plex-client
   servers: [plex]
@@ -22630,23 +22353,6 @@
   status_year: 2026
   description: Multi-platform music player with a headless web UI, plus WebDAV and SMB.
   notes: Listed as multi-platform without detail.
-
-- name: RufinBlue
-  url: https://github.com/maurog75/RufinBlue
-  servers: [jellyfin]
-  also: [subsonic]
-  official: false
-  platforms: [linux]
-  category: music
-  media: [music]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  description: GTK4 music client for Linux, forked from Rufin.
-  notes: Fork of screwys/Rufin.
-  long_tail: true
 
 - name: Rushy
   url: https://github.com/brivera2005/Rushy
@@ -25097,20 +24803,6 @@
   aliases: [Tauon]
   description: Desktop music player for Windows and Linux.
   notes: On Flathub. Listed as third-party on jellyfin.org.
-
-- name: tauri-jellyfin-client
-  url: https://github.com/GabrielRamosGomes/tauri-jellyfin-client
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Tauri-based desktop Jellyfin client.
-  long_tail: true
 
 - name: Tautulli Remote
   url: https://github.com/Tautulli/Tautulli-Remote
@@ -27828,23 +27520,6 @@
   status_year: 2026
   description: iPhone Jellyfin client with Quick Connect and resume that syncs progress with the server.
   notes: by Diamantina Saada. Separate from X Play (Emby).
-  distinct: true
-
-- name: XPlayer (SwaggyMacro)
-  url: https://github.com/SwaggyMacro/XPlayer
-  servers: [jellyfin, emby]
-  also: [cloud, local]
-  official: false
-  platforms: [windows]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Windows player for Jellyfin, Emby, cloud-drive and local media.
-  notes: Not xtq94kws7z-droid/Xplayer.
-  long_tail: true
   distinct: true
 
 - name: xPlayer

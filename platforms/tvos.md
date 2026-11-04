@@ -2,7 +2,7 @@
 
 # tvOS
 
-Every app in this list that runs on tvOS. That is 263 apps with 143 for Plex and 201 for Jellyfin and 125 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and 200 for Jellyfin and 125 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -269,7 +269,6 @@ Every app in this list that runs on tvOS. That is 263 apps with 143 for Plex and
 - [LynMusic](https://apps.apple.com/us/app/lynmusic/id6797922509) - Music player for local files, Navidrome, Subsonic, Emby, Jellyfin, SMB and WebDAV libraries. `Jellyfin` `Emby` `+Subsonic` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Navid Music](https://apps.apple.com/us/app/navid-music-clear-hifi-player/id6786164266) - Music player with lyrics and a Metro-inspired design for Navidrome, Subsonic, Emby and local libraries. `Emby` `+Subsonic` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [Niche](https://apps.apple.com/app/niche-audio-player/id6755544716) - Folder-based audio player for Apple TV. `Plex` `Emby` · `tvOS` · `Freemium`
-- [Pixie](https://pixieplayer.app) - Music and audiobook player with a standalone Apple Watch app. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Beta`
 - [Playris](https://apps.apple.com/app/id6762232046) - Apple TV music player with a bit-perfect mode. `Plex` · `tvOS` · `Free`
 - [Primuse](https://apps.apple.com/us/app/primuse-self-hosted-music/id6761675450) - Self-hosted music player that also handles podcasts, audiobooks and internet radio, with synced lyrics. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Free`
 - [Qingyuan Player](https://apps.apple.com/us/app/%E9%9D%92%E5%85%83-player/id6761592311) - Local music player with metadata and lyric tools that also streams from Jellyfin, Emby, WebDAV and Alist. `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Free`

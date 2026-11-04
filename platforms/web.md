@@ -2,7 +2,7 @@
 
 # Web
 
-Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 146 for Jellyfin and 46 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 145 for Jellyfin and 46 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -31,7 +31,6 @@ Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 1
 - [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `Android TV` · `GPL-3.0` `Free`
 - [Cine](https://github.com/LK59/cine-app) - Netflix-style streaming web app for Jellyfin. `Jellyfin` · `Web` · `AGPL-3.0` `Free`
 - [Clipfin](https://github.com/Happyzippy/clipfin) - Jellyfin client for short clips. `Jellyfin` · `Web` · `Open source` `Free`
-- [CryPlex](https://github.com/ehudokai/CryPlex) - HTML5 Plex client packaged as a Chrome app. `Plex` · `Web` · `Open source` `Stale 2012`
 - [DashStream](https://github.com/bierzelt-kind/dashstream) - Web player tuned for the Tesla in-car browser, for films from Jellyfin and audiobooks from Audiobookshelf. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
 - [Embience](https://github.com/mps233/Embience) - Alternative web interface with danmaku comments. `Jellyfin` `Emby` · `Web` · `Open source`
 - [Emby Flow (liyongliao)](https://github.com/liyongliao/emby-flow) - Online player with a built-in downloader. `Emby` · `Web` · `Open source` `Free`
@@ -55,7 +54,6 @@ Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 1
 - [go-jf-watch](https://github.com/opd-ai/go-jf-watch) - Jellyfin client that caches media locally for playback. `Jellyfin` · `Windows` `macOS` `Linux` `Web` · `MIT` `Free`
 - [GVP v3](https://github.com/bjh021149/gvpv3) - Flutter Emby client; only the experimental web build works so far, mobile and desktop builds are planned. `Emby` · `Web` · `Open source` `Free` `Beta`
 - [halcyon-video](https://github.com/halcyon-video/halcyon-video) - Self-hosted web UI that shows your library as a walkable 1990s video-rental store. `Plex` `Jellyfin` `Emby` · `Web` `Android TV` `Fire TV` · `GPL-3.0` · [Website](https://halcyon-video.github.io/halcyon-video/)
-- [Harpoon](https://github.com/siddhantmadhur/harpoon) - Flutter Jellyfin client for all platforms. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `GPL-3.0` `Free`
 - [Heisuca](https://github.com/CaioGuerras/heisuca) - Player suite for web, Android, Android TV and iPhone. `Plex` `Jellyfin` · `Web` `Android` `iOS` `Android TV` · `Open source`
 - [Hestia](https://github.com/bybrooklyn/Hestia) - Web client built on Jellyfin Vue. `Jellyfin` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [Hevyfin](https://github.com/NickHemeryckeHevan/Hevyfin) - Jellyfin client aimed at most devices. `Jellyfin` · `Linux` `Web` `Android` `Android TV` · `GPL-3.0` `Free`

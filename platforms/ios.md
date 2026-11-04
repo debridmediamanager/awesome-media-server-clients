@@ -2,7 +2,7 @@
 
 # iOS
 
-Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 453 for Jellyfin and 262 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on iOS. That is 590 apps with 263 for Plex and 448 for Jellyfin and 260 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -55,7 +55,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [Bloom's Jellyfin Client](https://github.com/BloomPhobic/Bloom-s-Jellyfin-Client-iOS) - iPhone client that direct-plays through mpv. `Jellyfin` · `Linux` `iOS` · `MPL-2.0` `Free` · [Source](https://github.com/BloomPhobic/Bloom-s-Jellyfin-Client)
 - [BoxPlayer](https://apps.apple.com/us/app/boxplayer-4k-video-player/id6739804060) - Video player that gathers cloud drives, NAS, IPTV and media servers into one poster-wall library. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Bref Player](https://www.bref.cn/) - Video, music and book player linking local files, NAS, cloud drives and media servers on every screen. `Plex` `Jellyfin` `Emby` `+fnOS` `+IPTV` `+OPDS` · `macOS` `iOS` `iPadOS` `tvOS` · `Free` · [App Store](https://apps.apple.com/us/app/bref-player/id6788695019)
-- [Brewfin](https://github.com/coffeelakedevv/brewfin) - Jellyfin client app. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
 - [Brockbuster](https://github.com/brocksexton/Brockbuster-AppleOS) - Swift app for Apple devices built around one custom Jellyfin service. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
 - [Bumper](https://github.com/kristianfreeman/bumper) - Ambient media player for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
 - [BurgTV](https://apps.apple.com/br/app/burgtv-player-m3u-xtream/id6761636987) - IPTV player for M3U playlists, Xtream Codes and portals that also connects to a media server. `Jellyfin` `+IPTV` · `iOS` `iPadOS` · `Freemium`
@@ -95,7 +94,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [Cordbox](https://apps.apple.com/us/app/cordbox-iptv-media-player/id6788759297) - IPTV and media player that brings playlists, portals, media servers and network shares into one app, with recordings. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Free`
 - [Crivid IPTV Player](https://apps.apple.com/us/app/crivid-iptv-player-m3u-xtream/id6783083716) - IPTV player for M3U playlists and Xtream logins that can also connect media servers and tuners. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Crucible for Plex](https://apps.apple.com/us/app/crucible-for-plex/id6822066419) - Plex client with a resume-first home, the system player and native menus. `Plex` · `iOS` `iPadOS` `tvOS` · `Freemium` · [Source](https://github.com/guitaripod/Crucible)
-- [csgplayer](https://gitee.com/chenshaogui/csgplayer) - Swift Emby player for iOS. `Emby` · `iOS` · `Open source`
 - [Cue](https://craigosborne.com/cue/) - Media player for a personal library with resume and offline favourites. `Jellyfin` · `iOS` `iPadOS` · `Freemium` · [App Store](https://apps.apple.com/de/app/cue-media-player/id6798327106) · [TestFlight](https://testflight.apple.com/join/et6EFShU)
 - [Cue for Plex](https://apps.apple.com/us/app/cue-for-plex/id6822878172) - iPhone and iPad client. `Plex` · `iOS` `iPadOS`
 - [Cuspart](https://apps.apple.com/us/app/cuspart-iptv/id6812349140) - IPTV player for M3U, Xtream Codes and Stalker portals, organised into a library with resume and favourites. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Freemium`
@@ -146,7 +144,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [GreenPlayer](https://apps.apple.com/us/app/greenplayer-media-player/id6803910858) - Video player for local, iCloud Drive and NAS files plus Jellyfin and Emby libraries, with one-tap enhancement. `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` · `Free`
 - [HamHub](https://apps.apple.com/app/id6458691598) - Apple-platform player for media servers and cloud drives. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [HANAplay](https://apps.apple.com/us/app/hanaplay/id6782382601) - Media server player with a cinematic home, continue watching and a choice of media versions. `Plex` `Jellyfin` `Emby` `+Silo` · `iOS` `iPadOS` `tvOS` · `Free`
-- [Harpoon](https://github.com/siddhantmadhur/harpoon) - Flutter Jellyfin client for all platforms. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `GPL-3.0` `Free`
 - [Hectic TV](https://apps.apple.com/us/app/hectic-tv-tv-player/id6820662503) - Live TV player for Xtream Codes, M3U and Jellyfin sources with an XMLTV guide, movies and series. `Jellyfin` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` `watchOS` · `Freemium`
 - [Heisuca](https://github.com/CaioGuerras/heisuca) - Player suite for web, Android, Android TV and iPhone. `Plex` `Jellyfin` · `Web` `Android` `iOS` `Android TV` · `Open source`
 - [Himi SyncWatch](https://github.com/JzeroM/himi-syncwatch) - Flutter client with group watching. `Emby` · `Windows` `Android` `iOS` `HarmonyOS` `Android TV` · `Open source` `Free`
@@ -456,7 +453,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [Flex Music](https://apps.apple.com/us/app/flex-music-player/id6795259400) - Plex music player and playlist manager with offline downloads, ratings sync and synced lyrics. `Plex` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Freemium`
 - [Fluffin](https://github.com/RousseAddict/fluffin) - CarPlay-compatible audio player. `Jellyfin` · `Android` `iOS` `CarPlay` · `Open source` `Free`
 - [Fluida Player](https://apps.apple.com/us/app/fluida-player/id6820142292) - Music player that picks the next song for you, with gapless albums and loudness matching. `Plex` · `iOS` · `Free`
-- [FluTunes](https://github.com/V3ntus/flutunes) - Flutter music player. `Jellyfin` · `Android` `iOS` · `Open source` `Free` `Stale 2025`
 - [GridPlayer](https://apps.apple.com/us/app/gridplayer-music-player/id6771136647) - Music player for local folders, WebDAV, NAS and self-hosted servers in one organized library. `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` · `Free`
 - [Hakuro](https://apps.apple.com/us/app/hakuro/id6756937091) - Lightweight music player with lyrics, lyric translation and AirPlay. `Jellyfin` · `iOS` · `Free`
 - [Hathor Player](https://apps.apple.com/us/app/hathor-player/id6821212497) - iPhone music player with CarPlay. `Plex` · `iOS` `CarPlay` · `Freemium` `Beta` · [Info](https://www.reddit.com/r/plexamp/comments/1x4knyv/not_just_another_plexamp_alternative_hathor_turns/)
@@ -515,7 +511,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [OpAmp](https://opamp.app) - Desktop music player for Plex on Mac and Windows. `Plex` · `Windows` `macOS` `iOS` · `Free`
 - [PearTune](https://apps.apple.com/us/app/peartune-self-hosted-music/id6796709523) - Music app that streams your library from a machine you own over a direct encrypted link. `Jellyfin` `Emby` · `iOS` · `Free`
 - [Phoebe](https://github.com/j-roskopf/Phoebe) - Compose Multiplatform music player that also reaches Music Assistant. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `CarPlay` `Android Auto` · `MIT` `Free`
-- [Pixie](https://pixieplayer.app) - Music and audiobook player with a standalone Apple Watch app. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Beta`
 - [Plevi](https://github.com/upfarm-development/Plevi) - iOS music client that also reads from a Navidrome library. `Plex` `+Subsonic` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Open source` `Free`
 - [Plinth Player](https://apps.apple.com/us/app/plinth-player/id6772366960) - iPhone player for music and podcasts. `Jellyfin` `Emby` · `iOS`
 - [Primuse](https://apps.apple.com/us/app/primuse-self-hosted-music/id6761675450) - Self-hosted music player that also handles podcasts, audiobooks and internet radio, with synced lyrics. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Free`
@@ -583,8 +578,6 @@ Every app in this list that runs on iOS. That is 597 apps with 264 for Plex and 
 - [Codex](https://apps.apple.com/de/app/codex-audiobook-player/id6759009860) - Audiobook player with three interface skins, including a Braun-inspired dial design. `Jellyfin` `+Audiobookshelf` · `iOS` `CarPlay` · `Paid`
 - [Codex Reader](https://apps.apple.com/br/app/codex-reader-early-access/id6762022936) - Reader and listener that gathers EPUBs, M4Bs and MP3 audiobooks from several sources into one shelf. `Plex` `+Audiobookshelf` `+OPDS` · `iOS` `iPadOS` `CarPlay` · `Freemium`
 - [Cosmic Comics](https://github.com/Nytuo/CosmicComics) - Comic, manga and ebook reader that integrates with a Jellyfin library. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `GPL-3.0` `Free` · [Snap](https://snapcraft.io/cosmiccomics)
-- [EmBook](https://emby.media/community/topic/50141-embook-proper-support-for-audiobooks) - Audiobook player for Android, iPhone and Windows. `Emby` · `Windows` `Android` `iOS`
-- [Jellible](https://github.com/Jellible-Audiobooks/App) - Cross-platform audiobook player built with React Native. `Jellyfin` · `Android` `iOS` · `MIT` `Free`
 - [jellyblair](https://github.com/hmblair/jellyblair) - Audiobook player for Mac and iPhone. `Jellyfin` · `macOS` `iOS` · `MIT`
 - [JellyBook](https://github.com/JellyBookOrg/JellyBook) - Reader for ebooks and comics that also plays audiobooks. `Jellyfin` · `Android` `iOS` · `MIT` `Free`
 - [KiokuYomi](https://apps.apple.com/tw/app/kiokuyomi/id6795781367) - Manga and article reader with site rules and CBZ/PDF import that also opens Komga, Kavita, OPDS and Jellyfin sources. `Jellyfin` `+Komga` `+Kavita` `+OPDS` · `iOS` `iPadOS` · `Free`

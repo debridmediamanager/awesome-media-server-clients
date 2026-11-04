@@ -2,7 +2,7 @@
 
 # CarPlay
 
-Every app in this list that runs on CarPlay. That is 142 apps with 66 for Plex and 108 for Jellyfin and 63 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on CarPlay. That is 141 apps with 65 for Plex and 107 for Jellyfin and 63 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -116,7 +116,6 @@ Every app in this list that runs on CarPlay. That is 142 apps with 66 for Plex a
 - [Nautune](https://apps.apple.com/us/app/nautune/id6754812208) - Flutter-based Jellyfin music player with a deep-sea theme. `Jellyfin` · `iOS` `iPadOS` `CarPlay` · `Free`
 - [Navid Music](https://apps.apple.com/us/app/navid-music-clear-hifi-player/id6786164266) - Music player with lyrics and a Metro-inspired design for Navidrome, Subsonic, Emby and local libraries. `Emby` `+Subsonic` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [Phoebe](https://github.com/j-roskopf/Phoebe) - Compose Multiplatform music player that also reaches Music Assistant. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `CarPlay` `Android Auto` · `MIT` `Free`
-- [Pixie](https://pixieplayer.app) - Music and audiobook player with a standalone Apple Watch app. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Beta`
 - [Plevi](https://github.com/upfarm-development/Plevi) - iOS music client that also reads from a Navidrome library. `Plex` `+Subsonic` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Open source` `Free`
 - [Primuse](https://apps.apple.com/us/app/primuse-self-hosted-music/id6761675450) - Self-hosted music player that also handles podcasts, audiobooks and internet radio, with synced lyrics. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` `watchOS` · `Free`
 - [Prism Music](https://apps.apple.com/us/app/prism-music/id1335007451) - iPhone and iPad music player with unlimited CarPlay downloads. `Plex` · `iOS` `iPadOS` `CarPlay` · `Freemium` `Stale 2022`

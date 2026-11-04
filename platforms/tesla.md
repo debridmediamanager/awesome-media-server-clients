@@ -15,7 +15,7 @@ Every app in this list that runs on Tesla. That is 6 apps with 4 for Plex and 3 
 ## Music
 
 - [DashStream](https://github.com/bierzelt-kind/dashstream) - Web frontend tuned for the Tesla in-car browser. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
-- [Mayhem](https://github.com/8layer8/Mayhem) - Plex audio player for the Tesla in-car browser. `Plex` · `Android TV` `Tesla` · `MIT`
+- [Mayhem](https://github.com/8layer8/Mayhem) - Plex audio player for the Tesla in-car browser. `Plex` · `Web` `Android TV` `Tesla` · `MIT`
 - [tesla-plex-player](https://github.com/CleJason/tesla-plex-player) - Music player for the Tesla in-car browser. `Plex` · `Tesla` · `Open source`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

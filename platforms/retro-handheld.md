@@ -8,7 +8,7 @@ Every app in this list that runs on Retro handheld. That is 10 apps with 3 for P
 
 ## Video and general
 
-- [emby-tui](https://github.com/booYah187/emby-tui) - Terminal client that also runs on Android and muOS and JELOS handhelds. `Jellyfin` `Emby` · `Linux` `Android` `Retro handheld` `CLI` · `GPL-3.0` `Stale 2025`
+- [emby-tui](https://github.com/booYah187/emby-tui) - Terminal client that also runs on Android and muOS and JELOS handhelds. `Jellyfin` `Emby` · `Retro handheld` `CLI` · `GPL-3.0` `Stale 2025`
 - [jellyfin-rg35xxh](https://github.com/aG00Dtime/jellyfin-rg35xxh) - Controller-first app for the Anbernic RG35XX H. `Jellyfin` · `Retro handheld` · `MIT` `Free`
 - [Minifin](https://github.com/zakijss/MiniFin) - Movies and shows on the Miyoo Mini Plus. `Jellyfin` · `Retro handheld` · `MIT` `Free`
 - [Miyoofin](https://github.com/S3ggie/MiyooFin) - App for the Miyoo Mini Plus running Onion OS. `Jellyfin` · `Retro handheld` · `GPL-3.0` `Free`

@@ -43,17 +43,17 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [ChaiChaiEmbyTV](https://github.com/dh374374/ChaiChaiEmbyTV) - Chinese Android TV client. `Emby` · `Android TV` · `Free`
 - [Chameleon](https://github.com/jumpingfox-dev/chameleon) - Customisable Flutter client for Jellyfin. `Jellyfin` · `Android` `iOS` `Android TV` · `Open source` `Free`
 - [ChiGuo TV](https://github.com/P-bit-display/chiguo-tv) - Android TV app with a tvOS-style interface, made for Redmi and Xiaomi TVs. `Jellyfin` · `Android TV` · `MIT` `Free`
-- [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `GPL-3.0` `Free`
+- [Chudder](https://github.com/JenteJan/Chudder) - Opinionated fork of the Fladder Flutter client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `Android TV` · `GPL-3.0` `Free`
 - [CinefinTV](https://github.com/rpeters1430/CinefinTV) - Android TV client for Jellyfin. `Jellyfin` · `Android TV` · `MIT` `Free` `Beta`
 - [Cinetry](https://github.com/gstory0404/Cinetry) - Multi-source player that also reads CMS video sites, IPTV, WebDAV, Alist, Subsonic and Audiobookshelf. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+IPTV` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `Open source`
-- [Cinode](https://github.com/Bakare-Ayomide/CinodeClient) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` · `Open source` `Free`
+- [Cinode](https://github.com/Bakare-Ayomide/CinodeClient) - Jellyfin client for Android phones and Android TV. `Jellyfin` · `Android` `Android TV` · `Open source` `Free`
 - [Cmby](https://github.com/CeRu-007/Cmby) - Flutter client for phones, TV boxes and desktops, distributed as release builds only. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV`
 - [CookeInCode/jellyfin-androidtv](https://github.com/CookeInCode/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [Dengying Player](https://github.com/hanshengcc/dengying-player) - Flutter and mpv player for Emby and Jellyfin. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `MIT` `Free`
 - [Dooplex](https://github.com/jackra1n/Dooplex) - Client for Zidoo players that hands playback to the native player. `Plex` · `Android TV` `Other TV` · `GPL-3.0`
 - [DreamPlayer](https://apps.apple.com/us/app/dreamplayer-video-player/id6813066889) - Video player for MKV, MP4, TS and AVI files with hardware decoding and DTS/TrueHD audio. `Jellyfin` `Emby` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` · `Freemium` · [Source](https://github.com/mangeshghodke/DreamPlayer)
 - [Driftfin](https://github.com/dhrandy/Driftfin) - Google TV and Android TV client that also runs on older Fire TVs. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Open source` `Free`
-- [Dune Web](https://github.com/Sam42a/DUNE-WEB) - Web-based client for Android TV, from the Dune project. `Jellyfin` · `Web` `Android TV` · `GPL-2.0` `Free` `Stale 2025`
+- [Dune Web](https://github.com/Sam42a/DUNE-WEB) - Web-based client for Android TV, from the Dune project. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Stale 2025`
 - [Elefin](https://github.com/flex36ty/elefin) - Android TV client. `Jellyfin` · `Android` `Android TV` · `Open source`
 - [Ellefin](https://github.com/flex36ty/Ellefin-Jellyfin-Client-ATV) - Early alpha Android TV client. `Jellyfin` · `Android` `Android TV` · `Open source` `Free` `Beta`
 - [Embrr](https://emby.media/community/topic/149916-embrr-%E2%80%94-a-premium-android-tv-client-for-emby/) - Android TV client built with Compose for TV. `Emby` · `Android TV` · `Beta`
@@ -72,7 +72,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flow](https://github.com/Flow-Media-Client/Flow-release) - Chinese Android TV client. `Jellyfin` `Emby` · `Android TV` · `Paid`
 - [Flymby](https://www.flymby.top/) - MPV-based player with HDR/Dolby Vision, AI subtitles and Anime4K for servers, cloud drives and IPTV. `Jellyfin` `Emby` `+fnOS` `+IPTV` · `Android` `HarmonyOS` `Android TV` · [Source](https://github.com/fbinba3955/Flymby)
-- [Foxfin](https://github.com/zillazero/foxfin) - Android and Android TV client for Jellyfin and Emby, forked from Moonfin. `Jellyfin` `Emby` · `Android` `Android TV` `Android Auto` · `GPL-2.0` `Free`
+- [Foxfin](https://github.com/zillazero/foxfin) - Android and Android TV client for Jellyfin and Emby, forked from Moonfin. `Jellyfin` `Emby` · `Web` `Android` `Android TV` `Android Auto` · `GPL-2.0` `Free`
 - [FreePlexity](https://github.com/crucifix86/freeplexity) - Android TV client. `Plex` · `Android TV` · `Open source`
 - [Gemby](https://github.com/AmbitiousJun/gemby) - Android TV client with a choice of MPV, Media3 or VLC playback engines. `Emby` · `Android TV` · `Open source` `Free`
 - [Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) - Android and Android TV player that also plays cloud drives and IPTV. `Jellyfin` `Emby` `+IPTV` · `Android` `Android TV` · `AGPL-3.0` `Free`
@@ -101,7 +101,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [jellyfin-pro-fire-tv](https://github.com/man1710/jellyfin-pro-fire-tv) - Fire TV app that reproduces a custom Jellyfin web interface. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`
 - [jellyfin-tvbox](https://github.com/zdl1982/jellyfin-tvbox) - Client for old Android 4 TV boxes. `Jellyfin` · `Android TV` · `Open source` `Free`
 - [JellyKidsTV](https://github.com/dahool/JellyKidsTV) - Kids-focused Android TV client. `Jellyfin` · `Android TV` · `Open source` `Free` `Stale 2025`
-- [Jellyplay](https://github.com/raulshma/jellyplay) - Client for Android phones, Android TV and Fire TV. `Jellyfin` · `Windows` `Android` `Android TV` `Fire TV` `Android Auto` · `GPL-3.0`
+- [Jellyplay](https://github.com/raulshma/jellyplay) - Client for Android phones, Android TV and Fire TV. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` `Fire TV` `Android Auto` · `GPL-3.0`
 - [JellyPlayer (qiuleidee)](https://github.com/qiuleidee/JellyPlayer) - Jellyfin web client with an Infuse-inspired design. `Jellyfin` · `Web` `Android TV` · `Open source` `Free`
 - [JellyShell](https://github.com/DmytroKhrishu/jellyshell) - TV-first Jellyfin client for Xbox, Android TV and phones. `Jellyfin` · `Android` `Android TV` `Xbox` · `GPL-3.0` `Free`
 - [JellyStack](https://github.com/Darkatek7/jellystack) - Android client with built-in Seerr requests, built with Kotlin Multiplatform. `Jellyfin` · `Android` `Android TV` `Fire TV` · `GPL-3.0` `Free` · [Website](https://jellystack.org) · [Google Play](https://play.google.com/store/apps/details?id=app.jellystack.mobile)
@@ -141,7 +141,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Nook](https://gitee.com/ksd678/nook) - Android TV client that merges several servers into one library, with libVLC for ISO, BDMV and ASS. `Jellyfin` `Emby` · `Android TV`
 - [NostalgiaTV](https://play.google.com/store/apps/details?id=com.nostalgiatv) - Android and Android TV app that plays your library as a retro cable lineup. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [Nuvio Arc](https://github.com/ysosrs123/NuvioTV-Fork) - Stremio-style Android TV app extended with personal-server libraries and Silo. `Jellyfin` `Emby` `+Stremio addons` `+Silo` · `Android TV` `Fire TV` · `GPL-3.0` `Free`
-- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only TV client based on Moonfin. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only TV client based on Moonfin. `Jellyfin` · `Web` `Android TV` · `GPL-2.0` `Free`
 - [OmniPlay](https://github.com/nandieling/OmniPlay) - Native poster-wall player on libmpv for local, WebDAV, SMB and server libraries. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Android` `Android TV` · `AGPL-3.0`
 - [OpenEmby TV](https://github.com/shareven/openemby_tv) - Open-source client for Android TV boxes. `Emby` · `Android TV` · `Open source` `Free`
 - [Orca X](https://github.com/jkrishna289/OrcaX) - TV-first Android client built on Wholphin. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
@@ -152,7 +152,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Playable](https://gitee.com/leeczli/playable-apk) - Android and Android TV player with a poster wall, direct play and progress write-back. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [PlexiPlay](https://github.com/Kahenis/plexiplay) - Closed-source Android TV Plex player distributed as an APK. `Plex` · `Android` `Android TV` · `Free` · [Source](https://github.com/Kahenis/plexiplay-android)
 - [Plezy](https://github.com/edde746/plezy) - Multi-server client with cross-server search, mpv playback and HDR; free from GitHub, paid in app stores. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Android Automotive` · `GPL-3.0` `Paid` · [Website](https://plezy.app) · [App Store](https://apps.apple.com/us/app/id6754315964) · [Google Play](https://play.google.com/store/apps/details?id=com.edde746.plezy) · [Microsoft Store](https://apps.microsoft.com/detail/9n5r1s1t68h7) · [Amazon](https://www.amazon.com/edde746-Plezy-for-Plex-Jellyfin/dp/B0GK65CVS1) · [Info](https://archlinux.org/packages/extra/x86_64/plezy/)
-- [Plix](https://github.com/Jman100/plix) - Flutter client for Plex and Jellyfin. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` · `Open source` `Free`
+- [Plix](https://github.com/Jman100/plix) - Flutter client for Plex and Jellyfin. `Plex` `Jellyfin` · `Windows` `Linux` `Android` `Android TV` · `Open source` `Free`
 - [Premflix](https://github.com/IamThejus/PremFlix) - Flutter client for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` · `Open source` `Free`
 - [Quallenkino](https://github.com/DrdotHouse2106/Jellyfin-TV-Client) - Android TV and Fire TV app. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [Reefin](https://play.google.com/store/apps/details?id=com.shady.reefin) - Client for Android phones and Android TV. `Jellyfin` · `Android` `Android TV`
@@ -206,13 +206,13 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 
 ## Music
 
-- [Amcfy Music](https://apps.apple.com/us/app/amcfy-music-navidrome-client/id6758010612) - Subsonic-compatible music player for Navidrome, Jellyfin, Emby and other servers with offline caching. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` · `Free` · [Source](https://github.com/amcfy-music/amcfy-music)
+- [Amcfy Music](https://apps.apple.com/us/app/amcfy-music-navidrome-client/id6758010612) - Subsonic-compatible music player for Navidrome, Jellyfin, Emby and other servers with offline caching. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` · `Free` · [Source](https://github.com/amcfy-music/amcfy-music)
 - [Caldera Music](https://caldera.homes/music/) - Music player for Apple TV, Android TV, desktop and headless setups. `Plex` · `Android TV` `tvOS`
 - [Doudou](https://gitlab.com/Openlyst/doudou) - Flutter music player that also streams YouTube Music; Subsonic is its most-tested source. `Plex` `Jellyfin` `+Subsonic` · `Android` `Android TV` `Android Auto` · `Open source`
 - [fn-music](https://github.com/pany4321/fn-music) - Music player for fnOS Music and Jellyfin libraries. `Jellyfin` `+fnOS` · `Android` `Android TV` · `GPL-3.0` `Free`
-- [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
+- [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
 - [Lidifin](https://github.com/jamzercise/lidifin) - Jellyfin music client derived from the Lidify music app. `Jellyfin` `+Audiobookshelf` · `Web` `Android TV` `Fire TV` · `GPL-3.0` `Free`
-- [Mayhem](https://github.com/8layer8/Mayhem) - Plex audio player for the Tesla in-car browser. `Plex` · `Android TV` `Tesla` · `MIT`
+- [Mayhem](https://github.com/8layer8/Mayhem) - Plex audio player for the Tesla in-car browser. `Plex` · `Web` `Android TV` `Tesla` · `MIT`
 - [NAS Music TV](https://gitee.com/liang_SL/NASMusicTV) - Android TV music player with lyrics, an equalizer and FFT visualisers. `Jellyfin` `+Subsonic` · `Android TV`
 - [Segue](https://github.com/segue-music/segue-app) - Music player for several self-hosted servers. `Jellyfin` `+Subsonic` · `Windows` `Linux` `Android` `iOS` `Android TV` `Android Auto` · `MIT` `Free`
 - [SonaWave](https://github.com/Tlntin/SonaWave-Release) - Multi-source music player for desktop and mobile. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+fnOS` · `Windows` `macOS` `Linux` `Android` `HarmonyOS` `Android TV` · [AppGallery](https://appgallery.huawei.com/app/detail?id=com.tlntin.sonawave)

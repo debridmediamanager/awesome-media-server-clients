@@ -19,7 +19,7 @@ Every app in this list that runs on webOS. That is 34 apps with 11 for Plex and 
 - [Breezyfin](https://github.com/botagas/Breezyfin) - LG webOS client installed through Homebrew. `Jellyfin` · `webOS` · `GPL-3.0`
 - [bufferzone](https://github.com/dkrb56/bufferzone) - Plain Plex player originally made for a friend's server. `Plex` · `Windows` `Android TV` `webOS` · `MIT` `Free`
 - [Cinefin (Ashiroen)](https://github.com/Ashiroen/cinefin) - Minimal home-theater client for LG webOS TVs; an Android TV build is planned. `Jellyfin` · `webOS` · `Open source` `Free`
-- [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) - Remote-first LG webOS client. `Emby` · `webOS` · `Open source` `Free`
+- [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) - Remote-first LG webOS client. `Emby` · `Web` `webOS` · `Open source` `Free`
 - [Fin Native](https://github.com/tiper/fin-native) - Native LG webOS app built on the PlxNative framework. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
 - [flex](https://github.com/vargamolnarbertalan/flex) - Minimal Plex client for rooted LG webOS TVs. `Plex` · `webOS` · `MIT`
 - [JellyCast](https://github.com/JellyCast/jellycast-androidtv) - Android TV app from the JellyCast project. `Jellyfin` · `iOS` `iPadOS` `Android TV` `webOS` · `MIT` `Free` · [Source](https://github.com/JellyCast/jellycast-ios) · [Source 2](https://github.com/JellyCast/jellycast-lgtv)
@@ -41,7 +41,7 @@ Every app in this list that runs on webOS. That is 34 apps with 11 for Plex and 
 - [Selvania Ciné](https://github.com/LeD0c4/cine-android) - Android and Android TV client. `Jellyfin` · `Web` `Android` `Android TV` `webOS` · `GPL-3.0` `Free` · [Source](https://github.com/LeD0c4/cine-web) · [Source 2](https://github.com/LeD0c4/cine-webos)
 - [Spool](https://github.com/spool-player/spool) - mpv-based client for LG TVs, desktop and Android. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` `tvOS` `webOS` · `MPL-2.0` `Free`
 - [Tally](https://github.com/Scdouglas1999/Tally) - Android TV app with live sports and watch parties, forked from Wholphin. `Jellyfin` · `Android` `Android TV` `Fire TV` `webOS` `Tizen` · `GPL-2.0` `Free`
-- [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for LG webOS TVs, stock or rooted, that direct-plays original files through the TV's own player. `Jellyfin` · `webOS` · `MIT` `Free`
+- [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for LG webOS TVs, stock or rooted, that direct-plays original files through the TV's own player. `Jellyfin` · `Web` `webOS` · `MIT` `Free`
 - [WebOS-Jellyfin-Native](https://github.com/SchulzCode/WebOS-Jellyfin-Native) - Native LG webOS app for browsing and playing your library. `Jellyfin` · `webOS` · `0BSD` `Free`
 - [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) - LG webOS app designed for ultrawide displays. `Jellyfin` · `webOS` · `MPL-2.0` `Free`
 - [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) - Ember: LG webOS, Samsung Tizen and Fire TV client inspired by the Wholphin Android TV app. `Jellyfin` · `Fire TV` `webOS` `Tizen` · `GPL-2.0` `Free`

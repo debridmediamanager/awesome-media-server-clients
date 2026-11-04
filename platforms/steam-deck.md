@@ -2,15 +2,17 @@
 
 # Steam Deck
 
-Every app in this list that runs on Steam Deck. That is 5 apps with 4 for Plex and 4 for Jellyfin and 1 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Steam Deck. That is 7 apps with 4 for Plex and 4 for Jellyfin and 3 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
 ## Video and general
 
 - [Couch PiP](https://github.com/CaraJean206/couch-pip) - Steam Deck Decky plugin that shows web apps such as Plex or Jellyfin in a picture-in-picture window. `Plex` `Jellyfin` · `Steam Deck` · `BSD-3-Clause`
-- [DeckVideoPlayer](https://github.com/nicocarbone/DeckVideoPlayer) - Controller-driven video player for Steam Deck Game Mode. `Plex` `Jellyfin` · `Steam Deck` · `GPL-2.0`
-- [Sofafin](https://github.com/ChokunPlayZ/sofafin) - Couch-friendly client for Steam Deck and Gamescope sessions. `Jellyfin` · `Steam Deck` · `GPL-3.0` `Free`
+- [DeckVideoPlayer](https://github.com/nicocarbone/DeckVideoPlayer) - Controller-driven video player for Steam Deck Game Mode. `Plex` `Jellyfin` · `Linux` `Steam Deck` · `GPL-2.0`
+- [EmbyClientPlus](https://github.com/krakerz/EmbyClientPlus) - Rust desktop client focused on SmoothVideo Project (SVP) frame interpolation. `Emby` · `Windows` `macOS` `Linux` `Steam Deck` · `GPL-3.0` `Free`
+- [Sofafin](https://github.com/ChokunPlayZ/sofafin) - Couch-friendly client for Steam Deck and Gamescope sessions. `Jellyfin` · `Linux` `Steam Deck` · `GPL-3.0` `Free`
+- [Tiny Player](https://github.com/Clwury/tiny-player) - Desktop client written in Rust. `Emby` · `Windows` `Linux` `Steam Deck` · `GPL-3.0` `Free`
 
 ## Music
 

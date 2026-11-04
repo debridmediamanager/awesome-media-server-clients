@@ -22,11 +22,11 @@ Every app in this list that runs on Fire TV. That is 69 apps with 24 for Plex an
 - [bettermint-plex](https://github.com/mjryan253/bettermint-plex) - Plex frontend for Android TV and Fire TV, tuned for large libraries. `Plex` · `Android` `Android TV` `Fire TV` · `Open source` `Free`
 - [Carpfin](https://github.com/LassoDonkey/CarpFin) - Fire TV and Android TV couch client. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [Cinemarr](https://apps.apple.com/us/app/cinemarr-private-cinema/id6799851978) - Player for Plex, Jellyfin and Emby libraries with Seerr requests, watchlists and request status. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `Fire TV` `tvOS` · `Subscription`
-- [comPlex](https://github.com/Orochimarufan/comPlex) - Experimental desktop Plex client from 2015. `Plex` · `Windows` `Linux` `Fire TV` · `Open source` `Free` `Stale 2015` · [Amazon](https://www.amazon.com/hz/mas/detail?ie=UTF8&ASIN=B0CY43YY8K&asin=B0CY43YY8K)
+- [comPlex](https://github.com/Orochimarufan/comPlex) - Experimental desktop Plex client from 2015. `Plex` · `Linux` `Fire TV` · `Open source` `Free` `Stale 2015` · [Amazon](https://www.amazon.com/hz/mas/detail?ie=UTF8&ASIN=B0CY43YY8K&asin=B0CY43YY8K)
 - [CookeInCode/jellyfin-androidtv](https://github.com/CookeInCode/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [DreamPlayer](https://apps.apple.com/us/app/dreamplayer-video-player/id6813066889) - Video player for MKV, MP4, TS and AVI files with hardware decoding and DTS/TrueHD audio. `Jellyfin` `Emby` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` · `Freemium` · [Source](https://github.com/mangeshghodke/DreamPlayer)
 - [Driftfin](https://github.com/dhrandy/Driftfin) - Google TV and Android TV client that also runs on older Fire TVs. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Open source` `Free`
-- [enthu2005/reel](https://github.com/enthu2005/reel) - Java Plex client. `Plex` · `Windows` `Linux` `Fire TV` · `Open source` `Free`
+- [enthu2005/reel](https://github.com/enthu2005/reel) - Java Plex client. `Plex` · `Windows` `Fire TV` · `Open source` `Free`
 - [EzPzTV](https://github.com/Xaque8787/ezpztv-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [fengymi/jellyfin-androidtv](https://github.com/fengymi/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [Firefin](https://github.com/ZepiGit/Firefin) - Native 32-bit Kotlin client for older Fire TV devices. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
@@ -39,7 +39,7 @@ Every app in this list that runs on Fire TV. That is 69 apps with 24 for Plex an
 - [jellyfin-client-avalonia](https://github.com/crobibero/jellyfin-client-avalonia) - Avalonia desktop Jellyfin client written by a Jellyfin core developer. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` `Fire TV` · `GPL-3.0` `Free`
 - [jellyfin-fire](https://github.com/Snedik/jellyfin-fire) - Fire TV build of the Jellyfin Android app with SyncPlay in the built-in player. `Jellyfin` · `Fire TV` · `GPL-2.0` `Free`
 - [jellyfin-pro-fire-tv](https://github.com/man1710/jellyfin-pro-fire-tv) - Fire TV app that reproduces a custom Jellyfin web interface. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`
-- [Jellyplay](https://github.com/raulshma/jellyplay) - Client for Android phones, Android TV and Fire TV. `Jellyfin` · `Windows` `Android` `Android TV` `Fire TV` `Android Auto` · `GPL-3.0`
+- [Jellyplay](https://github.com/raulshma/jellyplay) - Client for Android phones, Android TV and Fire TV. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` `Fire TV` `Android Auto` · `GPL-3.0`
 - [JellyStack](https://github.com/Darkatek7/jellystack) - Android client with built-in Seerr requests, built with Kotlin Multiplatform. `Jellyfin` · `Android` `Android TV` `Fire TV` · `GPL-3.0` `Free` · [Website](https://jellystack.org) · [Google Play](https://play.google.com/store/apps/details?id=app.jellystack.mobile)
 - [Jellytip](https://github.com/ricki2828/jellytip) - TV client forked from Wholphin. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [JellyWatch](https://jellywatch.app/player) - Android TV and Fire TV client with Live TV and server admin. `Jellyfin` `Emby` · `Android` `Android TV` `Fire TV` `Android Auto` · [Google Play](https://play.google.com/store/apps/details?id=com.jellywatch.tv)
@@ -79,7 +79,7 @@ Every app in this list that runs on Fire TV. That is 69 apps with 24 for Plex an
 ## Music
 
 - [JellyTV Music](https://www.amazon.com/993apps-JellyTV-Music/dp/B0G5HW48PF) - Fire TV music player. `Jellyfin` · `Fire TV`
-- [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
+- [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
 - [Lidifin](https://github.com/jamzercise/lidifin) - Jellyfin music client derived from the Lidify music app. `Jellyfin` `+Audiobookshelf` · `Web` `Android TV` `Fire TV` · `GPL-3.0` `Free`
 
 ## Companions

@@ -23,7 +23,7 @@ Every app in this list that runs on Kodi. That is 20 apps with 9 for Plex and 4 
 - [Kofin PVR](https://github.com/kontell/pvr.kofin) - Kodi PVR add-on for watching Live TV. `Jellyfin` · `Kodi` · `GPL-2.0`
 - [mediaimporter.emby](https://github.com/Montellese/mediaimporter.emby) - Kodi add-on that imports Emby library items into Kodi's own library. `Emby` · `Kodi` · `GPL-2.0` `Free` `Stale 2023`
 - [mediaimporter.plex](https://github.com/Montellese/mediaimporter.plex) - Kodi media importer that brings a Plex library into Kodi. `Plex` · `Kodi` · `GPL-2.0` `Stale 2022`
-- [OpenHT](https://github.com/bkury/OpenHT) - Kodi-based home theater build with built-in Plex and Emby support. `Plex` `Emby` · `Kodi` · `Open source` `Free` `Stale 2022`
+- [OpenHT](https://github.com/bkury/OpenHT) - Kodi-based home theater build with built-in Plex and Emby support. `Plex` `Emby` · `Windows` `Kodi` · `Open source` `Free` `Stale 2022`
 - [plex-for-kodi-new](https://github.com/DimitarCC/plex-for-kodi-new) - Unofficial redesign of the Plex for Kodi add-on. `Plex` · `Kodi` · `GPL-2.0` `Stale 2024`
 - [PlexKodiConnect](https://github.com/croneter/PlexKodiConnect) - Kodi add-on that syncs a library into Kodi's native database. `Plex` · `Kodi` · `GPL-2.0` `Free`
 - [plexmyxbmc](https://github.com/goniz/plexmyxbmc) - Turns XBMC into a Plex play-to target that other Plex apps can cast to. `Plex` · `Kodi` · `GPL-2.0` `Stale 2015`

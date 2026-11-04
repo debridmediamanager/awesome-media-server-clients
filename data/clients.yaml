@@ -581,7 +581,7 @@
   url: https://github.com/kyrollosnageh/AltEmby
   servers: [emby]
   official: false
-  platforms: [android, ios, windows, linux]
+  platforms: [android, ios]
   category: player
   media: [video]
   open_source: true
@@ -630,7 +630,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, fnos, webdav, other]
   official: false
-  platforms: [ios, ipados, android, android-tv, macos, windows]
+  platforms: [linux, ios, ipados, android, android-tv, macos, windows]
   category: music
   media: [music]
   open_source: false
@@ -2105,7 +2105,7 @@
   url: https://github.com/pathetic/bloodin
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -2165,7 +2165,7 @@
     repo: https://github.com/BloomPhobic/Bloom-s-Jellyfin-Client
   servers: [jellyfin]
   official: false
-  platforms: [ios, windows, macos, linux]
+  platforms: [ios, linux]
   category: player
   media: [video]
   open_source: true
@@ -2555,7 +2555,7 @@
   url: https://github.com/AyZip13/CAHN.TV
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -2944,7 +2944,7 @@
   servers: [jellyfin]
   also: [subsonic, local]
   official: false
-  platforms: [android, windows, macos, linux, android-auto]
+  platforms: [android, windows, linux, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -3224,7 +3224,7 @@
   url: https://chromatix.app
   servers: [plex, jellyfin]
   official: false
-  platforms: [macos]
+  platforms: [windows, macos, linux]
   category: music
   media: [music]
   open_source: null
@@ -3286,7 +3286,7 @@
   url: https://github.com/JenteJan/Chudder
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, macos, linux, android-tv]
+  platforms: [web, android, ios, windows, macos, linux, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3358,7 +3358,7 @@
   url: https://github.com/cinefin/cinefin
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: live-tv
   media: [video, live-tv]
   open_source: true
@@ -3507,7 +3507,7 @@
   url: https://github.com/Bakare-Ayomide/CinodeClient
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux, android, android-tv]
+  platforms: [android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -3515,7 +3515,7 @@
   status: active
   status_year: 2026
   aliases: [CinodeClient]
-  description: Desktop Jellyfin client.
+  description: Jellyfin client for Android phones and Android TV.
   long_tail: true
 
 - name: Citron Music
@@ -3734,7 +3734,7 @@
     amazon: https://www.amazon.com/hz/mas/detail?ie=UTF8&ASIN=B0CY43YY8K&asin=B0CY43YY8K
   servers: [plex]
   official: false
-  platforms: [windows, linux, fire-tv]
+  platforms: [linux, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -4209,7 +4209,7 @@
   servers: [plex, jellyfin]
   also: [dlna, smb]
   official: false
-  platforms: [steam-deck]
+  platforms: [linux, steam-deck]
   category: player
   media: [video]
   open_source: true
@@ -4457,7 +4457,7 @@
   url: https://github.com/dknz7/lumen
   servers: [plex]
   official: false
-  platforms: [web, windows]
+  platforms: [windows]
   category: shim
   media: [video]
   open_source: true
@@ -4729,7 +4729,7 @@
   url: https://github.com/Sam42a/DUNE-WEB
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, web]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -4857,7 +4857,7 @@
   url: https://eclipsemusic.app
   servers: [plex]
   official: false
-  platforms: [android, ipados, carplay, windows, ios, android-auto]
+  platforms: [web, android, ipados, carplay, windows, ios, android-auto]
   category: music
   media: [music]
   open_source: null
@@ -5135,7 +5135,7 @@
   url: https://github.com/krakerz/EmbyClientPlus
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, steam-deck]
   category: player
   media: [video]
   open_source: true
@@ -5209,7 +5209,7 @@
   url: https://github.com/stuntsnakee/emby-desktop
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -5574,7 +5574,7 @@
   url: https://github.com/Tsutomu-miku/emby-html-player
   servers: [emby]
   official: false
-  platforms: [web]
+  platforms: [windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -5847,7 +5847,7 @@
   url: https://github.com/booYah187/emby-tui
   servers: [jellyfin, emby]
   official: false
-  platforms: [cli, android, retro-handheld, linux]
+  platforms: [cli, retro-handheld]
   category: player
   media: [video]
   open_source: true
@@ -5862,7 +5862,7 @@
   url: https://github.com/lfkdsk/embytv-webos
   servers: [emby]
   official: false
-  platforms: [webos]
+  platforms: [web, webos]
   category: player
   media: [video]
   open_source: true
@@ -6158,7 +6158,7 @@
   url: https://github.com/enthu2005/reel
   servers: [plex]
   official: false
-  platforms: [windows, linux, fire-tv]
+  platforms: [windows, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -6534,7 +6534,7 @@
   url: https://github.com/bleov/finact
   servers: [jellyfin]
   official: false
-  platforms: [web]
+  platforms: [windows, macos, linux, web]
   category: music
   media: [music]
   open_source: true
@@ -7060,7 +7060,7 @@
   url: https://github.com/seoloon/flick_desktop
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -7403,7 +7403,7 @@
   url: https://github.com/zillazero/foxfin
   servers: [jellyfin, emby]
   official: false
-  platforms: [android, android-tv, android-auto]
+  platforms: [web, android, android-tv, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -7863,7 +7863,7 @@
   url: https://github.com/opd-ai/go-jf-watch
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos, linux, web]
   category: player
   media: [video]
   open_source: true
@@ -10648,7 +10648,7 @@
   url: https://github.com/deniskostadinov1995/jellyfin-home-theater
   servers: [jellyfin]
   official: false
-  platforms: [linux]
+  platforms: [linux, web]
   category: player
   media: [video]
   open_source: true
@@ -11259,7 +11259,7 @@
     aur: https://aur.archlinux.org/packages/jellyfin-tui
   servers: [jellyfin]
   official: false
-  platforms: [cli, linux, macos]
+  platforms: [cli]
   category: music
   media: [music]
   open_source: true
@@ -11343,7 +11343,7 @@
   url: https://github.com/tseho/jellyfin-vlc-shim
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux]
+  platforms: [linux]
   category: shim
   media: [video]
   open_source: true
@@ -12020,7 +12020,7 @@
   url: https://github.com/raulshma/jellyplay
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv, fire-tv, windows, android-auto]
+  platforms: [macos, linux, android, android-tv, fire-tv, windows, android-auto]
   category: player
   media: [video]
   open_source: true
@@ -12634,7 +12634,7 @@
   url: https://github.com/crucifix86/JellyTV
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -12677,7 +12677,7 @@
   url: https://github.com/iamd3vil/jellyui
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -12691,7 +12691,7 @@
   url: https://github.com/Stannnnn/jelly-video-app
   servers: [jellyfin]
   official: false
-  platforms: [web, windows]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -13148,7 +13148,7 @@
   url: https://github.com/BusterLandstrom/Jojk
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -13816,7 +13816,7 @@
   url: https://lagu.fm
   servers: [plex]
   official: false
-  platforms: [macos, android, ipados, android-tv, fire-tv, tvos, carplay, windows, ios, android-auto, watchos]
+  platforms: [macos, linux, android, ipados, android-tv, fire-tv, tvos, carplay, windows, ios, android-auto, watchos]
   category: music
   media: [music]
   open_source: null
@@ -13842,7 +13842,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [xbox]
+  platforms: [windows, xbox]
   category: music
   media: [music]
   open_source: true
@@ -14122,7 +14122,7 @@
   url: https://github.com/liquidguru/emby-sonic
   servers: [emby]
   official: false
-  platforms: [android, android-auto]
+  platforms: [web, android, android-auto]
   category: music
   media: [music, audiobooks]
   open_source: null
@@ -14199,7 +14199,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, fnos, other]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [web, android, ios, windows, macos, linux]
   category: music
   media: [music]
   open_source: true
@@ -14320,7 +14320,7 @@
   url: https://github.com/NPCDW/loemby
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -14963,7 +14963,7 @@
   url: https://github.com/wind007/ma_palyer
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux, android, ios]
+  platforms: [windows, android, ios]
   category: player
   media: [video]
   open_source: true
@@ -15117,7 +15117,7 @@
   url: https://github.com/8layer8/Mayhem
   servers: [plex]
   official: false
-  platforms: [android-tv, tesla]
+  platforms: [web, android-tv, tesla]
   category: music
   media: [music]
   open_source: true
@@ -16621,7 +16621,7 @@
   url: https://github.com/tnt19886/MyEmby
   servers: [emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -16743,7 +16743,7 @@
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, ipados, windows, macos, linux, android]
+  platforms: [web, ios, ipados, windows, macos, linux, android]
   category: music
   media: [music]
   open_source: true
@@ -17028,7 +17028,7 @@
   servers: [jellyfin]
   also: [local]
   official: false
-  platforms: [linux]
+  platforms: [windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -17772,7 +17772,7 @@
   url: https://github.com/ollivv-hash/obmax
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [web, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -18094,7 +18094,7 @@
   url: https://opamp.app
   servers: [plex]
   official: false
-  platforms: [macos, ios]
+  platforms: [windows, macos, ios]
   category: music
   media: [music]
   open_source: null
@@ -18102,7 +18102,7 @@
   price_note: Free on macOS
   status: unknown
   status_year: 2026
-  description: Mac music player.
+  description: Desktop music player for Plex on Mac and Windows.
   notes: iPhone version in beta.
 
 - name: OpenEmby TV
@@ -18123,7 +18123,7 @@
   url: https://github.com/bkury/OpenHT
   servers: [plex, emby]
   official: false
-  platforms: [kodi]
+  platforms: [windows, kodi]
   category: player
   media: [video]
   open_source: true
@@ -18154,7 +18154,7 @@
   url: https://github.com/RasPlex/OpenPHT
   servers: [plex]
   official: false
-  platforms: [macos]
+  platforms: [windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -18308,7 +18308,7 @@
   url: https://github.com/MorenoLand/Orion.Jellyfin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -18506,7 +18506,7 @@
   url: https://github.com/madrazaldi/patina
   servers: [plex]
   official: false
-  platforms: [cli]
+  platforms: [windows, macos, linux, cli]
   category: player
   media: [video]
   open_source: true
@@ -18734,7 +18734,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, other]
   official: false
-  platforms: [android, ios, windows, macos, linux, carplay, android-auto]
+  platforms: [web, android, ios, windows, macos, linux, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -19049,7 +19049,7 @@
   url: https://github.com/FortNbreak/Plauri
   servers: [plex]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -20616,7 +20616,7 @@
   url: https://github.com/altheus/Plext
   servers: [plex]
   official: false
-  platforms: [cli]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
@@ -20728,7 +20728,7 @@
   url: https://github.com/ztoben/plex-viewer
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, macos]
   category: player
   media: [video]
   open_source: true
@@ -20873,7 +20873,7 @@
   url: https://github.com/edrock200/plezo
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [macos, android, ios]
+  platforms: [windows, macos, android, ios]
   category: player
   media: [video]
   open_source: true
@@ -21034,7 +21034,7 @@
   url: https://github.com/Jman100/plix
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux, android, android-tv]
+  platforms: [windows, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -22654,7 +22654,7 @@
   url: https://github.com/jeffhoughten/rustamp
   servers: [plex]
   official: false
-  platforms: [linux, web]
+  platforms: [windows, linux, web]
   category: shim
   media: [music]
   open_source: true
@@ -23112,7 +23112,7 @@
     repo: https://github.com/Shadfin/app
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux, web]
+  platforms: [windows, web]
   category: player
   media: [video]
   open_source: true
@@ -23568,7 +23568,7 @@
   url: https://github.com/ChokunPlayZ/sofafin
   servers: [jellyfin]
   official: false
-  platforms: [steam-deck]
+  platforms: [linux, steam-deck]
   category: player
   media: [video]
   open_source: true
@@ -23645,7 +23645,7 @@
   url: https://github.com/Ariazonaa/sonarune
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows]
   category: music
   media: [music]
   open_source: true
@@ -24481,7 +24481,7 @@
   url: https://github.com/sukrasuki/Sukiflix
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -25044,7 +25044,7 @@
   url: https://github.com/trans76544/Taluxa
   servers: [emby]
   official: false
-  platforms: [web, windows]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -25165,7 +25165,7 @@
   url: https://github.com/ILikeTeaALot/Tellyfin
   servers: [jellyfin]
   official: false
-  platforms: [windows, linux]
+  platforms: [windows]
   category: player
   media: [video]
   open_source: true
@@ -25469,7 +25469,7 @@
   url: https://github.com/Clwury/tiny-player
   servers: [emby]
   official: false
-  platforms: [linux, windows]
+  platforms: [linux, windows, steam-deck]
   category: player
   media: [video]
   open_source: true
@@ -25518,7 +25518,7 @@
   servers: [plex]
   also: [other, streaming-services]
   official: false
-  platforms: [cli, linux]
+  platforms: [cli]
   category: music
   media: [music]
   open_source: true
@@ -25767,7 +25767,7 @@
   url: https://github.com/28allday/tsplay
   servers: [jellyfin]
   official: false
-  platforms: [cli, linux]
+  platforms: [cli]
   category: player
   media: [video]
   open_source: true
@@ -26544,7 +26544,7 @@
   url: https://github.com/kirill-menke/vibe-reel
   servers: [jellyfin]
   official: false
-  platforms: [webos]
+  platforms: [web, webos]
   category: player
   media: [video]
   open_source: true
@@ -27936,7 +27936,7 @@
     snap: https://snapcraft.io/yarmiplaytv
   servers: [plex, jellyfin]
   official: false
-  platforms: [linux]
+  platforms: [windows, macos, linux, web]
   category: player
   media: [video]
   open_source: null

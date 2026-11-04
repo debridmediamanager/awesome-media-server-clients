@@ -394,6 +394,8 @@
   category: live-tv
   media: [video, live-tv]
   open_source: true
+  price: paid
+  price_note: Free to build from source; the prebuilt store apps are a small paid download
   status: active
   status_year: 2026
   description: Self-hosted generator that plays the library as linear channels on existing players.
@@ -1494,7 +1496,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Music player for a home server with no third-party cloud; also on Mac, Apple TV and CarPlay.
@@ -2060,7 +2062,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: IPTV and media server player with profiles, a TV guide and sync across Apple devices.
@@ -2211,7 +2213,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['BlueMusic: Music Player, Radio']
@@ -4419,7 +4421,8 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: paid
+  price_note: Seven-day free trial, then a one-time Pro unlock
   status: active
   status_year: 2026
   description: IPTV player for your own Xtream Codes login or M3U playlist, with media server libraries as extra sources.
@@ -5994,6 +5997,7 @@
   category: admin
   media: [video]
   open_source: false
+  price: freemium
   status: active
   status_year: 2026
   description: Android server admin and statistics app.
@@ -7164,6 +7168,7 @@
   category: admin
   media: [video]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   description: iPhone app for swiping through the library to triage it.
@@ -8290,7 +8295,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Hectic TV: TV Player']
@@ -9333,7 +9338,8 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: subscription
+  price_note: Two-week free trial, then €9.99 a year
   status: active
   status_year: 2026
   description: Player that direct-plays files at original quality with no server transcoding, plus PiP and AirPlay.
@@ -11904,7 +11910,8 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: paid
+  price_note: Seven-day free trial, then a one-time purchase
   status: active
   status_year: 2026
   description: Jellyfin player that finds servers on the network and leads with a resume-first, poster-driven home.
@@ -16099,6 +16106,7 @@
   category: music
   media: [music]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   description: Native Android Automotive music player.
@@ -19436,7 +19444,8 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
+  price_note: Everything open for 28 days, then half an hour a day until a one-time unlock
   status: active
   status_year: 2026
   description: Mac app that turns playlists and collections into TV channels that start playing when picked.
@@ -21886,6 +21895,7 @@
   category: admin
   media: [video]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Purger for Plex: Reclaim Space']
@@ -22537,7 +22547,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Reflix – Emby 播放器与追剧助手]
@@ -22596,6 +22606,7 @@
   category: admin
   media: [video]
   open_source: false
+  price: freemium
   status: stale
   status_year: 2024
   description: Statistics app for Tautulli on iPhone, iPad and Apple Watch.
@@ -22682,7 +22693,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Turns a media library into always-on TV channels with a schedule and program guide.
@@ -23180,7 +23191,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Screen2Car - Video & Cast]
@@ -26155,7 +26166,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: IPTV player for M3U links, Xtream panels, a Plex server or an SMB library.
@@ -26438,7 +26449,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Player for Jellyfin, Plex and IPTV sources with a 3D conversion mode.
@@ -28262,7 +28273,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Android and Android TV client with DanDanPlay danmaku comments.

@@ -218,7 +218,7 @@ Video and general clients for two or all three servers.
 - [Vela Player](https://vela.app.mahui.me/) - HarmonyOS video player that also runs on Huawei Vision TVs, with network shares and Chinese cloud drives. `Plex` `Jellyfin` `Emby` · `HarmonyOS` · `Free`
 - [VlcJellyfin](https://github.com/sifacaii/VlcJellyfin) - VLC-based Android TV client for old Android 4.2+ devices; replaced by VlcXWJellyfin. `Jellyfin` `Emby` · `Android TV` · `Open source` `Free` `Stale 2025`
 - [VlcXWJellyfin](https://github.com/sifacaii/VlcXWJellyfin) - VLC-based Android TV client, the successor to VlcJellyfin. `Jellyfin` `Emby` · `Android` `Android TV` · `Open source` `Free` `Stale 2025`
-- [Yamby](https://play.google.com/store/apps/details?id=com.hush.yamby) - Android and Android TV client with DanDanPlay danmaku comments. `Jellyfin` `Emby` · `Android` `Android TV` · `Free` · [Info](https://v2ex.com/t/1107970)
+- [Yamby](https://play.google.com/store/apps/details?id=com.hush.yamby) - Android and Android TV client with DanDanPlay danmaku comments. `Jellyfin` `Emby` · `Android` `Android TV` · `Freemium` · [Info](https://v2ex.com/t/1107970)
 
 ### Apple platforms
 
@@ -314,7 +314,7 @@ Video and general clients for two or all three servers.
 - [Saisei Player](https://apps.apple.com/us/app/saisei-player/id6764529684) - Multi-source video player with offline saving, in-frame text translation and Telegram video access. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` · `Free`
 - [Satellite](https://apps.apple.com/us/app/satellite-media-server-player/id6787551103) - Plex, Jellyfin and Emby client with offline viewing and Seerr search. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Scorpio Player](https://apps.apple.com/gb/app/scorpio-player-2025/id1617922279) - Native video, audio and image player with playback-speed control and resume playback. `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free` `Stale 2024`
-- [Screen2Car](https://apps.apple.com/us/app/screen2car-video-cast/id6814131451) - Car-screen app that mirrors the iPhone, takes DLNA casts and plays playlists and media server libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `CarPlay` · `Free`
+- [Screen2Car](https://apps.apple.com/us/app/screen2car-video-cast/id6814131451) - Car-screen app that mirrors the iPhone, takes DLNA casts and plays playlists and media server libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `CarPlay` · `Freemium`
 - [ScreenSpot](https://apps.apple.com/us/app/screenspot-%E6%9A%AE%E8%89%B2/id6792606268) - Player for movies, shows, music and podcasts from media servers, with CarPlay video support. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [SenPlayer](https://apps.apple.com/app/id6443975850) - Apple-platform player for media servers, SMB/WebDAV/FTP shares, Chinese cloud drives and IPTV. `Plex` `Jellyfin` `Emby` `+fnOS` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Sleek](https://apps.apple.com/ru/app/sleek/id6763681786) - Video player and personal library fed from Files, Wi-Fi upload or a connected media server. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` · `Free`
@@ -331,7 +331,7 @@ Video and general clients for two or all three servers.
 - [Tifo](https://apps.apple.com/app/id6782486035) - IPTV player for M3U, Xtream and Stalker that also plays from media servers. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `tvOS` · [TestFlight](https://testflight.apple.com/join/U66gTb2V)
 - [Tilus](https://apps.apple.com/us/app/tilus-media-player/id6761753229) - Video player with its own engine for Dolby Vision and Atmos from USB, NAS, servers and the cloud. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Trovu](https://apps.apple.com/us/app/trovu-jellyfin-plex-player/id6760936018) - Touch-first player for Jellyfin and Plex libraries that direct-plays common formats to reduce transcoding. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Freemium`
-- [Ultimate Media Player (Toby Jones)](https://apps.apple.com/us/app/ultimate-media-player/id6803723173) - Player for Jellyfin, Plex and IPTV sources with a 3D conversion mode. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
+- [Ultimate Media Player (Toby Jones)](https://apps.apple.com/us/app/ultimate-media-player/id6803723173) - Player for Jellyfin, Plex and IPTV sources with a 3D conversion mode. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Vanto](https://apps.apple.com/us/app/vanto-nas-media-player/id6794951510) - Media player for media servers and NAS shares that lets the phone control playback on Apple TV. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Velum](https://testflight.apple.com/join/vBfBu1PE) - Local video library with TMDB matching that also connects to media servers, no account needed. `Jellyfin` `Emby` · `iOS` · `Beta`
 - [Vesper](https://testflight.apple.com/join/mcCk473Y) - Video player with Library Sync for media servers and WebDAV shares. `Plex` `Jellyfin` `Emby` `+Silo` · `macOS` `iOS` `iPadOS` `tvOS` · `Beta`
@@ -540,14 +540,14 @@ Third-party video and general clients for Jellyfin only.
 - [FinFlix](https://apps.apple.com/de/app/finflix/id6756268520) - Native client to browse, stream and download a personal movie and TV library. `Jellyfin` · `iOS` `iPadOS` · `Free`
 - [FinPlus](https://apps.apple.com/gb/app/finplus/id6757364763) - Companion app for browsing, streaming and watching live TV from a personal library, built for iOS and tvOS. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
 - [FinStream](https://github.com/SilverMarcs/SwiftJelly) - SwiftUI client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free` · [App Store](https://apps.apple.com/app/id6761840798)
-- [Jelly](https://apps.apple.com/de/app/jelly/id6826379119) - Player that direct-plays files at original quality with no server transcoding, plus PiP and AirPlay. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [Jelly](https://apps.apple.com/de/app/jelly/id6826379119) - Player that direct-plays files at original quality with no server transcoding, plus PiP and AirPlay. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Subscription`
 - [Jellyboxd](https://github.com/matthewhalf/jellyboxd) - iPhone client. `Jellyfin` · `iOS` · `GPL-3.0` `Free` · [App Store](https://apps.apple.com/app/id6816114676)
 - [jellyboy](https://apps.apple.com/us/app/jellyboy/id6802162329) - Small independent Jellyfin client for movies, shows, music and Live TV that tries on-device playback first. `Jellyfin` · `macOS` `iOS` `iPadOS` · `Free` · [Source](https://github.com/therealparmesh/jellyboy)
 - [JellyCinema](https://apps.apple.com/de/app/jellycinema/id6809860686) - iPad client with artwork and resume positions; one purchase also covers the Apple TV app. `Jellyfin` · `iPadOS` `tvOS` · `Paid`
 - [Jellyfin & SMB Video Player](https://apps.apple.com/us/app/jellyfin-smb-video-player/id6784719986) - Apple TV video player for Jellyfin servers and SMB shares with native HDR10 playback. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
 - [JellyGlass for Jellyfin](https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512) - Jellyfin client with a dark, glass-style interface and editorial layouts. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
 - [JellyGo](https://apps.apple.com/us/app/jellygo-jellyfin-client/id6760751654) - iOS Jellyfin client with Continue Watching and Next Up and a choice of two playback engines. `Jellyfin` · `iOS` `iPadOS` · `Free`
-- [JellyGoose](https://apps.apple.com/us/app/jellygoose/id6814667375) - Jellyfin player that finds servers on the network and leads with a resume-first, poster-driven home. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Free`
+- [JellyGoose](https://apps.apple.com/us/app/jellygoose/id6814667375) - Jellyfin player that finds servers on the network and leads with a resume-first, poster-driven home. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Paid`
 - [JellyKids](https://apps.apple.com/us/app/jellykids/id6756038036) - Kid-friendly Jellyfin client with a playful interface and content controls for parents. `Jellyfin` · `iOS` `iPadOS` · `Freemium`
 - [JellyMold](https://jellymold.app/) - Client with its own playback engine so files play directly and are never transcoded. `Jellyfin` · `iOS` `iPadOS` · `Subscription` · [App Store](https://apps.apple.com/us/app/jellymold/id6813179451)
 - [JellySee](https://apps.apple.com/app/id6748783768) - Paid Apple TV client. `Jellyfin` · `tvOS` · `Paid`
@@ -844,7 +844,7 @@ Third-party video and general clients for Emby only, including the large Chinese
 - [Kude](https://apps.apple.com/us/app/kude/id6757255785) - Mac video player and library manager for WebDAV, Emby and SMB with a cinema-style view. `Emby` · `macOS` `iOS` · `Paid`
 - [Prismo](https://apps.apple.com/cn/app/prismo/id6748607260) - iPhone player for the server, Aliyun Drive and WebDAV. `Emby` · `iOS`
 - [Reel Player](https://apps.apple.com/us/app/reel-player-video-player/id6471356040) - Video player for a server library with broad MP4, MKV, M4V and MOV support. `Emby` · `macOS` `iOS` `iPadOS` · `Freemium` `Stale 2024`
-- [Reflix](https://apps.apple.com/us/app/reflix-emby-video-player/id6621243955) - iPhone video player. `Emby` · `iOS` `tvOS` · `Free`
+- [Reflix](https://apps.apple.com/us/app/reflix-emby-video-player/id6621243955) - iPhone video player. `Emby` · `iOS` `tvOS` · `Freemium`
 - [Temby](https://apps.apple.com/cn/app/id6449966958) - Paid iPhone client that also plays music in the background. `Emby` · `iOS` · `Paid`
 - [Wakk Player](https://apps.apple.com/us/app/wakk-player/id6804757527) - Emby player with multi-server support, danmaku, AI subtitle translation and casting. `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Wizju](https://apps.apple.com/cn/app/id6749068740) - iPhone player for the server and IPTV. `Emby` `+IPTV` · `iOS` · `Free`
@@ -894,10 +894,10 @@ Music players and music-first clients.
 - [ampcast](https://github.com/rekkyrosso/ampcast) - Browser music player that combines several media servers in one library. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [Amplayer](https://apps.apple.com/ru/app/amplayer/id6826611277) - Retro desktop-style music player with a three-window layout, skins and a 10-band equalizer. `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` · `Free`
 - [Artic Audio](https://apps.apple.com/us/app/artic-audio/id6748662036) - Audiophile music player with bit-perfect, gapless playback for Plex and Jellyfin libraries. `Plex` `Jellyfin` · `iOS` `iPadOS` · `Free`
-- [Audara](https://apps.apple.com/gb/app/audara/id6780220192) - Music player for a home server with no third-party cloud; also on Mac, Apple TV and CarPlay. `Plex` `Jellyfin` `+Subsonic` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Free`
+- [Audara](https://apps.apple.com/gb/app/audara/id6780220192) - Music player for a home server with no third-party cloud; also on Mac, Apple TV and CarPlay. `Plex` `Jellyfin` `+Subsonic` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [Aurora](https://github.com/nessli420/aurora) - Music player for Android, Windows and Linux, plus local files. `Plex` `Jellyfin` `+Subsonic` · `Windows` `Linux` `Android` `Android Auto` · `Apache-2.0` `Free` · [Website](https://auroraplayer.lol)
 - [Beacon](https://github.com/mihaitom/beacon) - Self-hosted web and desktop music client with casting. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
-- [BlueMusic](https://apps.apple.com/us/app/bluemusic-music-player-radio/id6775983788) - Music player combining phone files, cloud storage and home servers, with internet radio. `Plex` `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Free`
+- [BlueMusic](https://apps.apple.com/us/app/bluemusic-music-player-radio/id6775983788) - Music player combining phone files, cloud storage and home servers, with internet radio. `Plex` `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Freemium`
 - [B-Side](https://apps.apple.com/kr/app/b-side-cd-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EB%AF%B9%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%94%84/id6826441635) - Music player styled as a CD player, turntable, cassette deck and FM tuner, driven by the phone hinge. `Jellyfin` `Emby` `+Subsonic` · `iOS` `iPadOS` · `Free`
 - [Cadence](https://github.com/MDaV05/cadence) - Lightweight Android music and media player. `Plex` `Jellyfin` `Emby` `+Subsonic` · `Android` `Android Auto` · `GPL-3.0` `Free`
 - [Chromatix](https://chromatix.app) - Mac desktop music player. `Plex` `Jellyfin` · `macOS`
@@ -1244,11 +1244,11 @@ Audiobook players, book and comic readers, and photo viewers.
 IPTV players that also read media servers, and apps that turn a library into scheduled channels.
 
 - [90sTV](https://apps.apple.com/us/app/90stv-retro-tv-channels/id6800050490) - Turns a Jellyfin movie and show library into always-running retro TV channels you tune into. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [analoq](https://github.com/Robot-Duck-32/analoq) - Apple TV app that turns Plex collections into TV-style channels. `Plex` · `tvOS` · `GPL-3.0` `Free`
 - [AnyTV](https://apps.apple.com/us/app/anytv-iptv-player-m3u-xtream/id6450650101) - IPTV and library player for M3U, Xtream and server sources with posters, episode guides and a TV guide. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Subscription`
 - [AutoTV](https://apps.apple.com/us/app/autotv-iptv-player/id6819201356) - Ad-free IPTV player for M3U, Xtream Codes and media server sources with live channels, movies and series. `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Free`
-- [Bingr](https://apps.apple.com/us/app/bingr/id6821401598) - IPTV and media server player with profiles, a TV guide and sync across Apple devices. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
+- [Bingr](https://apps.apple.com/us/app/bingr/id6821401598) - IPTV and media server player with profiles, a TV guide and sync across Apple devices. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Bunny Ears TV](https://testflight.apple.com/join/NdaJfb9n) - Apple TV app that turns your library into live TV with a cable-style guide and channel surfing. `Plex` · `tvOS` · `Beta`
 - [BurgTV](https://apps.apple.com/br/app/burgtv-player-m3u-xtream/id6761636987) - IPTV player for M3U playlists, Xtream Codes and portals that also connects to a media server. `Jellyfin` `+IPTV` · `iOS` `iPadOS` · `Freemium`
 - [Cable Stream](https://www.reddit.com/r/TestFlight/comments/1s8oyo6/cable_stream_beta_testflight_cable_tv_from_plex/) - Cable-TV-style app with auto-channels by genre, decade, series and mood, and an EPG grid. `Plex` · `tvOS` · `Beta`
@@ -1262,9 +1262,9 @@ IPTV players that also read media servers, and apps that turn a library into sch
 - [Cordbox](https://apps.apple.com/us/app/cordbox-iptv-media-player/id6788759297) - IPTV and media player that brings playlists, portals, media servers and network shares into one app, with recordings. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Free`
 - [Crivid IPTV Player](https://apps.apple.com/us/app/crivid-iptv-player-m3u-xtream/id6783083716) - IPTV player for M3U playlists and Xtream logins that can also connect media servers and tuners. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Cuspart](https://apps.apple.com/us/app/cuspart-iptv/id6812349140) - IPTV player for M3U, Xtream Codes and Stalker portals, organised into a library with resume and favourites. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Freemium`
-- [Dino IPTV Player](https://apps.apple.com/us/app/dino-iptv-player/id6799335873) - IPTV player for your own Xtream Codes login or M3U playlist, with media server libraries as extra sources. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Free`
+- [Dino IPTV Player](https://apps.apple.com/us/app/dino-iptv-player/id6799335873) - IPTV player for your own Xtream Codes login or M3U playlist, with media server libraries as extra sources. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` · `Paid`
 - [DriveTV](https://apps.apple.com/us/app/drivetv-car-iptv-m3u-player/id6824541941) - M3U and Xtream player with Jellyfin and Emby import that plays on iPhone and in CarPlay. `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `CarPlay` · `Freemium`
-- [Hectic TV](https://apps.apple.com/us/app/hectic-tv-tv-player/id6820662503) - Live TV player for Xtream Codes, M3U and Jellyfin sources with an XMLTV guide, movies and series. `Jellyfin` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `watchOS` · `Free`
+- [Hectic TV](https://apps.apple.com/us/app/hectic-tv-tv-player/id6820662503) - Live TV player for Xtream Codes, M3U and Jellyfin sources with an XMLTV guide, movies and series. `Jellyfin` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
 - [HOMEKING](https://apps.apple.com/br/app/homeking/id6796014292) - IPTV player for Xtream accounts and M3U playlists with XMLTV guides, plus Jellyfin libraries. `Jellyfin` `+IPTV` · `iOS` `iPadOS` · `Free`
 - [IPTViX](https://apps.apple.com/ru/app/iptv-%D0%BF%D0%BB%D0%B5%D0%B5%D1%80-%D0%B8-%D1%82%D0%B2-%D0%B3%D0%B8%D0%B4-iptvix/id6762452941) - IPTV player with TV guide, catch-up and Xtream support that also reads Plex and SMB shares. `Plex` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [IPTVX](https://apps.apple.com/us/app/iptvx/id1451470024) - IPTV player for live TV, movies and shows that also reads server and SMB sources. `Plex` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
@@ -1278,10 +1278,10 @@ IPTV players that also read media servers, and apps that turn a library into sch
 - [NowSeen](https://apps.apple.com/us/app/nowseen-iptv-media-player/id6780634050) - IPTV player for Apple TV and iPhone that also plays media-server libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `tvOS` · `Freemium`
 - [OneTV Connect](https://apps.apple.com/us/app/onetv-connect-iptv-player/id6756811791) - IPTV player for M3U playlists, Xtream Codes and media server sources, with a carousel home screen. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
 - [OtusTV](https://apps.apple.com/br/app/otustv-liptv-bien-au-chaud/id6816083887) - IPTV and media player that adds M3U lists, subscriptions, media servers and your ISP box channel list. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
-- [PlaylistTV](https://apps.apple.com/us/app/playlisttv/id6804035471) - Mac app that turns playlists and collections into TV channels that start playing when picked. `Plex` · `macOS` `tvOS` · `Free`
+- [PlaylistTV](https://apps.apple.com/us/app/playlisttv/id6804035471) - Mac app that turns playlists and collections into TV channels that start playing when picked. `Plex` · `macOS` `tvOS` · `Freemium`
 - [Popcorn](https://github.com/netpersona/Popcorn) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Web` · `GPL-3.0`
 - [QuasiTV](https://www.quasitv.app/) - Builds linear TV-style channels from your own library, with a channel guide. `Plex` `Jellyfin` `Emby` · `Fire TV` · [Amazon](https://www.amazon.com/Quasi-TV-Unlimited-Custom-Channels/dp/B0921KRNMQ)
-- [RetroGuide.TV](https://apps.apple.com/us/app/retroguide-tv/id6816213425) - Turns a media library into always-on TV channels with a schedule and program guide. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [RetroGuide.TV](https://apps.apple.com/us/app/retroguide-tv/id6816213425) - Turns a media library into always-on TV channels with a schedule and program guide. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Smart IPTV APP](https://apps.apple.com/us/app/smart-iptv-app/id6790420279) - IPTV player for your own M3U playlists and Xtream accounts, with media server and network sources. `Plex` `+IPTV` · `iOS` `iPadOS` · `Free`
 - [Sparkle TV](https://play.google.com/store/apps/details?id=se.hedekonsult.sparkle) - Live TV player with EPG that pulls channels from server live TV, HDHomeRun, Tvheadend, Enigma2 and Xtream. `Plex` `Jellyfin` `+IPTV` · `Android TV` `Fire TV` · `Freemium`
 - [Squire](https://apps.apple.com/gb/app/xtream-iptv-player-squire/id951483331) - IPTV and media client for Xtream Codes, M3U, Put.io and home servers, organised in one place. `Plex` `Jellyfin` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
@@ -1290,7 +1290,7 @@ IPTV players that also read media servers, and apps that turn a library into sch
 - [Syravo](https://apps.apple.com/us/app/syravo-iptv-m3u-player/id6797567023) - Xtream Codes and M3U player with live TV, movies and series, plus Jellyfin and Emby servers. `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Telora Player](https://apps.apple.com/us/app/telora-player/id6821877987) - IPTV and media server player that puts channels, movies and shows in one interface. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Subscription`
 - [Tivsy](https://apps.apple.com/br/app/tivsy-player-iptv-m3u/id6795955479) - IPTV player for M3U lists, Xtream panels and media servers with posters, synopses and a time-ordered guide. `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
-- [Tub IPTV](https://apps.apple.com/br/app/tub-iptv/id6795949531) - IPTV player for M3U links, Xtream panels, a Plex server or an SMB library. `Plex` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
+- [Tub IPTV](https://apps.apple.com/br/app/tub-iptv/id6795949531) - IPTV player for M3U links, Xtream panels, a Plex server or an SMB library. `Plex` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Tuneline](https://tuneline.app/) - Cross-platform M3U and Xtream player that can also play media from home servers. `Plex` `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `Linux` `Android` · `Freemium`
 - [UHF](https://apps.apple.com/us/app/uhf-love-your-iptv/id6443751726) - IPTV player for Apple devices that also plays media-server libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Veoday](https://apps.apple.com/us/app/veoday/id6799393674) - Personal media player for playlists, provider accounts and media servers with live TV and favourites. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
@@ -1406,7 +1406,7 @@ Apps that only run on consoles, headsets, cars, watches, TV operating systems, K
 
 - [canvas](https://github.com/bleichroeder/canvas) - In-car browser video player for Plex and YouTube using canvas and WebCodecs. `Plex` · `Tesla` · `MIT`
 - [DashTune](https://github.com/chamika/DashTune) - Android Automotive music and audiobook player with offline downloads. `Jellyfin` · `Android Automotive` · `Open source` `Free` · [Google Play](https://play.google.com/store/apps/details?id=com.chamika.dashtune)
-- [Momentum: Plex Music for Cars](https://play.google.com/store/apps/details?id=com.williammunn.aaos.momentum) - Native Android Automotive music player. `Plex` · `Android Automotive` · [Info](https://forums.plex.tv/t/momentum-a-native-plex-music-client-for-android-automotive-os-closed-testing-open-now/940529)
+- [Momentum: Plex Music for Cars](https://play.google.com/store/apps/details?id=com.williammunn.aaos.momentum) - Native Android Automotive music player. `Plex` · `Android Automotive` · `Freemium` · [Info](https://forums.plex.tv/t/momentum-a-native-plex-music-client-for-android-automotive-os-closed-testing-open-now/940529)
 - [Norrklang](https://github.com/koedastudio/norrklang) - Music client for Android Automotive cars. `Plex` `Jellyfin` `+Subsonic` · `Android Automotive` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=studio.koeda.norrklang)
 - [Plex AAOS (Unofficial)](https://github.com/joeyberkovitz/plex-aaos) - Unofficial music player for cars running Android Automotive OS. `Plex` · `Android Automotive` · `MIT` · [Google Play](https://play.google.com/store/apps/details?id=us.berkovitz.plexaaos)
 - [Shark Marmalade](https://github.com/bendardenne/sharkmarmalade) - Android Automotive music player. `Jellyfin` · `Android Automotive` · `GPL-2.0` · [Google Play](https://play.google.com/store/apps/details?id=be.bendardenne.jellyfin.aaos)
@@ -1578,8 +1578,8 @@ These do not play media themselves: they control, manage or connect a server to 
 - [Accio for Plex](https://apps.apple.com/us/app/accio-for-plex/id6759935357) - iPhone app for making Seerr requests. `Plex` · `iOS` `tvOS`
 - [Emby Companion](https://github.com/ffinly/emby-companion) - Library discovery app that hands playback to an external player and syncs watch progress. `Emby` · `macOS` · `Open source` `Free`
 - [EmbyUserHub](https://apps.apple.com/cn/app/embyuserhub/id6759602198) - iPhone server user admin and statistics app. `Emby` · `iOS` · `Free`
-- [EmbyWatch](https://play.google.com/store/apps/details?id=com.embywatch.app) - Android server admin and statistics app. `Emby` · `Web` `Android`
-- [Flick for Plex](https://apps.apple.com/us/app/flick-for-plex/id6806605373) - iPhone app for swiping through the library to triage it. `Plex` · `iOS`
+- [EmbyWatch](https://play.google.com/store/apps/details?id=com.embywatch.app) - Android server admin and statistics app. `Emby` · `Web` `Android` · `Freemium`
+- [Flick for Plex](https://apps.apple.com/us/app/flick-for-plex/id6806605373) - iPhone app for swiping through the library to triage it. `Plex` · `iOS` · `Freemium`
 - [HifiMule](https://github.com/HifiMule/HifiMule) - Sync tool that copies music and playlists to MTP phones and watches, USB drives and Rockbox players. `Jellyfin` `+Subsonic` `+Audiobookshelf` · `Windows` `macOS` `Linux` · `GPL-2.0`
 - [Homelab](https://f-droid.org/packages/com.homelab.app/) - Android dashboard for the server and *arr apps. `Plex` · `Android` · `Open source`
 - [JellyTunes](https://orainlabs.dev/) - Linux tool that syncs music from the server to MP3 players for offline use. `Jellyfin` · `Linux` · [Snap](https://snapcraft.io/jellytunes)
@@ -1588,9 +1588,9 @@ These do not play media themselves: they control, manage or connect a server to 
 - [NasScale](https://apps.apple.com/us/app/nasscale/id6796591787) - Synology NAS manager with built-in Tailscale for files, transfers and downloads, plus optional Jellyfin playback. `Jellyfin` · `iOS` `iPadOS` · `Free`
 - [Playlifin](https://flathub.org/apps/net.krafting.Playlifin) - Linux tool for converting playlists into the server. `Jellyfin` · `Linux`
 - [Playlifin Voyager](https://flathub.org/apps/net.krafting.PlaylifinVoyager) - Moves playlists to and from a server. `Jellyfin` · `Linux`
-- [Purger for Plex](https://play.google.com/store/apps/details?id=it.devcells.plexpurger) - Android app for swipe-to-delete library cleanup. `Plex` · `Android`
+- [Purger for Plex](https://play.google.com/store/apps/details?id=it.devcells.plexpurger) - Android app for swipe-to-delete library cleanup. `Plex` · `Android` · `Freemium`
 - [Quartermaster](https://apps.apple.com/us/app/quartermaster-homelab-stack/id6779994284) - Homelab control app with media requests, download status, server controls and library playback. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` · `Freemium`
-- [Remote for Tautulli](https://apps.apple.com/us/app/remote-for-tautulli/id1343177312) - Statistics app for Tautulli on iPhone, iPad and Apple Watch. `Plex` · `iOS` `iPadOS` `watchOS` · `Stale 2024`
+- [Remote for Tautulli](https://apps.apple.com/us/app/remote-for-tautulli/id1343177312) - Statistics app for Tautulli on iPhone, iPad and Apple Watch. `Plex` · `iOS` `iPadOS` `watchOS` · `Freemium` `Stale 2024`
 - [seerr-tv](https://github.com/Vermino/seerr-tv) - Android TV app for making Seerr requests. `Plex` `Jellyfin` `Emby` · `Android TV` `Fire TV` · `MIT`
 - [Tautulli Remote](https://github.com/Tautulli/Tautulli-Remote) - Official Tautulli app for server statistics and activity. `Plex` · `Android` `iOS` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id1570909086) · [Google Play](https://play.google.com/store/apps/details?id=com.tautulli.tautulli_remote)
 - [Twig](https://f-droid.org/packages/com.twig.app/) - Android file manager for the server. `Jellyfin` · `Android` · `Open source`

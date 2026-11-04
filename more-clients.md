@@ -1,0 +1,568 @@
+<!-- Generated from data/clients.yaml by scripts/generate.py. Do not edit by hand. -->
+
+# More clients
+
+Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release and under 10 stars, most of them from 2025 and 2026. Many are one-person experiments, so expect rough edges. The main list is in [README.md](README.md); the legend there applies here too.
+
+## Contents
+
+- [Cross-platform](#cross-platform) (52)
+- [Android, Android TV and HarmonyOS](#android-android-tv-and-harmonyos) (66)
+- [Apple platforms](#apple-platforms) (66)
+- [Desktop](#desktop) (100)
+- [Web](#web) (74)
+- [Consoles and homebrew](#consoles-and-homebrew) (17)
+- [VR and XR](#vr-and-xr) (8)
+- [TV operating systems](#tv-operating-systems) (40)
+- [Car](#car) (6)
+- [Watches](#watches) (5)
+- [Voice assistants and speakers](#voice-assistants-and-speakers) (2)
+- [Kodi add-ons](#kodi-add-ons) (3)
+- [Terminal](#terminal) (32)
+- [Desktop shims and external players](#desktop-shims-and-external-players) (11)
+- [Other devices and legacy systems](#other-devices-and-legacy-systems) (16)
+
+## Cross-platform
+
+- [Allegedly](https://github.com/fanofsteel2013/allegedly-releases) - Client distributed as an installer. `Plex` · `Windows` `Android TV` `Fire TV` · `Open source`
+- [Anemone](https://github.com/DylanDuff/anemone) - Jellyfin client for iPhone, Android, Android TV and Apple TV. `Jellyfin` · `Android` `iOS` `Android TV` `tvOS` · `Open source` `Free`
+- [Angleramp](https://github.com/m00nie/angleramp) - Music client modelled on Finamp. `Jellyfin` · `Android` `iOS` `CarPlay` · `MPL-2.0` `Free`
+- [audioplex](https://github.com/mexvance/audioplex) - React Native audiobook app for Plex, last updated in 2022. `Plex` · `Android` `iOS` · `Open source` `Free` `Stale 2022`
+- [Brewfin](https://github.com/coffeelakedevv/brewfin) - Jellyfin client app. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
+- [Clipfin](https://github.com/Happyzippy/clipfin) - Jellyfin client for short clips. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
+- [Consolefin](https://github.com/Francorr1/ConsoleFin) - Controller-friendly client for Android and Windows gaming handhelds. `Jellyfin` · `Windows` `Android` · `Open source` `Free`
+- [Constella](https://github.com/sandunwira/Constella) - Expo-built mobile music client. `Jellyfin` · `Android` `iOS` · `MIT` `Free`
+- [emby-tui](https://github.com/booYah187/emby-tui) - Terminal client that also runs on Android and muOS and JELOS handhelds. `Jellyfin` `Emby` · `Linux` `Android` `Retro handheld` `CLI` · `Open source` `Stale 2025`
+- [emby-viewer](https://github.com/MuzzyLip/emby-viewer) - Flutter media client. `Emby` · `Android` `iOS` · `Open source` `Free`
+- [encheo](https://github.com/KumaVolt/encheo) - Cross-platform media player for desktop and Android that puts Plex first. `Plex` · `Windows` `macOS` `Linux` `Android` · `MPL-2.0` `Free`
+- [Finstalgia](https://github.com/leodenglovescode/Finstalgia) - Lightweight web client with an HLS bridge so old iPads can play. `Jellyfin` · `Web` `iPadOS` · `MIT` `Free`
+- [Fish Player](https://github.com/flyfishxu/fish-player-kmp) - Kotlin Multiplatform client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
+- [Flumby](https://github.com/Ender-Kylin/Flumby) - Flutter client. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `Open source` `Free`
+- [FluTunes](https://github.com/V3ntus/flutunes) - Flutter music player. `Jellyfin` · `Android` `iOS` · `Open source` `Free` `Stale 2025`
+- [Fynitiv](https://github.com/lopiv2/fynitiv) - Flutter client for Jellyfin. `Jellyfin` · `Android` `iOS` · `Apache-2.0` `Free`
+- [GVP v3](https://github.com/bjh021149/gvpv3) - Flutter video player. `Emby` · `Android` `iOS` · `Open source` `Free`
+- [Harpoon](https://github.com/siddhantmadhur/harpoon) - Flutter Jellyfin client for all platforms. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `GPL-3.0` `Free`
+- [Heisuca](https://github.com/CaioGuerras/heisuca) - Player suite for web, Android, Android TV and iPhone. `Plex` `Jellyfin` · `Web` `Android` `iOS` `Android TV` · `Open source`
+- [Jellible](https://github.com/Jellible-Audiobooks/App) - Cross-platform audiobook player built with React Native. `Jellyfin` · `Android` `iOS` · `MIT` `Free`
+- [JellyCast](https://github.com/JellyCast/jellycast-androidtv) - Android TV app from the JellyCast project. `Jellyfin` · `iOS` `Android TV` `webOS` · `MIT` `Free` · [Source](https://github.com/JellyCast/jellycast-ios) · [Source 2](https://github.com/JellyCast/jellycast-lgtv)
+- [Jellyfinity](https://github.com/BenGroll/Jellyfinity-Client) - Jellyfin client app. `Jellyfin` · `Android` `iOS` · `MIT` `Free`
+- [jellyfin-maui](https://github.com/spencerlandis/jellyfin-maui) - .NET MAUI client for Jellyfin. `Jellyfin` · `Windows` `macOS` `Android` `iOS` · `Open source` `Free`
+- [JellyReco](https://github.com/HARDWELL9191/AniTrack) - Jellyfin player that suggests what to watch next. `Jellyfin` · `Windows` `Linux` `iOS` · `Open source` `Free`
+- [JellyShoal](https://github.com/lineargraph/JellyShoal) - Client for watching Jellyfin libraries from multiple servers in one app. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
+- [JellyTok](https://github.com/Mars160/jellytok) - Vertical short-video feed that plays Jellyfin clips TikTok-style. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
+- [JSync](https://github.com/thecomputer07/jsync) - Jellyfin player for iPhone, iPad and Android. `Jellyfin` · `Android` `iOS` `iPadOS` · `MIT` `Free`
+- [Kotone](https://github.com/alicegay/kotone-desktop) - Desktop music client. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `Open source` `Free` · [Source](https://github.com/alicegay/kotone)
+- [LiuSound](https://github.com/LawrenZzz/Liusound) - Music client for several back ends at once. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `Windows` `macOS` `Linux` `Android` `iOS` · `Open source` `Free`
+- [Madari One](https://github.com/madari-media/one) - Open-source Jellyfin client. `Jellyfin` · `Android` `iOS` · `MIT` `Free` `Stale 2025`
+- [ma_palyer](https://github.com/wind007/ma_palyer) - Cross-platform Emby player built with Flutter. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT`
+- [node-media-centre](https://github.com/philcluff/node-media-centre) - Node.js media-centre web app that plays Plex items on a Raspberry Pi through OMXPlayer. `Plex` · `Linux` `Web` · `Open source` `Free` `Stale 2022`
+- [OpenFlix](https://github.com/jorge123255/OpenFlix) - Client built with Flutter. `Plex` · `Android` `iOS` `Android TV` `tvOS` · `Open source`
+- [openiptv](https://github.com/jorda0mega/openiptv) - Client that combines an Emby library with Xtream live TV, built on a Rust core. `Emby` `+IPTV` · `Web` `iOS` `Fire TV` `tvOS` · `MIT`
+- [Phim Nè](https://github.com/minhtran162/phimne-flutter) - Flutter client for a Jellyfin server. `Jellyfin` · `Android` `iOS` · `GPL-3.0` `Free`
+- [Plex-HTML5-Cordova-Client](https://github.com/lotsofdan/Plex-HTML5-Cordova-Client) - Cordova-wrapped HTML5 Plex client for mobile, from 2016. `Plex` · `Android` `iOS` · `MIT` `Free` `Stale 2016`
+- [plexify](https://github.com/bomer/plexify) - Music player. `Plex` · `Windows` `Android` · `Open source`
+- [Plezo](https://github.com/edrock200/plezo) - Flutter client derived from Plezy. `Plex` `Jellyfin` · `Android` `iOS` · `GPL-3.0` `Free`
+- [seerrplay](https://github.com/seerrplay-project/seerrplay) - Seerr discovery with direct playback from your own server. `Emby` · `Windows` `macOS` `Android` `iOS` `Android TV` `tvOS` · `Open source`
+- [Self-Shelf](https://github.com/jacclyons/Self-Shelf) - Native reader for books, comics and PDFs stored on a Jellyfin server. `Jellyfin` · `Web` `iOS` · `Open source` `Free`
+- [Selvania Ciné](https://github.com/LeD0c4/cine-android) - Android and Android TV client. `Jellyfin` · `Web` `Android` `Android TV` `webOS` · `GPL-3.0` `Free` · [Source](https://github.com/LeD0c4/cine-web) · [Source 2](https://github.com/LeD0c4/cine-webos)
+- [Shadfin](https://github.com/Shadfin/desktop) - Desktop Jellyfin client that plays through mpv. `Jellyfin` · `Windows` `macOS` `Linux` `Web` · `Open source` `Free` `Stale 2025` · [Source](https://github.com/Shadfin/app)
+- [Spool](https://github.com/spool-player/spool) - mpv-based client for LG TVs, desktop and Android. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `Android TV` `webOS` · `MPL-2.0` `Free`
+- [Sunray](https://github.com/TurquoiseTNT/sunray) - Flutter client for Jellyfin. `Jellyfin` · `Android` `iOS` · `Open source` `Free` `Stale 2025`
+- [SwipePlay](https://github.com/stan0312/SwipePlay) - Douyin-style swipe-through Emby client built with Flutter. `Emby` · `Android` `iOS` · `MIT`
+- [Tentacle](https://github.com/fuzzinvaders/Tentacle) - Pixel-art styled audio player. `Jellyfin` · `Web` `Android` · `AGPL-3.0` `Free`
+- [Tinyfin](https://github.com/bogdan-calapod/tinyfin) - Kid-friendly Jellyfin client. `Jellyfin` · `Android` `iOS` · `Open source` `Free`
+- [TruPhotos](https://github.com/TruCraft/TruPhotos) - Photo viewer for the server's photo libraries. `Plex` · `Android` `iOS` · `MIT`
+- [Victorthemachine/Simple-Plex-Player](https://github.com/Victorthemachine/Simple-Plex-Player) - Archived JavaScript Plex media player for web and desktop. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT` `Free` `Ended 2023`
+- [Viora](https://github.com/RoaycL/Viora) - Player that gathers Emby and Jellyfin libraries in one app. `Jellyfin` `Emby` · `Windows` `Android TV` · `Open source` `Free`
+- [Wake](https://github.com/KolektivComputer/wake) - Compose-built music player for phones and desktop. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Android` `iOS` · `AGPL-3.0` `Free`
+- [Warden](https://github.com/LukasParke/Warden) - Plex music player for desktop and web. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT` `Free`
+
+## Android, Android TV and HarmonyOS
+
+- [ai-flutter-jellyfin](https://github.com/xueshengfei/ai-flutter-jellyfin) - Flutter rewrite of a Jellyfin client for Android and HarmonyOS. `Jellyfin` · `Android` `HarmonyOS` · `MIT` `Free`
+- [Amethyst](https://github.com/AetherionFlux/amethyst) - Spotify-style Android player that also plays music videos. `Jellyfin` · `Android` · `MIT` `Free`
+- [AndroidAudioBook](https://github.com/TannerHolm/AndroidAudioBook) - Android audiobook player forked from Chronicle. `Plex` · `Android` · `Open source` `Stale 2022`
+- [AndroidTV-FireTV](https://github.com/TSK-Entertainment/AndroidTV-FireTV) - Android TV and Fire TV client. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [Anyfin](https://github.com/bartando/anyfin) - One React codebase targeting PS5, Switch and Android TV. `Jellyfin` · `Android TV` `PS5` `Switch` · `GPL-3.0` `Free`
+- [AskIT TV](https://github.com/askitcommv-bit/askit-tv) - TV-oriented player app from AskIT. `Emby` · `Android TV` · `Open source` `Free`
+- [avas-bedtime](https://github.com/machineshop44/avas-bedtime) - Android bedtime-viewing Plex player made for a child. `Plex` · `Android` · `Open source` `Free`
+- [bettermint-plex](https://github.com/mjryan253/bettermint-plex) - Plex frontend for Android TV and Fire TV, tuned for large libraries. `Plex` · `Android TV` `Fire TV` · `Open source` `Free`
+- [BetterTune](https://github.com/OpyrusDevOp/BetterTune) - Music player. `Jellyfin` · `Android` · `Open source`
+- [Carpfin](https://github.com/LassoDonkey/CarpFin) - Fire TV and Android TV couch client. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
+- [CGFLIX Lite](https://github.com/CaioGuerras/cgflix-lite) - Findroid fork for phones and TV boxes. `Jellyfin` · `Android` `Android TV` · `GPL-3.0` `Free`
+- [ChiGuo TV](https://github.com/P-bit-display/chiguo-tv) - Android TV app with a tvOS-style interface, made for Redmi and Xiaomi TVs. `Jellyfin` · `Android TV` · `MIT` `Free`
+- [disifin](https://github.com/Nandanrmenon/disifin) - Music player. `Jellyfin` · `Android` · `Open source` `Stale 2025`
+- [District](https://github.com/nilesjarvis/district) - Kotlin Android music player. `Jellyfin` · `Android` · `Open source` `Free`
+- [DuShengTV](https://github.com/SatanDS/DuShengTV) - Emby client for Android TV. `Emby` · `Android TV` · `Open source`
+- [emby-android](https://github.com/mathcals/emby-android) - Older open-source Android app from 2017. `Emby` · `Android` · `GPL-2.0` `Free` `Stale 2017`
+- [EmbyPro](https://github.com/XiaoMingCloud/EmbyPro) - Third-party Emby client for Android. `Emby` · `Android` · `Open source`
+- [emby-short](https://github.com/lalakiop/emby-short) - Short-video feed client. `Emby` · `Android` · `Open source` `Free`
+- [EzPzTV](https://github.com/Xaque8787/ezpztv-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Stale 2024`
+- [Finly](https://github.com/xjazc03/Finly) - Android Jellyfin client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
+- [Finyl Android](https://github.com/t1dude/FinylAndroid) - Android music client. `Jellyfin` · `Android` · `Open source` `Free`
+- [Foxfin](https://github.com/zillazero/foxfin) - Android and Android TV client for Jellyfin and Emby, forked from Moonfin. `Jellyfin` `Emby` · `Android` `Android TV` · `GPL-2.0` `Free`
+- [GPlayerX](https://github.com/FlowerC882999/GplayerX-Project) - Personal Android player. `Emby` · `Android` · `Open source` `Free`
+- [Homura TV](https://github.com/alicegay/homura-tv) - Android TV client for Jellyfin. `Jellyfin` · `Android TV` · `Open source` `Free`
+- [JBreakTV](https://github.com/BlackstormFirst/jBreakTV) - Android TV client. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [JellyBoost](https://github.com/landai-n/jellyboost) - Native Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
+- [Jellydroid](https://github.com/charlie-niekirk/JellyDroid) - Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free` `Stale 2025`
+- [Jellydroid](https://github.com/chrisharrington/jellydroid) - Android client. `Jellyfin` · `Android` · `Open source` `Free` `Stale 2025`
+- [jellyfin-android-client](https://github.com/Swackles/jellyfin-android-client) - Work-in-progress native Android client. `Jellyfin` · `Android` · `Open source` `Free` `Beta`
+- [jellyfin-cordova](https://github.com/danielveigasilva/jellyfin-cordova) - Cordova-based mobile client. `Jellyfin` · `Android` · `Open source` `Free` `Stale 2025`
+- [jellyfin_local_mirror](https://github.com/Asion001/jellyfin_local_mirror) - Android app that syncs a remote library to local storage. `Jellyfin` · `Android` · `MIT` `Free`
+- [jellyfin-player](https://github.com/hadip123/jellyfin-player) - Lightweight Android music player. `Jellyfin` · `Android` · `Open source` `Free`
+- [jellyfin-pro-fire-tv](https://github.com/man1710/jellyfin-pro-fire-tv) - Fire TV app that reproduces a custom Jellyfin web interface. `Jellyfin` · `Fire TV` · `Open source` `Free`
+- [JellyKidsTV](https://github.com/dahool/JellyKidsTV) - Kids-focused Android TV client. `Jellyfin` · `Android TV` · `Open source` `Free` `Stale 2025`
+- [JellyShell](https://github.com/DmytroKhrishu/jellyshell) - TV-first Jellyfin client for Xbox, Android TV and phones. `Jellyfin` · `Android` `Android TV` `Xbox` · `GPL-3.0` `Free`
+- [JellyTune](https://github.com/Gimmeapill/JellyTune) - Android client derived from the official Jellyfin Android app. `Jellyfin` · `Android` · `Open source` `Free`
+- [Librifin](https://github.com/mrtnha/librifin) - Android ebook reader. `Jellyfin` · `Android` · `MPL-2.0` `Free` `Ended 2026`
+- [LumaTV](https://github.com/stevendong/lumatv) - Android TV client with an Apple-style interface. `Emby` · `Android TV` · `Open source` `Free`
+- [MediaHub](https://github.com/Gtxr24-xXx/MediaHub) - Android TV media player. `Jellyfin` `Emby` · `Android TV` · `Open source` `Free`
+- [MyFlix](https://github.com/theimmortal68/myflix-wholphin) - Customised build of the Wholphin Android TV client. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [nilumio for Android TV](https://github.com/nilumio/nilumio-android) - Android TV client forked from Wholphin. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [OB Max](https://github.com/ollivv-hash/obmax) - Invitation-only TV client based on Moonfin. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`
+- [Pictureshow](https://github.com/pictureshow/pictureshow) - Free open-source Android TV client. `Jellyfin` · `Android TV` · `MPL-2.0` `Free`
+- [PlexAudiobooks](https://github.com/richminichiello/PlexAudiobooks_old) - Audiobook player. `Plex` · `Android` · `Open source`
+- [plex-open-android](https://github.com/spirosrap/plex-open-android) - Android client for the Plex Open Web interface. `Plex` · `Android` · `Open source` `Free`
+- [plex-player-](https://github.com/LotDog1984/plex-player-) - Custom Plex player for Google TV. `Plex` · `Android TV` · `Open source` `Free`
+- [Plex-Remote (WFH)](https://github.com/WFH/Plex-Remote) - Plex remote control. `Plex` · `Android` · `Open source` `Stale 2012`
+- [PlexValet](https://github.com/sebedard-creator/PlexValet) - Open-source alternative to the official Plex Android client. `Plex` · `Android` · `MIT` `Free`
+- [Puala](https://github.com/siyunesweek/Puala) - Android music client. `Jellyfin` · `Android` · `Open source` `Free`
+- [Sheliak](https://github.com/CrsMthw/Sheliak) - Material 3 Expressive music player for Android. `Plex` `Jellyfin` · `Android` · `MIT`
+- [Simplex](https://github.com/embergabor/simplex) - Android TV client. `Plex` · `Android TV` `Fire TV` · `Open source`
+- [SlickRemote for Plex](https://github.com/jetshred/SlickRemote-for-Plex-Android) - Android remote control for Plex. `Plex` · `Android` · `Open source` `Stale 2010`
+- [SlopTank](https://github.com/aaron13100/SlopTank-android) - Android client forked from jellyfin-android. `Jellyfin` · `Android` · `GPL-2.0` `Free`
+- [Sonofin](https://github.com/Code-Liberation-Front/Sonofin) - Music client for a Jellyfin library. `Jellyfin` · `Android` `Android Auto` · `MIT` `Free`
+- [Soup](https://github.com/michaelishri/soup) - Android TV client with built-in Tailscale connectivity. `Jellyfin` · `Android TV` · `Open source` `Free`
+- [SpinePlay](https://github.com/smartdevuk/spineplay) - Android audiobook player for Plex. `Plex` · `Android` · `MIT` `Free`
+- [stella-tvsearch](https://github.com/anand951/stella-tvsearch) - Unified search app for Android TV that finds titles across sources. `Plex` · `Android TV` · `Open source`
+- [stuntsnakee/emby-android](https://github.com/stuntsnakee/emby-android) - Native Android client for phones and Leanback TV. `Emby` · `Android` `Android TV` · `Open source` `Free`
+- [SunnyTV](https://github.com/wine2siri/SunnyTV) - Android TV client that also reads CloudDrive2 and STRM files. `Emby` · `Android TV` · `GPL-3.0` `Free`
+- [Swedishfin](https://github.com/dmstocking/swedishfin) - Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
+- [Tentacle](https://github.com/majoseph25/tentacle) - Unofficial music player for Android and Android TV. `Jellyfin` · `Android` `Android TV` · `Apache-2.0` `Free`
+- [Tunerfish](https://github.com/TobekSoft/TunerFish) - Album-first music player. `Jellyfin` · `Android` · `MIT` `Free` · [Source](https://github.com/TobekSoft/TunerFishAndroid)
+- [WalkmanX10](https://github.com/MarcelloCarlo/WalkmanX10) - Walkman-style music player for the Sony X10 Mini. `Jellyfin` · `Android` · `Open source` `Free`
+- [Zed Client](https://github.com/StNiosem/zedclient) - Android client. `Jellyfin` · `Android` · `Open source` `Free` `Stale 2025`
+- [ZSpaceCarPlayer](https://github.com/Dangerous828/ZSpaceCarPlayer) - Car music player for old Android 4.3 head units. `Jellyfin` · `Android` · `Open source` `Free`
+- [映屿 CineIsle](https://github.com/MiniTiny/cineisle) - HarmonyOS client. `Jellyfin` · `HarmonyOS` · `GPL-3.0` `Free`
+
+## Apple platforms
+
+- [Alphane](https://github.com/neogucky/alphane) - Apple TV client adapted from Swiftfin. `Jellyfin` · `tvOS` · `MPL-2.0` `Free`
+- [Anemone](https://github.com/revanthv11/Anemone) - Apple TV client based on Wholphin. `Jellyfin` · `tvOS` · `GPL-3.0` `Free`
+- [A Playa Named Gus](https://github.com/eslutz/A-Playa-Named-Gus) - iPhone and Vision Pro player with an immersive viewing space. `Jellyfin` · `iOS` `visionOS` · `Open source`
+- [Apotheosis](https://github.com/peewee5/apotheosis-public) - iOS client; this repository only tracks issues, the app itself is closed source. `Emby` `+IPTV` · `iOS`
+- [Armfin](https://github.com/benjamiinn1/armfin) - Standalone watchOS and iPhone music client with streaming and downloads. `Jellyfin` · `iOS` `watchOS` · `MIT` `Free`
+- [Brockbuster](https://github.com/brocksexton/Brockbuster-AppleOS) - Swift app for Apple devices built around one custom Jellyfin service. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
+- [Bumper](https://github.com/kristianfreeman/bumper) - Ambient media player for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
+- [Cascade](https://github.com/thomas-rife/cascade) - Swift client for iOS and tvOS. `Jellyfin` · `iOS` `tvOS` · `Open source` `Free`
+- [cinerama-player](https://github.com/kenkenchu/cinerama-player) - Cinematic-style Plex client for Mac and Apple TV. `Plex` · `macOS` `tvOS` · `MIT` `Free`
+- [Duofin](https://github.com/juicecultus/Duofin) - iPhone client laid out for a foldable dual-screen device. `Jellyfin` · `iOS` · `MPL-2.0` `Free`
+- [EclipsePlexClient](https://github.com/mattbrown64/EclipsePlexClient) - Client built with SwiftUI. `Plex` · `macOS` `iOS` `iPadOS` `tvOS` · `Open source`
+- [emby-ios-player](https://github.com/anohaca/emby-ios-player) - iOS player app. `Emby` · `iOS` · `MPL-2.0` `Free`
+- [Emby-Player-iOS](https://github.com/MatsMoll/Emby-Player-iOS) - iOS player app, last updated in 2019. `Emby` · `iOS` · `Open source` `Free` `Stale 2019`
+- [EMPlayer](https://github.com/sonsongithub/EMPlayer) - iOS app for browsing a media server. `Emby` · `iOS` · `MIT` `Free`
+- [Finn](https://github.com/troendheim/finn) - Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
+- [Fluffin](https://github.com/RousseAddict/fluffin) - CarPlay-compatible audio player. `Jellyfin` · `iOS` `CarPlay` · `Open source` `Free`
+- [Glide](https://github.com/sssnto/Glide) - iPhone and iPad player for Jellyfin and WebDAV sources. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Free`
+- [GravyFin](https://github.com/Remguru/GravyFin) - Barebones Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
+- [Jellify (Swift)](https://github.com/anultravioletaurora/Jellify---Swift) - Music player. `Jellyfin` · `macOS` `iOS` `CarPlay` · `Open source` `Ended 2025`
+- [Jello](https://github.com/eeston/jello) - Music app with an Apple Music-style interface. `Jellyfin` · `iOS` · `MIT` `Free`
+- [jellyblair](https://github.com/hmblair/jellyblair) - Audiobook player for Mac and iPhone. `Jellyfin` · `macOS` `iOS` · `MIT`
+- [JellyCast](https://github.com/netzih/jellycast) - iPhone music client with Google Cast and CarPlay. `Jellyfin` · `iOS` `CarPlay` · `Open source` `Free`
+- [JellyfinLegacyiOS](https://github.com/Sheredwolf87/JellyfinLegacyiOS) - Client for legacy iOS versions. `Jellyfin` · `iOS` · `Open source` `Free`
+- [Jellyfuse](https://github.com/Overlabing/jellyfuse) - Native Apple TV client in SwiftUI with mpv playback. `Jellyfin` · `tvOS` · `MIT` `Free`
+- [JellyOld](https://github.com/RousseAddict/jellyold) - Client for iOS 6 to 9. `Jellyfin` · `iOS` · `GPL-3.0` `Free`
+- [JellyPig](https://github.com/ashikslab/jellypig) - Fork of Swiftfin. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` `Stale 2025`
+- [JellyPlayerSwift](https://github.com/NikolaDX/JellyPlayerSwift) - Native iOS player. `Jellyfin` · `iOS` · `GPL-3.0` `Free`
+- [jelly-tvos](https://github.com/identityquartet/jelly-tvos) - Minimal Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
+- [Kartunes](https://github.com/KartulUdus/Kartunes) - Apple Watch music player. `Jellyfin` `Emby` · `iOS` `watchOS` · `GPL-3.0`
+- [kurtz](https://github.com/ralleur/kurtz) - Swiftfin-based player with a Mac beta. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` `Beta`
+- [Labstream](https://github.com/jlipworth/Labstream) - Vision Pro-first player that also runs on iPhone and iPad. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `visionOS` · `GPL-3.0` `Beta`
+- [Libravia](https://github.com/schillt/libravia) - Native book reader for iPhone, iPad and Mac. `Jellyfin` · `macOS` `iOS` `iPadOS` · `Open source` `Free`
+- [LinPlayer](https://github.com/Devtll/LinPlayer) - Native iOS and macOS player. `Jellyfin` `Emby` · `macOS` `iOS` · `Open source` `Free`
+- [Medusic](https://github.com/lyarenei/Medusic) - Music player. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Ended 2024`
+- [MyEmbyClient](https://github.com/mikeooye/MyEmbyClient) - iOS client. `Emby` · `iOS` · `Apache-2.0` `Free`
+- [Naqafin Apple](https://github.com/naqadata/naqafin-apple) - Apple-device client forked from the official Jellyfin Apple app. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free`
+- [NaviTunes](https://github.com/rndllb/NaviTunes) - Apple Music-style music client. `Jellyfin` `+Subsonic` · `iOS` `iPadOS` · `Open source` `Free`
+- [Nellyfin](https://github.com/angelsbrood/Nellyfin) - Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
+- [nilumio for Apple TV](https://github.com/nilumio/nilumio-tvos) - Apple TV client forked from Swiftfin. `Jellyfin` · `tvOS` · `MPL-2.0` `Free`
+- [own.audio for Jellyfin](https://github.com/own-audio/jelly-ios) - Native iOS music player. `Jellyfin` · `iOS` · `MPL-2.0` `Free` `Ended 2026`
+- [Pelagica for Apple TV](https://github.com/PelagicaApp/pelagica-atv) - Apple TV client. `Jellyfin` · `tvOS` · `GPL-3.0` `Free`
+- [pelies](https://github.com/chasecheney/pelies) - Plex player for Apple TV. `Plex` · `tvOS` · `Open source` `Free`
+- [Perch](https://github.com/Robin-Parapex/Perch) - Apple TV client with Home Assistant and Seerr integration. `Plex` · `tvOS` · `Open source`
+- [Plevi](https://github.com/upfarm-development/Plevi) - iOS music client that also reads from a Navidrome library. `Plex` `+Subsonic` · `iOS` · `Open source` `Free`
+- [plexmini](https://github.com/Jimeju9311/plexmini) - Client for jailbroken 32-bit devices on iOS 9 and 10. `Plex` · `iOS` · `Open source`
+- [Plex-TVOS](https://github.com/ericyanush/Plex-TVOS) - Proof-of-concept standalone Apple TV client for Plex from 2015. `Plex` · `tvOS` · `MIT` `Free` `Stale 2015`
+- [Raptorr](https://github.com/sweatyeggs69/Raptorr) - Plex client for Apple TV. `Plex` · `tvOS` · `GPL-3.0` `Free`
+- [Reel](https://github.com/cj-vana/reel-client) - Client for iPhone, iPad, Apple TV, Mac and Vision Pro. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `MIT` `Free`
+- [ReelCove](https://github.com/frankliu2023/reelcove) - Apple-device client built on the Swiftfin codebase. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free`
+- [Renata Jelly](https://github.com/grootismore/renata-jelly) - iPhone and iPad client forked from Streamyfin. `Jellyfin` · `iOS` `iPadOS` · `MPL-2.0` `Free`
+- [Sashimi](https://github.com/bitstorm-labs/sashimi-apple) - Native client for Apple TV, iPhone, iPad and Mac. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
+- [shard-for-plex](https://github.com/charlieparkes/shard-for-plex) - Archived iOS client for Plex. `Plex` · `iOS` · `Open source` `Free` `Ended 2020`
+- [SharkParty](https://github.com/deadfin-org/SharkParty) - Apple TV client that also supports Deadfin servers. `Jellyfin` · `tvOS` · `MPL-2.0` `Free`
+- [Sofafin](https://github.com/McSon2/Sofafin) - Native Apple TV client. `Jellyfin` · `tvOS` · `MIT` `Free`
+- [Starmine](https://github.com/enimrats/Starmine) - iOS and macOS player on libmpv with danmaku comments and Dolby Vision. `Jellyfin` · `macOS` `iOS` · `Open source` `Free`
+- [surge](https://github.com/surgeios/surge) - Apple-native Plex client. `Plex` · `macOS` `iOS` `iPadOS` `tvOS` · `Open source` `Free` · [TestFlight](https://testflight.apple.com/join/MV16nHss)
+- [Sweetfin](https://github.com/gaabsi/SweetFin) - iPhone client. `Jellyfin` · `iOS` · `MPL-2.0` `Free`
+- [SwiftJelly](https://github.com/SilverMarcs/SwiftJelly) - SwiftUI client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
+- [Swiftly Music](https://github.com/paulherter/swiftly-music) - Native music client for Jellyfin and Navidrome. `Jellyfin` `+Subsonic` · `iOS` · `MPL-2.0` `Free`
+- [ThisFrame](https://github.com/THISJOWI/THISFRAME) - Native client for iPhone, Mac, Apple TV and Vision Pro. `Jellyfin` · `macOS` `iOS` `tvOS` `visionOS` · `MIT` `Free`
+- [Tonkunst](https://github.com/n3dj0/tonkunst) - Native music player for Jellyfin. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Free`
+- [tvos-plex-app](https://github.com/Dahlgren/tvos-plex-app) - Apple TV app for Plex from 2015. `Plex` · `tvOS` · `Open source` `Free` `Stale 2015`
+- [Velora](https://github.com/ravikishore-m/velora-tvos) - Apple TV client built on Swiftfin. `Jellyfin` · `tvOS` · `MPL-2.0` `Free`
+- [Vinnyfin](https://github.com/vinnysaj/vinnyfin) - Video player for iPhone, iPad, Mac and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free`
+- [Vlinder](https://github.com/wackyvert/Vlinder) - Client for Mac, iPhone, iPad and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Open source` `Free`
+- [Wavetile](https://github.com/derrellwilliams/wavetile) - iPhone player for music and podcasts. `Jellyfin` · `iOS` · `MPL-2.0` `Free`
+
+## Desktop
+
+- [acmerocket/plex-client](https://github.com/acmerocket/plex-client) - Java desktop Plex client from 2016. `Plex` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2016`
+- [Ape Player](https://github.com/myoula/ape-player) - Player for the Omarchy Linux distribution. `Emby` · `Linux` · `Open source` `Free`
+- [Athenaeum](https://github.com/PadawanBlK/Athenaeum) - Audiobook player for Plex. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [austinkregel/simplex](https://github.com/austinkregel/simplex) - Alternative Plex client for Linux built with GTK4 and Rust. `Plex` · `Linux` · `Open source` `Free`
+- [Avalonia.Emby](https://github.com/wli189/Avalonia.Emby) - Windows client built with Avalonia. `Emby` · `Windows` · `MIT` `Free` `Stale 2025`
+- [CAHN.TV](https://github.com/AyZip13/CAHN.TV) - Desktop client for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free`
+- [Cindara](https://github.com/camcast3/cindara) - Native client for Windows desktop and Xbox. `Jellyfin` · `Windows` `Xbox` · `MIT` `Free`
+- [Cinode](https://github.com/Bakare-Ayomide/CinodeClient) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [coderient/jellyfin-uwp](https://github.com/coderient/jellyfin-uwp) - Early UWP client, last updated in 2019. `Jellyfin` · `Windows` · `GPL-2.0` `Free` `Stale 2019`
+- [Crabfin](https://github.com/sayeed205/crabfin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [dasunNimantha/plex-client](https://github.com/dasunNimantha/plex-client) - Native Plex client for Linux. `Plex` · `Linux` · `Open source` `Free`
+- [Embart](https://github.com/somnifex/Embart) - Desktop client for Windows. `Emby` · `Windows` · `Open source` `Free`
+- [embyapp](https://github.com/1mshy/embyapp) - Simple desktop client written in Rust. `Emby` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2025`
+- [emby-client-winui3](https://github.com/moooyo/emby-client-winui3) - Windows client written with WinUI 3. `Emby` · `Windows` · `Open source` `Free`
+- [emby-desktop](https://github.com/stuntsnakee/emby-desktop) - Native C++20 desktop and 10-foot client using libmpv. `Emby` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Emby Explorer](https://github.com/SideFx/EmbyExplorerforWindows) - Emby Explorer client for Windows written in Go. `Emby` · `Windows` · `MPL-2.0` `Stale 2025`
+- [EmbyPlayer](https://github.com/LKyoona/EmbyPlayer) - Local player for Windows written in C#. `Emby` · `Windows` · `MIT` `Free`
+- [enthu2005/reel](https://github.com/enthu2005/reel) - Java Plex client. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Faraday](https://github.com/sadgen/jellyfin-faraday) - Lightweight desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free`
+- [Faun](https://github.com/kuuldor/Faun) - QML desktop client for Plex Media Server. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Foliofin](https://github.com/sanjjayrj/foliofin) - Book reader for Linux. `Jellyfin` · `Linux` · `Open source` `Free`
+- [Geeb](https://github.com/toastxc/Geeb) - C# music client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free` `Stale 2025`
+- [GenesisTV](https://github.com/EddieVlad/GenesisTV) - macOS client styled after the Apple TV app. `Jellyfin` · `macOS` · `Open source` `Free`
+- [go-jf-watch](https://github.com/opd-ai/go-jf-watch) - Jellyfin client that caches media locally for playback. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free`
+- [Groovefin](https://github.com/sysmike/groovefin) - WinUI music player for Windows 11. `Jellyfin` · `Windows` · `MIT` `Free`
+- [Hacksawdio](https://github.com/ericsakmar/hacksawdio) - Offline-first, keyboard-driven music client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [iPlex](https://github.com/Sytten/iPlex) - Native desktop music player for Plex. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free` `Stale 2023`
+- [Jailfin](https://github.com/faulander/Jailfin) - Small personal desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Jeby Player](https://github.com/blackriki/jeby-player) - Native Windows player built with WPF. `Emby` · `Windows` · `GPL-3.0` `Free`
+- [JellyBeat](https://github.com/tonytony32/jellybeat) - Mac music player. `Jellyfin` · `macOS` · `MPL-2.0` `Free`
+- [JellyBridge](https://github.com/oddbench-co/jellybridge) - Native desktop Jellyfin client with mpv playback. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
+- [JellyCouch](https://github.com/depeter/jellycouch) - Couch-style 10-foot client written in Go with Ebitengine and libmpv. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [JellyDesk](https://github.com/JellyDesk/JellyDesk-archiv) - Archived desktop Jellyfin client; a new version has been announced. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free` `Ended 2025`
+- [JellyFast](https://github.com/nathannncurtis/jellyfast) - Native macOS client written in Rust. `Jellyfin` · `macOS` · `MIT` `Free`
+- [Jellyfin Desktop Next](https://github.com/DevLn737/jellyfin-desktop-next) - Desktop client with built-in SyncPlay support. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free`
+- [JellyfinGTK](https://github.com/asavage7/JellyfinGTK) - GTK music player. `Jellyfin` · `Linux` · `Open source` `Stale 2025`
+- [jellyfin-home-theater](https://github.com/deniskostadinov1995/jellyfin-home-theater) - Smart TV-style frontend for home-theater PCs. `Jellyfin` · `Linux` · `MIT` `Free`
+- [jellyfin-kiosk](https://github.com/le5emeaxe/jellyfin-kiosk) - GTK4 kiosk window showing the Jellyfin web interface. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
+- [JellyfinMauiPlayer](https://github.com/jaysonsantos/JellyfinMauiPlayer) - Jellyfin player built with .NET MAUI and mpv. `Jellyfin` · `Windows` `macOS` · `Open source` `Free`
+- [jellyfin-music-player](https://github.com/thurainhtetko/jellyfin-music-player) - Native Windows music player. `Jellyfin` · `Windows` · `Open source` `Free`
+- [Jellyflix](https://github.com/6xingyv/jellyflix) - Archived desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free` `Ended 2026`
+- [JellyTV](https://github.com/crucifix86/JellyTV) - Avalonia desktop client with a TV-style interface for Jellyfin and Emby. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [jmusic](https://github.com/larsgrah/jmusic) - Linux music client. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
+- [KinoLel](https://github.com/Parcival1/kinolel-player) - Desktop client forked from Jellyfin Desktop and branded for kinolel.de. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free`
+- [Kirin](https://github.com/immoral8299/kirin) - macOS menu-bar music player. `Plex` `+Subsonic` · `macOS` · `Open source`
+- [Luma](https://github.com/beltrnjordi/luma) - Cross-platform client. `Emby` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Luma](https://github.com/carelessty/luma) - Native macOS client written in Swift with AppKit and libmpv. `Emby` · `macOS` · `GPL-3.0` `Free`
+- [Lumen](https://github.com/LumenMedia/Lumen) - Native Windows client built with WinUI 3. `Jellyfin` · `Windows` · `GPL-3.0` `Free`
+- [Marmalade](https://github.com/GeoffreyCoulaud/Marmalade) - Experimental GTK client. `Jellyfin` · `Linux` · `GPL-3.0` `Free` `Stale 2025`
+- [MediaPi](https://github.com/SEary342/mediapi) - Portable Raspberry Pi music player. `Jellyfin` · `Linux` · `AGPL-3.0` `Free`
+- [Melvune](https://github.com/JuuWaii/Melvune) - Multi-source music player for Emby and Subsonic-style servers. `Emby` `+Subsonic` · `Windows` · `MIT`
+- [Migfin](https://github.com/xhobx/MigFin) - Jellyfin client for migraine and PWM-flicker-sensitive viewers, playing through mpv. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
+- [MoePlayer](https://github.com/UmaRiceShower/MoePlayer) - Qt 6 Emby client for Linux. `Emby` · `Linux` · `GPL-3.0`
+- [Momoka](https://github.com/cudamin/Momoka) - WinUI media library client for Windows. `Jellyfin` `Emby` `+fnOS` · `Windows` · `MIT` `Free`
+- [Muxi Player](https://github.com/HectorGao/muxi-player) - Native macOS player. `Emby` · `macOS` · `MIT` `Free`
+- [Myfin](https://github.com/caslash-org/MyFin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Nebula Player](https://github.com/NotTimm/NebulaPlayer) - Native Linux video player for Jellyfin libraries and local files. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
+- [Noira Player](https://github.com/p0page/noira-player) - TV-style player for Xbox and Windows. `Emby` · `Windows` `Xbox` · `MIT` `Free`
+- [omarchy-plexamp](https://github.com/nodrej/omarchy-plexamp) - Plexamp integration for the Omarchy Linux desktop. `Plex` · `Linux` · `Open source`
+- [omarchy-plexmini](https://github.com/joshuaswarren/omarchy-plexmini) - Linux shell widget for the Omarchy desktop. `Plex` · `Linux` · `Open source`
+- [onmywave.fm](https://github.com/wapgear/onmywave.fm) - macOS music player that mixes in spoken news. `Jellyfin` · `macOS` · `GPL-3.0` `Free`
+- [Orion Jellyfin](https://github.com/MorenoLand/Orion.Jellyfin) - Desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free`
+- [pi-media-hub](https://github.com/prestonjcrowe/pi-media-hub) - Raspberry Pi media client that plays from Jellyfin and YouTube. `Jellyfin` · `Linux` · `Open source` `Free`
+- [Pioneer CD](https://github.com/maskinrepubliken/pioneer-cd) - Raspberry Pi music player for CDs, streamed libraries and Bluetooth output. `Jellyfin` · `Linux` · `MIT` `Free`
+- [Plaude](https://github.com/DouweBos/Plaude) - macOS menu-bar app that plays Plex video in a picture-in-picture window while a Claude CLI session is thinking. `Plex` · `macOS` · `MIT`
+- [plectron](https://github.com/Eddy-Barraud/plectron) - Electron shell around Plex, from 2017. `Plex` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2017`
+- [plex-browser](https://github.com/dresswithpockets/plex-browser) - Simple Electron app for Plex, from 2018. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free` `Stale 2018`
+- [Plex-Electron](https://github.com/GyozaGuy/Plex-Electron) - Simple Electron wrapper app for Plex, from 2017. `Plex` · `Windows` `macOS` `Linux` · `Open source` `Free` `Stale 2017`
+- [Plex-Gamified](https://github.com/lordcrekit/Plex-Gamified) - Unity-based gamified interface for a Plex library. `Plex` · `Windows` · `GPL-3.0` `Stale 2023`
+- [Plexito](https://github.com/salfab/Plexito) - Media-key control for Plex. `Plex` · `Windows` · `Open source` `Stale 2015`
+- [plex-jellyfin-custom-client](https://github.com/AstonishedByTheLackOfCake/plex-jellyfin-custom-client) - Cross-platform C++ media client, last updated in 2021. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Stale 2021`
+- [plex-media-player-enhancements](https://github.com/mitzsch/plex-media-player-enhancements) - Enhanced fork of Plex Media Player for desktop. `Plex` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free` `Stale 2021`
+- [plex-music-client](https://github.com/sidd/plex-music-client) - Archived macOS desktop music player for Plex. `Plex` · `macOS` · `MIT` `Free` `Ended 2015`
+- [plex-viewer](https://github.com/ztoben/plex-viewer) - Keyboard-driven Electron viewer for Plex. `Plex` · `Windows` `macOS` `Linux` · `MIT` `Free`
+- [plex-win32-client](https://github.com/GERN2015/plex-win32-client) - Windows Plex client exported from Google Code, from 2015. `Plex` · `Windows` · `Open source` `Free` `Stale 2015`
+- [plexwmc](https://github.com/ammmze/plexwmc) - Plex app attempt for Windows Media Center. `Plex` · `Windows` · `Open source` `Ended 2023`
+- [PlezyNG](https://github.com/snapetech-org/PlezyNG) - Fork of the Plezy Flutter client. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0`
+- [polybar-plexamp](https://github.com/jtkick/polybar-plexamp) - Polybar module showing and controlling Plexamp playback. `Plex` · `Linux` · `Open source` `Stale 2024`
+- [python-jellyfin](https://github.com/cmerk2021/python-jellyfin) - Windows client written in Python. `Jellyfin` · `Windows` · `MIT` `Free`
+- [python-plex-client](https://github.com/dysproseum/python-plex-client) - Lightweight Python Plex client for Raspberry Pi. `Plex` · `Linux` · `Open source` `Free`
+- [qoda-player](https://github.com/42lizard/qoda-player) - Plex music player for Linux built with Quickshell, made for Omarchy. `Plex` · `Linux` · `MIT` `Free`
+- [QtPlex](https://github.com/aknobloch/QtPlex) - Linux-first Plex client written with Qt. `Plex` · `Linux` · `GPL-3.0` `Free` `Stale 2020`
+- [RogueAudio](https://github.com/mpatterson89/RogueAudio) - Audiobook player for Linux and the Steam Deck. `Plex` · `Linux` `Steam Deck` · `Open source`
+- [RufinBlue](https://github.com/maurog75/RufinBlue) - GTK4 music client for Linux, forked from Rufin. `Jellyfin` `+Subsonic` · `Linux` · `GPL-3.0` `Free`
+- [Solfin](https://github.com/vuongdt23/solfin) - Power-user macOS client that plays through an external mpv. `Jellyfin` · `macOS` · `Open source` `Free`
+- [Sonara](https://github.com/sandunwira/sonara) - Lightweight Windows music player. `Jellyfin` · `Windows` · `MIT` `Free`
+- [spectra](https://github.com/Fguarien/spectra) - macOS music player in the Apple Music style, playing from Plex and YouTube Music. `Plex` · `macOS` · `MIT` `Free`
+- [Spin Desktop](https://github.com/Toomiiverse/spin-desktop) - Desktop music player with a ZZZ-themed look. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Spotifin](https://github.com/EduardoV-V/spotifin) - Spotify-like music player. `Jellyfin` · `Windows` `Linux` · `MIT` `Free`
+- [starry](https://github.com/Ckrvxr/starry) - Quality-focused Emby player built on Qt 6 and MPV; archived. `Emby` · `Windows` `macOS` `Linux` · `AGPL-3.0` `Ended 2026`
+- [StrmQt](https://github.com/mpengellyCA/strmQt-linux) - Native KDE Plasma client built with Qt 6 and libmpv. `Emby` · `Linux` · `GPL-3.0` `Free`
+- [tauri-jellyfin-client](https://github.com/GabrielRamosGomes/tauri-jellyfin-client) - Tauri-based desktop Jellyfin client. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [Timbre](https://github.com/DanielTylerReece/Timbre) - Music client for a Jellyfin library. `Jellyfin` · `Linux` · `GPL-3.0` `Free`
+- [TrayPlay](https://github.com/seqizz/trayplay) - System-tray Jellyfin player for the Linux desktop. `Jellyfin` · `Linux` · `Open source` `Free`
+- [vdr-plugin-plex](https://github.com/chriszero/vdr-plugin-plex) - Plex client plugin for the Linux VDR video recorder. `Plex` · `Linux` · `GPL-2.0` `Stale 2017`
+- [Wallaby Popcorn](https://github.com/bluesilent9/wallaby-popcorn-desktop) - Fork of the Jellyfin desktop client. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free`
+- [Wemby](https://github.com/0130-vow/Wemby) - Windows client for Emby. `Emby` · `Windows` · `Open source`
+- [XPlayer](https://github.com/SwaggyMacro/XPlayer) - Windows player for Jellyfin, Emby, cloud-drive and local media. `Jellyfin` `Emby` · `Windows` · `Open source` `Free`
+- [Yanami](https://github.com/TwooSix/Yanami) - Cross-platform client written in C++. `Emby` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
+- [yasb-tunarchy](https://github.com/flathack/yasb-tunarchy) - Plex music player for Windows 11 that runs in the YASB status bar. `Plex` · `Windows` · `MIT` `Free`
+
+## Web
+
+- [Aristo](https://github.com/mattiasmicu/Aristo) - Third-party Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
+- [BookFreek](https://github.com/ChrisFinwall/BookFreek) - Mobile audiobook player. `Jellyfin` · `Web` · `Open source` `Free`
+- [capable](https://github.com/linktohack/capable) - Plex web client that always uses direct play, from 2017. `Plex` · `Web` · `Open source` `Free` `Stale 2017`
+- [CarPlayer](https://github.com/KamilDzierbicki/carplayer) - Proof-of-concept app for watching video in the car. `Jellyfin` · `Web` · `Open source` `Free` `Beta`
+- [Cine](https://github.com/LK59/cine-app) - Netflix-style streaming web app for Jellyfin. `Jellyfin` · `Web` · `AGPL-3.0` `Free`
+- [CryPlex](https://github.com/ehudokai/CryPlex) - HTML5 Plex client packaged as a Chrome app. `Plex` · `Web` · `Open source` `Stale 2012`
+- [DashStream](https://github.com/bierzelt-kind/dashstream) - Web frontend tuned for the Tesla in-car browser. `Jellyfin` `+Audiobookshelf` · `Web` `Tesla` · `Open source` `Free`
+- [egamipeaks/plexify](https://github.com/egamipeaks/plexify) - Spotify-style web app for Plex music. `Plex` · `Web` · `Open source` `Free`
+- [Embience](https://github.com/mps233/Embience) - Alternative web interface for Emby. `Emby` · `Web` · `Open source`
+- [Emby Flow](https://github.com/liyongliao/emby-flow) - Online player with a built-in downloader. `Emby` · `Web` · `Open source` `Free`
+- [emby-frontend](https://github.com/arielherself/emby-frontend) - Alternative web frontend for Emby. `Emby` · `Web` · `Open source`
+- [emby-html-player](https://github.com/Tsutomu-miku/emby-html-player) - Browser front end that browses and plays a library using plain HTML5. `Emby` · `Web` · `Open source` `Free`
+- [EmbyTok](https://github.com/1525745393/EmbyTok-ai) - Web client that browses videos in a TikTok-style vertical feed. `Plex` `Emby` · `Web` · `Open source` `Free`
+- [EmbyX](https://github.com/Paurika1113/EmbyX) - TikTok-style short-video player for Emby with a long-video mode. `Emby` · `Web` · `Open source`
+- [EMP](https://github.com/TheChaosCli/emp) - Music player. `Emby` · `Web` · `GPL-3.0` `Free` `Stale 2025`
+- [Finact](https://github.com/bleov/finact) - React-based web music client. `Jellyfin` · `Web` · `MIT` `Free`
+- [Folio](https://github.com/PeterEFrancis/audiobook-player) - Audiobook player. `Plex` · `Web` · `Open source`
+- [FretzPod](https://github.com/coltonfretz/fretzpod) - iPod Classic-style web music player. `Jellyfin` · `Web` · `MIT` `Free`
+- [Glassfin](https://github.com/pkyanam/jellyflex) - Plex-inspired Jellyfin web front end. `Jellyfin` · `Web` · `Open source` `Free`
+- [hifi.kitchen](https://github.com/stayradiated/hifi.kitchen) - Web music client for Plex, from 2019. `Plex` · `Web` · `MIT` `Free` `Stale 2019`
+- [jellex](https://github.com/iridium/jellex) - Recreation of the Plex interface as a Jellyfin client. `Jellyfin` · `Web` · `Open source`
+- [JellyAmp PWA](https://github.com/Bender21m/jellyamp-pwa) - Progressive web app music player. `Jellyfin` · `Web` · `Open source` `Free`
+- [JellyBeats](https://github.com/dipodidae/jellybeats) - Nuxt-based web frontend for music. `Jellyfin` · `Web` · `MIT` `Free` `Stale 2025`
+- [jellyfin-lcars](https://github.com/LuckyNoS7evin/jellyfin-lcars) - Jellyfin web client themed on the Star Trek LCARS interface. `Jellyfin` · `Web` · `MIT` `Free`
+- [jellyfin-music-client](https://github.com/MarkSFrancis/jellyfin-music-client) - Music client for a Jellyfin library. `Jellyfin` · `Web` · `Unlicense` `Free` `Ended 2025`
+- [jellyfin-nuxt](https://github.com/flustix/jellyfin-nuxt) - Nuxt-based Jellyfin front end. `Jellyfin` · `Web` · `Open source` `Free`
+- [JellyfinVR](https://github.com/allexxex/jellyfinvr) - VR media client. `Jellyfin` · `Web` `Quest` · `GPL-3.0` `Free`
+- [jellyfin-web-elm](https://github.com/stamnostomp/jellyfin-web-elm) - Reimplementation of the Jellyfin web client in Elm. `Jellyfin` · `Web` · `MIT` `Free` `Stale 2025`
+- [jellyfin-web-emby](https://github.com/Tsutomu-miku/jellyfin-web-emby) - Jellyfin web UI adapted to run against an Emby back end. `Emby` · `Web` · `GPL-2.0` `Free`
+- [JellyFlow](https://github.com/louisllw/Jellyflow) - Responsive independent Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
+- [JellyNext](https://github.com/mugurc/jellynext) - Cinematic Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
+- [Jelly Player](https://github.com/felizk/jelly-player) - Small hobby music player. `Jellyfin` · `Web` · `MIT` `Free`
+- [Jelly Shark](https://github.com/HeavyLvy/jelly-shark) - Jellyfin web front end with a Spotify-style music player. `Jellyfin` · `Web` · `Apache-2.0` `Free`
+- [JellySonic](https://github.com/lyarenei/JellySonic) - Former server plugin that exposed a Subsonic API. `Jellyfin` `+Subsonic` · `Web` · `Open source` `Ended 2022`
+- [JellyVision](https://github.com/dominique-debert/jellyvision-react) - React web client for Jellyfin. `Jellyfin` · `Web` · `Open source` `Free`
+- [kbaskar-media-flix](https://github.com/kbaskar-hub/kbaskar-media-flix) - TV-styled Jellyfin front end. `Jellyfin` · `Web` · `Open source` `Free`
+- [Lazuli](https://github.com/Eclypsed/Lazuli) - Work-in-progress music client that pulls from streaming services as well as Jellyfin. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
+- [LM Music](https://github.com/laomou/lm-music) - Browser-based music player. `Jellyfin` `+Subsonic` · `Web` · `Open source` `Free`
+- [Marinefin](https://github.com/Aspenini/Marinefin) - Single-HTML-file Jellyfin web client. `Jellyfin` · `Web` · `Open source` `Free`
+- [MiguPod](https://github.com/migumigu/migupod) - Cover-flow music player for the browser. `Plex` `Emby` · `Web` · `Open source`
+- [milantrax/plex-web-client](https://github.com/milantrax/plex-web-client) - React web music client for Plex. `Plex` · `Web` · `Open source` `Free`
+- [MusicLounge Player for Plex](https://github.com/earthmonkey419/musicloungeplayerforplex) - Self-hosted browser music player for Plex. `Plex` · `Web` · `MIT` `Free`
+- [MyFlix](https://github.com/npollak1207/myflix) - Web frontend with a Netflix-style layout. `Jellyfin` · `Web` · `Open source` `Free`
+- [NSFin](https://github.com/nandoscarpa/nsFIN) - Configurable Jellyfin web front end. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [obsidian](https://github.com/ViperJooy/obsidian) - Alternative web UI for Emby. `Emby` · `Web` · `Open source`
+- [Overfin](https://github.com/Overfin/web) - Web client for browsing and playing your library. `Jellyfin` · `Web` · `MIT` `Free`
+- [Palcia](https://github.com/jxstn0501/pelagicaplusFORK) - Fork of Pelagica Plus. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [Partyfin](https://github.com/GibbysGoods/Partyfin) - Web player for listening to music together. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
+- [Pazora](https://github.com/jayasuryapazhani/pazora) - Next.js progressive web app for Jellyfin. `Jellyfin` · `Web` · `Open source` `Free`
+- [Pico](https://github.com/daannte/pico) - Minimalist Next.js Jellyfin front end, archived. `Jellyfin` · `Web` · `Open source` `Free` `Ended 2025`
+- [PLAYz](https://github.com/simonjhogan/playz-emby) - HTML5 client for smart TVs; last updated in 2019. `Emby` · `Web` `Other TV` · `Apache-2.0` `Free` `Stale 2019`
+- [plexamp-web](https://github.com/kamakazedan/plexamp-web) - Web clone of Plexamp that runs in a container. `Plex` · `Web` · `MIT` `Free`
+- [plexback](https://github.com/fillet54/plexback) - Backbone.js Plex client from 2012. `Plex` · `Web` · `Open source` `Free` `Stale 2012`
+- [plexbook](https://github.com/cclark31415/plexbook) - Web audiobook player that streams M4B files from Plex. `Plex` · `Web` · `Open source` `Free`
+- [plex-coverflow](https://github.com/dajbelshaw/plex-coverflow) - Cover Flow-style web music player for Plex. `Plex` · `Web` · `Open source` `Free`
+- [plex-open-web](https://github.com/spirosrap/plex-open-web) - Self-hosted web UI for Plex. `Plex` · `Web` · `Open source` `Free`
+- [Plex-Remote (JackJPowell)](https://github.com/JackJPowell/Plex-Remote) - Plex remote control. `Plex` · `Web` · `Open source`
+- [plex-web-client](https://github.com/mattetti/plex-web-client) - Browser-based Plex client from 2012. `Plex` · `Web` · `Open source` `Free` `Stale 2012`
+- [Prismfin](https://github.com/JortWillemsen/prismfin) - White-label Jellyfin web client with a Liquid Glass look. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [RiderMusic Jukebox](https://github.com/earthmonkey419/ridermusic) - Self-hosted guest-DJ web app for music in rideshare cars. `Plex` · `Web` · `Open source`
+- [Sharkfin](https://github.com/alessandrojean/sharkfin) - Apple TV-inspired Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
+- [Siren](https://github.com/6a8i/siren-web) - Jellyfin web client built on Jellyfin Web. `Jellyfin` · `Web` · `GPL-2.0` `Free`
+- [Sluthub Vue](https://github.com/Sluthub/sluthub-vue) - Fork of the Vue web client. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [Sofarr](https://github.com/Sir-Jigston/sofarr) - Self-hosted web client for browsing and playing your library. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [storyplex](https://github.com/prydonius/storyplex) - Audiobook player. `Plex` · `Web` · `Open source` `Stale 2024`
+- [StreamFlow](https://github.com/ukyyyy/StreamFlow) - Web client for streaming your media library. `Jellyfin` · `Web` · `Open source` `Free`
+- [Tokyo Music](https://github.com/iFanatical/tokyo-music-jellyfin) - Web frontend for browsing and playing music. `Jellyfin` · `Web` · `GPL-3.0` `Free`
+- [Tunetuna](https://github.com/AlessioLaiso/tunetuna) - Music player delivered as a PWA. `Jellyfin` · `Web` · `Open source`
+- [Vela Emby Player](https://github.com/PPX-LuBing/vela-emby-player) - Browser-based player built with Vue. `Emby` · `Web` · `MIT` `Free`
+- [Velella](https://github.com/Reilynn-Olsen/Velella) - Music client for a Jellyfin library. `Jellyfin` · `Web` · `Open source` `Free` `Stale 2025`
+- [Vinicius](https://github.com/clement-mistral/vinicius) - Browser-based music player. `Jellyfin` · `Web` · `Open source` `Free`
+- [vr_music_library_vibes](https://github.com/Corey255A1/vr_music_library_vibes) - Browser-based VR music library built on the Emby API. `Emby` · `Web` · `Open source`
+- [Wellfin](https://github.com/JoeEverest/wellfin) - Netflix-style progressive web app for Jellyfin. `Jellyfin` · `Web` · `Unlicense` `Free`
+- [Yudia](https://github.com/cupimimi/yudia) - Samsung TV client, including The Freestyle projector, with a web version. `Jellyfin` · `Web` `Tizen` · `Open source` `Free`
+
+## Consoles and homebrew
+
+- [JellyBox](https://github.com/JamesDearlove/JellyBox) - Xbox client. `Jellyfin` · `Xbox` · `Open source` `Free` `Stale 2023`
+- [JellyBox](https://github.com/faithvoid/script.jellybox) - XBMC4Xbox script for the original Xbox. `Jellyfin` · `Original Xbox` · `Open source` `Free` `Stale 2025`
+- [Jellydate](https://github.com/bretdstudio/Jellydate) - Experimental Playdate app that streams dithered video through a PC bridge. `Jellyfin` · `Playdate` · `Open source` `Free` `Beta`
+- [jellyfin-ps4](https://github.com/Melvin2306/jellyfin-ps4) - Homebrew client for jailbroken PS4 consoles. `Jellyfin` · `PS4` · `GPL-3.0`
+- [jellyfin-wii](https://github.com/MATTHIAS2709/jellyfin-wii) - Nintendo Wii homebrew client. `Jellyfin` · `Wii` · `Open source`
+- [Lanternfish](https://github.com/TheTriviali/lanternfish) - Background music player for Xbox Series S and X. `Jellyfin` `Emby` `+Subsonic` · `Xbox` · `MIT`
+- [m7-jellyfin-neo](https://github.com/FloStyle/m7-jellyfin-neo) - Movian plugin rewritten for current Jellyfin 10.x servers. `Jellyfin` · `PS3` · `GPL-3.0` `Free`
+- [memefarmerr/xfin](https://github.com/memefarmerr/xfin) - Alternative Xbox client. `Jellyfin` · `Xbox` · `GPL-2.0` `Free`
+- [MisterZine Jellyfin Core](https://github.com/matijaerceg/misterzine-jellyfin) - MiSTer FPGA client core; playback needs a supporter code. `Jellyfin` · `MiSTer` · `Open source` `Subscription` `Beta` · [Info](https://misterfpga.org/viewtopic.php?t=10867)
+- [MisterZine Plex Core](https://github.com/matijaerceg/misterzine-plex-core) - MiSTer FPGA core that plays your library on 15 kHz CRT TVs. `Plex` · `MiSTer` · `Open source` `Subscription` `Beta` · [Info](https://www.reddit.com/r/MiSTerFPGA/comments/1wocsqc/misterzine_plex_core_a_native_plex_client_for/)
+- [Mortalfin](https://github.com/mortaljinx/mortalfin) - Beta app for jailbroken PS5. `Jellyfin` · `PS5` · `GPL-3.0` `Free` `Beta`
+- [muSE Player](https://github.com/Cappyjune4/muse-player-rg35xxh) - Anbernic RG35XXH player for radio, podcasts and server music. `Jellyfin` · `Retro handheld` · `Open source` `Free`
+- [onion-os-jellyfin-clients](https://github.com/TownsendBrown/onion-os-jellyfin-clients) - Onion OS app for streaming video on Miyoo-class handhelds. `Jellyfin` · `Retro handheld` · `MIT` `Free`
+- [orbit-jellyfin](https://github.com/danielnuld/orbit-jellyfin) - PS2 homebrew player; the server transcodes to SD MPEG-2. `Jellyfin` · `PS2` · `GPL-3.0` `Free`
+- [plex360](https://github.com/shinzarou-eng/plex360) - Native Plex client for jailbroken Xbox 360 consoles. `Plex` · `Xbox 360` · `Open source` `Beta`
+- [pocketplex](https://github.com/sleepdebt/pocketplex) - Text-first Plex client for Linux retro handhelds. `Plex` · `Retro handheld` · `Open source`
+- [Sofafin](https://github.com/ChokunPlayZ/sofafin) - Couch-friendly client for Steam Deck and Gamescope sessions. `Jellyfin` · `Steam Deck` · `GPL-3.0` `Free`
+
+## VR and XR
+
+- [GladEyes](https://github.com/audiojoe4444/GladEyes) - Plex client for Meta Ray-Ban Display glasses. `Plex` · `Smart glasses` · `MIT`
+- [JellyTheatre](https://github.com/valentinp72/JellyTheatre) - Godot-based VR theatre client. `Jellyfin` · `Quest` · `GPL-3.0`
+- [manet-glasses-player](https://github.com/Gio53/manet-glasses-player) - Music player for Meta Ray-Ban Display glasses. `Jellyfin` · `Smart glasses` · `Open source`
+- [picoplex-vr](https://github.com/bushibot/picoplex-vr) - Plex player for Pico VR headsets. `Plex` · `Pico` · `GPL-3.0`
+- [PlexBuster](https://github.com/filip-strelec/PlexBuster) - VR browser for navigating a Plex library. `Plex` · `PC VR` · `Open source`
+- [PlexQuest](https://github.com/dalt0n0/PlexQuest) - Native Plex app for Meta Quest headsets. `Plex` · `Quest` · `Open source`
+- [QuestFin](https://github.com/alam-anwar/questfin) - Media client for Meta Quest. `Jellyfin` · `Quest` · `Open source` `Free` `Stale 2025`
+- [resonite-plex](https://github.com/ikanibee/resonite-plex) - Plex media player for the Resonite VR world. `Plex` · `PC VR` · `CC0-1.0` `Stale 2024`
+
+## TV operating systems
+
+- [agb-livetv](https://github.com/agb1986/agb-livetv) - Live TV app for Vega OS Fire TV devices, fed by the server's Live TV. `Jellyfin` · `Vega OS` · `MIT-0` `Free`
+- [AresApp](https://github.com/thisbansal/AresApp) - Simple Plex client for LG webOS TVs. `Plex` · `webOS` · `Open source`
+- [Atlas TV](https://github.com/AzatSharip/atlas-tv) - Moonfin-based client for home video libraries. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
+- [ATV for Plex](https://github.com/Izazzubayer/atv-for-plex) - Samsung Tizen client. `Plex` · `Tizen` · `Open source`
+- [Blue Neon Night Two](https://github.com/speechles/BN-TWO) - SceneGraph Emby app for Roku. `Emby` · `Roku` · `Open source` `Stale 2018`
+- [Caravela](https://github.com/melojms/caravela) - Native app for Fire TV devices running Vega OS. `Jellyfin` · `Vega OS` · `GPL-2.0` `Free`
+- [daumiller/suplex](https://github.com/daumiller/suplex) - Plex client app for Roku players. `Plex` · `Roku` · `Open source` `Stale 2018`
+- [E2EmbyClient](https://github.com/DimitarCC/e2-emby-client) - Enigma2 set-top box plugin that browses Emby libraries and plays films, series and live TV with the box's own player. `Emby` · `Enigma2` · `GPL-3.0` `Free` · [Info](https://emby.media/community/topic/140442-emby-client-for-linux-enigma2-based-stbs/)
+- [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) - Samsung Smart TV Series D app, last updated in 2017. `Emby` · `Other TV` · `Open source` `Free` `Stale 2017`
+- [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) - Remote-first LG webOS client. `Emby` · `webOS` · `Open source` `Free`
+- [Fin](https://github.com/harleykradovill/fin) - Unofficial Roku channel for playing your library. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Ended 2025`
+- [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
+- [jellyfin-client-tizen-legacy](https://github.com/crycodebaby/jellyfin-client-tizen-legacy) - Samsung TV app for older Smart TV models. `Jellyfin` · `Tizen` · `Open source` `Free`
+- [jellyfin-netcast](https://github.com/pablouser1/jellyfin-netcast) - App for older LG NetCast smart TVs. `Jellyfin` · `Other TV` · `GPL-3.0` `Free` `Ended 2023`
+- [jellyfin-saphiOS](https://github.com/edvdourado/jellyfin-saphiOS) - Framework-free web app aimed at Philips SAPHI / NetTV smart TVs. `Jellyfin` · `Other TV` · `Open source` `Free` `Beta`
+- [jellyfin-webos-native](https://github.com/HookedBehemoth/jellyfin-webos-native) - Native LG webOS app rendering with SDL, OpenGL and ffmpeg. `Jellyfin` · `webOS` · `AGPL-3.0` `Free`
+- [JellyZen](https://github.com/chazforge/jellyzen) - Fork of the Tizen client. `Jellyfin` · `Tizen` · `Open source` `Free` `Stale 2025`
+- [JF Native](https://github.com/BradSainty/jf-native) - Native LG webOS app with a GPU-drawn interface. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
+- [Lupoflin](https://github.com/dinolupo/lupoflin) - Experimental LG webOS app. `Jellyfin` · `webOS` · `MIT` `Free` `Beta`
+- [Mr Fusion](https://github.com/luke-hurd/mr-fusion-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
+- [Naqafin Roku](https://github.com/naqadata/naqafin-roku) - Fork of the official Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
+- [nuPLEX](https://github.com/lukebarber/nuPLEX) - Custom Plex app for Roku players and Now TV boxes. `Plex` · `Roku` · `GPL-2.0` `Stale 2016`
+- [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) - ES5 web app plus a LAN proxy for Panasonic Viera Connect TVs. `Jellyfin` · `Other TV` · `Open source` `Free`
+- [Phim Nè Tizen](https://github.com/minhtran162/phimne-tizen) - Samsung TV client forked from the Jellyfin Tizen app and branded Phim Nè. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
+- [Phim Nè webOS](https://github.com/minhtran162/phimne-webos) - LG TV client forked from the Jellyfin webOS app and branded Phim Nè. `Jellyfin` · `webOS` · `MPL-2.0` `Free`
+- [Plax](https://github.com/aa-hh/Plax) - Lightweight Plex client for older LG webOS TVs. `Plex` · `webOS` · `Open source`
+- [PlexAudio](https://github.com/L0st-S0ul/PlexAudio) - Roku app for playing Plex music. `Plex` · `Roku` · `Open source` `Stale 2012`
+- [plex.lg](https://github.com/cubedro/plex.lg) - Plex client for 2013 LG Smart TVs. `Plex` · `Other TV` · `Apache-2.0` `Stale 2013`
+- [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) - Plex interface for older LG NetCast smart TVs. `Plex` · `Other TV` · `Open source` `Stale 2014`
+- [plezy-tizen](https://github.com/George-Fam/plezy-tizen) - Tizen TV port of the Plezy Flutter client. `Plex` `Jellyfin` · `Tizen` · `GPL-3.0` `Free`
+- [react-native-jellyfin-client](https://github.com/finloop/react-native-jellyfin-client) - React Native app for Amazon's Vega OS (Kepler). `Jellyfin` · `Vega OS` · `MIT-0` `Free` `Beta`
+- [Reflex](https://github.com/StuCM/Reflex) - Custom Plex client for LG webOS 4 TVs. `Plex` · `webOS` · `Open source`
+- [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
+- [Supernova](https://github.com/arvaus/Supernova) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
+- [SuPlex](https://github.com/ChibiTomo/SuPlex) - Plex client for LG webOS TVs. `Plex` · `webOS` · `Open source` `Stale 2019`
+- [vemm](https://github.com/dragoshont/vemm) - Unofficial Plex-compatible player for Samsung Tizen TVs. `Plex` · `Tizen` · `GPL-3.0`
+- [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for rooted LG webOS TVs that direct-plays original files. `Jellyfin` · `webOS` · `MIT` `Free`
+- [Viv](https://github.com/cewert/viv) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
+- [vizio-via-plex-widget](https://github.com/atessmer/vizio-via-plex-widget) - Plex widget for older VIZIO Internet Apps (VIA) TVs. `Plex` · `Vizio` · `Open source` `Ended 2013`
+- [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) - LG webOS app designed for ultrawide displays. `Jellyfin` · `webOS` · `MPL-2.0` `Free`
+
+## Car
+
+- [autoplex](https://github.com/spuriousdata/autoplex) - Plex music player for Android Auto. `Plex` · `Android Auto` · `Open source` `Stale 2017`
+- [DashTune](https://github.com/chamika/DashTune) - Android Automotive music and audiobook player with offline downloads. `Jellyfin` · `Android Automotive` · `Open source` `Free`
+- [Mayhem](https://github.com/8layer8/Mayhem) - Plex audio player for the Tesla in-car browser. `Plex` · `Tesla` · `MIT`
+- [Plexora](https://github.com/rickhall/plexora) - Plex client for Android Automotive car systems. `Plex` · `Android Automotive` · `Open source`
+- [Siskin](https://github.com/codingismy11to7/siskin) - Android Automotive music player. `Plex` · `Android Automotive` · `GPL-3.0`
+- [tesla-plex-player](https://github.com/CleJason/tesla-plex-player) - Music player for the Tesla in-car browser. `Plex` · `Tesla` · `Open source`
+
+## Watches
+
+- [alivehamster/jellyfin-wearos](https://github.com/alivehamster/jellyfin-wearos) - Wear OS audio player. `Jellyfin` · `Wear OS` · `Open source` `Free` `Ended 2025`
+- [jellyfin-wearos](https://github.com/fimbulent/jellyfin-wearos) - Standalone Wear OS client that streams or downloads albums without a phone. `Jellyfin` · `Wear OS` · `GPL-3.0` `Free`
+- [OpenPlayer](https://github.com/web-gears/openplayer) - Garmin watch player for music and podcasts synced from a media server. `Jellyfin` · `Garmin` · `Open source` `Free`
+- [Plex Wear](https://github.com/nedrichards/plex-wearos) - Standalone Wear OS app that plays Plex music on the watch and works as a remote. `Plex` · `Wear OS` · `GPL-3.0`
+- [samsung-watch-plex-client](https://github.com/lucasscharf/samsung-watch-plex-client) - Samsung Galaxy Watch client. `Plex` · `Wear OS` `Other watch` · `Open source`
+
+## Voice assistants and speakers
+
+- [plex-alexa-skill-bridge](https://github.com/falk0069/plex-alexa-skill-bridge) - Self-hosted bridge that connects Alexa to a Plex server. `Plex` · `Alexa` · `Open source`
+- [plexMusicPlayer](https://github.com/mwstowe/plexMusicPlayer) - Voice-assistant music player for the library. `Plex` · `Alexa` · `Open source`
+
+## Kodi add-ons
+
+- [OpenHT](https://github.com/bkury/OpenHT) - Kodi-based home theater build with built-in Plex and Emby support. `Plex` `Emby` · `Kodi` · `Open source` `Free` `Stale 2022`
+- [plex-for-kodi-new](https://github.com/DimitarCC/plex-for-kodi-new) - Unofficial redesign of the Plex for Kodi add-on. `Plex` · `Kodi` · `Open source` `Stale 2024`
+- [plugin.video.pyplexer](https://github.com/CE-Repo/plugin.video.pyplexer) - Kodi add-on for browsing and playing Plex video, music and photos. `Plex` · `Kodi` · `MIT`
+
+## Terminal
+
+- [Ariafin](https://github.com/flankmekid/ariafin) - Terminal music client. `Jellyfin` · `CLI` · `Open source` `Free`
+- [Aspic](https://github.com/LogicalPhallacy/aspic) - Minimal command-line client. `Jellyfin` · `CLI` · `MIT` `Free`
+- [AudioTUI](https://github.com/Rqver/AudioTUI) - Terminal controller for Plexamp playback. `Plex` · `CLI` · `Open source`
+- [daudk3/JellyCLI](https://github.com/daudk3/JellyCLI) - Terminal UI client written in Python. `Jellyfin` · `CLI` · `GPL-3.0` `Free`
+- [elfin](https://github.com/skissue/elfin) - Music player inside Emacs. `Jellyfin` · `CLI` · `Open source`
+- [fabean/jellyfin-tui](https://github.com/fabean/jellyfin-tui) - Terminal UI that plays videos in mpv. `Jellyfin` · `CLI` · `GPL-3.0` `Free` `Stale 2025`
+- [geltui](https://github.com/ifnil/geltui) - Terminal UI client. `Jellyfin` · `CLI` · `Open source` `Free`
+- [iamd3vil/jellytui](https://github.com/iamd3vil/jellytui) - Terminal UI client. `Jellyfin` · `CLI` · `Open source` `Free`
+- [jellyfin-mustui](https://github.com/cedev-1/jellyfin-mustui) - Terminal music player. `Jellyfin` · `CLI` · `MIT` `Free`
+- [JellyNav](https://github.com/Leastrio/jellynav) - Terminal UI that plays through mpv. `Jellyfin` · `CLI` · `Open source` `Free`
+- [JellyTerm](https://github.com/huntergdavis/jellyterm) - Terminal UI that renders video inside the terminal. `Jellyfin` · `CLI` · `MIT` `Free`
+- [jellytui](https://github.com/tyrantlink/jellytui) - Terminal UI client that hands playback to mpv. `Jellyfin` · `CLI` · `GPL-3.0` `Free` `Stale 2025`
+- [jf400](https://github.com/nanomad/jf400) - Terminal client styled after AS/400 5250 green screens. `Jellyfin` · `CLI` · `MIT` `Free`
+- [jjc](https://github.com/rwtolbert/jjc) - Command-line client written in Janet. `Jellyfin` · `CLI` · `MIT` `Free`
+- [jly-cli](https://github.com/nixietab/jly-cli) - Terminal music browser built on fzf. `Jellyfin` · `CLI` · `MIT` `Free` `Stale 2025`
+- [Kuchteq/tuifin](https://github.com/Kuchteq/tuifin) - Terminal UI client. `Jellyfin` · `CLI` · `GPL-3.0` `Free`
+- [LusicPlayer](https://github.com/Luisss003/LusicPlayer) - Terminal music player for Plex with separate client and server parts. `Plex` · `CLI` · `Open source` `Stale 2025`
+- [MacsInSpace/plex-tui](https://github.com/MacsInSpace/plex-tui) - Terminal music player. `Plex` · `CLI` · `Open source`
+- [mosh](https://github.com/adamrdrew/mosh) - Music player. `Plex` · `CLI` · `Open source` `Ended 2022`
+- [plex-audio-btop-tui](https://github.com/MacsInSpace/plex-audio-btop-tui) - Terminal music player for Plex with a btop-style layout and live waveform. `Plex` · `CLI` · `MIT`
+- [plex-cli](https://github.com/Hellowlol/plex-cli) - Simple command-line client for browsing a Plex library. `Plex` · `CLI` · `MIT` `Stale 2022` · [Info](https://pypi.org/project/plexcli/) · [Info 2](https://pypi.org/project/plex-cli/)
+- [plex-music-cli](https://github.com/XWBarton/plex-music-cli) - Command-line music player for Plex that plays through mpv. `Plex` · `CLI` · `Open source`
+- [plexmusic-tui](https://github.com/marcptrs/plexmusic-tui) - Terminal music player for browsing and playing a Plex music library. `Plex` · `CLI` · `MIT`
+- [Plext](https://github.com/altheus/Plext) - Text-based Plex client for the terminal. `Plex` · `CLI` · `Open source`
+- [plexTunes](https://github.com/jsoros/plexTunes) - Terminal music player for Plex. `Plex` · `CLI` · `Open source`
+- [pley](https://github.com/spuriousdata/pley) - Curses-based terminal audio player for Plex. `Plex` · `CLI` · `Open source` `Stale 2022`
+- [Puddler](https://github.com/Vernoxvernax/Puddler) - Python command-line client that plays through mpv. `Jellyfin` `Emby` · `CLI` · `Open source` `Ended 2022`
+- [quaintdev/jellycli](https://github.com/quaintdev/jellycli) - Command-line client. `Jellyfin` · `CLI` · `MIT` `Free` `Stale 2025`
+- [tendril](https://github.com/jgarza9788/tendril) - Terminal music player. `Jellyfin` · `CLI` · `Open source`
+- [termtunes](https://github.com/pauldavidkelly/termtunes) - Terminal client for browsing and playing Plex playlists. `Plex` · `CLI` · `MIT`
+- [textamp](https://github.com/bergmayer/textamp) - Music player. `Plex` · `CLI` · `Open source`
+- [tuifin](https://github.com/crossatko/tuifin) - Terminal UI frontend. `Jellyfin` · `CLI` · `MIT` `Free`
+
+## Desktop shims and external players
+
+- [aubustou/plex-dlna-player](https://github.com/aubustou/plex-dlna-player) - Plays Plex to DLNA renderers as a Plex player. `Plex` · `Linux` · `Open source` `Stale 2024`
+- [chromebox-mediaplayer](https://github.com/HelamanWarrior/chromebox-mediaplayer) - Minimal cast-only media player for Jellyfin. `Jellyfin` · `Other device` · `Open source` `Free`
+- [jellyfin-mpv-shim-go](https://github.com/mancube/jellyfin-mpv-shim-go) - Cast target that plays Jellyfin items in mpv, written in Go. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
+- [linux-emby-svp](https://github.com/krakerz/linux-emby-svp) - Wrapper for the Emby Linux client that adds SVP (SmoothVideo Project) support. `Emby` · `Linux` · `MIT` `Free`
+- [omplex](https://github.com/wnielson/omplex) - Raspberry Pi Plex player target that plays through OMXPlayer. `Plex` · `Linux` · `Open source` `Free` `Stale 2014`
+- [plex-mpv-playbutton](https://github.com/joshkerr/plex-mpv-playbutton) - Chrome extension that adds a button to play web-app items in mpv. `Plex` · `Web` · `Open source` `Stale 2025`
+- [plexmyxbmc](https://github.com/goniz/plexmyxbmc) - Turns XBMC into a Plex play-to target that other Plex apps can cast to. `Plex` · `Kodi` · `GPL-2.0` `Stale 2015`
+- [plex-outplayer-tamper](https://github.com/joshkerr/plex-outplayer-tamper) - Userscript that opens Plex Web items in an external player. `Plex` · `Web` · `Open source`
+- [plexplayerd](https://github.com/knoopx/plexplayerd) - Rust daemon that registers on the LAN as a player you can cast to. `Plex` · `Linux` · `Open source`
+- [rustamp](https://github.com/jeffhoughten/rustamp) - Headless music playback target written in Rust. `Plex` · `Linux` `Web` · `Open source`
+- [Zoom-Player-emby-jellyfin-client-plugin](https://github.com/bLightZP/Zoom-Player-emby-jellyfin-client-plugin) - Zoom Player plugin that lists and plays items from media servers. `Plex` `Jellyfin` `Emby` · `Windows` · `MPL-2.0` `Stale 2024`
+
+## Other devices and legacy systems
+
+- [ccfin](https://github.com/luna-system/ccfin) - ComputerCraft (Minecraft) client. `Jellyfin` · `Other device` · `Open source` `Free`
+- [Finch](https://github.com/dharmapoudel/finch-remote) - Car Thing screen for browsing music and controlling playback on another player. `Jellyfin` · `Other device` · `Open source` `Free`
+- [Handyplex](https://github.com/jopdeklein/Handyplex) - Kinect gesture control for Plex. `Plex` · `Other device` · `Open source` `Stale 2012`
+- [JellyfinForWP](https://github.com/vincenzosco/JellyfinForWP) - Player for Windows Phone 8.1. `Jellyfin` · `Windows Phone` · `Open source` `Free`
+- [jellyfin-yoto-bridge](https://github.com/mattstjean/jellyfin-yoto-bridge) - Sends audiobooks from the server to Yoto children's audio players. `Jellyfin` · `Other device` · `Open source`
+- [m5paper-reader](https://github.com/Clowdyffs/m5paper-reader) - E-reader app for the M5Paper device that reads from a home server over the local network. `Jellyfin` · `Other device` · `Apache-2.0` `Free`
+- [plex-app](https://github.com/luksus42/plex-app) - HTML5 app for browsing Plex on Ubuntu Touch. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Ended 2018`
+- [plex-ebike](https://github.com/amegz/plex-ebike) - Plexamp controls on the Bosch eBike Flow screen. `Plex` · `Other device` · `Open source`
+- [plex-enyo-client](https://github.com/b0bben/plex-enyo-client) - Plex client built with Enyo for HP webOS devices. `Plex` · `Other device` · `Open source` `Stale 2012`
+- [Plex-IR](https://github.com/ep1cman/Plex-IR) - Infrared remote control for Plex. `Plex` · `Other device` · `Open source` `Ended 2015`
+- [plexthing](https://github.com/zachatrocity/plexthing) - Car Thing and DeskThing controller for Plexamp. `Plex` · `Other device` · `Open source`
+- [PlexTVFirefoxOS](https://github.com/ClosestStorm/PlexTVFirefoxOS) - Plex app for Firefox OS. `Plex` · `Other device` · `Open source` `Stale 2017`
+- [Showtime-Plex-Client](https://github.com/Dahlgren/Showtime-Plex-Client) - Plex client plugin for the Showtime media center (now Movian). `Plex` · `Other device` · `Open source` `Stale 2013`
+- [simplePlexPlayer](https://github.com/tuxBurner/simplePlexPlayer) - Simple Plex MP3 player for a small hardware device. `Plex` · `Other device` · `Open source` `Stale 2017`
+- [squeeze-plex-player](https://github.com/onmomo/squeeze-plex-player) - Bridge for playing your music on Squeezebox players. `Plex` · `Other device` · `Open source` `Ended 2016`
+- [tidbyt-plex](https://github.com/DouweM/tidbyt-plex) - Plex now-playing app for the Tidbyt display. `Plex` · `Other device` · `Open source` `Stale 2024`
+
+**More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

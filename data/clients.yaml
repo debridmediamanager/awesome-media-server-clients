@@ -2156,8 +2156,6 @@
 
 - name: Bloom Cinema
   url: https://apps.apple.com/hk/app/bloom-cinema/id6820236256
-  links:
-    repo: https://github.com/dantech2000/bloom
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, macos]
@@ -2169,7 +2167,21 @@
   status_year: 2026
   aliases: [Bloom]
   description: Streaming-style home screen with Continue Watching and live TV for a self-hosted library.
-  notes: by MADDOX DANIEL MARTINEZ; Possibly related to the BloomPhobic GitHub project; unconfirmed
+  notes: by MADDOX DANIEL MARTINEZ.
+
+- name: bloom (dantech2000)
+  url: https://github.com/dantech2000/bloom
+  servers: [jellyfin]
+  official: false
+  platforms: [macos]
+  category: player
+  media: [video]
+  open_source: true
+  license: AGPL-3.0
+  price: free
+  status: active
+  status_year: 2026
+  description: Native macOS client written in Rust with GPUI and libmpv.
 
 - name: Bloom's Jellyfin Client
   url: https://github.com/BloomPhobic/Bloom-s-Jellyfin-Client-iOS
@@ -3365,11 +3377,9 @@
 
 - name: Cinefin
   url: https://apps.apple.com/hk/app/cinefin/id6824275546
-  links:
-    repo: https://github.com/Ashiroen/cinefin
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, webos]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: false
@@ -3378,6 +3388,20 @@
   status_year: 2026
   description: iPhone Jellyfin player with Continue Watching, Next Up and intro and recap skipping.
   notes: by Michal Sadurski. Separate from Lunafin, whose listing text also calls itself Cinefin.
+
+- name: Cinefin (Ashiroen)
+  url: https://github.com/Ashiroen/cinefin
+  servers: [jellyfin]
+  official: false
+  platforms: [webos]
+  category: player
+  media: [video]
+  open_source: true
+  license: other
+  price: free
+  status: active
+  status_year: 2026
+  description: Minimal home-theater client for LG webOS TVs; an Android TV build is planned.
 
 - name: cinefin/cinefin
   url: https://github.com/cinefin/cinefin
@@ -7081,20 +7105,33 @@
 
 - name: flex
   url: https://github.com/vargamolnarbertalan/flex
-  links:
-    appstore: https://apps.apple.com/us/app/flex-music-player/id6795259400
   servers: [plex]
   official: false
-  platforms: [webos, ios]
+  platforms: [webos]
   category: player
-  media: [video, music]
+  media: [video]
   open_source: true
   license: MIT
   status: active
   status_year: 2026
-  aliases: [Flex – Music Player]
   description: Minimal Plex client for rooted LG webOS TVs.
   notes: Needs a rooted LG webOS TV.
+  long_tail: true
+
+- name: Flex Music
+  url: https://apps.apple.com/us/app/flex-music-player/id6795259400
+  servers: [plex]
+  official: false
+  platforms: [ios, ipados, watchos]
+  category: music
+  media: [music]
+  open_source: false
+  price: free
+  status: active
+  status_year: 2026
+  aliases: [Flex - Music Player]
+  description: Plex music player and playlist manager with offline downloads, ratings sync and synced lyrics.
+  notes: by Elixir CS.
 
 - name: Flick
   url: https://github.com/seoloon/flick_desktop
@@ -9278,11 +9315,9 @@
 
 - name: Jelly
   url: https://apps.apple.com/de/app/jelly/id6826379119
-  links:
-    repo: https://github.com/AzureHound/jelly
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, cli]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: false
@@ -9365,6 +9400,22 @@
   status_year: 2026
   description: Progressive web app music player.
   long_tail: true
+
+- name: jelly (AzureHound)
+  url: https://github.com/AzureHound/jelly
+  links:
+    aur: https://aur.archlinux.org/packages/jelly
+  servers: [jellyfin]
+  official: false
+  platforms: [cli]
+  category: player
+  media: [video]
+  open_source: true
+  license: other
+  price: free
+  status: active
+  status_year: 2026
+  description: Terminal client for browsing and streaming a Jellyfin library.
 
 - name: Jellybeam
   url: https://github.com/packetinspector/jellybeam-macos
@@ -11903,11 +11954,9 @@
 
 - name: JellyKids
   url: https://apps.apple.com/us/app/jellykids/id6756038036
-  links:
-    repo: https://github.com/philips/jellykids
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, web]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: false
@@ -11916,6 +11965,19 @@
   status_year: 2026
   description: Kid-friendly Jellyfin client with a playful interface and content controls for parents.
   notes: by joshua higdon.
+
+- name: jellykids (philips)
+  url: https://github.com/philips/jellykids
+  servers: [jellyfin]
+  official: false
+  platforms: [web]
+  category: player
+  media: [video]
+  open_source: true
+  price: free
+  status: stale
+  status_year: 2025
+  description: Text-only Jellyfin front end for kids.
 
 - name: JellyKidsTV
   url: https://github.com/dahool/JellyKidsTV
@@ -12122,20 +12184,32 @@
 
 - name: JellyPlayer
   url: https://apps.apple.com/us/app/jellyplayer/id6761337129
-  links:
-    repo: https://github.com/qiuleidee/JellyPlayer
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, carplay, android]
+  platforms: [ios, ipados, carplay]
   category: music
-  media: [music, video]
+  media: [music]
   open_source: false
   price: free
   status: active
   status_year: 2026
   description: Music player with downloads, streaming and CarPlay.
-  notes: by Anuj Goyal; Possibly distinct from JellyPlayerSwift; unconfirmed
+  notes: by Anuj Goyal.
   distinct: true
+
+- name: JellyPlayer (qiuleidee)
+  url: https://github.com/qiuleidee/JellyPlayer
+  servers: [jellyfin]
+  official: false
+  platforms: [web]
+  category: player
+  media: [video]
+  open_source: true
+  price: free
+  status: active
+  status_year: 2026
+  description: Jellyfin web client with an Infuse-inspired design.
+  long_tail: true
 
 - name: JellyPlayerSwift
   url: https://github.com/NikolaDX/JellyPlayerSwift
@@ -12154,8 +12228,6 @@
 
 - name: JellyPod
   url: https://apps.apple.com/us/app/jellypod-retro-style-music/id6788034358
-  links:
-    repo: https://github.com/nickwilde77555/jellyPod
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados]
@@ -12169,6 +12241,20 @@
   aliases: [JellyPod - Retro Style Music]
   description: Click-wheel style music player for Jellyfin with album-art flipping, playlists and ratings.
   notes: by Chris Wakefield.
+
+- name: jellyPod (nickwilde77555)
+  url: https://github.com/nickwilde77555/jellyPod
+  servers: [jellyfin]
+  official: false
+  platforms: [android]
+  category: music
+  media: [music]
+  open_source: true
+  license: GPL-3.0
+  price: free
+  status: active
+  status_year: 2026
+  description: iPod-style Jellyfin music player for Android, made in Processing.
 
 - name: JellyPot
   url: https://github.com/Dongz9870/jellypot
@@ -12401,18 +12487,15 @@
 
 - name: JellyStream
   url: https://apps.apple.com/us/app/jellystream/id6759179966
-  links:
-    repo: https://github.com/Nerfherder16/tizen-jellystream
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tizen]
+  platforms: [ios, ipados]
   category: music
-  media: [music, video]
+  media: [music]
   open_source: false
   price: free
   status: active
   status_year: 2026
-  aliases: [tizen-jellystream]
   description: Jellyfin music player with liked songs, composers, classical browsing and unified search.
   notes: by Aziz Bouhejba.
 
@@ -13279,22 +13362,36 @@
 
 - name: Jukebox
   url: https://apps.apple.com/us/app/jukebox-offline-music-player/id6775927655
-  links:
-    repo: https://github.com/gustarmartins/jukebox
-    aur: https://aur.archlinux.org/packages/jukebox
   servers: [jellyfin]
   also: [webdav, cloud, local]
   official: false
-  platforms: [ios, ipados, watchos, cli]
+  platforms: [ios, ipados, watchos]
   category: music
   media: [music]
   open_source: false
   price: free
   status: active
   status_year: 2026
-  aliases: ['Jukebox: Offline Music Player', jukebox (gustarmartins)]
+  aliases: ['Jukebox: Offline Music Player']
   description: Offline music player for iPhone, iCloud, WebDAV, NAS and server music, with vocal-removal karaoke.
   notes: by Anton Popov
+
+- name: jukebox (gustarmartins)
+  url: https://github.com/gustarmartins/jukebox
+  links:
+    aur: https://aur.archlinux.org/packages/jukebox
+  servers: [jellyfin]
+  also: [local]
+  official: false
+  platforms: [cli]
+  category: music
+  media: [music]
+  open_source: true
+  license: MIT
+  price: free
+  status: active
+  status_year: 2026
+  description: Terminal music player for local files and Jellyfin, with album art, queues and synced lyrics.
 
 - name: JustPlay Media
   url: https://apps.apple.com/us/app/justplay-media/id6761976412
@@ -15135,8 +15232,6 @@
 
 - name: Marquee
   url: https://apps.apple.com/de/app/marquee-by-reneos/id6818315662
-  links:
-    repo: https://github.com/kshah00/Marquee
   servers: [plex]
   official: false
   platforms: [ios, ipados, tvos]
@@ -18919,8 +19014,6 @@
 
 - name: Photon Player
   url: https://apps.apple.com/us/app/photon-player/id6804291311
-  links:
-    repo: https://github.com/mahi160/tbis
   servers: [plex, jellyfin, emby]
   also: [silo, iptv, cloud]
   official: false
@@ -18932,7 +19025,7 @@
   price_note: Free for one server, Pro for more
   status: active
   status_year: 2026
-  aliases: [Photon, tbis]
+  aliases: [Photon]
   description: Native player joining media servers, cloud and network storage and live TV; extra servers need Pro.
   notes: by Oliver Walton; Also works with Silo and its own Photon server
 
@@ -23281,20 +23374,18 @@
 
 - name: Serafin for Jellyfin
   url: https://apps.apple.com/hk/app/serafin-for-jellyfin/id6818960899
-  links:
-    repo: https://github.com/singhdilveer1/Serafin-androidtv
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, android-tv]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: false
   price: free
   status: active
   status_year: 2026
-  aliases: [Serafin, Serafin-androidtv]
+  aliases: [Serafin]
   description: Native iPhone and iPad client with Continue Watching and Next Up for a personal library.
-  notes: by Timothy Sullivan; iOS app; not the Serafin Android TV project
+  notes: by Timothy Sullivan.
 
 - name: Serenity for Android
   url: https://github.com/NineWorlds/serenity-android
@@ -23497,11 +23588,9 @@
 
 - name: Sillon Musique
   url: https://apps.apple.com/us/app/sillon-musique/id6822914803
-  links:
-    repo: https://github.com/Wifsimster/sillon
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, macos, watchos, android-auto, android]
+  platforms: [ios, ipados, macos, watchos]
   category: music
   media: [music]
   open_source: false
@@ -23511,6 +23600,19 @@
   aliases: [Sillon]
   description: Jellyfin music player with lossless playback, synced lyrics and a Cover Flow album browser.
   notes: by Antonin Carlin. French-language listing.
+
+- name: Sillon (Wifsimster)
+  url: https://github.com/Wifsimster/sillon
+  servers: [plex, jellyfin]
+  official: false
+  platforms: [android, android-auto]
+  category: music
+  media: [music]
+  open_source: true
+  price: free
+  status: active
+  status_year: 2026
+  description: Android music player for Plex and Jellyfin with Android Auto, offline downloads and ratings.
 
 - name: simplePlexPlayer
   url: https://github.com/tuxBurner/simplePlexPlayer
@@ -25320,6 +25422,20 @@
   description: Official Tautulli app for server statistics and activity.
   notes: Needs Tautulli.
 
+- name: tbis
+  url: https://github.com/mahi160/tbis
+  servers: [jellyfin]
+  official: false
+  platforms: [macos]
+  category: player
+  media: [video]
+  open_source: true
+  license: GPL-3.0
+  price: free
+  status: active
+  status_year: 2026
+  description: Native macOS Jellyfin client built with GPUI and embedded mpv.
+
 - name: TechDad Player
   url: https://apps.apple.com/app/id6756520836
   servers: [jellyfin, emby]
@@ -25692,6 +25808,21 @@
   aliases: ['Tivsy: Player IPTV & M3U']
   description: IPTV player for M3U lists, Xtream panels and media servers with posters, synopses and a time-ordered guide.
   notes: by Arda Celik. Portuguese-language listing.
+
+- name: tizen-jellystream
+  url: https://github.com/Nerfherder16/tizen-jellystream
+  servers: [jellyfin]
+  official: false
+  platforms: [tizen]
+  category: player
+  media: [video]
+  open_source: true
+  license: MPL-2.0
+  price: free
+  status: active
+  status_year: 2026
+  description: Samsung Tizen TV client with Jellyseerr requests and Quick Connect sign-in.
+  long_tail: true
 
 - name: Tizonia
   url: https://github.com/tizonia/tizonia-openmax-il
@@ -26529,23 +26660,20 @@
   notes: Play 100+ installs.
 
 - name: Velo
-  url: https://github.com/winesOr/velo
-  links:
-    appstore: https://apps.apple.com/kr/app/id6749046147
-  servers: [plex, jellyfin, emby]
+  url: https://apps.apple.com/us/app/velo-media-hub/id6749046147
+  servers: [jellyfin]
   also: [stremio]
   official: false
-  platforms: [android, ios, android-tv, windows, macos, linux, tvos]
+  platforms: [tvos]
   category: player
   media: [video]
-  open_source: true
-  license: GPL-3.0
+  open_source: false
   price: free
   status: active
   status_year: 2026
   aliases: [Velo – Media Hub]
-  description: Plezy-derived client that adds danmaku comments and heatmaps.
-  notes: Derived from Plezy.
+  description: Apple TV media hub that plays Jellyfin and Stremio libraries and suggests what to watch next.
+  notes: by Tim Chen. Not the Plezy-derived velo by winesOr.
 
 - name: Velora
   url: https://github.com/ravikishore-m/velora-tvos
@@ -26562,6 +26690,21 @@
   aliases: [velora-tvos]
   description: Apple TV client built on Swiftfin.
   notes: Swiftfin-based; repo name velora-tvos.
+  long_tail: true
+
+- name: velo (winesOr)
+  url: https://github.com/winesOr/velo
+  servers: [plex, jellyfin, emby]
+  official: false
+  platforms: [android]
+  category: player
+  media: [video]
+  open_source: true
+  license: GPL-3.0
+  price: free
+  status: active
+  status_year: 2026
+  description: Plezy-derived Android client that adds danmaku comments and heatmaps.
   long_tail: true
 
 - name: Velox

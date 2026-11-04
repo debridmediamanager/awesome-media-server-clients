@@ -7,13 +7,13 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 ## Contents
 
 - [Cross-platform](#cross-platform) (53)
-- [Android, Android TV and HarmonyOS](#android-android-tv-and-harmonyos) (65)
+- [Android, Android TV and HarmonyOS](#android-android-tv-and-harmonyos) (66)
 - [Apple platforms](#apple-platforms) (63)
 - [Desktop](#desktop) (100)
-- [Web](#web) (73)
+- [Web](#web) (74)
 - [Consoles and homebrew](#consoles-and-homebrew) (17)
 - [VR and XR](#vr-and-xr) (8)
-- [TV operating systems](#tv-operating-systems) (40)
+- [TV operating systems](#tv-operating-systems) (42)
 - [Car](#car) (6)
 - [Watches](#watches) (5)
 - [Voice assistants and speakers](#voice-assistants-and-speakers) (2)
@@ -141,6 +141,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [Swedishfin](https://github.com/dmstocking/swedishfin) - Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [Tentacle](https://github.com/majoseph25/tentacle) - Unofficial music player for Android and Android TV. `Jellyfin` · `Android` `Android TV` · `Apache-2.0` `Free`
 - [Tunerfish](https://github.com/TobekSoft/TunerFish) - Album-first music player. `Jellyfin` · `Android` · `MIT` `Free` · [Source](https://github.com/TobekSoft/TunerFishAndroid)
+- [velo (winesOr)](https://github.com/winesOr/velo) - Plezy-derived Android client that adds danmaku comments and heatmaps. `Plex` `Jellyfin` `Emby` · `Android` · `GPL-3.0` `Free`
 - [WalkmanX10](https://github.com/MarcelloCarlo/WalkmanX10) - Walkman-style music player for the Sony X10 Mini. `Jellyfin` · `Android` · `Open source` `Free`
 - [Zed Client](https://github.com/StNiosem/zedclient) - Android client. `Jellyfin` · `Android` · `Open source` `Free` `Stale 2025`
 - [ZSpaceCarPlayer](https://github.com/Dangerous828/ZSpaceCarPlayer) - Car music player for old Android 4.3 head units. `Jellyfin` · `Android` · `Open source` `Free`
@@ -348,6 +349,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [JellyFlow](https://github.com/louisllw/Jellyflow) - Responsive independent Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
 - [JellyNext](https://github.com/mugurc/jellynext) - Cinematic Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
 - [Jelly Player](https://github.com/felizk/jelly-player) - Small hobby music player. `Jellyfin` · `Web` · `MIT` `Free`
+- [JellyPlayer (qiuleidee)](https://github.com/qiuleidee/JellyPlayer) - Jellyfin web client with an Infuse-inspired design. `Jellyfin` · `Web` · `Open source` `Free`
 - [Jelly Shark](https://github.com/HeavyLvy/jelly-shark) - Jellyfin web front end with a Spotify-style music player. `Jellyfin` · `Web` · `Apache-2.0` `Free`
 - [JellySonic](https://github.com/lyarenei/JellySonic) - Former server plugin that exposed a Subsonic API. `Jellyfin` `+Subsonic` · `Web` · `Open source` `Ended 2022`
 - [JellyVision](https://github.com/dominique-debert/jellyvision-react) - React web client for Jellyfin. `Jellyfin` · `Web` · `Open source` `Free`
@@ -435,6 +437,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) - Samsung Smart TV Series D app, last updated in 2017. `Emby` · `Other TV` · `Open source` `Free` `Stale 2017`
 - [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) - Remote-first LG webOS client. `Emby` · `webOS` · `Open source` `Free`
 - [Fin](https://github.com/harleykradovill/fin) - Unofficial Roku channel for playing your library. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Ended 2025`
+- [flex](https://github.com/vargamolnarbertalan/flex) - Minimal Plex client for rooted LG webOS TVs. `Plex` · `webOS` · `MIT`
 - [JellyBoat](https://github.com/okayguysdan/jellyboat-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [jellyfin-client-tizen-legacy](https://github.com/crycodebaby/jellyfin-client-tizen-legacy) - Samsung TV app for older Smart TV models. `Jellyfin` · `Tizen` · `Open source` `Free`
 - [jellyfin-netcast](https://github.com/pablouser1/jellyfin-netcast) - App for older LG NetCast smart TVs. `Jellyfin` · `Other TV` · `GPL-3.0` `Free` `Ended 2023`
@@ -459,6 +462,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [SeldomTV](https://github.com/SeldomSpirit/seldomtv-roku) - Roku client forked from the official Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [Supernova](https://github.com/arvaus/Supernova) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
 - [SuPlex](https://github.com/ChibiTomo/SuPlex) - Plex client for LG webOS TVs. `Plex` · `webOS` · `Open source` `Stale 2019`
+- [tizen-jellystream](https://github.com/Nerfherder16/tizen-jellystream) - Samsung Tizen TV client with Jellyseerr requests and Quick Connect sign-in. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [vemm](https://github.com/dragoshont/vemm) - Unofficial Plex-compatible player for Samsung Tizen TVs. `Plex` · `Tizen` · `GPL-3.0`
 - [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for rooted LG webOS TVs that direct-plays original files. `Jellyfin` · `webOS` · `MIT` `Free`
 - [Viv](https://github.com/cewert/viv) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`

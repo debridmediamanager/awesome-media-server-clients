@@ -8753,22 +8753,6 @@
   description: IINA plugin that browses the server and plays items in IINA on macOS.
   notes: By mhajder; distinct from ada-bee/jellyfin-iina.
 
-- name: iiPythonx/feishin
-  url: https://github.com/iiPythonx/feishin
-  servers: [jellyfin]
-  also: [subsonic]
-  official: false
-  platforms: [windows, macos, linux, web]
-  category: music
-  media: [music]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  description: Fork of the Feishin music player.
-  notes: fork of jeffvli/feishin. By iiPythonx.
-
 - name: IIVA
   url: https://apps.apple.com/us/app/iiva/id1614231457
   servers: [emby]
@@ -10943,19 +10927,6 @@
   aliases: [Jellyfin Media Center]
   description: Ubuntu Touch wrapper for the Jellyfin web client.
   notes: OpenStore app by Tafitson, v1.0.0.
-
-- name: Jellyfin Modern
-  url: https://github.com/JATINRAI2911/jellyfin-modern
-  servers: [jellyfin]
-  official: false
-  platforms: [web]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Web client styled after major streaming services.
 
 - name: Jellyfin MPC Shim (Trellmor)
   url: https://github.com/Trellmor/jellyfin-mpc-shim
@@ -13628,23 +13599,6 @@
   description: Personal media library for local files, NAS, WebDAV and Emby with posters, subtitles and resume.
   notes: by 大奎 汪.
 
-- name: KinoLel
-  url: https://github.com/Parcival1/kinolel-player
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [kinolel-player]
-  description: Desktop client forked from Jellyfin Desktop and branded for kinolel.de.
-  notes: Fork of Jellyfin Desktop; repo name kinolel-player.
-  long_tail: true
-
 - name: KiokuYomi
   url: https://apps.apple.com/tw/app/kiokuyomi/id6795781367
   servers: [jellyfin]
@@ -13965,21 +13919,6 @@
   description: Swiftfin-based player with a Mac beta.
   notes: fork of jellyfin/Swiftfin.
   long_tail: true
-
-- name: Kuzan
-  url: https://github.com/pixare40/kuzan-jellyfin
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: stale
-  status_year: 2025
-  aliases: [kuzan-jellyfin]
-  description: Rust client for Jellyfin.
 
 - name: kyoku
   url: https://github.com/httpjamesm/kyoku
@@ -18355,21 +18294,6 @@
   status_year: 2026
   description: Open-source client for Android TV boxes.
 
-- name: OpenFlix
-  url: https://github.com/jorge123255/OpenFlix
-  servers: [plex]
-  official: false
-  platforms: [android, android-tv, tvos, ios]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: active
-  status_year: 2026
-  description: Client built with Flutter.
-  notes: Hobby project.
-  long_tail: true
-
 - name: OpenHT
   url: https://github.com/bkury/OpenHT
   servers: [plex, emby]
@@ -20356,20 +20280,6 @@
   status: stale
   status_year: 2015
   description: Media-key control for Plex.
-  long_tail: true
-
-- name: plex-jellyfin-custom-client
-  url: https://github.com/AstonishedByTheLackOfCake/plex-jellyfin-custom-client
-  servers: [plex, jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  status: stale
-  status_year: 2021
-  description: Cross-platform C++ media client, last updated in 2021.
   long_tail: true
 
 - name: plexjs
@@ -22923,21 +22833,6 @@
   aliases: [小幻影视, Rodel.Player.Public, Xiaohuan Video, Xiaohuan]
   description: Windows desktop player with a Fluent UI.
   notes: Closed-source app; the GitHub repo holds releases and feedback only.
-
-- name: RogueAudio
-  url: https://github.com/mpatterson89/RogueAudio
-  servers: [plex]
-  official: false
-  platforms: [linux, steam-deck]
-  category: audiobooks
-  media: [audiobooks]
-  open_source: true
-  license: MIT
-  status: active
-  status_year: 2026
-  description: Audiobook player for Linux and the Steam Deck.
-  notes: Hobby project.
-  long_tail: true
 
 - name: Rufin
   url: https://github.com/screwys/Rufin
@@ -25635,21 +25530,6 @@
   notes: Hobby project.
   long_tail: true
 
-- name: textamp
-  url: https://github.com/bergmayer/textamp
-  servers: [plex]
-  official: false
-  platforms: [cli]
-  category: music
-  media: [music]
-  open_source: true
-  license: Unlicense
-  status: active
-  status_year: 2026
-  description: Music player.
-  notes: Hobby project.
-  long_tail: true
-
 - name: Themby
   url: https://apps.apple.com/us/app/themby/id6757106291
   links:
@@ -27601,23 +27481,6 @@
   status_year: 2026
   description: Walkman-style music player for the Sony X10 Mini.
   notes: Targets the Sony Xperia X10 mini.
-  long_tail: true
-
-- name: Wallaby Popcorn
-  url: https://github.com/bluesilent9/wallaby-popcorn-desktop
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [wallaby-popcorn-desktop]
-  description: Fork of the Jellyfin desktop client.
-  notes: fork of jellyfin/jellyfin-desktop.
   long_tail: true
 
 - name: Warden

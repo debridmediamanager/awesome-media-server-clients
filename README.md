@@ -1,6 +1,6 @@
 # Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and 1,867 third-party ones, from polished store apps to small open-source projects.
+A list of apps that play from [Plex](https://www.plex.tv/), [Jellyfin](https://jellyfin.org/) and [Emby](https://emby.media/) servers, on every platform: phones, TVs, desktops, browsers, consoles, headsets, cars, watches and terminals. It covers the official apps and 1,858 third-party ones, from polished store apps to small open-source projects.
 
 Looking for a platform? [PLATFORMS.md](PLATFORMS.md) lists every app by device. Smaller projects (GitHub-only, no release, under 10 stars) have a page of their own, linked under More clients below.
 
@@ -621,7 +621,6 @@ Third-party video and general clients for Jellyfin only.
 - [JellyWin32](https://github.com/Aspenini/jellywin32) - Very slim native Win32 client. `Jellyfin` · `Windows` · `Open source` `Free`
 - [Jeva](https://github.com/tearerry/Jeva) - Windows client with a streaming-service style interface. `Jellyfin` · `Windows` · `Open source` `Free`
 - [jlfine](https://github.com/prietus/jlfine) - Native Rust/Slint desktop client on libmpv, aimed at bit-perfect audio and HDR/Dolby Vision video. `Jellyfin` · `macOS` `Linux` · `MIT` `Beta` · [AUR](https://aur.archlinux.org/packages/jlfine-bin)
-- [Kuzan](https://github.com/pixare40/kuzan-jellyfin) - Rust client for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2025`
 - [Lightweaver](https://github.com/oss96/LightWeaver-Windows) - WPF shell around an embedded mpv player. `Jellyfin` · `Windows` · `Open source` `Free`
 - [LogVar Media Player](https://github.com/1140936435/logvar-player) - Desktop player for Jellyfin and local files with a danmaku comment overlay. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [Lumen](https://github.com/Zupermini09/Lumen) - Native Jellyfin desktop client. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
@@ -654,7 +653,6 @@ Third-party video and general clients for Jellyfin only.
 - [JellyDinosaur](https://github.com/Olsro/jellydinosaur) - Tiny Jellyfin front end under 100 kB. `Jellyfin` · `Web` · `MIT` `Free`
 - [Jellyfied](https://github.com/CharlieGolfX/jellyfied) - Jellyfin web front end. `Jellyfin` · `Web` · `GPL-3.0` `Free`
 - [Jellyfin-360VR-Player](https://github.com/Mix1C/Jellyfin-360VR-Player) - 360-degree VR video player. `Jellyfin` · `Web` · `GPL-2.0` `Free`
-- [Jellyfin Modern](https://github.com/JATINRAI2911/jellyfin-modern) - Web client styled after major streaming services. `Jellyfin` · `Web` · `Open source` `Free`
 - [jellyfin-svelte](https://gitlab.com/pSchwietzer/jellyfin-svelte) - Work-in-progress web client written in Svelte. `Jellyfin` · `Web` · `Open source` `Stale 2024`
 - [jellyfin-vr-player](https://github.com/biliksir95-blip/jellyfin-vr-player) - WebXR player for watching the library in a VR headset browser. `Jellyfin` · `Web` · `GPL-3.0`
 - [Jellyfin-vr-plugin](https://github.com/Lqlsoftware/Jellyfin-vr-plugin) - VR playback plugin. `Jellyfin` · `Web` · `Open source`
@@ -1065,7 +1063,6 @@ Music players and music-first clients.
 - [Hakuro](https://apps.apple.com/us/app/hakuro/id6756937091) - Lightweight music player with lyrics, lyric translation and AirPlay. `Jellyfin` · `iOS` `iPadOS` · `Free`
 - [Heddohon](https://github.com/zorcerer/heddohon) - Server-rendered web music player. `Jellyfin` `+Subsonic` · `Web` · `MIT` `Free`
 - [Horizon CloudBeats](https://gitlab.com/myluxy/fh6-cloudbeats-custom-radio) - Forza Horizon 6 mod that streams your music library, Spotify or YouTube through the in-game radio. `Jellyfin` · `Windows` · `GPL-3.0`
-- [iiPythonx/feishin](https://github.com/iiPythonx/feishin) - Fork of the Feishin music player. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [Ikigai Music](https://github.com/Garvittt-API/Ikigai-music) - Rust/Dioxus music player. `Jellyfin` `+Subsonic` · `Windows` · `MIT` `Free`
 - [Jamfin](https://apps.apple.com/us/app/jamfin/id6814805439) - Focused music player with song suggestions, genre mixes and an automatic queue. `Jellyfin` · `iOS` `iPadOS` `watchOS` · `Free`
 - [Jamfish](https://f-droid.org/packages/org.adrianvictor.geleia/) - Android music player built on the archived Gelli. `Jellyfin` · `Android` · `Open source`
@@ -1689,7 +1686,7 @@ Apps that were withdrawn, archived or abandoned. Kept for reference.
 
 ## More clients
 
-[more-clients.md](more-clients.md) lists 489 smaller projects: GitHub-only apps with no release and under 10 stars, grouped by platform.
+[more-clients.md](more-clients.md) lists 483 smaller projects: GitHub-only apps with no release and under 10 stars, grouped by platform.
 
 ## Contribution Guidelines
 

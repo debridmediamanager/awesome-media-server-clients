@@ -324,31 +324,22 @@
 
 - name: AGCPlayer
   url: https://agcplayer.com/
-  servers: [jellyfin, emby]
-  official: false
-  platforms: [ios]
-  category: player
-  media: [video]
-  open_source: null
-  status: unknown
-  aliases: [AGC]
-  description: iOS player built around home-screen widgets.
-  notes: Server support per a Chinese guide only; the site says just 'A Player with Widgets'.
-
-- name: AGC Video Player
-  url: https://apps.apple.com/us/app/agc-video-player/id6670426427
+  links:
+    appstore: https://apps.apple.com/us/app/agc-video-player/id6670426427
+    play: https://play.google.com/store/apps/details?id=com.agc.player
   servers: [plex, jellyfin, emby]
   also: [smb, cloud]
   official: false
-  platforms: [ios, ipados, macos]
+  platforms: [ios, ipados, macos, android, android-tv]
   category: player
   media: [video]
   open_source: false
   price: free
   status: active
   status_year: 2026
+  aliases: [AGC, AGC Player, AGC Video Player, AGC - Video Player]
   description: Video player with custom widgets, AirPlay and subtitle support, plus SMB and cloud sources.
-  notes: by Zetao Yang
+  notes: by Zetao Yang; the site also offers Android and Android TV APKs.
 
 - name: ai-flutter-jellyfin
   url: https://github.com/xueshengfei/ai-flutter-jellyfin
@@ -966,11 +957,13 @@
   description: IPTV and library player for M3U, Xtream and server sources with posters, episode guides and a TV guide.
   notes: by Pixelslab
 
-- name: Aoide for iPhone
+- name: Aoide
   url: https://github.com/Virel0/Aoide
+  links:
+    repo:Linux: https://github.com/Virel0/Aoide-Linux
   servers: [jellyfin]
   official: false
-  platforms: [ios, carplay]
+  platforms: [ios, carplay, linux]
   category: music
   media: [music]
   open_source: true
@@ -978,24 +971,9 @@
   price: free
   status: active
   status_year: 2026
-  aliases: [Aoide]
-  description: SwiftUI iPhone music player with CarPlay.
-  notes: Linux version is Aoide for Linux (Virel0/Aoide-Linux).
-
-- name: Aoide for Linux
-  url: https://github.com/Virel0/Aoide-Linux
-  servers: [jellyfin]
-  official: false
-  platforms: [linux]
-  category: music
-  media: [music]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [Aoide-Linux]
-  description: Rust music player for Linux.
+  aliases: [Aoide for iPhone, Aoide for Linux, Aoide-Linux]
+  description: 'Native Jellyfin music player: SwiftUI on iPhone with CarPlay, and a Rust build for Linux.'
+  notes: By Virel0; separate repos per platform.
 
 - name: Ape Player
   url: https://github.com/myoula/ape-player
@@ -5857,22 +5835,6 @@
   aliases: [Emby Theater Desktop, Emby UWP app]
   description: Former Windows desktop app; it and the old UWP app were replaced by the Store app in December 2024.
 
-- name: EmbyTok
-  url: https://github.com/1525745393/EmbyTok-ai
-  servers: [plex, emby]
-  official: false
-  platforms: [web]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [EmbyTok-ai]
-  description: Web client that browses videos in a TikTok-style vertical feed.
-  notes: Same author as EmbyTok-Flutter.
-  long_tail: true
-
 - name: EmbyTok-Flutter
   url: https://github.com/1525745393/EmbyTok-Flutter
   servers: [emby]
@@ -5885,10 +5847,12 @@
   status: active
   status_year: 2026
   description: TikTok-style vertical feed for browsing an Emby library.
-  notes: Flutter web app. Same author as EmbyTok-ai.
+  notes: Flutter web app by 1525745393; a separate implementation of the EmbyTok idea.
 
-- name: EmbyTok (miguyomi)
-  url: https://gitee.com/miguyomi/embytok
+- name: EmbyTok
+  url: https://github.com/migumigu/EmbyTok
+  links:
+    repo:Gitee: https://gitee.com/miguyomi/embytok
   servers: [plex, emby]
   official: false
   platforms: [web, android, android-tv]
@@ -5897,9 +5861,8 @@
   open_source: true
   status: active
   status_year: 2026
-  aliases: [EmbyTok]
   description: Vertical TikTok-style video browser.
-  notes: Gitee miguyomi/embytok (TSX); distinct from EmbyTok-Flutter.
+  notes: By migumigu; the Gitee repo is the author's mirror.
 
 - name: embyToLocalPlayer
   url: https://github.com/kjtsune/embyToLocalPlayer
@@ -8654,6 +8617,8 @@
 
 - name: HotpotPlayer
   url: https://github.com/WangyuHello/HotPotPlayer
+  links:
+    repo:2: https://github.com/WangyuHello/HotPotPlayer2
   servers: [jellyfin]
   also: [streaming-services]
   official: false
@@ -8664,22 +8629,8 @@
   price: free
   status: stale
   status_year: 2025
-  description: Avalonia desktop player for Jellyfin and Bilibili.
-
-- name: HotpotPlayer 2
-  url: https://github.com/WangyuHello/HotPotPlayer2
-  servers: [jellyfin]
-  official: false
-  platforms: [windows, macos, linux]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: stale
-  status_year: 2025
-  description: Second HotpotPlayer repo, a desktop Jellyfin player.
-  notes: Separate repo from WangyuHello/HotPotPlayer.
+  aliases: [火锅播放器, HotpotPlayer 2, HotPotPlayer2]
+  description: Desktop player for Jellyfin music and video plus Bilibili; HotPotPlayer2 is its Avalonia and libmpv port.
 
 - name: iamd3vil/jellytui
   url: https://github.com/iamd3vil/jellytui
@@ -9248,22 +9199,9 @@
   price: free
   status: active
   status_year: 2026
+  aliases: [Jellify (Swift)]
   description: Free music player for Jellyfin with offline downloads, transcoding options, playlists and instant mixes.
-  notes: by Violet Caulfield. Open source (MIT).
-
-- name: Jellify (Swift)
-  url: https://github.com/anultravioletaurora/Jellify---Swift
-  servers: [jellyfin]
-  official: false
-  platforms: [ios, macos, carplay]
-  category: music
-  media: [music]
-  open_source: true
-  status: discontinued
-  status_year: 2025
-  description: Music player.
-  notes: Earlier Swift app; unrelated to the current Jellify. Ended between 2020 and 2025.
-  long_tail: true
+  notes: by Violet Caulfield. Open source (MIT). An earlier native Swift version by the same author (anultravioletaurora/Jellify---Swift) was archived in 2025 without a release.
 
 - name: jellio
   url: https://github.com/vanchaxy/jellio
@@ -11734,21 +11672,6 @@
   description: Windows client built with Flutter and mpv.
 
 - name: Jellyflix
-  url: https://apps.apple.com/us/app/jellyflix/id6476043683
-  servers: [jellyfin]
-  official: false
-  platforms: [ios, ipados]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: stale
-  status_year: 2025
-  description: Open-source Jellyfin client for video playback with profiles, search and transcoded downloads.
-  notes: by Jonathan-David Kienzle. Open source; the listing says it targets all major platforms.
-  distinct: true
-
-- name: Jellyflix
   url: https://github.com/6xingyv/jellyflix
   servers: [jellyfin]
   official: false
@@ -11770,9 +11693,10 @@
   url: https://github.com/jellyflix-app/jellyflix
   links:
     play: https://play.google.com/store/apps/details?id=com.ambark.jellyflix
+    appstore: https://apps.apple.com/us/app/jellyflix/id6476043683
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, linux, macos, web]
+  platforms: [android, ios, windows, linux, macos, web, ipados]
   category: player
   media: [video]
   open_source: true
@@ -11781,7 +11705,7 @@
   status: active
   status_year: 2026
   description: Cross-platform client for phones, desktop and the web.
-  notes: No release since June 2025; repo still pushed in 2026.
+  notes: App Store and Google Play builds by Jonathan-David Kienzle (bundle com.ambark.jellyflix); store builds last updated June 2025, repo still pushed in 2026.
   distinct: true
 
 - name: JellyFlow
@@ -16735,20 +16659,6 @@
   status_year: 2026
   description: Flutter music client for Android.
 
-- name: Musiver
-  url: https://4pda.to/forum/index.php?showtopic=1123147
-  servers: [jellyfin, emby]
-  also: [subsonic, other]
-  official: false
-  platforms: [android]
-  category: music
-  media: [music]
-  open_source: null
-  status: active
-  status_year: 2026
-  description: Music player for Navidrome, Subsonic and Audio Station as well as media servers.
-  notes: Known from a 4PDA thread (2026-06); platform not stated.
-
 - name: Muufin
   url: https://github.com/rikkichy/Muufin
   servers: [jellyfin]
@@ -17586,38 +17496,23 @@
   description: Fire TV client with built-in Seerr requests and Dialogue Boost.
   notes: Google TV and Android builds in beta. Closed source.
 
-- name: nilumio for Android TV
+- name: nilumio
   url: https://github.com/nilumio/nilumio-android
+  links:
+    repo:Apple TV: https://github.com/nilumio/nilumio-tvos
   servers: [jellyfin]
   official: false
-  platforms: [android-tv]
+  platforms: [android-tv, tvos]
   category: player
   media: [video]
   open_source: true
-  license: GPL-2.0
+  license: other
   price: free
   status: active
   status_year: 2026
-  aliases: [nilumio-android]
-  description: Android TV client forked from Wholphin.
-  notes: Wholphin fork; Apple TV build is a separate repo.
-  long_tail: true
-
-- name: nilumio for Apple TV
-  url: https://github.com/nilumio/nilumio-tvos
-  servers: [jellyfin]
-  official: false
-  platforms: [tvos]
-  category: player
-  media: [video]
-  open_source: true
-  license: MPL-2.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [nilumio-tvos]
-  description: Apple TV client forked from Swiftfin.
-  notes: Swiftfin fork; Android TV build is a separate repo.
+  aliases: [nilumio for Android TV, nilumio for Apple TV, nilumio-android, nilumio-tvos]
+  description: Jellyfin client for Android TV (a Wholphin fork) and Apple TV (a Swiftfin fork).
+  notes: Site nilumio.com. Android TV build GPL-2.0, Apple TV build MPL-2.0.
   long_tail: true
 
 - name: Nimbus Player
@@ -18828,6 +18723,7 @@
   url: https://github.com/PelagicaApp/pelagica
   links:
     appstore: https://apps.apple.com/app/id6811079730
+    repo:Apple TV: https://github.com/PelagicaApp/pelagica-atv
   servers: [jellyfin]
   official: false
   platforms: [web, tizen, windows, linux, macos, tvos, webos]
@@ -18840,22 +18736,6 @@
   status_year: 2026
   description: Self-hosted web client that is also packaged for TVs.
   notes: Listed in awesome-jellyfin.
-
-- name: Pelagica for Apple TV
-  url: https://github.com/PelagicaApp/pelagica-atv
-  servers: [jellyfin]
-  official: false
-  platforms: [tvos]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  aliases: [pelagica-atv]
-  description: Apple TV client.
-  long_tail: true
 
 - name: pelies
   url: https://github.com/chasecheney/pelies
@@ -21849,22 +21729,10 @@
   description: Android music client.
   long_tail: true
 
-- name: Puddler
-  url: https://github.com/Vernoxvernax/Puddler
-  servers: [jellyfin, emby]
-  official: false
-  platforms: [cli]
-  category: player
-  media: [video]
-  open_source: true
-  status: discontinued
-  status_year: 2022
-  description: Python command-line client that plays through mpv.
-  notes: Archived; predecessor of puddler-rs.
-  long_tail: true
-
 - name: Puddler-RS
   url: https://github.com/Vernoxvernax/Puddler-RS
+  links:
+    repo:Python: https://github.com/Vernoxvernax/Puddler
   servers: [plex, jellyfin, emby]
   official: false
   platforms: [cli]
@@ -21875,7 +21743,7 @@
   status_year: 2026
   aliases: [Puddler]
   description: Terminal client that plays media in mpv.
-  notes: 0.7.2.
+  notes: 0.7.2. Rust rewrite of the archived Python Puddler by the same author.
 
 - name: PulseFin
   url: https://github.com/AryanKingSir/PulseFin
@@ -24526,10 +24394,12 @@
   status_year: 2026
   description: Google TV and Android TV client.
 
-- name: Stream Music
+- name: Musiver
   url: https://apps.apple.com/cn/app/%E9%9F%B3%E6%B5%81-%E8%BF%9E%E6%8E%A5%E4%BD%A0%E7%9A%84%E9%9F%B3%E4%B9%90/id6449966496
-  servers: [emby]
-  also: [other]
+  links:
+    other: https://4pda.to/forum/index.php?showtopic=1123147
+  servers: [jellyfin, emby]
+  also: [subsonic, other]
   official: false
   platforms: [ios, android]
   category: music
@@ -24538,9 +24408,9 @@
   price: free
   status: stale
   status_year: 2025
-  aliases: [音流, Yinliu]
-  description: Music player for iPhone and Android.
-  notes: iOS last updated July 2025.
+  aliases: [Stream Music, 音流, Yinliu]
+  description: Music player for Navidrome, Subsonic, Synology Audio Station, Emby and Jellyfin, on iPhone and Android.
+  notes: App Store name Musiver - Enjoy music (Changsha Liuyin Technology, bundle cn.aqzscn.streamMusic). iOS last updated July 2025.
 
 - name: StreamPocket
   url: https://apps.apple.com/us/app/streampocket-offline-player/id6760236575
@@ -26374,18 +26244,21 @@
 
 - name: Ultimate Media Player
   url: https://apps.apple.com/us/app/ultimate-media-player/id6799982687
+  links:
+    play: https://play.google.com/store/apps/details?id=com.unikie1.ultimateplayer
   servers: [plex, jellyfin]
-  also: [smb, webdav, ftp]
+  also: [smb, dlna]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, android, android-tv]
   category: player
   media: [video]
   open_source: false
   price: free
   status: active
   status_year: 2026
+  aliases: [Ultimate Player]
   description: Library player for servers and network shares with artwork, subtitles and resume across devices.
-  notes: by vishal singh; Several apps share this name; this is the Jellyfin and Plex client
+  notes: 'by vishal singh (Unikie1); the Android build is called Ultimate Player. Support site: vnikie1.github.io/ultimate-player-support.'
   distinct: true
 
 - name: Ultimate Media Player
@@ -26403,19 +26276,6 @@
   description: Player for Jellyfin, Plex and IPTV sources with a 3D conversion mode.
   notes: by Toby Jones.
   distinct: true
-
-- name: Ultimate Player
-  url: https://play.google.com/store/apps/details?id=com.unikie1.ultimateplayer
-  servers: [plex, jellyfin]
-  also: [smb, dlna]
-  official: false
-  platforms: [android]
-  category: player
-  media: [video]
-  open_source: null
-  status: active
-  status_year: 2026
-  description: Android player for media servers, SMB shares and DLNA.
 
 - name: UmaMedia
   url: https://apps.apple.com/br/app/umamedia/id6811944771

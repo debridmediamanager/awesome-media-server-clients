@@ -884,7 +884,7 @@
   long_tail: true
   distinct: true
 
-- name: Anemone
+- name: Anemone (revanthv11)
   url: https://github.com/revanthv11/Anemone
   servers: [jellyfin]
   official: false
@@ -1543,7 +1543,7 @@
   notes: by THE BLUE RIO, LLC; Not related to Audionest, a music player
   distinct: true
 
-- name: Audionest
+- name: Audionest (Cameron Howard)
   url: https://apps.apple.com/us/app/audionest/id6761437515
   servers: [plex]
   also: [cloud, local]
@@ -1618,7 +1618,7 @@
   notes: Repo j4ckxyz/Aurelia; not the same project as xorwyrm/aurelia.
   distinct: true
 
-- name: Aurelia
+- name: Aurelia (xorwyrm)
   url: https://github.com/xorwyrm/aurelia
   servers: [jellyfin]
   official: false
@@ -2887,7 +2887,7 @@
   notes: by BON APP & T LTD.
   distinct: true
 
-- name: CarTV
+- name: CarTV (Lyntra)
   url: https://apps.apple.com/us/app/cartv-m3u-iptv-player-cast/id6800211040
   servers: [jellyfin, emby]
   also: [iptv]
@@ -2904,7 +2904,7 @@
   notes: 'by Lyntra Technology Ltd. Separate app from CarTV: M3U IPTV Player & Cast by Avaniben Sardhara.'
   distinct: true
 
-- name: CarTV
+- name: CarTV (Avaniben Sardhara)
   url: https://apps.apple.com/us/app/cartv-m3u-iptv-player-cast/id6818045286
   servers: [jellyfin, emby]
   also: [iptv]
@@ -2954,7 +2954,7 @@
   notes: Not thomas-rife/cascade.
   distinct: true
 
-- name: Cascade
+- name: Cascade (thomas-rife)
   url: https://github.com/thomas-rife/cascade
   servers: [jellyfin]
   official: false
@@ -5304,7 +5304,7 @@
   aliases: [Embyfix]
   description: Netflix-style native macOS client written in SwiftUI.
 
-- name: Emby Flow
+- name: Emby Flow (liyongliao)
   url: https://github.com/liyongliao/emby-flow
   servers: [emby]
   official: false
@@ -5666,7 +5666,7 @@
   status_year: 2026
   description: Android client with a focused feature set.
 
-- name: EmbyPlayer
+- name: EmbyPlayer (LKyoona)
   url: https://github.com/LKyoona/EmbyPlayer
   servers: [emby]
   official: false
@@ -6013,7 +6013,7 @@
   status_year: 2026
   description: Browser client that ships with the server, also hosted at app.emby.media.
 
-- name: EmbyX
+- name: EmbyX (Paurika1113)
   url: https://github.com/Paurika1113/EmbyX
   servers: [emby]
   official: false
@@ -6089,7 +6089,7 @@
   notes: Platform not stated.
   long_tail: true
 
-- name: EMPlayer
+- name: EMPlayer (sonsongithub)
   url: https://github.com/sonsongithub/EMPlayer
   servers: [emby]
   official: false
@@ -6407,7 +6407,7 @@
   description: Vue short-video style front end for Emby.
   notes: No README; same author as csgplayer.
 
-- name: Fathom
+- name: Fathom (Get-Coral)
   url: https://github.com/Get-Coral/fathom
   servers: [jellyfin]
   official: false
@@ -7827,7 +7827,7 @@
   notes: fork of streamyfin/streamyfin. Not pkyanam/jellyflex (a web frontend also called Glassfin).
   distinct: true
 
-- name: Glassfin
+- name: Glassfin (pkyanam)
   url: https://github.com/pkyanam/jellyflex
   servers: [jellyfin]
   official: false
@@ -9370,7 +9370,7 @@
   notes: by Daniel Vieira Costa Andrade.
   distinct: true
 
-- name: Jellyamp
+- name: Jellyamp (jellyfin-archive)
   url: https://github.com/jellyfin-archive/jellyamp
   servers: [jellyfin]
   official: false
@@ -9540,7 +9540,7 @@
   description: Native Android client.
   long_tail: true
 
-- name: JellyBox
+- name: JellyBox (JamesDearlove)
   url: https://github.com/JamesDearlove/JellyBox
   servers: [jellyfin]
   official: false
@@ -9572,7 +9572,7 @@
   notes: dfederm/JellyBox; not the same app as JamesDearlove/JellyBox.
   distinct: true
 
-- name: JellyBox
+- name: JellyBox (faithvoid)
   url: https://github.com/faithvoid/script.jellybox
   servers: [jellyfin]
   official: false
@@ -9694,7 +9694,7 @@
   long_tail: true
   distinct: true
 
-- name: JellyCast
+- name: JellyCast (netzih)
   url: https://github.com/netzih/jellycast
   servers: [jellyfin]
   official: false
@@ -9950,7 +9950,7 @@
   notes: 'Created 2026-10; proposed for awesome-jellyfin (PR #736, unmerged).'
   distinct: true
 
-- name: Jellydroid
+- name: Jellydroid (charlie-niekirk)
   url: https://github.com/charlie-niekirk/JellyDroid
   servers: [jellyfin]
   official: false
@@ -9967,7 +9967,7 @@
   long_tail: true
   distinct: true
 
-- name: Jellydroid
+- name: Jellydroid (chrisharrington)
   url: https://github.com/chrisharrington/jellydroid
   servers: [jellyfin]
   official: false
@@ -10957,7 +10957,7 @@
   status_year: 2026
   description: Web client styled after major streaming services.
 
-- name: Jellyfin MPC Shim
+- name: Jellyfin MPC Shim (Trellmor)
   url: https://github.com/Trellmor/jellyfin-mpc-shim
   servers: [jellyfin]
   official: false
@@ -11724,7 +11724,7 @@
   status_year: 2026
   description: Windows client built with Flutter and mpv.
 
-- name: Jellyflix
+- name: Jellyflix (6xingyv)
   url: https://github.com/6xingyv/jellyflix
   servers: [jellyfin]
   official: false
@@ -11776,7 +11776,7 @@
   description: Android client.
   distinct: true
 
-- name: JellyFlow
+- name: JellyFlow (louisllw)
   url: https://github.com/louisllw/Jellyflow
   servers: [jellyfin]
   official: false
@@ -11838,7 +11838,7 @@
   notes: Legacy React Native version; archived. Not Overlabing/jellyfuse.
   distinct: true
 
-- name: Jellyfuse
+- name: Jellyfuse (Overlabing)
   url: https://github.com/Overlabing/jellyfuse
   servers: [jellyfin]
   official: false
@@ -12172,7 +12172,7 @@
   status_year: 2026
   description: Client for Android phones, Android TV and Fire TV.
 
-- name: Jelly Player
+- name: Jelly Player (felizk)
   url: https://github.com/felizk/jelly-player
   servers: [jellyfin]
   official: false
@@ -12337,7 +12337,7 @@
   description: Paid Apple TV client.
   notes: By HNP Labs.
 
-- name: Jelly Shark
+- name: Jelly Shark (HeavyLvy)
   url: https://github.com/HeavyLvy/jelly-shark
   servers: [jellyfin]
   official: false
@@ -12549,7 +12549,7 @@
   status_year: 2026
   description: Tauri-based desktop client for Jellyfin.
 
-- name: JellyTerm
+- name: JellyTerm (huntergdavis)
   url: https://github.com/huntergdavis/jellyterm
   servers: [jellyfin]
   official: false
@@ -12692,7 +12692,7 @@
   notes: tyrantlink's; other repos share the name jellytui.
   long_tail: true
 
-- name: JellyTune
+- name: JellyTune (Gimmeapill)
   url: https://github.com/Gimmeapill/JellyTune
   servers: [jellyfin]
   official: false
@@ -12739,7 +12739,7 @@
   description: Linux tool that syncs music from the server to MP3 players for offline use.
   notes: By Orain Labs. Embeds lyrics and art.
 
-- name: Jelly TV
+- name: Jelly TV (Logan Janssen)
   url: https://apps.apple.com/hk/app/jelly-tv/id6795124030
   servers: [jellyfin]
   official: false
@@ -12770,7 +12770,7 @@
   notes: By Charly Manderrier. Not the Amazon 'JellyTV Music' app.
   distinct: true
 
-- name: JellyTV
+- name: JellyTV (crucifix86)
   url: https://github.com/crucifix86/JellyTV
   servers: [jellyfin, emby]
   official: false
@@ -14235,7 +14235,7 @@
   description: Native music player where folders are playlists, with animated lyrics and lossless local files.
   notes: by 满亚 孔; Chinese-language listing
 
-- name: LinPlayer
+- name: LinPlayer (Devtll)
   url: https://github.com/Devtll/LinPlayer
   servers: [jellyfin, emby]
   official: false
@@ -14600,7 +14600,7 @@
   description: Podcast and audiobook player whose sleep timer fades into sleep sounds; a paid tier adds more.
   notes: by Corey FELDMAN
 
-- name: Luma
+- name: Luma (carelessty)
   url: https://github.com/carelessty/luma
   servers: [emby]
   official: false
@@ -14669,7 +14669,7 @@
   notes: Different app from carelessty/luma and beltrnjordi/luma.
   long_tail: true
 
-- name: Lumen
+- name: Lumen (LumenMedia)
   url: https://github.com/LumenMedia/Lumen
   servers: [jellyfin]
   official: false
@@ -14686,7 +14686,7 @@
   long_tail: true
   distinct: true
 
-- name: Lumen
+- name: Lumen (Raulpergon310)
   url: https://github.com/Raulpergon310/lumen
   servers: [jellyfin]
   official: false
@@ -14718,7 +14718,7 @@
   notes: Zupermini09's Lumen; not the other apps named Lumen.
   distinct: true
 
-- name: Lumen
+- name: Lumen (kdorsey0718)
   url: https://testflight.apple.com/join/1jQWwJQk
   servers: [plex]
   official: false
@@ -14729,8 +14729,7 @@
   status: beta
   status_year: 2026
   description: Apple TV client with pre-rolls, theme music, profiles, PiP and remux playback.
-  notes: Plex tvOS client by u/kdorsey0718; TrueHD Atmos is converted, not passed through. TestFlight closed. Not other apps
-    named Lumen.
+  notes: Plex tvOS client by u/kdorsey0718; TrueHD Atmos is converted, not passed through. TestFlight closed. Not other apps named Lumen.
   distinct: true
 
 - name: Lumenoir
@@ -15244,7 +15243,7 @@
   notes: by RENE ANDRES PAYAN; Plex Media Server only; listing also mentions a Mac build
   distinct: true
 
-- name: Marquee
+- name: Marquee (chadMueller)
   url: https://testflight.apple.com/join/ETZgmCka
   servers: [plex]
   official: false
@@ -15290,7 +15289,7 @@
   notes: Different project from kernastra/matinee.
   distinct: true
 
-- name: Matinee
+- name: Matinee (kernastra)
   url: https://github.com/kernastra/matinee
   servers: [jellyfin]
   official: false
@@ -15396,7 +15395,7 @@
   description: Desktop wrapper that shows the Jellyfin web UI and plays through your own mpv.
   notes: Hands playback to an external mpv and reports progress back to the server.
 
-- name: MediaHub
+- name: MediaHub (Gtxr24-xXx)
   url: https://github.com/Gtxr24-xXx/MediaHub
   servers: [jellyfin, emby]
   official: false
@@ -16909,7 +16908,7 @@
   long_tail: true
   distinct: true
 
-- name: MyFlix
+- name: MyFlix (theimmortal68)
   url: https://github.com/theimmortal68/myflix-wholphin
   servers: [jellyfin]
   official: false
@@ -18412,7 +18411,7 @@
   description: Community fork of Plex Home Theater, the old ten-foot desktop player.
   notes: Homebrew cask openpht 1.8.0.148 still published. Original fork repo norbusan/OpenPHT (408 stars, last push 2016).
 
-- name: OpenPlayer
+- name: OpenPlayer (web-gears)
   url: https://github.com/web-gears/openplayer
   servers: [jellyfin]
   official: false
@@ -20614,7 +20613,7 @@
   description: Simple Python desktop music app for Plex.
   distinct: true
 
-- name: plexMusicPlayer
+- name: plexMusicPlayer (Tyzer34)
   url: https://github.com/Tyzer34/plexMusicPlayer
   servers: [plex]
   official: false
@@ -20629,7 +20628,7 @@
   notes: By Tyzer34; abandoned 2017. Distinct from mwstowe's 2026 version.
   distinct: true
 
-- name: plexMusicPlayer
+- name: plexMusicPlayer (mwstowe)
   url: https://github.com/mwstowe/plexMusicPlayer
   servers: [plex]
   official: false
@@ -22409,7 +22408,7 @@
   notes: arsfeld/reel; not the Apple Reel client (cj-vana/reel-client).
   distinct: true
 
-- name: Reel
+- name: Reel (cj-vana)
   url: https://github.com/cj-vana/reel-client
   servers: [jellyfin]
   official: false
@@ -23917,7 +23916,7 @@
   long_tail: true
   distinct: true
 
-- name: Sofafin
+- name: Sofafin (McSon2)
   url: https://github.com/McSon2/Sofafin
   servers: [jellyfin]
   official: false
@@ -25574,7 +25573,7 @@
   long_tail: true
   distinct: true
 
-- name: Tentacle
+- name: Tentacle (majoseph25)
   url: https://github.com/majoseph25/tentacle
   servers: [jellyfin]
   official: false
@@ -26427,7 +26426,7 @@
   notes: 'by vishal singh (Unikie1); the Android build is called Ultimate Player. Support site: vnikie1.github.io/ultimate-player-support.'
   distinct: true
 
-- name: Ultimate Media Player
+- name: Ultimate Media Player (Toby Jones)
   url: https://apps.apple.com/us/app/ultimate-media-player/id6803723173
   servers: [plex, jellyfin, emby]
   also: [iptv]
@@ -28174,7 +28173,7 @@
   notes: by huajun xia. Traditional Chinese listing; source list syncs through iCloud. Separate from xPlay (Jellyfin).
   distinct: true
 
-- name: xPlay
+- name: xPlay (Diamantina Saada)
   url: https://apps.apple.com/us/app/xplay/id6757906889
   servers: [jellyfin]
   official: false
@@ -28189,7 +28188,7 @@
   notes: by Diamantina Saada. Separate from X Play (Emby).
   distinct: true
 
-- name: XPlayer
+- name: XPlayer (SwaggyMacro)
   url: https://github.com/SwaggyMacro/XPlayer
   servers: [jellyfin, emby]
   also: [cloud, local]

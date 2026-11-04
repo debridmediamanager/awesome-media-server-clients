@@ -98,7 +98,7 @@ Every app in this list that runs on tvOS. That is 263 apps with 143 for Plex and
 - [JellyCinema](https://apps.apple.com/de/app/jellycinema/id6809860686) - iPad client with artwork and resume positions; one purchase also covers the Apple TV app. `Jellyfin` · `iPadOS` `tvOS` · `Paid`
 - [Jellyfin & SMB Video Player](https://apps.apple.com/us/app/jellyfin-smb-video-player/id6784719986) - Apple TV video player for Jellyfin servers and SMB shares with native HDR10 playback. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
 - [Jellyfuse (Overlabing)](https://github.com/Overlabing/jellyfuse) - Native Apple TV client in SwiftUI with mpv playback. `Jellyfin` · `tvOS` · `MIT` `Free`
-- [JellyGlass for Jellyfin](https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512) - Jellyfin client with a dark, glass-style interface and editorial layouts. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [JellyGlass for Jellyfin](https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512) - Jellyfin client with a dark, glass-style interface and editorial layouts. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free` · [App Store (tvOS)](https://apps.apple.com/us/app/jellyglass-tv-for-jellyfin/id6769321723)
 - [JellyGoose](https://apps.apple.com/us/app/jellygoose/id6814667375) - Jellyfin player that finds servers on the network and leads with a resume-first, poster-driven home. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Paid`
 - [JellyPig](https://github.com/ashikslab/jellypig) - Fork of Swiftfin. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` `Stale 2025`
 - [JellySee](https://apps.apple.com/app/id6748783768) - Paid Apple TV client. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`

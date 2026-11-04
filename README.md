@@ -568,7 +568,7 @@ Third-party video and general clients for Jellyfin only.
 - [jellyboy](https://apps.apple.com/us/app/jellyboy/id6802162329) - Small independent Jellyfin client for movies, shows, music and Live TV that tries on-device playback first. `Jellyfin` · `macOS` `iOS` `iPadOS` · `Free` · [Source](https://github.com/therealparmesh/jellyboy)
 - [JellyCinema](https://apps.apple.com/de/app/jellycinema/id6809860686) - iPad client with artwork and resume positions; one purchase also covers the Apple TV app. `Jellyfin` · `iPadOS` `tvOS` · `Paid`
 - [Jellyfin & SMB Video Player](https://apps.apple.com/us/app/jellyfin-smb-video-player/id6784719986) - Apple TV video player for Jellyfin servers and SMB shares with native HDR10 playback. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
-- [JellyGlass for Jellyfin](https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512) - Jellyfin client with a dark, glass-style interface and editorial layouts. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [JellyGlass for Jellyfin](https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512) - Jellyfin client with a dark, glass-style interface and editorial layouts. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free` · [App Store (tvOS)](https://apps.apple.com/us/app/jellyglass-tv-for-jellyfin/id6769321723)
 - [JellyGo](https://apps.apple.com/us/app/jellygo-jellyfin-client/id6760751654) - iOS Jellyfin client with Continue Watching and Next Up and a choice of two playback engines. `Jellyfin` · `iOS` · `Free`
 - [JellyGoose](https://apps.apple.com/us/app/jellygoose/id6814667375) - Jellyfin player that finds servers on the network and leads with a resume-first, poster-driven home. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Paid`
 - [JellyKids](https://apps.apple.com/us/app/jellykids/id6756038036) - Kid-friendly Jellyfin client with a playful interface and content controls for parents. `Jellyfin` · `iOS` `iPadOS` · `Freemium`
@@ -1373,7 +1373,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [JellyTheatre](https://github.com/valentinp72/JellyTheatre) - Godot-based VR theatre client. `Jellyfin` · `Quest` · `GPL-3.0` · [Meta Store](https://www.meta.com/experiences/jellytheatre/4688003738150435/)
 - [JellyVR](https://github.com/VersaYT/JellyVR) - Godot-based VR client. `Jellyfin` · `Quest` `PC VR` · `Apache-2.0`
 - [JellyXR](https://github.com/Cuteminded/JellyXR) - VR media client for Quest and Steam Frame. `Jellyfin` · `Quest` `PC VR` · `Apache-2.0` `Free`
-- [koko](https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/) - Meta Quest player that converts video to 3D live through a desktop companion. `Plex` `Jellyfin` · `Quest`
+- [koko](https://www.meta.com/experiences/koko-vr-theater/1124509337421248/) - Meta Quest player that converts video to 3D live through a desktop companion. `Plex` `Jellyfin` · `Quest` · [Info](https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/)
 - [LsVRPlayer](https://github.com/bibibivlin/LsVRPlayer) - PICO 4 VR player for local files, SMB shares and Emby. `Emby` · `Pico` · `MIT` `Free`
 - [Lumenoir](https://lumenoir.app/plex-meta-quest/) - Meta Quest movie theatre player. `Plex` `Jellyfin` `Emby` `+Silo` · `Quest` · `Freemium` · [Meta Store](https://www.meta.com/en-gb/experiences/lumenoir-movie-theater-video-player/1552281053325883/)
 - [MetaPlexVR](https://github.com/IvanVojtko/meta-plex-vr) - Meta Quest client. `Plex` · `Quest` · `GPL-3.0`
@@ -1382,7 +1382,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Screenlit](https://apps.apple.com/us/app/screenlit/id6499478407) - Vision Pro player for MV-HEVC, side-by-side 3D, VR180 and 360 video. `Plex` `Jellyfin` `Emby` · `visionOS` · `Paid`
 - [Suite Browser](https://www.reddit.com/r/VisionPro/comments/1wnddw0/suite_7_brings_virtual_projection_and/) - Apple Vision Pro browser with virtual projection that plays from media servers. `Plex` `Jellyfin` `Emby` · `visionOS`
 - [Tachi](https://github.com/buggzd/tachi) - Spatial media client for RayNeo Air glasses. `Jellyfin` · `Smart glasses` · `MIT` `Free`
-- [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) - Paid Meta Quest video player. `Jellyfin` `Emby` · `Quest` `PC VR` · `Paid`
+- [Whirligig](https://www.meta.com/experiences/whirligig-media-player/3581543561949869/) - Paid VR video player for Meta Quest and PC VR headsets. `Plex` `Jellyfin` `Emby` · `Quest` `PC VR` · `Paid` · [Steam](https://store.steampowered.com/app/451650) · [Info](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/)
 
 ### TV operating systems
 
@@ -1405,7 +1405,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Native Jelly](https://github.com/sostk/native-jelly) - TV-first native app adapted from the PLX Native client. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
 - [Neolume](https://github.com/itsab1989/neolume) - Client for 2014 Samsung Orsay TVs. `Plex` · `Other TV` · `Open source`
 - [OcenFin](https://github.com/seluce/OcenFin) - Sideloaded LG TV client. `Jellyfin` · `webOS` · `MIT`
-- [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) - Plex client for the Freebox Revolution set-top box. `Plex` · `Other TV` · `Stale 2022`
+- [p2F](https://p2f-freebox.fr/) - Plex client for the Freebox Revolution, Delta and One set-top boxes. `Plex` · `Other TV` · `Stale 2022` · [Info](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932)
 - [plezy-webos](https://github.com/GLNick/plezy-webos) - webOS port of the Plezy Flutter client. `Plex` `Jellyfin` `Emby` · `webOS` · `GPL-3.0` `Free`
 - [ploff-webos](https://github.com/lucabravi/ploff-webos) - Client for legacy LG webOS TVs. `Plex` · `webOS` · `MIT`
 - [PlxNative](https://github.com/GLinnik21/plx-native) - Native LG TV client with an interface written in Rust and OpenGL. `Plex` · `webOS` · `GPL-3.0` `Free` · [Website](http://plxnative.com/)

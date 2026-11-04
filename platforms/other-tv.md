@@ -17,7 +17,7 @@ Every app in this list that runs on Other TV. That is 12 apps with 7 for Plex an
 - [emplexer](https://github.com/newloran2/emplexer) - Plex client for Dune HD media players. `Plex` · `Other TV` · `Open source` `Stale 2015`
 - [FinLightning](https://github.com/hjourdain-ryvr/finlightning) - TV app built on the Lightning 3 / Blits UI framework. `Jellyfin` · `Tizen` `Other TV` · `Apache-2.0` `Free`
 - [Neolume](https://github.com/itsab1989/neolume) - Client for 2014 Samsung Orsay TVs. `Plex` · `Other TV` · `Open source`
-- [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) - Plex client for the Freebox Revolution set-top box. `Plex` · `Other TV` · `Stale 2022`
+- [p2F](https://p2f-freebox.fr/) - Plex client for the Freebox Revolution, Delta and One set-top boxes. `Plex` · `Other TV` · `Stale 2022` · [Info](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932)
 - [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) - ES5 web app plus a LAN proxy for Panasonic Viera Connect TVs. `Jellyfin` · `Other TV` · `Open source` `Free`
 - [PLAYz](https://github.com/simonjhogan/playz-emby) - HTML5 client for smart TVs; last updated in 2019. `Emby` · `Web` `Other TV` · `Apache-2.0` `Free` `Stale 2019`
 - [plex.lg](https://github.com/cubedro/plex.lg) - Plex client for 2013 LG Smart TVs. `Plex` · `Other TV` · `Apache-2.0` `Stale 2013`

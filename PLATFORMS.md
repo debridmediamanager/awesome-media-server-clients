@@ -204,7 +204,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 [Full Other TV entries with tags and store links](platforms/other-tv.md)
 
-**Video and general:** [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) E · [emplexer](https://github.com/newloran2/emplexer) P · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Neolume](https://github.com/itsab1989/neolume) P · [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) P · [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) J · [PLAYz](https://github.com/simonjhogan/playz-emby) E · [Plex](https://www.plex.tv/apps-devices/) P\* · [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) P\* · [plex.lg](https://github.com/cubedro/plex.lg) P · [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) P · [Redefin](https://github.com/laborantine/ReDeFin) J
+**Video and general:** [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) E · [emplexer](https://github.com/newloran2/emplexer) P · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Neolume](https://github.com/itsab1989/neolume) P · [p2F](https://p2f-freebox.fr/) P · [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) J · [PLAYz](https://github.com/simonjhogan/playz-emby) E · [Plex](https://www.plex.tv/apps-devices/) P\* · [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) P\* · [plex.lg](https://github.com/cubedro/plex.lg) P · [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) P · [Redefin](https://github.com/laborantine/ReDeFin) J
 
 ## Chromecast (3)
 
@@ -334,7 +334,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 [Full Quest entries with tags and store links](platforms/quest.md)
 
-**Video and general:** [4XVR](https://www.altlabvr.com/4xvr-video-player) PJE · [CineVoid](https://www.meta.com/en-gb/experiences/cinevoid-vr-media-player/1199393973267430/) PJE · [Depthray](https://www.meta.com/experiences/depthray-3d-video-player/1343679048826072/) PJE · [JellyfinVR](https://github.com/allexxex/jellyfinvr) J · [JellyTheatre](https://github.com/valentinp72/JellyTheatre) J · [JellyVR](https://github.com/VersaYT/JellyVR) J · [JellyXR](https://github.com/Cuteminded/JellyXR) J · [koko](https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/) PJ · [Lumenoir](https://lumenoir.app/plex-meta-quest/) PJE · [MetaPlexVR](https://github.com/IvanVojtko/meta-plex-vr) P · [Movie Deck for Plex](https://www.meta.com/experiences/movie-deck-for-plex/6664246617031653/) P · [Phyn](https://apps.apple.com/app/id6457674815) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [PlexQuest](https://github.com/dalt0n0/PlexQuest) P · [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) JE
+**Video and general:** [4XVR](https://www.altlabvr.com/4xvr-video-player) PJE · [CineVoid](https://www.meta.com/en-gb/experiences/cinevoid-vr-media-player/1199393973267430/) PJE · [Depthray](https://www.meta.com/experiences/depthray-3d-video-player/1343679048826072/) PJE · [JellyfinVR](https://github.com/allexxex/jellyfinvr) J · [JellyTheatre](https://github.com/valentinp72/JellyTheatre) J · [JellyVR](https://github.com/VersaYT/JellyVR) J · [JellyXR](https://github.com/Cuteminded/JellyXR) J · [koko](https://www.meta.com/experiences/koko-vr-theater/1124509337421248/) PJ · [Lumenoir](https://lumenoir.app/plex-meta-quest/) PJE · [MetaPlexVR](https://github.com/IvanVojtko/meta-plex-vr) P · [Movie Deck for Plex](https://www.meta.com/experiences/movie-deck-for-plex/6664246617031653/) P · [Phyn](https://apps.apple.com/app/id6457674815) J · [Plex](https://www.plex.tv/apps-devices/) P\* · [PlexQuest](https://github.com/dalt0n0/PlexQuest) P · [Whirligig](https://www.meta.com/experiences/whirligig-media-player/3581543561949869/) PJE
 
 ## Pico (4)
 
@@ -346,7 +346,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 [Full PC VR entries with tags and store links](platforms/pc-vr.md)
 
-**Video and general:** [JellyVR](https://github.com/VersaYT/JellyVR) J · [JellyXR](https://github.com/Cuteminded/JellyXR) J · [PlexBuster](https://github.com/filip-strelec/PlexBuster) P · [Reel Room](https://store.steampowered.com/app/4762320) J · [resonite-plex](https://github.com/ikanibee/resonite-plex) P · [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) JE
+**Video and general:** [JellyVR](https://github.com/VersaYT/JellyVR) J · [JellyXR](https://github.com/Cuteminded/JellyXR) J · [PlexBuster](https://github.com/filip-strelec/PlexBuster) P · [Reel Room](https://store.steampowered.com/app/4762320) J · [resonite-plex](https://github.com/ikanibee/resonite-plex) P · [Whirligig](https://www.meta.com/experiences/whirligig-media-player/3581543561949869/) PJE
 
 ## visionOS (34)
 

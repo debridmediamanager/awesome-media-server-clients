@@ -11712,6 +11712,8 @@
 
 - name: JellyGlass for Jellyfin
   url: https://apps.apple.com/us/app/jellyglass-for-jellyfin/id6769321512
+  links:
+    appstore:tvOS: https://apps.apple.com/us/app/jellyglass-tv-for-jellyfin/id6769321723
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, tvos]
@@ -13588,7 +13590,9 @@
   description: Kodi PVR add-on for watching Live TV.
 
 - name: koko
-  url: https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/
+  url: https://www.meta.com/experiences/koko-vr-theater/1124509337421248/
+  links:
+    other: https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/
   servers: [plex, jellyfin]
   official: false
   platforms: [quest]
@@ -13597,6 +13601,7 @@
   open_source: null
   status: unknown
   status_year: 2026
+  aliases: [koko VR Theater]
   description: Meta Quest player that converts video to 3D live through a desktop companion.
   notes: koko VR player for Quest.
 
@@ -18385,7 +18390,9 @@
   description: Desktop Jellyfin client.
 
 - name: p2F
-  url: https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932
+  url: https://p2f-freebox.fr/
+  links:
+    other: https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932
   servers: [plex]
   official: false
   platforms: [other-tv]
@@ -18394,7 +18401,7 @@
   open_source: null
   status: stale
   status_year: 2022
-  description: Plex client for the Freebox Revolution set-top box.
+  description: Plex client for the Freebox Revolution, Delta and One set-top boxes.
   notes: By Plex forum user videojukebox; unmaintained since 2022 but reported working in 2026.
 
 - name: Pakflix
@@ -27449,8 +27456,11 @@
   description: Now-playing display for Plex.
 
 - name: Whirligig
-  url: https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/
-  servers: [jellyfin, emby]
+  url: https://www.meta.com/experiences/whirligig-media-player/3581543561949869/
+  links:
+    steam: https://store.steampowered.com/app/451650
+    other: https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [quest, pc-vr]
   category: player
@@ -27459,7 +27469,7 @@
   price: paid
   status: active
   status_year: 2026
-  description: Paid Meta Quest video player.
+  description: Paid VR video player for Meta Quest and PC VR headsets.
   notes: Media-server support since July 2026.
 
 - name: Wholphin

@@ -106,6 +106,7 @@ Apps made by Plex Inc. and the Jellyfin project and Emby LLC.
 - [Plexamp](https://plexamp.com/) - Plex's music player, with a headless mode for Raspberry Pi; the new desktop app is in beta. `Plex` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id1500797510) · [Google Play](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
 - [Plex Dash](https://apps.apple.com/app/id1500797677) - Server monitoring and management app for Plex Pass owners. `Plex` · `Android` `iOS` `iPadOS` · `Subscription` `Stale 2024`
 - [Plex Desktop](https://apps.microsoft.com/detail/XP9CDQW6ML4NQN) - Desktop app for Windows, macOS and Linux. `Plex` · `Windows` `macOS` `Linux` · `Freemium` · [Flathub](https://flathub.org/apps/tv.plex.PlexDesktop) · [Snap](https://snapcraft.io/plex-desktop)
+- [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) - Plex's older app for LG NetCast and webOS 1-2 TVs. Plex no longer supports it, but it still runs. `Plex` · `webOS` `Other TV` · `Stale 2024`
 - [Plex HTPC](https://flathub.org/apps/tv.plex.PlexHTPC) - Full-screen 10-foot interface for home-theatre PCs; not updated since July 2025. `Plex` · `Windows` `macOS` `Linux` · `Freemium` `Stale 2025` · [Microsoft Store](https://apps.microsoft.com/detail/XPFFFF6NN1LZDQ) · [Snap](https://snapcraft.io/plex-htpc)
 - [Plex on Sonos](https://support.sonos.com/services/plex) - Plex music service inside the Sonos app and on Sonos speakers. `Plex` · `Sonos` · `Free`
 - [Plex Photos](https://apps.apple.com/app/id6504519803) - Photo app for Plex libraries; Plex says it will be retired once photos return to the main app. `Plex` · `Android` `iOS` `iPadOS` · `Free` `Stale 2025`
@@ -446,7 +447,7 @@ Third-party video and general clients for Jellyfin only.
 - [jellyflut](https://github.com/Thomas-Sohier/jellyflut) - Flutter Jellyfin client started as a side project. `Jellyfin` · `Windows` `Linux` `Android` `iOS` · `MIT` `Free` `Stale 2025`
 - [JellyMax](https://github.com/Doulvis/JellyMax) - Jellyfin client styled after HBO Max. `Jellyfin` · `Windows` `Android` `Tizen` · `MIT` `Free`
 - [Jellyplay](https://github.com/raulshma/jellyplay) - Client for Android phones, Android TV and Fire TV. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` `Fire TV` `Android Auto` · `GPL-3.0`
-- [LumaFin](https://github.com/bagodees/LumaFin-AndroidTV) - Client for Android TV, Google TV and Fire TV. `Jellyfin` · `Web` `Android` `Android TV` `Fire TV` `Tizen` · `GPL-2.0` `Free` · [Source](https://github.com/bagodees/LumaFin-Android) · [Source 2](https://github.com/bagodees/lumafin-web) · [Source 3](https://github.com/bagodees/LumaFin-Tizen)
+- [LumaFin](https://github.com/bagodees/LumaFin-AndroidTV) - Client for Android TV, Google TV and Fire TV. Its Tizen build ended in September 2026. `Jellyfin` · `Web` `Android` `Android TV` `Fire TV` `Tizen` · `GPL-2.0` `Free` · [Source](https://github.com/bagodees/LumaFin-Android) · [Source 2](https://github.com/bagodees/lumafin-web) · [Source 3](https://github.com/bagodees/LumaFin-Tizen)
 - [Lumen (Raulpergon310)](https://github.com/Raulpergon310/lumen) - Jellyfin client for Windows, Android TV and the browser. `Jellyfin` · `Windows` `Web` `Android TV` · `MIT` `Free`
 - [Lumen Streaming](https://github.com/Zafery-Cosmos/lumen-streaming) - Native desktop client, with an Android build. `Jellyfin` · `Windows` `macOS` `Linux` `Android` · `GPL-3.0` `Free`
 - [Mira](https://github.com/sasou-web/Mira) - Native Windows and Mac client with mpv playback; phones use its built-in web app or a sideloaded iOS build. `Jellyfin` · `Windows` `macOS` `iOS` · `MIT` `Free`
@@ -1390,6 +1391,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Caravela](https://github.com/melojms/caravela) - Native app for Fire TV devices running Vega OS. `Jellyfin` · `Vega OS` · `GPL-2.0` `Free` · [Amazon](https://www.amazon.com/dp/B0HNR62RQ9)
 - [Cinefin (Ashiroen)](https://github.com/Ashiroen/cinefin) - Minimal home-theater client for LG webOS TVs; an Android TV build is planned. `Jellyfin` · `webOS` · `Open source` `Free`
 - [Dreamfin](https://github.com/jrodzar/DreamFin) - Enigma2 (OpenATV) plugin for browsing and playing libraries. `Jellyfin` `Emby` · `Enigma2` · `GPL-2.0` `Free`
+- [DreamPlex](https://github.com/oe-alliance/DreamPlex) - Plex client plugin for Enigma2 Linux set-top boxes. `Plex` · `Enigma2` · `Open source` `Free` · [Source (original)](https://github.com/DonDavici/DreamPlex)
 - [emplexer](https://github.com/newloran2/emplexer) - Plex client for Dune HD media players. `Plex` · `Other TV` · `Open source` `Stale 2015`
 - [FinLightning](https://github.com/hjourdain-ryvr/finlightning) - TV app built on the Lightning 3 / Blits UI framework. `Jellyfin` · `Tizen` `Other TV` · `Apache-2.0` `Free`
 - [Fin Native](https://github.com/tiper/fin-native) - Native LG webOS app built on the PlxNative framework. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
@@ -1638,7 +1640,6 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 - [AmpFin](https://github.com/rasmuslos/AmpFin) - Music player. `Jellyfin` · `iOS` `iPadOS` · `Open source` `Ended 2025`
 - [bruhdudeisdead/Jellyfin-Legacy-iOS](https://github.com/bruhdudeisdead/Jellyfin-Legacy-iOS) - Client for legacy iOS versions; the repository is archived. `Jellyfin` · `iOS` · `Open source` `Free` `Ended 2026`
 - [carstream-android-auto](https://github.com/thekirankumar/carstream-android-auto) - Android Auto video player for Plex and YouTube. `Plex` · `Android Auto` · `Apache-2.0` `Ended 2021`
-- [DreamPlex](https://github.com/DonDavici/DreamPlex) - Plex client plugin for Enigma2 Linux set-top boxes. `Plex` · `Enigma2` · `Open source` `Free` `Ended 2021`
 - [DUNE](https://github.com/Sam42a/DUNE) - Android TV client. `Jellyfin` · `Android TV` · `GPL-2.0` `Ended 2026`
 - [electron-plex-menubar](https://github.com/jdrydn/electron-plex-menubar) - Archived macOS menu-bar player for Plex music. `Plex` · `macOS` · `MIT` `Free` `Ended 2023`
 - [Ember for Emby](https://emby.media/community/topic/39191-ember-for-emby/) - Client for Windows 8/10, Windows 10 Mobile and Xbox One. `Emby` · `Windows` `Xbox` `Windows Phone` · `Paid` `Ended 2019`
@@ -1682,7 +1683,6 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 - [PlexFlux](https://github.com/brian9206/PlexFlux) - Music player. `Plex` · `Windows` · `MIT` `Ended 2018`
 - [PlexForBoxee](https://github.com/grantmcwilliams/PlexForBoxee) - Plex client for Boxee boxes. `Plex` · `Other TV` · `Open source` `Ended 2017`
 - [Plex for Kodi](https://github.com/plexinc/plex-for-kodi) - Plex's own Kodi add-on; abandoned since December 2023 and broken on Kodi 20 and later. `Plex` · `Kodi` · `GPL-2.0` `Ended 2023`
-- Plex for LG NetCast - App for older LG NetCast and webOS 1-2 TVs, since dropped. `Plex` · `webOS` `Other TV` · `Ended`
 - Plex for PS3 - PlayStation 3 app, frozen in 2017 and removed from the store on 24 March 2023. `Plex` · `PS3` · `Ended 2023`
 - [Plex for Ubuntu Touch](https://open-store.io/app/plex-local.luksus) - Unofficial Ubuntu Touch app for Plex. `Plex` · `Ubuntu Touch` · `GPL-3.0` `Ended 2018` · [Source](https://github.com/luksus42/plex-app)
 - Plex for Xbox 360 - Xbox 360 app, no longer maintained. `Plex` · `Xbox 360` · `Ended`

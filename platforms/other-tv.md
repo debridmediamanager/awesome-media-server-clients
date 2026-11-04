@@ -2,13 +2,14 @@
 
 # Other TV
 
-Every app in this list that runs on Other TV. That is 11 apps with 6 for Plex and 3 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Other TV. That is 12 apps with 7 for Plex and 3 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
 ## Official apps
 
 - [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Other TV` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) - Plex's older app for LG NetCast and webOS 1-2 TVs. Plex no longer supports it, but it still runs. `Plex` · `webOS` `Other TV` · `Stale 2024`
 
 ## Video and general
 

@@ -12,7 +12,7 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 - Web: [Web](#web-210)
 - Android: [Android](#android-378) · [HarmonyOS](#harmonyos-25) · [Android TV](#android-tv-213) · [Fire TV](#fire-tv-69)
 - Apple: [iOS](#ios-597) · [iPadOS](#ipados-440) · [tvOS](#tvos-263)
-- TV: [Vega OS](#vega-os-7) · [Roku](#roku-16) · [webOS](#webos-34) · [Tizen](#tizen-25) · [VIDAA](#vidaa-3) · [Vizio](#vizio-1) · [Titan OS](#titan-os-1) · [Enigma2](#enigma2-2) · [Other TV](#other-tv-11) · [Chromecast](#chromecast-3)
+- TV: [Vega OS](#vega-os-7) · [Roku](#roku-16) · [webOS](#webos-35) · [Tizen](#tizen-25) · [VIDAA](#vidaa-3) · [Vizio](#vizio-1) · [Titan OS](#titan-os-1) · [Enigma2](#enigma2-3) · [Other TV](#other-tv-12) · [Chromecast](#chromecast-3)
 - Consoles: [Xbox](#xbox-18) · [Xbox 360](#xbox-360-3) · [Original Xbox](#original-xbox-3) · [PS2](#ps2-3) · [PS3](#ps3-4) · [PS4](#ps4-7) · [PS5](#ps5-7) · [PS Vita](#ps-vita-3) · [PSP](#psp-2) · [Switch](#switch-6) · [Wii](#wii-1) · [Wii U](#wii-u-2) · [3DS](#3ds-7) · [Retro handheld](#retro-handheld-10) · [MiSTer](#mister-7) · [Playdate](#playdate-1) · [Steam Deck](#steam-deck-7)
 - VR and XR: [Quest](#quest-15) · [Pico](#pico-4) · [PC VR](#pc-vr-6) · [visionOS](#visionos-34) · [Smart glasses](#smart-glasses-3)
 - Car: [CarPlay](#carplay-142) · [Android Auto](#android-auto-72) · [Android Automotive](#android-automotive-10) · [Tesla](#tesla-6)
@@ -164,11 +164,11 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 **Audiobooks, books and photos:** [Local Photos Screensaver](https://forums.plex.tv/t/roku-screensaver-app-to-use-plex-photos/939633) P
 
-## webOS (34)
+## webOS (35)
 
 [Full webOS entries with tags and store links](platforms/webos.md)
 
-**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [AresApp](https://github.com/thisbansal/AresApp) P · [Breezyfin](https://github.com/botagas/Breezyfin) J · [bufferzone](https://github.com/dkrb56/bufferzone) P · [Cinefin (Ashiroen)](https://github.com/Ashiroen/cinefin) J · [Emby for LG](https://emby.media/emby-for-lg-smart-tv.html) E\* · [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) E · [Fin Native](https://github.com/tiper/fin-native) J · [flex](https://github.com/vargamolnarbertalan/flex) P · [JellyCast](https://github.com/JellyCast/jellycast-androidtv) J · [Jellyfin for webOS](https://github.com/jellyfin/jellyfin-webos) J\* · [jellyfin-webos-native](https://github.com/HookedBehemoth/jellyfin-webos-native) J · [JF Native](https://github.com/BradSainty/jf-native) J · [Litefin](https://github.com/MoazSalem/litefin) JE · [Lupoflin](https://github.com/dinolupo/lupoflin) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Native Jelly](https://github.com/sostk/native-jelly) J · [OcenFin](https://github.com/seluce/OcenFin) J · [Pelagica](https://github.com/PelagicaApp/pelagica) J · [Phim Nè webOS](https://github.com/minhtran162/phimne-webos) J · [Plax](https://github.com/aa-hh/Plax) P · [Plex](https://www.plex.tv/apps-devices/) P\* · [plezy-webos](https://github.com/GLNick/plezy-webos) PJE · [ploff-webos](https://github.com/lucabravi/ploff-webos) P · [PlxNative](https://github.com/GLinnik21/plx-native) P · [Reflex](https://github.com/StuCM/Reflex) P · [ScreenPlay](https://github.com/sleuth255/screenplay) E · [Selvania Ciné](https://github.com/LeD0c4/cine-android) J · [Spool](https://github.com/spool-player/spool) JE · [Tally](https://github.com/Scdouglas1999/Tally) J · [Vibe Reel](https://github.com/kirill-menke/vibe-reel) J · [WebOS-Jellyfin-Native](https://github.com/SchulzCode/WebOS-Jellyfin-Native) J · [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) J · [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) J
+**Video and general:** [Airwave](https://github.com/Quixomatic/Airwave) P · [AresApp](https://github.com/thisbansal/AresApp) P · [Breezyfin](https://github.com/botagas/Breezyfin) J · [bufferzone](https://github.com/dkrb56/bufferzone) P · [Cinefin (Ashiroen)](https://github.com/Ashiroen/cinefin) J · [Emby for LG](https://emby.media/emby-for-lg-smart-tv.html) E\* · [EmbyTV webOS](https://github.com/lfkdsk/embytv-webos) E · [Fin Native](https://github.com/tiper/fin-native) J · [flex](https://github.com/vargamolnarbertalan/flex) P · [JellyCast](https://github.com/JellyCast/jellycast-androidtv) J · [Jellyfin for webOS](https://github.com/jellyfin/jellyfin-webos) J\* · [jellyfin-webos-native](https://github.com/HookedBehemoth/jellyfin-webos-native) J · [JF Native](https://github.com/BradSainty/jf-native) J · [Litefin](https://github.com/MoazSalem/litefin) JE · [Lupoflin](https://github.com/dinolupo/lupoflin) J · [Moonfin](https://github.com/Moonfin-Client/Moonfin-Core) PJE · [Native Jelly](https://github.com/sostk/native-jelly) J · [OcenFin](https://github.com/seluce/OcenFin) J · [Pelagica](https://github.com/PelagicaApp/pelagica) J · [Phim Nè webOS](https://github.com/minhtran162/phimne-webos) J · [Plax](https://github.com/aa-hh/Plax) P · [Plex](https://www.plex.tv/apps-devices/) P\* · [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) P\* · [plezy-webos](https://github.com/GLNick/plezy-webos) PJE · [ploff-webos](https://github.com/lucabravi/ploff-webos) P · [PlxNative](https://github.com/GLinnik21/plx-native) P · [Reflex](https://github.com/StuCM/Reflex) P · [ScreenPlay](https://github.com/sleuth255/screenplay) E · [Selvania Ciné](https://github.com/LeD0c4/cine-android) J · [Spool](https://github.com/spool-player/spool) JE · [Tally](https://github.com/Scdouglas1999/Tally) J · [Vibe Reel](https://github.com/kirill-menke/vibe-reel) J · [WebOS-Jellyfin-Native](https://github.com/SchulzCode/WebOS-Jellyfin-Native) J · [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) J · [Wholphin-webOS](https://github.com/JoeKer1/Wholphin-webOS) J
 
 ## Tizen (25)
 
@@ -194,17 +194,17 @@ Every listed app grouped by the platform it runs on. Letters after a name show i
 
 **Video and general:** [Jellyfin for Titan OS](https://github.com/jellyfin/jellyfin-titanos) J\*
 
-## Enigma2 (2)
+## Enigma2 (3)
 
 [Full Enigma2 entries with tags and store links](platforms/enigma2.md)
 
-**Video and general:** [Dreamfin](https://github.com/jrodzar/DreamFin) JE · [E2EmbyClient](https://github.com/DimitarCC/e2-emby-client) E
+**Video and general:** [Dreamfin](https://github.com/jrodzar/DreamFin) JE · [DreamPlex](https://github.com/oe-alliance/DreamPlex) P · [E2EmbyClient](https://github.com/DimitarCC/e2-emby-client) E
 
-## Other TV (11)
+## Other TV (12)
 
 [Full Other TV entries with tags and store links](platforms/other-tv.md)
 
-**Video and general:** [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) E · [emplexer](https://github.com/newloran2/emplexer) P · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Neolume](https://github.com/itsab1989/neolume) P · [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) P · [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) J · [PLAYz](https://github.com/simonjhogan/playz-emby) E · [Plex](https://www.plex.tv/apps-devices/) P\* · [plex.lg](https://github.com/cubedro/plex.lg) P · [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) P · [Redefin](https://github.com/laborantine/ReDeFin) J
+**Video and general:** [Emby for Samsung Smart TV Series D](https://github.com/michael-lurquin/Emby-Samsung-SmartTV-Series-D) E · [emplexer](https://github.com/newloran2/emplexer) P · [FinLightning](https://github.com/hjourdain-ryvr/finlightning) J · [Neolume](https://github.com/itsab1989/neolume) P · [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) P · [panasonic-viera-jellyfin](https://github.com/n4zgu1/panasonic-viera-jellyfin) J · [PLAYz](https://github.com/simonjhogan/playz-emby) E · [Plex](https://www.plex.tv/apps-devices/) P\* · [Plex for LG NetCast](https://support.plex.tv/articles/204080173-which-smart-tv-models-are-supported/) P\* · [plex.lg](https://github.com/cubedro/plex.lg) P · [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) P · [Redefin](https://github.com/laborantine/ReDeFin) J
 
 ## Chromecast (3)
 

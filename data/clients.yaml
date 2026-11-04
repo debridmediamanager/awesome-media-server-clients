@@ -143,7 +143,7 @@
   official: false
   platforms: [ios]
   category: admin
-  media: &id001 [video]
+  media: [video]
   open_source: null
   status: active
   status_year: 2026
@@ -5983,7 +5983,7 @@
   official: false
   platforms: [ios]
   category: admin
-  media: *id001
+  media: [video]
   open_source: false
   price: free
   status: active
@@ -6011,7 +6011,7 @@
   official: false
   platforms: [android, web]
   category: admin
-  media: *id001
+  media: [video]
   open_source: false
   status: active
   status_year: 2026
@@ -7154,7 +7154,7 @@
   official: false
   platforms: [ios]
   category: admin
-  media: *id001
+  media: [video]
   open_source: null
   status: active
   status_year: 2026
@@ -8588,7 +8588,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: active
   status_year: 2026
@@ -14847,7 +14847,7 @@
   official: false
   platforms: [android, ios]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: discontinued
   status_year: 2025
@@ -16356,7 +16356,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: null
   status: stale
   status_year: 2024
@@ -16473,7 +16473,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: active
   status_year: 2026
@@ -20409,7 +20409,7 @@
   official: false
   platforms: [ios]
   category: remote
-  media: &id002 [video]
+  media: [video]
   open_source: false
   status: stale
   status_year: 2019
@@ -20464,7 +20464,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: discontinued
   status_year: 2024
@@ -21911,7 +21911,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: null
   status: active
   status_year: 2026
@@ -22618,7 +22618,7 @@
   official: false
   platforms: [ios, ipados, watchos]
   category: admin
-  media: *id001
+  media: [video]
   open_source: false
   status: stale
   status_year: 2024
@@ -23305,7 +23305,7 @@
   official: false
   platforms: [android-tv, fire-tv]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: active
   status_year: 2026
@@ -25442,7 +25442,7 @@
   official: false
   platforms: [android, ios]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   license: GPL-3.0
   status: active
@@ -26335,7 +26335,7 @@
   official: false
   platforms: [android]
   category: admin
-  media: *id001
+  media: [video]
   open_source: true
   status: active
   status_year: 2026
@@ -26555,7 +26555,7 @@
   official: false
   platforms: [ios]
   category: admin
-  media: *id001
+  media: [video]
   open_source: null
   status: active
   status_year: 2026
@@ -27307,7 +27307,7 @@
   official: false
   platforms: [android]
   category: remote
-  media: *id002
+  media: [video]
   open_source: true
   status: discontinued
   status_year: 2019

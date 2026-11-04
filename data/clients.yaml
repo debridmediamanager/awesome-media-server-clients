@@ -436,6 +436,7 @@
   category: remote
   media: [video, music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2016
   description: Alexa skill for controlling Plex.
@@ -448,6 +449,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2025
   description: Self-hosted Alexa skill for playing your music.
@@ -460,6 +462,7 @@
   category: remote
   media: [video, music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2025
   description: Alfred workflow for searching and controlling Plex on macOS.
@@ -671,6 +674,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Android overlay for rating Plexamp tracks.
@@ -713,6 +717,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Stream Deck controller for Plexamp.
@@ -810,6 +815,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2022
   description: Android audiobook player forked from Chronicle.
@@ -1421,6 +1427,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Music player.
@@ -1428,7 +1435,7 @@
 
 - name: Atrium
   url: https://apps.apple.com/app/atrium-media-player/id6777638751
-  servers: [emby]
+  servers: [jellyfin, emby]
   also: [other]
   official: false
   platforms: [tvos]
@@ -1451,6 +1458,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Samsung Tizen client.
@@ -1466,6 +1474,7 @@
   category: shim
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2024
   description: Plays Plex to DLNA renderers as a Plex player.
@@ -1587,6 +1596,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Terminal controller for Plexamp playback.
@@ -2271,10 +2281,10 @@
   price: freemium
   price_note: About $12/year in 2023; may have changed
   status: stale
-  status_year: 2023
+  status_year: 2025
   aliases: [BookCamp - Audiobooks for Plex, 'BookCamp: Audiobooks for Plex']
   description: Audiobook player for Plex libraries with offline downloads, speed control and voice boost.
-  notes: by Bookcamp. Last updated 2023.
+  notes: by Bookcamp. Android last updated September 2025, iOS in 2023.
 
 - name: BookFreek
   url: https://github.com/ChrisFinwall/BookFreek
@@ -2348,6 +2358,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MPL-2.0
   status: stale
   status_year: 2023
   description: Android music player.
@@ -3295,6 +3306,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: true
+  license: GPL-3.0
   price: free
   status: active
   status_year: 2026
@@ -3671,7 +3683,7 @@
 
 - name: Coax
   url: https://apps.apple.com/app/id6752622762
-  servers: [plex]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [ios, tvos]
   category: live-tv
@@ -4256,6 +4268,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Steam Deck Decky plugin for listening to audiobooks.
@@ -4460,6 +4473,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2025
   description: Music player.
@@ -4519,6 +4533,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Client for Zidoo players that hands playback to the native player.
@@ -4684,6 +4699,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Drivemby compatibility build of the Emby for Kodi Next Gen add-on.
@@ -4743,6 +4759,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-2.0
   status: discontinued
   status_year: 2026
   description: Android TV client.
@@ -4951,6 +4968,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Music player inside Emacs.
@@ -4988,7 +5006,7 @@
 
 - name: Embeat
   url: https://apps.apple.com/app/embeat/id6788410988
-  servers: [emby]
+  servers: [jellyfin, emby]
   also: [dlna]
   official: false
   platforms: [ios, ipados, android]
@@ -5205,6 +5223,7 @@
   category: player
   media: [video, music, live-tv, photos]
   open_source: true
+  license: GPL-2.0
   price: free
   status: active
   status_year: 2026
@@ -5271,18 +5290,19 @@
   description: Windows launcher that opens Emby videos in MPC-HC.
   notes: Last release 2019.
 
-- name: Embyfix
+- name: EmbyFlix
   url: https://github.com/J0n4e/Embyfix
   servers: [emby]
   official: false
-  platforms: [ios, macos]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: true
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Swift Emby media player for iPhone and Mac.
+  aliases: [Embyfix]
+  description: Netflix-style native macOS client written in SwiftUI.
 
 - name: Emby Flow
   url: https://github.com/liyongliao/emby-flow
@@ -5449,6 +5469,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: GPL-3.0
   price: free
   status: active
   status_year: 2026
@@ -5794,7 +5815,8 @@
   platforms: [linux, other-device]
   category: player
   media: [video, music, photos, live-tv]
-  open_source: null
+  open_source: true
+  license: GPL-2.0
   price: subscription
   price_note: Free users get one minute of playback
   status: stale
@@ -5869,6 +5891,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2025
   description: Terminal client that also runs on Android and muOS and JELOS handhelds.
@@ -6166,7 +6189,7 @@
   category: music
   media: [music]
   open_source: null
-  status: beta
+  status: active
   status_year: 2026
   aliases: ['Ensemble: Music Player', Ensemble Music Player]
   description: Native iOS music player with hubs and mood playlists.
@@ -6224,6 +6247,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Client for Android phones, tablets and Android TV.
@@ -6407,6 +6431,7 @@
   category: player
   media: [video]
   open_source: true
+  license: AGPL-3.0
   status: active
   status_year: 2026
   description: Desktop client with a built-in YouTube player and Seerr requests.
@@ -6694,6 +6719,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2025
   description: Web client.
@@ -6764,6 +6790,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: HarmonyOS music client.
@@ -7174,6 +7201,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Client for a TCL flip phone.
@@ -7390,7 +7418,8 @@
 
 - name: Folio
   url: https://github.com/PeterEFrancis/audiobook-player
-  servers: [plex]
+  servers: [plex, jellyfin, emby]
+  also: [audiobookshelf]
   official: false
   platforms: [web]
   category: audiobooks
@@ -7399,7 +7428,7 @@
   status: active
   status_year: 2026
   aliases: [audiobook-player]
-  description: Audiobook player.
+  description: Installable audiobook web app for Plex, Jellyfin, Emby and Audiobookshelf, with offline downloads.
   notes: Hobby project; PWA, Android or web.
   long_tail: true
 
@@ -7458,6 +7487,7 @@
   category: music
   media: [music]
   open_source: true
+  license: AGPL-3.0
   status: active
   status_year: 2026
   description: Desktop music player.
@@ -7471,6 +7501,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   aliases: [FrayWatch-Plex-WebUI]
@@ -7618,6 +7649,7 @@
   category: bridge
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Server plugin that shows Stremio addon results inside any client app.
@@ -7631,6 +7663,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2023
   description: Music player.
@@ -8059,6 +8092,7 @@
   category: remote
   media: [video, music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Phone voice control for Emby and Jellyfin.
@@ -8095,7 +8129,7 @@
 
 - name: HamHub
   url: https://apps.apple.com/app/id6458691598
-  servers: [jellyfin, emby]
+  servers: [plex, jellyfin, emby]
   also: [cloud]
   official: false
   platforms: [ios, tvos, macos]
@@ -8131,6 +8165,7 @@
   category: remote
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2012
   description: Kinect gesture control for Plex.
@@ -8278,6 +8313,7 @@
   category: remote
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Picks titles across servers and sends them to a TV.
@@ -8319,6 +8355,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2024
   description: Desktop music player.
@@ -8392,6 +8429,7 @@
   category: admin
   media: [music]
   open_source: true
+  license: GPL-2.0
   status: active
   status_year: 2026
   description: Sync tool that copies music and playlists to MTP phones and watches, USB drives and Rockbox players.
@@ -8709,6 +8747,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: IINA plugin that browses the server and plays items in IINA on macOS.
@@ -9339,6 +9378,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   price: free
   status: discontinued
   status_year: 2020
@@ -9724,6 +9764,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   price: free
   status: active
   status_year: 2026
@@ -10049,6 +10090,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2023
   description: Self-hosted Alexa skill that plays music from the server.
@@ -10108,6 +10150,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: GPL-2.0
   status: discontinued
   status_year: 2020
   description: First Android app, replaced by Jellyfin for Android.
@@ -10240,6 +10283,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: MPL-2.0
   status: discontinued
   status_year: 2020
   description: First iOS app, replaced by Jellyfin for iOS and Swiftfin.
@@ -10409,6 +10453,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   price: free
   status: active
   status_year: 2026
@@ -10566,6 +10611,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: GPL-2.0
   price: free
   status: beta
   status_year: 2026
@@ -10580,7 +10626,7 @@
   category: player
   media: [video, music, photos, live-tv]
   open_source: true
-  license: GPL-2.0
+  license: MPL-2.0
   price: free
   status: active
   status_year: 2026
@@ -10595,6 +10641,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   price: free
   status: beta
   status_year: 2026
@@ -10654,6 +10701,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2025
   description: GTK music player.
@@ -10714,6 +10762,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: IINA plugin that browses the server and plays items in IINA on macOS.
@@ -10817,6 +10866,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: GPL-2.0
   status: discontinued
   status_year: 2025
   description: Former Roku app, archived in 2025 and frozen as the unsupported "Jellyfin Legacy" channel.
@@ -11201,6 +11251,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: macOS screensaver that plays a random item from your library.
@@ -11272,6 +11323,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2021
   description: Early app for Samsung Orsay TVs.
@@ -11329,6 +11381,7 @@
   category: player
   media: [video, music]
   open_source: true
+  license: GPL-2.0
   status: discontinued
   status_year: 2020
   description: Early Electron desktop app, replaced by Jellyfin Media Player.
@@ -11356,6 +11409,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [jellyfin-tui]
@@ -11455,6 +11509,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: WebXR player for watching the library in a VR headset browser.
@@ -11619,6 +11674,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Nintendo Wii homebrew client.
@@ -11633,6 +11689,7 @@
   category: bridge
   media: [audiobooks]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Sends audiobooks from the server to Yoto children's audio players.
@@ -11848,6 +11905,7 @@
   category: bridge
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Home Assistant integration for a Jellyfin server.
@@ -11861,6 +11919,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Terminal music player.
@@ -11876,6 +11935,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MPL-2.0
   price: free
   status: active
   status_year: 2026
@@ -12092,6 +12152,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [jmsr, pigfun.jmsr]
@@ -12106,6 +12167,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Client for Android phones, Android TV and Fire TV.
@@ -12345,6 +12407,7 @@
   category: bridge
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2022
   description: Former server plugin that exposed a Subsonic API.
@@ -12814,6 +12877,7 @@
   category: player
   media: [video]
   open_source: true
+  license: Apache-2.0
   status: active
   status_year: 2026
   description: Godot-based VR client.
@@ -13075,6 +13139,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2020
   aliases: [Jellyfin Music Player]
@@ -13120,6 +13185,7 @@
   category: player
   media: [video]
   open_source: true
+  license: Unlicense
   status: active
   status_year: 2026
   description: Terminal client that plays in mpv.
@@ -13604,6 +13670,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: macOS menu-bar music player.
@@ -13751,6 +13818,7 @@
   category: books
   media: [books]
   open_source: true
+  license: AGPL-3.0
   status: active
   status_year: 2026
   description: KOReader plugin that reads books from the server on e-readers.
@@ -13764,7 +13832,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Kosmos - Emby Client]
@@ -13921,6 +13989,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MPL-2.0
   status: discontinued
   status_year: 2024
   description: Music player.
@@ -14384,9 +14453,10 @@
 
 - name: LMP Music Hub
   url: https://apps.apple.com/us/app/lmp-music-hub/id6451009326
-  servers: [emby]
+  servers: [plex, jellyfin, emby]
+  also: [subsonic]
   official: false
-  platforms: [ios]
+  platforms: [ios, tvos]
   category: music
   media: [music]
   open_source: null
@@ -14396,7 +14466,6 @@
   status_year: 2026
   aliases: [LMP]
   description: Paid iPhone music player.
-  notes: Store listing mentions Emby.
 
 - name: L-MUSIC
   url: https://gitee.com/lxsol/l-music
@@ -14768,6 +14837,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Android TV and Fire TV player that also connects to fnOS.
@@ -15005,6 +15075,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2025
   description: Terminal music player.
@@ -15031,10 +15102,11 @@
   url: https://github.com/yanutros/maku
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, android, android-tv]
+  platforms: [windows, macos, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Tauri client for PCs, phones and Android TV.
@@ -15643,6 +15715,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: External-player launcher for Emby.
@@ -15751,6 +15824,7 @@
   category: books
   media: [books]
   open_source: true
+  license: Apache-2.0
   status: active
   status_year: 2026
   aliases: [Tachiyomi Jellyfin extension]
@@ -15819,7 +15893,7 @@
   url: https://github.com/sasou-web/Mira
   servers: [jellyfin]
   official: false
-  platforms: [windows]
+  platforms: [windows, macos, ios]
   category: player
   media: [video]
   open_source: true
@@ -15827,7 +15901,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Native Windows client with mpv playback.
+  description: Native Windows and Mac client with mpv playback; phones use its built-in web app or a sideloaded iOS build.
 
 - name: Mirufin
   url: https://github.com/wjmcspirit/mirufin
@@ -16240,6 +16314,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2022
   description: Music player.
@@ -16346,6 +16421,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2025
   aliases: [mpv-handler]
@@ -16397,7 +16473,7 @@
 
 - name: MrMC
   url: https://github.com/MrMC/mrmc
-  servers: [jellyfin]
+  servers: [plex, emby]
   also: [kodi]
   official: false
   platforms: [tvos, android]
@@ -16420,6 +16496,7 @@
   category: admin
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Android app for managing files on a media server.
@@ -16462,6 +16539,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Homebrew client for modded Xbox 360 consoles.
@@ -16885,6 +16963,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Client for Android and Fire TV.
@@ -16914,6 +16993,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2025
   description: Android client built with Flutter.
@@ -17191,7 +17271,7 @@
   url: https://github.com/NotTimm/NebulaReader
   servers: [jellyfin]
   official: false
-  platforms: [linux, windows]
+  platforms: [linux, windows, macos]
   category: books
   media: [books]
   open_source: true
@@ -17199,8 +17279,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Comic, manga and ebook reader for Linux and Windows desktops.
-  notes: Jellyfin support not fully confirmed.
+  description: Comic, manga and ebook reader for Linux, Windows and macOS desktops.
 
 - name: Nekofin
   url: https://github.com/lonzzi/nekofin
@@ -17488,7 +17567,7 @@
 
 - name: Niche
   url: https://apps.apple.com/app/niche-audio-player/id6755544716
-  servers: [emby]
+  servers: [plex, emby]
   official: false
   platforms: [tvos]
   category: music
@@ -17608,6 +17687,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Bit-perfect terminal music player.
@@ -17732,9 +17812,9 @@
   status_year: 2026
   description: Music client for Android Automotive cars.
 
-- name: NostalgiaTV for Plex
+- name: NostalgiaTV
   url: https://play.google.com/store/apps/details?id=com.nostalgiatv
-  servers: [plex]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [android, android-tv, fire-tv]
   category: live-tv
@@ -17742,15 +17822,15 @@
   open_source: false
   status: active
   status_year: 2026
-  aliases: [NostalgiaTV]
-  description: Android and Android TV app that plays the library as a retro cable lineup.
+  aliases: [NostalgiaTV for Plex]
+  description: Android and Android TV app that plays your library as a retro cable lineup.
   notes: Android package com.nostalgiatv.
 
 - name: NostalgicPod
   url: https://apps.apple.com/app/id6781631808
   links:
     play: https://play.google.com/store/apps/details?id=com.nostalgicpod.app
-  servers: [jellyfin]
+  servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
   platforms: [ios, android]
@@ -17913,14 +17993,14 @@
   url: https://github.com/design-nexus/nyx-theater
   servers: [plex, jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
   license: MIT
   status: active
   status_year: 2026
-  description: Rust desktop app that browses and plays in a single window.
+  description: GTK 4 desktop app that browses and plays Plex and Jellyfin in one window.
 
 - name: OB Max
   url: https://github.com/ollivv-hash/obmax
@@ -17986,6 +18066,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Sideloaded LG TV client.
@@ -18044,6 +18125,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Music plugin for the Omarchy desktop bar.
@@ -18071,6 +18153,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Plexamp integration for the Omarchy Linux desktop.
@@ -18084,6 +18167,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Linux shell widget for the Omarchy desktop.
@@ -18277,6 +18361,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Client built with Flutter.
@@ -18674,6 +18759,7 @@
   category: player
   media: [video]
   open_source: true
+  license: Apache-2.0
   status: active
   status_year: 2026
   description: Desktop client with a Rust terminal interface.
@@ -19185,6 +19271,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Desktop music player for Windows and macOS.
@@ -19253,6 +19340,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Windows launcher that opens server items in PotPlayer, VLC or MPC-HC.
@@ -19393,6 +19481,7 @@
   category: player
   media: [video]
   open_source: true
+  license: Apache-2.0
   status: discontinued
   status_year: 2015
   aliases: [PLAYz Media]
@@ -19439,8 +19528,7 @@
   servers: [plex]
   official: true
   vendor: plex
-  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, roku, webos, tizen, vizio, vidaa, titan-os, ps4, ps5, xbox,
-    android-auto, quest, chromecast]
+  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, roku, webos, tizen, vizio, vidaa, ps4, ps5, xbox, android-auto, quest, chromecast]
   category: player
   media: [video, music, photos, live-tv]
   open_source: null
@@ -19448,8 +19536,7 @@
   price_note: Free with ads; remote playback of personal media needs Plex Pass or a Remote Watch Pass
   status: active
   status_year: 2026
-  aliases: [Plex for Android, Plex for iOS, Plex for Apple TV, Plex for Roku, Plex for Fire TV, Plex for Android TV, Plex
-      for Xbox, Plex for PlayStation, Plex for Meta Quest, Plex for Samsung, Plex for LG, Plex for Vizio, Plex for Hisense]
+  aliases: [Plex for Android, Plex for iOS, Plex for Apple TV, Plex for Roku, Plex for Fire TV, Plex for Android TV, Plex for Xbox, Plex for PlayStation, Plex for Meta Quest, Plex for Samsung, Plex for LG, Plex for Vizio, Plex for Hisense]
   description: Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels.
   notes: Quest build since 2026-09 is a flat panel app without 3D/SBS playback.
 
@@ -19490,6 +19577,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [Plex AAOS, plex-aaos]
@@ -19548,6 +19636,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2023
   description: Starts Plexamp playback from NFC tags.
@@ -19560,6 +19649,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-2.0
   status: stale
   status_year: 2023
   description: Raspberry Pi setup for headless Plexamp.
@@ -19617,6 +19707,7 @@
   category: bridge
   media: [video, music]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2021
   description: Home Assistant voice-casting component.
@@ -19761,6 +19852,7 @@
   category: bridge
   media: [video, music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Home Assistant dashboard card for browsing the library.
@@ -19877,6 +19969,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Windows client with a controller-driven TV mode.
@@ -19923,6 +20016,7 @@
   category: shim
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Exposes DLNA speakers as Plex players.
@@ -19976,6 +20070,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2024
   description: Opens Plex Web items in an external desktop player.
@@ -19988,6 +20083,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2018
   description: Music player.
@@ -20028,6 +20124,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-2.0
   status: stale
   status_year: 2024
   description: Unofficial redesign of the Plex for Kodi add-on.
@@ -20166,6 +20263,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Terminal client.
@@ -20237,6 +20335,7 @@
   category: remote
   media: [video]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2015
   description: Infrared remote control for Plex.
@@ -20251,6 +20350,7 @@
   category: remote
   media: [video, music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2015
   description: Media-key control for Plex.
@@ -20363,6 +20463,7 @@
   category: admin
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2024
   description: Android server admin app.
@@ -20405,6 +20506,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Client for jailbroken 32-bit devices on iOS 9 and 10.
@@ -20419,6 +20521,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2025
   description: Chrome extension that adds a button to play web-app items in mpv.
@@ -20519,6 +20622,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2017
   description: Self-hosted Alexa skill for playing your music.
@@ -20662,6 +20766,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Userscript that opens Plex Web items in an external player.
@@ -20814,6 +20919,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Car Thing and DeskThing controller for Plexamp.
@@ -20827,6 +20933,7 @@
   category: shim
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2023
   description: Sends Plex Web playback to VLC.
@@ -21180,7 +21287,7 @@
 
 - name: Plinth Player
   url: https://apps.apple.com/us/app/plinth-player/id6772366960
-  servers: [emby]
+  servers: [jellyfin, emby]
   official: false
   platforms: [ios]
   category: music
@@ -21243,6 +21350,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Client for legacy LG webOS TVs.
@@ -21414,6 +21522,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Client for the Miyoo Mini Plus retro handheld.
@@ -21440,6 +21549,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2024
   description: Polybar module showing and controlling Plexamp playback.
@@ -21453,6 +21563,7 @@
   category: live-tv
   media: [video, live-tv]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Self-hosted generator that plays the library as linear channels on existing players.
@@ -21684,6 +21795,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MPL-2.0
   status: beta
   status_year: 2026
   description: Native Apple TV client with plugin support.
@@ -21697,6 +21809,7 @@
   category: live-tv
   media: [video, live-tv]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2022
   description: Self-hosted generator that plays the library as linear channels on existing players.
@@ -21741,6 +21854,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [Puddler]
@@ -21755,6 +21869,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Music player.
@@ -21829,6 +21944,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-2.0
   status: active
   status_year: 2026
   description: Linux music player that also streams NetEase Cloud Music.
@@ -22047,7 +22163,7 @@
 
 - name: Railux
   url: https://apps.apple.com/cn/app/id6773220930
-  servers: [emby]
+  servers: [plex, emby]
   official: false
   platforms: [ios]
   category: player
@@ -22268,6 +22384,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MPL-2.0
   price: paid
   price_note: $9.99
   status: active
@@ -22448,6 +22565,7 @@
   category: player
   media: [video]
   open_source: true
+  license: AGPL-3.0
   status: active
   status_year: 2026
   description: Web and TV interface combining TMDB discovery, Sonarr/Radarr management and playback via a server plugin.
@@ -22650,6 +22768,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Android music player.
@@ -22677,6 +22796,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [ridermusic]
@@ -22810,6 +22930,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Audiobook player for Linux and the Steam Deck.
@@ -22900,6 +23021,7 @@
   category: player
   media: [video]
   open_source: true
+  license: Apache-2.0
   status: active
   status_year: 2026
   description: Nintendo Switch homebrew client.
@@ -22987,6 +23109,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Samsung Galaxy Watch client.
@@ -23001,6 +23124,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   aliases: [sanctum_daemon]
@@ -23101,7 +23225,7 @@
 
 - name: Screenlit
   url: https://apps.apple.com/us/app/screenlit/id6499478407
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [visionos]
   category: player
@@ -23177,6 +23301,7 @@
   category: admin
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Android TV app for making Seerr requests.
@@ -23559,6 +23684,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Android TV client.
@@ -23676,6 +23802,7 @@
   category: remote
   media: [video]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2010
   description: Android remote control for Plex.
@@ -23919,6 +24046,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: discontinued
   status_year: 2024
   description: Music player.
@@ -24179,6 +24307,7 @@
   category: bridge
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Bridge that plays the music library on Lyrion (Logitech Media Server) players.
@@ -24192,6 +24321,7 @@
   category: bridge
   media: [music]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2016
   description: Bridge for playing your music on Squeezebox players.
@@ -24324,6 +24454,7 @@
   category: remote
   media: [video]
   open_source: true
+  license: Apache-2.0
   status: active
   status_year: 2026
   description: Unified search app for Android TV that finds titles across sources.
@@ -24522,7 +24653,7 @@
   url: https://github.com/wunax/strimr
   links:
     appstore: https://apps.apple.com/app/id6757491271
-  servers: [plex]
+  servers: [plex, jellyfin]
   official: false
   platforms: [ios, tvos, ipados, macos]
   category: player
@@ -24593,6 +24724,7 @@
   category: bridge
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   aliases: [subfin-plugin]
@@ -24625,6 +24757,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: stale
   status_year: 2024
   description: Garmin watch app that syncs music for offline listening.
@@ -24991,6 +25124,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MPL-2.0
   price: free
   status: active
   status_year: 2026
@@ -25416,6 +25550,7 @@
   category: music
   media: [music]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Terminal music player.
@@ -25464,6 +25599,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-2.0
   status: stale
   status_year: 2024
   description: Desktop player forked from Jellyfin Media Player.
@@ -25505,6 +25641,7 @@
   category: music
   media: [music]
   open_source: true
+  license: Unlicense
   status: active
   status_year: 2026
   description: Music player.
@@ -25564,6 +25701,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2024
   description: Plex now-playing app for the Tidbyt display.
@@ -25789,6 +25927,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: active
   status_year: 2026
   description: Client for Apple TV, iPad, iPhone and Mac.
@@ -26125,6 +26264,7 @@
   category: music
   media: [music]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Music player delivered as a PWA.
@@ -26258,7 +26398,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados, tvos]
   category: live-tv
   media: [video, live-tv]
   open_source: false
@@ -26610,6 +26750,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Sideloaded Samsung TV client.
@@ -26709,7 +26850,7 @@
   servers: [plex, jellyfin, emby]
   also: [other, iptv]
   official: false
-  platforms: [android-tv, fire-tv, android]
+  platforms: [android-tv, fire-tv, android, windows]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -27121,6 +27262,7 @@
   category: player
   media: [video]
   open_source: true
+  license: MIT
   status: discontinued
   status_year: 2013
   description: Plex widget for older VIZIO Internet Apps (VIA) TVs.
@@ -27318,7 +27460,7 @@
   links:
     appstore: https://apps.apple.com/app/id6811736454
     msstore: https://apps.microsoft.com/detail/9ns56d9hqn2w
-  servers: [plex]
+  servers: [plex, jellyfin]
   official: false
   platforms: [ios, ipados, macos, tvos, windows, xbox, android]
   category: player
@@ -27674,6 +27816,7 @@
   category: remote
   media: [music]
   open_source: true
+  license: MIT
   status: stale
   status_year: 2024
   description: Now-playing display for Plex.
@@ -27733,6 +27876,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   status: active
   status_year: 2026
   description: Windows-first desktop client.
@@ -28260,7 +28404,7 @@
     repo: https://github.com/jxweb/YinHuMusic
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, ipados, macos, tvos, carplay, windows, linux]
+  platforms: [ios, ipados, macos, tvos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -28452,6 +28596,7 @@
   category: player
   media: [video]
   open_source: true
+  license: GPL-3.0
   price: free
   status: beta
   status_year: 2026
@@ -28594,7 +28739,7 @@
 
 - name: Zuno
   url: https://apps.apple.com/us/app/id6759619793
-  servers: [plex, jellyfin]
+  servers: [plex, jellyfin, emby]
   official: false
   platforms: [tvos, ios, ipados, macos]
   category: player

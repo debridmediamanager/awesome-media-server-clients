@@ -14,7 +14,7 @@ Every app in this list that runs on Fire TV. That is 64 apps with 24 for Plex an
 
 ## Video and general
 
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [Allegedly](https://github.com/fanofsteel2013/allegedly-releases) - Client distributed as an installer. `Plex` · `Windows` `Android TV` `Fire TV` · `Open source`
 - [AndroidTV-FireTV](https://github.com/TSK-Entertainment/AndroidTV-FireTV) - Android TV and Fire TV client. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [ARVIO](https://github.com/ProdigyV21/ARVIO) - Android TV media hub with IPTV, Trakt/Simkl tracking, addons and a self-hostable web version. `Plex` `Jellyfin` `Emby` `+IPTV` · `Web` `Android` `Android TV` `Fire TV` · `Apache-2.0` `Freemium` · [Website](https://arvio.tv) · [Google Play](https://play.google.com/store/apps/details?id=com.arvio.tv)

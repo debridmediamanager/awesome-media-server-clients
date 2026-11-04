@@ -23,7 +23,7 @@ Every app in this list that runs on Quest. That is 15 apps with 10 for Plex and 
 - [Lumenoir](https://lumenoir.app/plex-meta-quest/) - Meta Quest movie theatre player. `Plex` `Jellyfin` `Emby` `+Silo` · `Quest` · `Freemium` · [Meta Store](https://www.meta.com/en-gb/experiences/lumenoir-movie-theater-video-player/1552281053325883/)
 - [MetaPlexVR](https://github.com/IvanVojtko/meta-plex-vr) - Meta Quest client. `Plex` · `Quest` · `GPL-3.0`
 - [Movie Deck for Plex](https://www.meta.com/experiences/movie-deck-for-plex/6664246617031653/) - Meta Quest player. `Plex` · `Quest` · `Paid` · [Info](https://sidequestvr.com/app/27537/movie-deck-for-plex)
-- [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn)
+- [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn) · [Meta Store](https://www.meta.com/experiences/phyn-jellyfin-media-player/8075426475891543/)
 - [PlexQuest](https://github.com/dalt0n0/PlexQuest) - Native Plex app for Meta Quest headsets. `Plex` · `Quest` · `Open source`
 - [Whirligig](https://www.meta.com/experiences/whirligig-media-player/3581543561949869/) - Paid VR video player for Meta Quest and PC VR headsets. `Plex` `Jellyfin` `Emby` · `Quest` `PC VR` · `Paid` · [Steam](https://store.steampowered.com/app/451650) · [Info](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/)
 

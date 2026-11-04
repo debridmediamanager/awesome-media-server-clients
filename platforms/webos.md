@@ -15,7 +15,7 @@ Every app in this list that runs on webOS. That is 36 apps with 12 for Plex and 
 
 ## Video and general
 
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [AresApp](https://github.com/thisbansal/AresApp) - Simple Plex client for LG webOS TVs. `Plex` · `webOS` · `Open source`
 - [Breezyfin](https://github.com/botagas/Breezyfin) - LG webOS client installed through Homebrew. `Jellyfin` · `webOS` · `GPL-3.0`
 - [bufferzone](https://github.com/dkrb56/bufferzone) - Plain Plex player originally made for a friend's server. `Plex` · `Windows` `Android TV` `webOS` · `MIT` `Free`

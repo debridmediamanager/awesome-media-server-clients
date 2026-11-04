@@ -2,7 +2,7 @@
 
 # Android
 
-Every app in this list that runs on Android. That is 371 apps with 111 for Plex and 270 for Jellyfin and 136 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android. That is 370 apps with 111 for Plex and 270 for Jellyfin and 135 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -93,10 +93,10 @@ Every app in this list that runs on Android. That is 371 apps with 111 for Plex 
 - [GPlayerX](https://github.com/FlowerC882999/GplayerX-Project) - Personal Android player. `Emby` · `Android` · `Open source` `Free`
 - [Heisuca](https://github.com/CaioGuerras/heisuca) - Player suite for web, Android, Android TV and iPhone. `Plex` `Jellyfin` · `Web` `Android` `iOS` `Android TV` · `Open source`
 - [Hevyfin](https://github.com/NickHemeryckeHevan/Hevyfin) - Jellyfin client aimed at most devices. `Jellyfin` · `Linux` `Web` `Android` `Android TV` · `GPL-3.0` `Free`
-- [Hills](https://play.google.com/store/apps/details?id=com.mountains.hills) - Android player with cross-server search and a choice of mpv or ExoPlayer. `Jellyfin` `Emby` · `Windows` `Android` · `Freemium`
+- [Hills](https://play.google.com/store/apps/details?id=com.mountains.hills) - Android player with cross-server search and a choice of mpv or ExoPlayer. `Jellyfin` `Emby` · `Windows` `Android` · `Freemium` · [Microsoft Store](https://apps.microsoft.com/detail/9NXNZFRLLWZX)
 - [Himi SyncWatch](https://github.com/JzeroM/himi-syncwatch) - Flutter client with group watching. `Emby` · `Windows` `Android` `iOS` `HarmonyOS` `Android TV` · `Open source` `Free`
 - [HotpotPlayer](https://github.com/WangyuHello/HotPotPlayer) - Desktop player for Jellyfin music and video plus Bilibili; HotPotPlayer2 is its Avalonia and libmpv port. `Jellyfin` · `Windows` `Linux` `Android` · `Open source` `Free` `Stale 2025` · [Source 2](https://github.com/WangyuHello/HotPotPlayer2)
-- [iPlay](https://github.com/saltpi/iPlay) - Cross-platform player for phones, Apple TV, Windows and Xbox. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `HarmonyOS` `tvOS` `Xbox` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6480576133) · [Google Play](https://play.google.com/store/apps/details?id=top.ourfor.app.iplay) · [AppGallery](https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay)
+- [iPlay](https://github.com/saltpi/iPlay) - Cross-platform player for phones, Apple TV, Windows and Xbox. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `HarmonyOS` `tvOS` `Xbox` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6480576133) · [Google Play](https://play.google.com/store/apps/details?id=top.ourfor.app.iplay) · [AppGallery](https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay) · [Microsoft Store (Xbox)](https://apps.microsoft.com/detail/9PD0SG0LZTNL)
 - [Iridium](https://github.com/bizzanteen/iridium) - Native Jellyfin client. `Jellyfin` · `macOS` `Linux` `Android` · `Open source` `Free`
 - [Jcuhfehl/findroid](https://github.com/Jcuhfehl/findroid) - Fork of the Findroid Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
 - [Jellow](https://github.com/sadgen/jellow) - Findroid fork. `Jellyfin` · `Android` · `GPL-3.0` `Free`
@@ -171,7 +171,7 @@ Every app in this list that runs on Android. That is 371 apps with 111 for Plex 
 - [Optic Player](https://optic-player.github.io/?lang=en) - Cross-platform video player distributed through the Microsoft Store and GitHub releases. `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` · `Free` · [Source](https://github.com/optic-player/optic-player.github.io) · [Microsoft Store](https://apps.microsoft.com/detail/9pmt50svspl0)
 - [Pathfin](https://github.com/li88iioo/Pathfin) - Android client with MediaFlux STRM support. `Jellyfin` · `Android` · `Open source` `Free`
 - [Phim Nè](https://github.com/minhtran162/phimne-flutter) - Flutter client for a Jellyfin server. `Jellyfin` · `macOS` `Web` `Android` `iOS` · `GPL-3.0` `Free`
-- [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn)
+- [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn) · [Meta Store](https://www.meta.com/experiences/phyn-jellyfin-media-player/8075426475891543/)
 - [Playable](https://gitee.com/leeczli/playable-apk) - Android and Android TV player with a poster wall, direct play and progress write-back. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [Plex-HTML5-Cordova-Client](https://github.com/lotsofdan/Plex-HTML5-Cordova-Client) - Cordova-wrapped HTML5 Plex client for mobile, from 2016. `Plex` · `Android` `iOS` · `MIT` `Free` `Stale 2016`
 - [PlexiPlay](https://github.com/Kahenis/plexiplay) - Closed-source Android TV Plex player distributed as an APK. `Plex` · `Android` `Android TV` · `Free` · [Source](https://github.com/Kahenis/plexiplay-android)
@@ -338,7 +338,7 @@ Every app in this list that runs on Android. That is 371 apps with 111 for Plex 
 - [Sylvakru](https://apps.apple.com/us/app/sylvakru/id6783824639) - Music player for local files and Navidrome, WebDAV, Emby and Feiniu Music with a 10-band equalizer. `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` · `Free` · [Source](https://github.com/AfalpHy/sylvakru)
 - [Symfonium](https://symfonium.app/) - Android music player that casts to Chromecast and Sonos groups. `Plex` `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+Kodi` · `Android` `Android TV` `Android Auto` `Wear OS` · `Paid` · [Google Play](https://play.google.com/store/apps/details?id=app.symfonik.music.player)
 - [Tentacle](https://github.com/fuzzinvaders/Tentacle) - Pixel-art styled audio player. `Jellyfin` · `Web` `Android` · `AGPL-3.0` `Free`
-- [Tentacle (majoseph25)](https://github.com/majoseph25/tentacle) - Unofficial music player for Android and Android TV. `Jellyfin` · `Android` `Android Auto` · `Apache-2.0` `Free`
+- [Tentacle (majoseph25)](https://github.com/majoseph25/tentacle) - Unofficial music player for Android phones and Android Auto. `Jellyfin` · `Android` `Android Auto` · `Apache-2.0` `Free`
 - [Traxx](https://emby.media/community/topic/148035-introducing-traxx-an-android-music-app-built-for-emby-music-libraries/) - Android music player. `Emby` · `Android`
 - [Triptych](https://github.com/greenythebeany/triptych) - Music app for a Jellyfin library. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` · `MIT` `Free`
 - [VoidCast](https://github.com/ronnyporsch/Voidcast) - Music client with YouTube integration. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` `Android` `Android Auto` · `Open source` `Free`
@@ -380,7 +380,6 @@ Every app in this list that runs on Android. That is 371 apps with 111 for Plex 
 ## Companions
 
 - [AmpBubble](https://github.com/DreadHeadHippy/AmpBubble) - Android overlay for rating Plexamp tracks. `Plex` · `Android` · `MIT`
-- [EmbyWatch](https://play.google.com/store/apps/details?id=com.embywatch.app) - Android server admin and statistics app. `Emby` · `Web` `Android` · `Freemium`
 - [Homelab](https://f-droid.org/packages/com.homelab.app/) - Android dashboard for the server and *arr apps. `Plex` · `Android` · `Open source`
 - [JellyRemote](https://github.com/TeeWare2026/JellyRemote) - Android remote that browses the library, picks what plays and controls playback on another client. `Jellyfin` · `Android` · `Open source`
 - [Movie Tinder for Plex](https://play.google.com/store/apps/details?id=dev.hagios.movietinder) - Android app for picking a film as a group. `Plex` · `Android` · `Stale 2024`

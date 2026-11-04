@@ -2,7 +2,7 @@
 
 # Web
 
-Every app in this list that runs on Web. That is 203 apps with 61 for Plex and 142 for Jellyfin and 42 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Web. That is 201 apps with 61 for Plex and 141 for Jellyfin and 41 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -17,7 +17,7 @@ Every app in this list that runs on Web. That is 203 apps with 61 for Plex and 1
 
 ## Video and general
 
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [Aperture](https://github.com/akhilmulpurii/aperture) - Alternative self-hosted web client. `Jellyfin` · `Web` · `MIT`
 - [Apollo](https://github.com/DPilat-Dev/Apollo) - Netflix-style Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
 - [Aristo](https://github.com/mattiasmicu/Aristo) - Third-party Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free`
@@ -68,7 +68,6 @@ Every app in this list that runs on Web. That is 203 apps with 61 for Plex and 1
 - [jellyfin-home-theater](https://github.com/deniskostadinov1995/jellyfin-home-theater) - Smart TV-style frontend for home-theater PCs. `Jellyfin` · `Windows` `Web` · `MIT` `Free`
 - [jellyfin-lcars](https://github.com/LuckyNoS7evin/jellyfin-lcars) - Jellyfin web client themed on the Star Trek LCARS interface. `Jellyfin` · `Web` · `MIT` `Free`
 - [jellyfin-nuxt](https://github.com/flustix/jellyfin-nuxt) - Nuxt-based Jellyfin front end. `Jellyfin` · `Web` · `Open source` `Free`
-- [jellyfin-svelte](https://gitlab.com/pSchwietzer/jellyfin-svelte) - Work-in-progress web client written in Svelte. `Jellyfin` · `Web` · `Open source` `Stale 2024`
 - [JellyfinVR](https://github.com/allexxex/jellyfinvr) - VR media client. `Jellyfin` · `Web` `Quest` · `GPL-3.0` `Free`
 - [jellyfin-vr-player](https://github.com/biliksir95-blip/jellyfin-vr-player) - WebXR player for watching the library in a VR headset browser. `Jellyfin` · `Web` · `GPL-3.0`
 - [Jellyfin-vr-plugin](https://github.com/Lqlsoftware/Jellyfin-vr-plugin) - VR playback plugin. `Jellyfin` · `Web` · `Open source`
@@ -123,7 +122,7 @@ Every app in this list that runs on Web. That is 203 apps with 61 for Plex and 1
 - [plex-to-vlc](https://github.com/soerenkampschroer/plex-to-vlc) - Sends Plex Web playback to VLC. `Plex` · `macOS` `Web` · `GPL-3.0` `Stale 2023`
 - [plex-web-client](https://github.com/mattetti/plex-web-client) - Browser-based Plex client from 2012. `Plex` · `Web` · `Open source` `Free` `Stale 2012`
 - [plexy](https://github.com/ricoloic/plexy) - Alternative Plex web interface built with Next.js. `Plex` · `Web` · `MIT` `Free`
-- [Popcorn](https://github.com/netpersona/Popcorn) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Web` · `GPL-3.0`
+- [Popcorn](https://github.com/netpersona/Popcorn) - Self-hosted channel generator with a TV guide that plays in its web player or on Plex clients. `Plex` · `Web` · `GPL-3.0`
 - [Prismfin](https://github.com/JortWillemsen/prismfin) - White-label Jellyfin web client with a Liquid Glass look. `Jellyfin` · `Web` · `GPL-3.0` `Free`
 - [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` `Roku` `webOS` `Tizen` · `MIT` `Free`
 - [Reiverr](https://github.com/aleksilassila/reiverr) - Web and TV interface combining TMDB discovery, Sonarr/Radarr management and playback via a server plugin. `Jellyfin` · `Web` `Tizen` · `AGPL-3.0`
@@ -213,7 +212,6 @@ Every app in this list that runs on Web. That is 203 apps with 61 for Plex and 1
 
 ## Companions
 
-- [EmbyWatch](https://play.google.com/store/apps/details?id=com.embywatch.app) - Android server admin and statistics app. `Emby` · `Web` `Android` · `Freemium`
 - [Gelato](https://github.com/lostb1t/Gelato) - Server plugin that shows Stremio addon results inside any client app. `Jellyfin` `+Stremio addons` · `Web` · `GPL-3.0`
 - [hail-frequency](https://github.com/SpaceinvaderOne/hail-frequency) - Phone voice control for Emby and Jellyfin. `Jellyfin` `Emby` · `Web` · `GPL-3.0`
 - [heldover](https://github.com/anthonyonazure/heldover) - Picks titles across servers and sends them to a TV. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT`

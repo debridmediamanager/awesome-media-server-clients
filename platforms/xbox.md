@@ -15,7 +15,7 @@ Every app in this list that runs on Xbox. That is 17 apps with 4 for Plex and 14
 ## Video and general
 
 - [Gelatinarm](https://github.com/gitman-101111/gelatinarm) - Native Xbox media client. `Jellyfin` · `Xbox` · `MIT` `Free`
-- [iPlay](https://github.com/saltpi/iPlay) - Cross-platform player for phones, Apple TV, Windows and Xbox. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `HarmonyOS` `tvOS` `Xbox` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6480576133) · [Google Play](https://play.google.com/store/apps/details?id=top.ourfor.app.iplay) · [AppGallery](https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay)
+- [iPlay](https://github.com/saltpi/iPlay) - Cross-platform player for phones, Apple TV, Windows and Xbox. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `HarmonyOS` `tvOS` `Xbox` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6480576133) · [Google Play](https://play.google.com/store/apps/details?id=top.ourfor.app.iplay) · [AppGallery](https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay) · [Microsoft Store (Xbox)](https://apps.microsoft.com/detail/9PD0SG0LZTNL)
 - [IPTV Fluent](https://apps.microsoft.com/detail/9pkmdlwbc8zj) - IPTV and media hub player for Xbox and Windows. `Jellyfin` `Emby` `+IPTV` · `Windows` `Xbox` · [Info](https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/)
 - [JellyBox](https://github.com/dfederm/JellyBox) - Native Xbox app. `Jellyfin` · `Xbox` · `MIT` `Free`
 - [JellyBox (JamesDearlove)](https://github.com/JamesDearlove/JellyBox) - Xbox client. `Jellyfin` · `Xbox` · `Open source` `Free` `Stale 2023`

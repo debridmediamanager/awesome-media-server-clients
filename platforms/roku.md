@@ -14,7 +14,7 @@ Every app in this list that runs on Roku. That is 17 apps with 6 for Plex and 11
 
 ## Video and general
 
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [daumiller/suplex](https://github.com/daumiller/suplex) - Plex client app for Roku players. `Plex` · `Roku` · `Open source` `Stale 2018`
 - [jellyfin-roku-with-delete](https://github.com/garberfc/jellyfin-roku-with-delete) - Roku client that adds a delete action to the stock Jellyfin Roku app. `Jellyfin` · `Roku` · `GPL-2.0` `Free`
 - [JellyRock](https://github.com/jellyrock/jellyrock) - Roku client forked from the official channel. `Jellyfin` · `Roku` · `GPL-2.0` `Free` · [Roku](https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock)

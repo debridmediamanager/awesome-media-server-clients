@@ -19,7 +19,7 @@ Every app in this list that runs on Linux. That is 253 apps with 87 for Plex and
 ## Video and general
 
 - [acedgold/jellyclient](https://github.com/acedgold/jellyclient) - Flutter Jellyfin client with a dark cinema-style design. `Jellyfin` · `Windows` `macOS` `Linux` `iOS` · `MIT` `Free`
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [Ape Player](https://github.com/myoula/ape-player) - Player for the Omarchy Linux distribution. `Emby` · `Linux` · `Open source` `Free`
 - [Arc](https://github.com/Fareszaghloul/arc-player) - Desktop Jellyfin client with a minimal interface, forked from Jellyfin Desktop. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-2.0` `Free`
 - [aubustou/plex-dlna-player](https://github.com/aubustou/plex-dlna-player) - Plays Plex to DLNA renderers as a Plex player. `Plex` · `Linux` · `GPL-3.0` `Stale 2024`

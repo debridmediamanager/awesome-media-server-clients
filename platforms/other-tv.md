@@ -22,6 +22,6 @@ Every app in this list that runs on Other TV. That is 12 apps with 7 for Plex an
 - [PLAYz](https://github.com/simonjhogan/playz-emby) - HTML5 client for smart TVs; last updated in 2019. `Emby` · `Web` `Other TV` · `Apache-2.0` `Free` `Stale 2019`
 - [plex.lg](https://github.com/cubedro/plex.lg) - Plex client for 2013 LG Smart TVs. `Plex` · `Other TV` · `Apache-2.0` `Stale 2013`
 - [plex-lgtv-netcast](https://github.com/razor2611/plex-lgtv-netcast) - Plex interface for older LG NetCast smart TVs. `Plex` · `Other TV` · `Open source` `Stale 2014`
-- [Redefin](https://github.com/laborantine/ReDeFin) - Freebox set-top box app that also targets Devialet devices. `Jellyfin` · `Other TV` · `GPL-3.0` `Free`
+- [Redefin](https://github.com/laborantine/ReDeFin) - Freebox Player app for the Freebox Revolution and the Freebox Delta (Devialet). `Jellyfin` · `Other TV` · `GPL-3.0` `Free`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

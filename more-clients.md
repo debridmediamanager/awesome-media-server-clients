@@ -134,7 +134,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 - [stuntsnakee/emby-android](https://github.com/stuntsnakee/emby-android) - Native Android client for phones and Leanback TV. `Emby` · `Android` `Android TV` · `Open source` `Free`
 - [SunnyTV](https://github.com/wine2siri/SunnyTV) - Android TV client that also reads CloudDrive2 and STRM files. `Emby` · `Android` `Android TV` · `GPL-3.0` `Free`
 - [Swedishfin](https://github.com/dmstocking/swedishfin) - Android client. `Jellyfin` · `Android` · `GPL-3.0` `Free`
-- [Tentacle (majoseph25)](https://github.com/majoseph25/tentacle) - Unofficial music player for Android and Android TV. `Jellyfin` · `Android` `Android Auto` · `Apache-2.0` `Free`
+- [Tentacle (majoseph25)](https://github.com/majoseph25/tentacle) - Unofficial music player for Android phones and Android Auto. `Jellyfin` · `Android` `Android Auto` · `Apache-2.0` `Free`
 - [Tinyfin](https://github.com/bogdan-calapod/tinyfin) - Kid-friendly Jellyfin client. `Jellyfin` · `Android` · `Open source` `Free`
 - [velo (winesOr)](https://github.com/winesOr/velo) - Plezy-derived Android client that adds danmaku comments and heatmaps. `Plex` `Jellyfin` `Emby` · `Android` `Android TV` · `GPL-3.0` `Free`
 - [Wake](https://github.com/KolektivComputer/wake) - Jetpack Compose music player for Android; iOS and desktop builds are planned. `Jellyfin` `+Subsonic` · `Android` · `AGPL-3.0` `Free`

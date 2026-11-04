@@ -383,8 +383,8 @@
   price_note: Free to build from source; the prebuilt store apps are a small paid download
   status: active
   status_year: 2026
-  description: Self-hosted generator that plays the library as linear channels on existing players.
-  notes: Drives Plex players; no playback of its own. Hobby project.
+  description: Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players.
+  notes: Hobby project. Store builds for Apple TV, iPad, Android TV, Fire TV and Roku; webOS and Tizen are sideloaded.
 
 - name: AJ Audio
   url: https://aj-studio-com.itch.io/aj-audio-player
@@ -5858,15 +5858,15 @@
   url: https://play.google.com/store/apps/details?id=com.embywatch.app
   servers: [emby]
   official: false
-  platforms: [android, web]
+  platforms: [android]
   category: admin
   media: [video]
   open_source: false
   price: freemium
-  status: active
+  status: discontinued
   status_year: 2026
   description: Android server admin and statistics app.
-  notes: By WatchTeam; no playback.
+  notes: By WatchTeam; no playback. Maintenance ended on 2026-09-01; its Emby features moved into JellyWatch.
 
 - name: Emby Watch Party Client
   url: https://codeberg.org/Hazing6995/emby-watchparty-client
@@ -8225,6 +8225,8 @@
 
 - name: Hills
   url: https://play.google.com/store/apps/details?id=com.mountains.hills
+  links:
+    msstore: https://apps.microsoft.com/detail/9NXNZFRLLWZX
   servers: [jellyfin, emby]
   official: false
   platforms: [android, windows]
@@ -8237,7 +8239,7 @@
   status_year: 2026
   aliases: [Hills Lite]
   description: Android player with cross-server search and a choice of mpv or ExoPlayer.
-  notes: Play 10K+. Windows build 'Hills Lite' via Microsoft Store/Telegram (single secondary source).
+  notes: Play 10K+. The Windows build is Hills Lite in the Microsoft Store.
 
 - name: Himi SyncWatch
   url: https://github.com/JzeroM/himi-syncwatch
@@ -8705,6 +8707,7 @@
     appstore: https://apps.apple.com/app/id6480576133
     play: https://play.google.com/store/apps/details?id=top.ourfor.app.iplay
     appgallery: https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay
+    msstore:Xbox: https://apps.microsoft.com/detail/9PD0SG0LZTNL
   servers: [jellyfin, emby]
   official: false
   platforms: [android, ios, macos, ipados, tvos, windows, xbox, harmonyos]
@@ -11022,10 +11025,10 @@
   category: player
   media: [video]
   open_source: true
-  status: stale
+  status: discontinued
   status_year: 2024
   description: Work-in-progress web client written in Svelte.
-  notes: Work in progress.
+  notes: Work in progress; the GitLab project is archived.
 
 - name: Jellyfin Theater
   url: https://github.com/jellyfin-archive/jellyfin-desktop-electron
@@ -14320,6 +14323,8 @@
 
 - name: Lumen (kdorsey0718)
   url: https://testflight.apple.com/join/1jQWwJQk
+  links:
+    other: https://www.reddit.com/r/appletv/comments/1xbc5i3/lumen_a_new_marquee_plex_client_for_tvos_is_now/
   servers: [plex]
   official: false
   platforms: [tvos]
@@ -18592,6 +18597,7 @@
   url: https://apps.apple.com/app/id6457674815
   links:
     play: https://play.google.com/store/apps/details?id=com.appsynergyts.phyn
+    meta: https://www.meta.com/experiences/phyn-jellyfin-media-player/8075426475891543/
   servers: [jellyfin]
   official: false
   platforms: [macos, ios, android, ipados, android-tv, quest, tvos]
@@ -18602,7 +18608,7 @@
   status: active
   status_year: 2026
   description: Player for Mac, iPhone, Android and Quest.
-  notes: Developer AppSynergy. Other servers not verified. Quest build seen in Horizon store results.
+  notes: Developer AppSynergy. Other servers not verified.
 
 - name: Picnic Player
   url: https://github.com/YogiBear12/Picnic-Player
@@ -19023,7 +19029,7 @@
   status: discontinued
   status_year: 2015
   aliases: [PLAYz Media]
-  description: Plex app for older Samsung and LG smart TVs.
+  description: Plex app for older LG NetCast smart TVs.
   notes: LG TVs. Ended between 2013 and 2021.
 
 - name: plectron
@@ -19089,7 +19095,7 @@
   status: beta
   status_year: 2026
   description: Native Plex client for jailbroken Xbox 360 consoles.
-  notes: Playback claimed by its README; three commits, no release.
+  notes: Photos come through the Plex API; video needs a PC helper (PlexRelay) that reads the file on the Plex host. Three commits, no release.
   long_tail: true
 
 - name: plex-3ds
@@ -21025,8 +21031,8 @@
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Self-hosted generator that plays the library as linear channels on existing players.
-  notes: Drives Plex players; no playback of its own. Hobby project.
+  description: Self-hosted channel generator with a TV guide that plays in its web player or on Plex clients.
+  notes: Hobby project.
 
 - name: Poptonium for Plex
   url: https://apps.apple.com/us/app/poptonium-for-plex/id6779742766
@@ -21762,7 +21768,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Freebox set-top box app that also targets Devialet devices.
+  description: Freebox Player app for the Freebox Revolution and the Freebox Delta (Devialet).
   notes: QML app for Freebox Revolution and Devialet.
 
 - name: redfin
@@ -24964,7 +24970,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Unofficial music player for Android and Android TV.
+  description: Unofficial music player for Android phones and Android Auto.
   notes: Repo majoseph25/tentacle; not fuzzinvaders/Tentacle.
   long_tail: true
   distinct: true

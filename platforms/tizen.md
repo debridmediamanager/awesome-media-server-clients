@@ -14,7 +14,7 @@ Every app in this list that runs on Tizen. That is 26 apps with 8 for Plex and 1
 
 ## Video and general
 
-- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted generator that plays the library as linear channels on existing players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
+- [Airwave](https://github.com/Quixomatic/Airwave) - Self-hosted service that turns the library into 24/7 channels, with its own TV, desktop and web players. `Plex` · `Windows` `macOS` `Linux` `Web` `iPadOS` `Android TV` `Fire TV` `tvOS` `Roku` `webOS` `Tizen` · `Open source` `Paid`
 - [Atlas TV](https://github.com/AzatSharip/atlas-tv) - Moonfin-based client for home video libraries. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [ATV for Plex](https://github.com/Izazzubayer/atv-for-plex) - Samsung Tizen client. `Plex` · `Tizen` · `MIT`
 - [FinLightning](https://github.com/hjourdain-ryvr/finlightning) - TV app built on the Lightning 3 / Blits UI framework. `Jellyfin` · `Tizen` `Other TV` · `Apache-2.0` `Free`

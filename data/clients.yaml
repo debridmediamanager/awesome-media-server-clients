@@ -100,7 +100,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [90sTV - Retro TV Channels]
@@ -421,7 +421,7 @@
   category: player
   media: [video, music, audiobooks, books]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Alexandria - The Media Library]
@@ -956,7 +956,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: subscription
   status: active
   status_year: 2026
   aliases: ['AnyTV IPTV Player: M3U, Xtream']
@@ -1552,7 +1552,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Music player for local and cloud libraries with CarPlay, Apple Watch and Home Screen support.
@@ -1807,7 +1807,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Native iPhone and iPad client for several server types, with Picture in Picture and Continue Watching.
@@ -1837,7 +1837,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Awdio: Audiobook Player']
@@ -1894,7 +1894,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Media player for servers, IPTV playlists and file shares, with Stremio-compatible add-on catalogs.
@@ -2262,7 +2262,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: SwiftUI music client for Jellyfin with CarPlay browsing of artists, albums, playlists and mixes.
@@ -2372,7 +2372,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [BoxPlayer - 4K Video Player]
@@ -2521,7 +2521,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['BurgTV: Player M3U Xtream']
@@ -2742,7 +2742,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['CarCast: M3U IPTV Player, M3U8']
@@ -2819,12 +2819,11 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Car Play TV：車機投影與電視直播]
-  description: Car-screen video player and casting app for playlists, media servers and WebDAV, with a driver-friendly Drive
-    Mode.
+  description: Car-screen video player and casting app for playlists, media servers and WebDAV, with a driver-friendly Drive Mode.
   notes: by 锦菊 曾. Traditional Chinese listing.
 
 - name: CarPlus
@@ -2850,6 +2849,7 @@
   category: player
   media: [video]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   description: Plays video from your library on CarPlay screens.
@@ -2913,7 +2913,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['CarTV: M3U IPTV Player & Cast']
@@ -2930,7 +2930,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['CarTVPro: Playlist Player']
@@ -3100,7 +3100,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Private-first player for live TV, media servers and local files with multi-view of up to four streams.
@@ -3467,6 +3467,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
+  price: subscription
   price_note: Requires a Pragmatic Media Pass after activation (also unlocks Tonarr)
   status: active
   status_year: 2026
@@ -3497,7 +3498,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Plex and Jellyfin player with natural-language search such as funny movies from the 30s.
@@ -3767,7 +3768,7 @@
   category: books
   media: [books, audiobooks]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Codex Reader Early Access]
@@ -3996,7 +3997,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Crivid IPTV Player: M3U Xtream']
@@ -4013,7 +4014,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Crucible]
@@ -4089,7 +4090,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Cue: Media Player']
@@ -4422,7 +4423,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   price_note: 7-day free trial, then £7.99 a year
   status: active
   status_year: 2026
@@ -4458,7 +4459,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   price_note: Free; Pro tier
   status: active
   status_year: 2026
@@ -4518,7 +4519,7 @@
   category: player
   media: [video, music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['DocumentHub: Gestionnaire']
@@ -4639,7 +4640,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [DreamPlayer - Video Player]
@@ -4714,13 +4715,12 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['DriveTV: Car IPTV & M3U Player']
   description: M3U and Xtream player with Jellyfin and Emby import that plays on iPhone and in CarPlay.
-  notes: by Shanghai Dacheng Youwei Network Technology Co., Ltd. Imports up to 10,000 videos from Jellyfin/Emby; the server
-    converts MKV.
+  notes: by Shanghai Dacheng Youwei Network Technology Co., Ltd. Imports up to 10,000 videos from Jellyfin/Emby; the server converts MKV.
 
 - name: DS One
   url: https://apps.apple.com/cn/app/ds-one-%E5%8E%9Fds-cloud-%E9%AB%98%E6%B8%85%E5%BD%B1%E7%89%87-%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E8%BD%BB%E6%9D%BE%E6%92%AD/id6476057278
@@ -7114,7 +7114,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Flex - Music Player]
@@ -7156,7 +7156,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Offline-first player that downloads movies and shows and searches across several servers at once.
@@ -8136,7 +8136,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Apple-platform player for media servers and cloud drives.
@@ -9362,7 +9362,7 @@
   category: music
   media: [music, audiobooks]
   open_source: false
-  price: free
+  price: subscription
   status: active
   status_year: 2026
   aliases: [JellyAmp - Listen everywhere]
@@ -12035,7 +12035,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: subscription
   price_note: Free download; one-time purchase per household with Family Sharing
   status: active
   status_year: 2026
@@ -13377,7 +13377,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Jukebox: Offline Music Player']
@@ -14059,7 +14059,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Cover-art video library for collections on a NAS, media server or WebDAV, with no cloud or subscription.
@@ -14121,6 +14121,7 @@
   category: player
   media: [video, live-tv]
   open_source: null
+  price: freemium
   status: beta
   status_year: 2026
   aliases: [LeyTV IPTV Media Player, LeyTV – IPTV Media Player]
@@ -14213,7 +14214,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [LillyPlayer - IPTV Player]
@@ -14335,7 +14336,7 @@
   category: music
   media: [music, audiobooks]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Native music player that brings self-hosted servers and Apple Music into one library.
@@ -14850,7 +14851,7 @@
   category: player
   media: [video, music, audiobooks]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Lunafin: Movie & TV Player']
@@ -14980,7 +14981,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Music player for local files, Navidrome, Subsonic, Emby, Jellyfin, SMB and WebDAV libraries.
@@ -15563,7 +15564,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: IPTV and media library player with a programme guide, covering live TV, movies and series.
@@ -15683,7 +15684,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Melyro: IPTV Player']
@@ -16175,7 +16176,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Moonjelly - Jellyfin Player]
@@ -16390,7 +16391,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   price_note: Optional one-time Pro at $24.99
   status: active
   status_year: 2026
@@ -16796,7 +16797,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Muxivo: MKV Player & Cast']
@@ -17083,6 +17084,7 @@
   category: player
   media: [video]
   open_source: false
+  price: subscription
   status: active
   status_year: 2026
   description: Vision Pro, iPhone and Mac player that also opens SMB shares.
@@ -17572,6 +17574,7 @@
   category: music
   media: [music]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Niche Audio Player]
@@ -18110,7 +18113,7 @@
   category: shim
   media: [video]
   open_source: null
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Opens a server's web interface and plays the chosen video in a native VLC player.
@@ -18576,7 +18579,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [OtusTV - L'IPTV bien au chaud]
@@ -18697,7 +18700,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Panvox]
@@ -19166,7 +19169,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Customisable Plex and Jellyfin client with hardware-accelerated playback, custom shelves and filters.
@@ -19384,7 +19387,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Client for a self-hosted library with 4K HDR10 and Dolby Vision passthrough on iPhone, iPad and Apple TV.
@@ -21492,7 +21495,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Pocket Cinema: Jellyfin WebDAV']
@@ -22080,7 +22083,7 @@
   category: admin
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Quartermaster: Homelab Stack']
@@ -22154,7 +22157,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Mac music player and personal music server with local files, Apple Music, Navidrome, Plex and Jellyfin.
@@ -23259,7 +23262,7 @@
   category: player
   media: [video, music, podcasts]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [ScreenSpot(暮色), 暮色]
@@ -24291,7 +24294,7 @@
   category: player
   media: [video, music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [SquareRoot Media - Poster Wall, √ Media]
@@ -25834,7 +25837,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Tivsy: Player IPTV & M3U']
@@ -25956,6 +25959,7 @@
   category: music
   media: [music]
   open_source: false
+  price: subscription
   price_note: Requires a Pragmatic Media Pass after activation (also unlocks Cinemarr)
   status: active
   status_year: 2026
@@ -26046,7 +26050,7 @@
   category: player
   media: [video, music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Trovu: Jellyfin & Plex Player']
@@ -26248,7 +26252,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['TuneSync: NAS Music Player']
@@ -26401,6 +26405,7 @@
   category: live-tv
   media: [video, live-tv]
   open_source: false
+  price: freemium
   status: active
   status_year: 2026
   aliases: [UHF - Love your IPTV, UHF – Love your IPTV]
@@ -26582,6 +26587,7 @@
   category: admin
   media: [video]
   open_source: null
+  price: freemium
   status: active
   status_year: 2026
   description: iPhone server statistics app.
@@ -26943,7 +26949,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [VideoBox - Cloud Video Player]
@@ -27008,7 +27014,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Video player with Picture in Picture, 4K HDR and support for SMB and server sources.
@@ -27089,7 +27095,7 @@
   category: player
   media: [video, music, photos]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Vina – NAS Video Player]
@@ -27198,7 +27204,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Video player for NAS and media servers over WebDAV, SMB, FTP, NFS and DLNA with no downloads needed.
@@ -27229,7 +27235,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Vivid: Video Player for NAS']
@@ -27319,7 +27325,7 @@
   category: audiobooks
   media: [audiobooks]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Voca]
@@ -27557,7 +27563,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Emby player with multi-server support, danmaku, AI subtitle translation and casting.
@@ -28438,7 +28444,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Mac media library and player for local folders, NAS, WebDAV, SMB and Emby.
@@ -28716,7 +28722,7 @@
   category: player
   media: [video, music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Player for Emby, Jellyfin, Feiniu (via its Jellyfin-compatible service), SMB shares and local files.
@@ -28760,7 +28766,7 @@
   category: bridge
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Zwind - WebDAV Server & Player]
@@ -28932,7 +28938,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [静听 - 本地无损音乐播放器与离线mp3传歌神器]

@@ -1733,7 +1733,7 @@
   url: https://github.com/zhangwenkang-github/Aurorama
   servers: [jellyfin]
   official: false
-  platforms: [android, android-tv]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -1742,7 +1742,7 @@
   status: active
   status_year: 2026
   aliases: [极光幕]
-  description: Self-hosted Jellyfin client for Android phones and TV.
+  description: Findroid-based client for Android phones and tablets, with an EPUB, PDF and CBZ reader.
   notes: Based on Findroid.
 
 - name: autoplex
@@ -2334,7 +2334,7 @@
   media: [audiobooks]
   open_source: true
   license: GPL-3.0
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Audiobook player for M4B, M4A, MP3 and FLAC that imports from files, AirDrop, Audiobookshelf and Jellyfin.
@@ -2559,7 +2559,7 @@
   status: beta
   status_year: 2026
   description: Cable-TV-style app with auto-channels by genre, decade, series and mood, and an EPG grid.
-  notes: Subreddit r/CableStreamApp. App Store review was pending in April 2026.
+  notes: Subreddit r/CableStreamApp. 1.1 was in App Store review in April 2026; the TestFlight was closed to new testers in November 2026.
 
 - name: Cablex
   url: https://testflight.apple.com/join/6XjjJdSH
@@ -3296,11 +3296,11 @@
   media: [audiobooks]
   open_source: true
   license: GPL-3.0
-  price: free
+  price: freemium
   status: active
   status_year: 2025
   description: Android audiobook player.
-  notes: Original app; dead since 2023, Play listing still live (last update 2022).
+  notes: Last release 2022 (Play listing); the source was refactored for Android 14 in November 2025.
 
 - name: Chronicle Epilogue
   url: https://github.com/fabiogermann/chronicle
@@ -4062,7 +4062,7 @@
   url: https://github.com/ctismer/jellyfin-desktop-qt
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: true
@@ -4070,7 +4070,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Qt-based fork of the desktop client.
+  description: Fork of the Qt desktop client, rebuilt for Intel Macs on macOS 12.
   notes: fork of jellyfin/jellyfin-desktop. Release tag mentions macOS 12.
 
 - name: CTZZG/feishin
@@ -15570,7 +15570,7 @@
   also: [subsonic]
   official: false
   platforms: [web]
-  category: player
+  category: photos
   media: [video]
   open_source: true
   license: AGPL-3.0
@@ -17481,7 +17481,7 @@
 
 - name: NexHub
   url: https://github.com/nexhub-app/NexHub
-  servers: [emby]
+  servers: [jellyfin, emby]
   also: [other]
   official: false
   platforms: [android, ios, harmonyos, linux, macos, windows]
@@ -17492,18 +17492,20 @@
   price: free
   status: active
   status_year: 2026
-  description: Flutter app that aggregates anime, manga, novels and video sources, with Emby as a library source.
-  notes: Emby support is claimed in repo topics only.
+  description: Flutter app that aggregates anime, manga, novels and video sources, with Emby and Jellyfin as library sources.
+  notes: Media-server module (Emby and Jellyfin, auto-detected) since v3.0.0-beta.1.
 
 - name: nexStream
   url: https://github.com/nexStream-app/nexStream
   servers: [plex, jellyfin]
   also: [iptv]
   official: false
-  platforms: [android-tv, fire-tv]
+  platforms: [android-tv, fire-tv, android]
   category: live-tv
   media: [video, live-tv]
-  open_source: true
+  open_source: false
+  price: paid
+  price_note: £2 a year or £5 lifetime per device, free trial
   status: active
   status_year: 2026
   description: IPTV player for TV boxes that can also open media-server libraries.
@@ -18955,7 +18957,7 @@
   media: [video, music]
   open_source: true
   status: stale
-  status_year: 2019
+  status_year: 2023
   description: Voice interface for controlling Plex.
 
 - name: Phlix Photos
@@ -22952,7 +22954,7 @@
   also: [iptv]
   official: false
   platforms: [android-tv]
-  category: player
+  category: shim
   media: [video, live-tv]
   open_source: true
   price: free
@@ -23081,7 +23083,7 @@
   url: https://github.com/lucasscharf/samsung-watch-plex-client
   servers: [plex]
   official: false
-  platforms: [wear-os, other-watch]
+  platforms: [wear-os]
   category: player
   media: [video]
   open_source: true
@@ -26535,14 +26537,14 @@
   url: https://github.com/SlowlyTz/Vanta
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
   price: free
   status: active
   status_year: 2026
-  description: Custom desktop media player for Jellyfin.
+  description: Self-hosted web client with its own player, watch parties and a TV mode.
 
 - name: Vantage
   url: https://github.com/Jellyfin-PG/Vantage
@@ -26862,18 +26864,6 @@
   description: Android TV, Fire TV and phone player that mixes add-on catalogs with your own libraries.
   notes: Also plays add-on catalogs.
 
-- name: VHSFin
-  url: https://www.reddit.com/r/jellyfin/comments/1w8epk6/checkout_my_vhs_client/
-  servers: [jellyfin]
-  official: false
-  platforms: [web, ios, android]
-  category: player
-  media: [video]
-  open_source: null
-  status: unknown
-  description: Kids' client that shows the library as a shelf of VHS tapes.
-  notes: Reddit demo only.
-
 - name: ViBE
   url: https://apps.apple.com/us/app/vibe-personal-music-player/id6786501269
   servers: [jellyfin]
@@ -26901,7 +26891,7 @@
   price: free
   status: active
   status_year: 2026
-  description: App for rooted LG webOS TVs that direct-plays original files.
+  description: App for LG webOS TVs, stock or rooted, that direct-plays original files through the TV's own player.
   notes: Needs a rooted TV.
   long_tail: true
 
@@ -28813,7 +28803,7 @@
 - name: 影屿 CineIsle
   url: https://github.com/nu1lkali/CineIsle
   servers: [emby]
-  also: [cloud]
+  also: [cloud, smb, ftp, webdav]
   official: false
   platforms: [android]
   category: player

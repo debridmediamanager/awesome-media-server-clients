@@ -448,7 +448,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [Supernova](https://github.com/arvaus/Supernova) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
 - [tizen-jellystream](https://github.com/Nerfherder16/tizen-jellystream) - Samsung Tizen TV client with Jellyseerr requests and Quick Connect sign-in. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
 - [vemm](https://github.com/dragoshont/vemm) - Unofficial Plex-compatible player for Samsung Tizen TVs. `Plex` · `Tizen` · `GPL-3.0`
-- [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for rooted LG webOS TVs that direct-plays original files. `Jellyfin` · `webOS` · `MIT` `Free`
+- [Vibe Reel](https://github.com/kirill-menke/vibe-reel) - App for LG webOS TVs, stock or rooted, that direct-plays original files through the TV's own player. `Jellyfin` · `webOS` · `MIT` `Free`
 - [Viv](https://github.com/cewert/viv) - Fork of the Roku client. `Jellyfin` · `Roku` · `GPL-2.0` `Free` `Stale 2025`
 - [vizio-via-plex-widget](https://github.com/atessmer/vizio-via-plex-widget) - Plex widget for older VIZIO Internet Apps (VIA) TVs. `Plex` · `Vizio` · `MIT` `Ended 2013`
 - [webos-ultrawide-client](https://github.com/antoinecaputo/webos-ultrawide-client) - LG webOS app designed for ultrawide displays. `Jellyfin` · `webOS` · `MPL-2.0` `Free`
@@ -466,7 +466,7 @@ Smaller Plex, Jellyfin and Emby clients: GitHub-only projects with no release an
 - [jellyfin-wearos](https://github.com/fimbulent/jellyfin-wearos) - Standalone Wear OS client that streams or downloads albums without a phone. `Jellyfin` · `Wear OS` · `GPL-3.0` `Free`
 - [OpenPlayer (web-gears)](https://github.com/web-gears/openplayer) - Garmin watch player for music and podcasts synced from a media server. `Jellyfin` · `Garmin` · `Open source` `Free`
 - [Plex Wear](https://github.com/nedrichards/plex-wearos) - Standalone Wear OS app that plays Plex music on the watch and works as a remote. `Plex` · `Wear OS` · `GPL-3.0`
-- [samsung-watch-plex-client](https://github.com/lucasscharf/samsung-watch-plex-client) - Samsung Galaxy Watch client. `Plex` · `Wear OS` `Other watch` · `GPL-3.0`
+- [samsung-watch-plex-client](https://github.com/lucasscharf/samsung-watch-plex-client) - Samsung Galaxy Watch client. `Plex` · `Wear OS` · `GPL-3.0`
 
 ## Voice assistants and speakers
 

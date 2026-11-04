@@ -3245,7 +3245,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Chroma - Spatial Cinema]
@@ -8873,7 +8873,7 @@
   category: player
   media: [video, live-tv]
   open_source: false
-  price: free
+  price: subscription
   status: active
   status_year: 2026
   description: Player that puts your media server and IPTV channels in one interface with a programme guide.
@@ -11965,7 +11965,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Kid-friendly Jellyfin client with a playful interface and content controls for parents.
@@ -17213,7 +17213,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['Navid Music: Clear HiFi Player']
@@ -18245,7 +18245,7 @@
   category: live-tv
   media: [live-tv, video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['OneTV Connect: IPTV Player']
@@ -22480,7 +22480,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: stale
   status_year: 2024
   aliases: [Reel Player - Video Player]
@@ -25491,7 +25491,7 @@
   category: player
   media: [video]
   open_source: null
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   description: Video client with downloads.
@@ -26813,7 +26813,7 @@
   category: music
   media: [podcasts]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [Verbara - podcast player]
@@ -27646,7 +27646,7 @@
   category: music
   media: [music]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [WatchAmp for Plex & Jellyfin]
@@ -28054,7 +28054,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: ['XFiles: SFTP, FTP & NAS Files']
@@ -28380,7 +28380,7 @@
   category: player
   media: [video]
   open_source: false
-  price: free
+  price: freemium
   status: active
   status_year: 2026
   aliases: [YingKu - Video Player]

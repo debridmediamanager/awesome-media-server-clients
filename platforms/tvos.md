@@ -2,7 +2,7 @@
 
 # tvOS
 
-Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and 200 for Jellyfin and 125 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on tvOS. That is 257 apps with 139 for Plex and 196 for Jellyfin and 123 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -48,6 +48,7 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [Bumper](https://github.com/kristianfreeman/bumper) - Ambient media player for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
 - [Bunny Ears TV](https://testflight.apple.com/join/NdaJfb9n) - Apple TV app that turns your library into live TV with a cable-style guide and channel surfing. `Plex` · `tvOS` · `Beta`
 - [Cable Stream](https://www.reddit.com/r/TestFlight/comments/1s8oyo6/cable_stream_beta_testflight_cable_tv_from_plex/) - Cable-TV-style app with auto-channels by genre, decade, series and mood, and an EPG grid. `Plex` · `tvOS` · `Beta`
+- [Cablex](https://testflight.apple.com/join/6XjjJdSH) - Turns your library into themed 24/7 channels for TV-style channel surfing. `Plex` · `tvOS` · `Beta`
 - [Canopy for Plex](https://canopykids.app/) - Family-friendly client with big controls that limits what each viewer can browse. `Plex` · `iOS` `iPadOS` `tvOS` · `Paid` · [App Store](https://apps.apple.com/us/app/canopy-for-plex/id6759919978)
 - [Cascade](https://github.com/Cha0s1nc/Cascade-Project) - Music, movies and TV app for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` `iOS` `tvOS` · `Open source` `Free`
 - [Cascade (thomas-rife)](https://github.com/thomas-rife/cascade) - Swift client for iOS and tvOS. `Jellyfin` · `iOS` `tvOS` · `Open source` `Free`
@@ -79,7 +80,7 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [FinStream](https://github.com/SilverMarcs/SwiftJelly) - SwiftUI client for Apple devices. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` `Free` · [App Store](https://apps.apple.com/app/id6761840798)
 - [Flixor](https://github.com/Flixorui/flixor) - Client for the web, Mac, iPhone and Android. `Plex` · `macOS` `Web` `Android` `iOS` `tvOS` · `Open source` `Free`
 - [Freya Player](https://apps.apple.com/us/app/freya-player/id6761883699) - Client for Plex and Jellyfin servers built around a native Apple TV interface. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
-- [Gen Player](https://apps.apple.com/us/app/gen-player/id6760933333) - Media manager and player for SMB, WebDAV, FTP, Alist, NFS and IPTV sources plus media servers. `Plex` `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `Linux` `iOS` `iPadOS` `tvOS` · `Paid` · [Source](https://github.com/fugary/gen-player-pages)
+- [Gen Player](https://apps.apple.com/us/app/gen-player/id6760933333) - Media manager and player for SMB, WebDAV, FTP, Alist, NFS and IPTV sources plus media servers. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Paid` · [Source](https://github.com/fugary/gen-player-pages)
 - [Gravity](https://apps.apple.com/us/app/gravity-your-cloud-media-hub/id6813851230) - Cloud-first media library that builds posters and metadata from OpenList and cloud folders, plus media servers. `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [GravyFin](https://github.com/Remguru/GravyFin) - Barebones Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
 - [HamHub](https://apps.apple.com/app/id6458691598) - Apple-platform player for media servers and cloud drives. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
@@ -103,11 +104,10 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [JellyPig](https://github.com/ashikslab/jellypig) - Fork of Swiftfin. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` `Stale 2025`
 - [JellySee](https://apps.apple.com/app/id6748783768) - Paid Apple TV client. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid`
 - [Jelly Shark](https://github.com/axeslasher/Jelly-Shark) - Apple TV and Vision Pro client. `Jellyfin` · `tvOS` `visionOS` · `MIT` `Free`
-- [JellyStreamz](https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066) - Native video client for Apple devices. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [JellyStreamz](https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066) - Native Apple TV video client. `Jellyfin` · `tvOS` · `Free`
 - [JellyTV](https://apps.apple.com/app/id6752357290) - Video client for Apple devices. `Jellyfin` · `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
 - [jelly-tvos](https://github.com/identityquartet/jelly-tvos) - Minimal Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
 - [Kanata](https://apps.apple.com/us/app/kanata/id6806893112) - Media player with danmaku comments and subtitle tools that reads media servers and WebDAV. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
-- [KDTIVI](https://play.google.com/store/apps/details?id=com.kdtvandroid) - All-in-one media app combining servers, Stremio addons and M3U playlists. `Plex` `Jellyfin` `Emby` `+Stremio addons` `+IPTV` · `Android` `iOS` `iPadOS` `Android TV` `tvOS`
 - [KenjaPlayer](https://apps.apple.com/us/app/kenjaplayer-ai-video-player/id6792728329) - Video player that generates and translates subtitles on-device, with media server sources. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [Kine](https://apps.apple.com/us/app/kine-iptv-m3u-xtream-player/id6778128277) - VLC-powered IPTV player with a programme guide and global search. `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [Kinode](https://apps.apple.com/us/app/kinode/id6796324720) - Personal media library for local files, NAS, WebDAV and Emby with posters, subtitles and resume. `Emby` · `iOS` `iPadOS` `tvOS` · `Freemium`
@@ -140,7 +140,6 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [Nellyfin](https://github.com/angelsbrood/Nellyfin) - Apple TV client. `Jellyfin` · `tvOS` · `Open source` `Free`
 - [Neptune](https://neptuneplayer.com/) - Swift client designed only for Apple devices, with TestFlight codes handed out on Discord. `Jellyfin` · `tvOS` · `Free` `Beta` · [App Store](https://apps.apple.com/app/id6756797773) · [Info](https://discord.com/invite/6mm7YqvjW)
 - [Nest](https://apps.apple.com/us/app/nest-video-player/id6787344988) - Native Swift video player for server libraries with no monthly fee. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
-- [NetEase Popcorn](https://bmh.163.com/) - Player for cloud drives, NAS, WebDAV, SMB, Emby and Jellyfin that matches posters into a personal library. `Jellyfin` `Emby` `+fnOS` · `Windows` `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` · `Free` · [App Store](https://apps.apple.com/us/app/%E7%BD%91%E6%98%93%E7%88%86%E7%B1%B3%E8%8A%B1-%E6%99%BA%E8%83%BD%E5%AA%92%E4%BD%93%E5%BA%93-%E5%85%A8%E8%83%BD%E4%BA%91%E7%9B%98-%E7%BD%91%E7%9B%98%E6%92%AD%E6%94%BE%E5%99%A8/id6553989480) · [App Store 2](https://apps.apple.com/app/id6480252695)
 - [NextSee](https://apps.apple.com/us/app/nextsee/id6813748066) - Multi-source player for media servers, WebDAV and SMB with Dolby Vision, Blu-ray ISO and AI subtitles. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [nilumio](https://github.com/nilumio/nilumio-android) - Jellyfin client for Android TV (a Wholphin fork) and Apple TV (a Swiftfin fork). `Jellyfin` · `Android TV` `tvOS` · `Open source` `Free` · [Source (Apple TV)](https://github.com/nilumio/nilumio-tvos)
 - [NipaPlay-Reload](https://github.com/AimesSoft/NipaPlay-Reload) - Anime-friendly video player with danmaku comments and Bangumi sync for media server libraries. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `HarmonyOS` `Android TV` `tvOS` · `MIT` `Free` · [App Store](https://apps.apple.com/app/id6751284970) · [Microsoft Store](https://apps.microsoft.com/detail/9NMR8CLQ0GCR) · [AUR](https://aur.archlinux.org/packages/nipaplay-reload)
@@ -165,7 +164,7 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [PlexConnect](https://github.com/iBaa/PlexConnect) - PC-side server that takes over the Trailers app on Apple TV 2 and 3 to browse and play Plex. `Plex` · `tvOS` · `Open source`
 - [PlexConnectApp](https://github.com/iBaa/PlexConnectApp) - Apple TV 4 client modelled on PlexConnect. `Plex` · `tvOS` · `Open source` `Free` `Stale 2016`
 - [Plex-TVOS](https://github.com/ericyanush/Plex-TVOS) - Proof-of-concept standalone Apple TV client for Plex from 2015. `Plex` · `tvOS` · `MIT` `Free` `Stale 2015`
-- [Pleya](https://apps.apple.com/de/app/pleya/id6787464031) - Plex and Jellyfin client with a cinematic home, continue-watching rows and detail pages. `Plex` `Jellyfin` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `tvOS` · `Paid` · [Source](https://github.com/michelknoop21/pleya)
+- [Pleya](https://apps.apple.com/de/app/pleya/id6787464031) - Plex and Jellyfin client with a cinematic home, continue-watching rows and detail pages. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid` · [Source](https://github.com/michelknoop21/pleya)
 - [Plezy](https://github.com/edde746/plezy) - Multi-server client with cross-server search, mpv playback and HDR; free from GitHub, paid in app stores. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Android Automotive` · `GPL-3.0` `Paid` · [Website](https://plezy.app) · [App Store](https://apps.apple.com/us/app/id6754315964) · [Google Play](https://play.google.com/store/apps/details?id=com.edde746.plezy) · [Microsoft Store](https://apps.microsoft.com/detail/9n5r1s1t68h7) · [Amazon](https://www.amazon.com/edde746-Plezy-for-Plex-Jellyfin/dp/B0GK65CVS1) · [Info](https://archlinux.org/packages/extra/x86_64/plezy/)
 - [Plio](https://apps.apple.com/jp/app/plio-universal-media-player/id6786546470) - Universal media player for media servers and WebDAV. `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Plozz](https://github.com/brandomoore/Plozz) - Native Apple TV, iPhone and iPad client that also plays network shares. `Plex` `Jellyfin` `Emby` `+Silo` · `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free` · [Website](https://plozz.app) · [App Store](https://apps.apple.com/app/plozz-player/id6782668147) · [TestFlight](https://testflight.apple.com/join/EKfReNMu)
@@ -175,7 +174,6 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [ReclineTV](https://apps.apple.com/us/app/reclinetv/id6820317648) - Video player that combines a Jellyfin library, M3U playlists, IPTV subscriptions and free public channels. `Jellyfin` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Reefy](https://github.com/jmhunter83/reefy) - Paid Apple TV client using the VLC playback engine. `Jellyfin` · `tvOS` · `MPL-2.0` `Paid`
 - [Reel (cj-vana)](https://github.com/cj-vana/reel-client) - Client for Apple devices, the web and desktops, with experimental TV builds. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `iOS` `iPadOS` `tvOS` · `MIT` `Free`
-- [ReelCove](https://github.com/frankliu2023/reelcove) - Apple-device client built on the Swiftfin codebase. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free`
 - [ReelFin](https://apps.apple.com/app/id6762079357) - Client for iPhone and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [Reflix](https://apps.apple.com/us/app/reflix-emby-video-player/id6621243955) - iPhone video player. `Emby` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [RetroGuide.TV](https://apps.apple.com/us/app/retroguide-tv/id6816213425) - Turns a media library into always-on TV channels with a schedule and program guide. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Freemium`
@@ -201,10 +199,8 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [StreamX](https://apps.apple.com/gb/app/streamx-iptv-player-m3u/id6755919340) - IPTV player for M3U and Xtream playlists that also browses movie and series libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Free`
 - [Streamyfin](https://github.com/streamyfin/streamyfin) - Phone and Apple TV client with mpv playback, offline downloads and Seerr requests. `Jellyfin` · `Android` `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` · [App Store](https://apps.apple.com/app/id6593660679) · [Google Play](https://play.google.com/store/apps/details?id=com.fredrikburmester.streamyfin)
 - [Strimr](https://github.com/wunax/strimr) - Native Apple video client. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free` · [App Store](https://apps.apple.com/app/id6757491271) · [TestFlight](https://testflight.apple.com/join/nayaffkP)
-- [surge](https://github.com/surgeios/surge) - Apple-native Plex client. `Plex` · `macOS` `iOS` `iPadOS` `tvOS` · `Open source` `Free` · [TestFlight](https://testflight.apple.com/join/MV16nHss)
 - [SVPlayer](https://apps.apple.com/ru/app/svplayer-%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B8-%D0%B2%D1%81%D1%91-%D0%B2-60-fps/id6446900981) - mpv-based video player that interpolates films to 60 fps and browses server libraries. `Plex` `Emby` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Sweetfin](https://github.com/gaabsi/SweetFin) - iPhone client. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free`
-- [swiftfin-home](https://github.com/Zelanh/swiftfin-home) - Swiftfin fork that adds Chromecast casting. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free`
 - [Swiftly Player](https://github.com/paulherter/swiftly-player) - Cross-platform video client. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` · `MPL-2.0` `Free` · [App Store](https://apps.apple.com/app/id6806824067) · [Google Play](https://play.google.com/store/apps/details?id=de.paulherter.swiftly) · [TestFlight](https://testflight.apple.com/join/BKtrBmbz)
 - [SwipePlay](https://github.com/stan0312/SwipePlay) - Douyin-style swipe-through Emby client built with Flutter. `Jellyfin` `Emby` · `macOS` `Android` `iOS` `tvOS` · `MIT`
 - [Syravo](https://apps.apple.com/us/app/syravo-iptv-m3u-player/id6797567023) - Xtream Codes and M3U player with live TV, movies and series, plus Jellyfin and Emby servers. `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Freemium`
@@ -214,12 +210,10 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [ThisFrame](https://github.com/THISJOWI/THISFRAME) - Native client for iPhone, Mac, Apple TV and Vision Pro. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `MIT` `Free`
 - [Tifo](https://apps.apple.com/app/id6782486035) - IPTV player for M3U, Xtream and Stalker that also plays from media servers. `Plex` `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · [TestFlight](https://testflight.apple.com/join/U66gTb2V)
 - [Tigerest Theater](https://github.com/Tigerest/Tigerest-Theater) - Client with embedded mpv playback and danmaku comments for desktop, Android, iPad and Apple TV. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `tvOS` · `GPL-2.0` `Free`
-- [Tilus](https://apps.apple.com/us/app/tilus-media-player/id6761753229) - Video player with its own engine for Dolby Vision and Atmos from USB, NAS, servers and the cloud. `Plex` `Jellyfin` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
 - [TinyPlay](https://github.com/YangHanqing/tinyplay) - Turns an idle Windows or macOS mini-PC into a phone-controlled TV box with IPTV, casting and Bilibili. `Plex` `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `tvOS` · `Open source` · [App Store](https://apps.apple.com/app/id6788041703)
 - [Tivsy](https://apps.apple.com/br/app/tivsy-player-iptv-m3u/id6795955479) - IPTV player for M3U lists, Xtream panels and media servers with posters, synopses and a time-ordered guide. `Jellyfin` `Emby` `+IPTV` · `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Tomo TV](https://github.com/keiver/tomotv) - Client for Apple TV, iPad, iPhone and Mac. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `MIT` · [App Store](https://apps.apple.com/app/id6755077888)
 - [Trovu](https://apps.apple.com/us/app/trovu-jellyfin-plex-player/id6760936018) - Touch-first player for Jellyfin and Plex libraries that direct-plays common formats to reduce transcoding. `Plex` `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Freemium`
-- [Tub IPTV](https://apps.apple.com/br/app/tub-iptv/id6795949531) - IPTV player for M3U links, Xtream panels, a Plex server or an SMB library. `Plex` `+IPTV` · `iOS` `iPadOS` `tvOS` `CarPlay` · `Freemium`
 - [Tuvora](https://tuvora.co/jellyfin-player) - Player for TV boxes, phones and desktops with Quick Connect and IPTV support. `Jellyfin` `Emby` `+IPTV` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` · `Free` · [Source](https://github.com/paradox-kush/tuvora) · [Google Play](https://play.google.com/store/apps/details?id=com.tuvora.mobile) · [TestFlight](https://testflight.apple.com/join/XDc6gVXc)
 - [TVApp](https://apps.apple.com/us/app/tvapp-home-media-player/id6788813078) - VLC-powered Jellyfin and direct-file player that direct-plays most formats without transcoding. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Free`
 - [tvos-plex-app](https://github.com/Dahlgren/tvos-plex-app) - Apple TV app for Plex from 2015. `Plex` · `tvOS` · `Open source` `Free` `Stale 2015`
@@ -234,7 +228,7 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [Video Explorer II](https://apps.apple.com/us/app/video-explorer-ii-player-for-chromecast-plex-nas/id1044421698) - Video browser and player with a built-in web browser that casts to Chromecast and searches subtitles. `Plex` · `iOS` `iPadOS` `tvOS` · `Paid` `Stale 2016`
 - [VidHub](https://apps.apple.com/app/id1659622164) - Video player and media library app with an Apple TV build. `Plex` `Jellyfin` `Emby` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub)
 - [Vidora](https://apps.apple.com/us/app/vidora/id6756205248) - Series tracker and player that syncs watch progress, upcoming episodes and discovery across devices with Trakt. `Plex` `Emby` · `iOS` `iPadOS` `tvOS` · `Free`
-- [Vinnyfin](https://github.com/vinnysaj/vinnyfin) - Video player for iPhone, iPad, Mac and Apple TV. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free`
+- [Vinnyfin](https://github.com/vinnysaj/vinnyfin) - Video player for iPhone, iPad and Apple TV. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `GPL-3.0` `Free`
 - [Vireko](https://apps.apple.com/us/app/vireko-iptv-player/id6778041611) - IPTV player for playlists, portals and media servers with a real program guide; a paid tier unlocks libraries. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Visorium](https://apps.apple.com/us/app/visorium/id6763748963) - Video player for NAS and media servers over WebDAV, SMB, FTP, NFS and DLNA with no downloads needed. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Vivid](https://apps.apple.com/us/app/vivid-video-player-for-nas/id6763759019) - NAS video player that streams directly over SMB, WebDAV and Dropbox without copying files. `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
@@ -256,6 +250,7 @@ Every app in this list that runs on tvOS. That is 262 apps with 142 for Plex and
 - [Zplayer Private Cinema](https://apps.apple.com/us/app/zplayer-private-cinema/id6814412951) - Player for Emby, Jellyfin, Feiniu (via its Jellyfin-compatible service), SMB shares and local files. `Jellyfin` `Emby` `+fnOS` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Zuno](https://apps.apple.com/us/app/id6759619793) - Apple-platform player with a 'Zuno Live' guide view. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [家映](https://apps.apple.com/tw/app/%E5%AE%B6%E6%98%A0/id6808049912) - Home NAS photo and video browser with a year-and-month timeline and playback of a Jellyfin library. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Free`
+- [映盒TV](https://testflight.apple.com/join/cGrUnMAP) - Personal video aggregator with custom site configs, M3U IPTV and private media servers. `Jellyfin` `Emby` `+IPTV` · `tvOS` · `Beta`
 
 ## Music
 

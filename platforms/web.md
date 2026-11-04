@@ -2,7 +2,7 @@
 
 # Web
 
-Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 145 for Jellyfin and 46 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Web. That is 210 apps with 63 for Plex and 147 for Jellyfin and 46 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -47,6 +47,7 @@ Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 1
 - [Finstalgia](https://github.com/leodenglovescode/Finstalgia) - Lightweight web client with an HLS bridge so old iPads can play. `Jellyfin` · `Web` `iPadOS` · `MIT` `Free`
 - [Fladder](https://github.com/DonutWare/Fladder) - Cross-platform video client, including a web build that runs in Docker. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `Android TV` · `GPL-3.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=nl.jknaapen.fladder) · [Flathub](https://flathub.org/apps/nl.jknaapen.fladder)
 - [Flixor](https://github.com/Flixorui/flixor) - Client for the web, Mac, iPhone and Android. `Plex` · `macOS` `Web` `Android` `iOS` `tvOS` · `Open source` `Free`
+- [Flutterfin](https://github.com/stainlesteel/Flutterfin) - Flutter client for Jellyfin. `Jellyfin` · `Linux` `Web` `Android` · `Apache-2.0` `Free`
 - [Foxfin](https://github.com/zillazero/foxfin) - Android and Android TV client for Jellyfin and Emby, forked from Moonfin. `Jellyfin` `Emby` · `Web` `Android` `Android TV` `Android Auto` · `GPL-2.0` `Free`
 - [FrayWatch](https://github.com/Dejniel/FrayWatch-Plex-WebUI) - Self-hosted alternative web interface. `Plex` · `Web` · `GPL-3.0`
 - [Glassfin (pkyanam)](https://github.com/pkyanam/jellyflex) - Plex-inspired Jellyfin web front end. `Jellyfin` · `Web` · `Open source` `Free`
@@ -91,6 +92,7 @@ Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 1
 - [LumaFin](https://github.com/bagodees/LumaFin-AndroidTV) - Client for Android TV, Google TV and Fire TV. Its Tizen build ended in September 2026. `Jellyfin` · `Web` `Android` `Android TV` `Fire TV` `Tizen` · `GPL-2.0` `Free` · [Source](https://github.com/bagodees/LumaFin-Android) · [Source 2](https://github.com/bagodees/lumafin-web) · [Source 3](https://github.com/bagodees/LumaFin-Tizen)
 - [Lumen (Raulpergon310)](https://github.com/Raulpergon310/lumen) - Jellyfin client for Windows, Android TV and the browser. `Jellyfin` · `Windows` `Web` `Android TV` · `MIT` `Free`
 - [Lumovio](https://github.com/MOJI6416/lumovio-web) - Web and Android TV app with watch history and a built-in player. `Plex` `Jellyfin` · `Web` `Android TV` · `Apache-2.0`
+- [Madari One](https://github.com/madari-media/one) - Open-source Jellyfin web client. `Jellyfin` · `Web` · `MIT` `Free` `Stale 2025`
 - [marchen-player](https://github.com/marchen-dev/marchen-player) - Anime player with danmaku comments for local files, direct links and server libraries. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Web` · `AGPL-3.0` `Free`
 - [Marinefin](https://github.com/Aspenini/Marinefin) - Single-HTML-file Jellyfin web client. `Jellyfin` · `Web` · `Open source` `Free`
 - [MiceYaa](https://www.nodeseek.com/post-547061-1) - Web client for a single server. `Emby` · `Web`
@@ -153,7 +155,7 @@ Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 1
 - [Beacon](https://github.com/mihaitom/beacon) - Self-hosted web and desktop music client with casting. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [CTZZG/feishin](https://github.com/CTZZG/feishin) - Feishin fork that adds Emby support. `Jellyfin` `Emby` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
 - [Discophile](https://github.com/debba/discophile) - Record-collection style music player for desktop and web. `Jellyfin` `+Subsonic` `+Audiobookshelf` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `MIT` `Free` · [Website](https://www.discophile.app/) · [AUR](https://aur.archlinux.org/packages/discophile-bin)
-- [Eclipse Music](https://eclipsemusic.app) - Music player for Android, CarPlay and Windows. `Plex` · `Windows` `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto`
+- [Eclipse Music](https://eclipsemusic.app) - Music player with apps for phones, TVs, Windows and Mac, plus a web player. `Plex` · `Windows` `macOS` `Web` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `CarPlay` `Android Auto` · [TestFlight](https://testflight.apple.com/join/GQvWjTWT)
 - [egamipeaks/plexify](https://github.com/egamipeaks/plexify) - Spotify-style web app for Plex music. `Plex` · `Web` · `Open source` `Free`
 - [Feishin](https://github.com/jeffvli/feishin) - Desktop and web music player. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free` · [Website](https://feishin.vercel.app) · [Flathub](https://flathub.org/apps/org.jeffvli.feishin)
 - [Feishin Plex fork](https://github.com/lux032/feishin) - Fork of the Feishin desktop music player that adds Plex. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Web` · `GPL-3.0` `Free`
@@ -212,7 +214,7 @@ Every app in this list that runs on Web. That is 208 apps with 63 for Plex and 1
 - [OnyxAudiobookPlayer](https://github.com/adamskoog/OnyxAudiobookPlayer) - Web audiobook player for Plex. `Plex` · `Web` · `Open source` `Free` `Stale 2025`
 - [plexbook](https://github.com/cclark31415/plexbook) - Web audiobook player that streams M4B files from Plex. `Plex` · `Web` · `Open source` `Free`
 - [Posterrama](https://github.com/Posterrama/posterrama) - Self-hosted screensaver that cycles posters from your library. `Plex` `Jellyfin` `Emby` · `Web` · `GPL-3.0`
-- [Self-Shelf](https://github.com/jacclyons/Self-Shelf) - Native reader for books, comics and PDFs stored on a Jellyfin server. `Jellyfin` · `Web` `iOS` · `Open source` `Free` · [TestFlight](https://testflight.apple.com/join/ASUrxDuq)
+- [Self-Shelf](https://github.com/jacclyons/Self-Shelf) - Native reader for books, comics and PDFs stored on a Jellyfin server. `Jellyfin` · `Web` `iOS` `iPadOS` · `Open source` `Free` · [TestFlight](https://testflight.apple.com/join/ASUrxDuq)
 - [storyplex](https://github.com/prydonius/storyplex) - Audiobook player. `Plex` · `Web` · `Open source` `Stale 2024`
 - [TomeRoam](https://github.com/nzilberberg/TomeRoam) - Audiobook player. `Plex` · `Web` `Android` · `Open source`
 

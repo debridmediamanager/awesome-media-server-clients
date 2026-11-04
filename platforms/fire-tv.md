@@ -2,7 +2,7 @@
 
 # Fire TV
 
-Every app in this list that runs on Fire TV. That is 69 apps with 24 for Plex and 57 for Jellyfin and 19 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Fire TV. That is 70 apps with 25 for Plex and 57 for Jellyfin and 19 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -78,6 +78,7 @@ Every app in this list that runs on Fire TV. That is 69 apps with 24 for Plex an
 
 ## Music
 
+- [Eclipse Music](https://eclipsemusic.app) - Music player with apps for phones, TVs, Windows and Mac, plus a web player. `Plex` · `Windows` `macOS` `Web` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `CarPlay` `Android Auto` · [TestFlight](https://testflight.apple.com/join/GQvWjTWT)
 - [JellyTV Music](https://www.amazon.com/993apps-JellyTV-Music/dp/B0G5HW48PF) - Fire TV music player. `Jellyfin` · `Fire TV`
 - [Lagu](https://lagu.fm) - Music player for Android, Apple TV, CarPlay and Windows. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `CarPlay` `Android Auto` `watchOS` · `Beta`
 - [Lidifin](https://github.com/jamzercise/lidifin) - Jellyfin music client derived from the Lidify music app. `Jellyfin` `+Audiobookshelf` · `Web` `Android TV` `Fire TV` · `GPL-3.0` `Free`

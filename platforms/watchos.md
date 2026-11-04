@@ -2,7 +2,7 @@
 
 # watchOS
 
-Every app in this list that runs on watchOS. That is 65 apps with 39 for Plex and 38 for Jellyfin and 14 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on watchOS. That is 64 apps with 39 for Plex and 37 for Jellyfin and 14 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -23,7 +23,7 @@ Every app in this list that runs on watchOS. That is 65 apps with 39 for Plex an
 - [Interteno](https://apps.apple.com/us/app/interteno/id6787506017) - Plex client that pairs video playback with the Plexamp music engine, a Watch app and widgets. `Plex` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Paid` · [Source](https://github.com/Sproglet/Interteno) · [TestFlight](https://testflight.apple.com/join/4dQa8bMH)
 - [JellyTV](https://apps.apple.com/app/id6752357290) - Video client for Apple devices. `Jellyfin` · `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
 - [LiquidFin](https://apps.apple.com/app/id6755673532) - Apple-platform client covering video, music, audiobooks, Live TV and server admin. `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` `watchOS` · `Freemium`
-- [LiveFin](https://github.com/LiveFin/LiveFin) - Live TV-only client for iPhone and Mac. `Jellyfin` · `macOS` `iOS` `iPadOS` `watchOS` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6748318433)
+- [LiveFin](https://github.com/LiveFin/LiveFin) - Live TV-only client for iPhone, iPad and Apple Watch. `Jellyfin` · `iOS` `iPadOS` `watchOS` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6748318433)
 - [OneTV Connect](https://apps.apple.com/us/app/onetv-connect-iptv-player/id6756811791) - IPTV player for M3U playlists, Xtream Codes and media server sources, with a carousel home screen. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` `watchOS` · `Freemium`
 - [RexyView](https://apps.apple.com/de/app/rexyview/id6761977975) - Native client built for every Apple device, with a Watch app to monitor the server. `Plex` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` `watchOS` · `Free`
 - [Time for Plex](https://apps.apple.com/us/app/time-for-plex/id6792536676) - Independent Apple Watch client for browsing and streaming video, live TV and music. `Plex` · `watchOS` · `Paid`
@@ -42,7 +42,6 @@ Every app in this list that runs on watchOS. That is 65 apps with 39 for Plex an
 - [Flex Music](https://apps.apple.com/us/app/flex-music-player/id6795259400) - Plex music player and playlist manager with offline downloads, ratings sync and synced lyrics. `Plex` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Freemium`
 - [Jamfin](https://apps.apple.com/us/app/jamfin/id6814805439) - Focused music player with song suggestions, genre mixes and an automatic queue. `Jellyfin` · `iOS` `CarPlay` `watchOS` · `Free`
 - [JammyMusic](https://apps.apple.com/us/app/jammymusic/id6752684680) - Minimal music player for a library, with offline music and Apple Watch support. `Jellyfin` · `iOS` `CarPlay` `watchOS` · `Free`
-- [Jellify](https://github.com/Jellify-Music/App) - Free music player for Jellyfin with offline downloads, transcoding options, playlists and instant mixes. `Jellyfin` · `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` `watchOS` · `MIT` `Free` · [App Store](https://apps.apple.com/us/app/jellify/id6736884612) · [Google Play](https://play.google.com/store/apps/details?id=com.cosmonautical.jellify) · [TestFlight](https://testflight.apple.com/join/etVSc7ZQ)
 - [JellyAmp](https://apps.apple.com/us/app/jellyamp-listen-everywhere/id6762120337) - Music and audiobook player for Jellyfin and Audiobookshelf with offline downloads. `Jellyfin` `+Audiobookshelf` · `macOS` `iOS` `iPadOS` `CarPlay` `watchOS` · `Subscription`
 - [Jukebox](https://apps.apple.com/us/app/jukebox-offline-music-player/id6775927655) - Offline music player for iPhone, iCloud, WebDAV, NAS and server music, with vocal-removal karaoke. `Jellyfin` · `iOS` `iPadOS` `CarPlay` `watchOS` · `Freemium`
 - [Kartunes](https://github.com/KartulUdus/Kartunes) - Apple Watch music player. `Jellyfin` `Emby` · `iOS` `CarPlay` `watchOS` · `GPL-3.0`

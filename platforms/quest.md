@@ -12,7 +12,7 @@ Every app in this list that runs on Quest. That is 15 apps with 10 for Plex and 
 
 ## Video and general
 
-- [4XVR](https://www.altlabvr.com/4xvr-video-player) - Meta Quest video player. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/)
+- [4XVR](https://www.altlabvr.com/4xvr-video-player) - VR video player for Meta Quest, PICO and Apple Vision Pro. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` `visionOS` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/) · [App Store](https://apps.apple.com/app/id6737879659)
 - [CineVoid](https://www.meta.com/en-gb/experiences/cinevoid-vr-media-player/1199393973267430/) - Meta Quest VR media player. `Plex` `Jellyfin` `Emby` · `Quest` · `Paid`
 - [Depthray](https://www.meta.com/experiences/depthray-3d-video-player/1343679048826072/) - Meta Quest player that converts 2D video to 3D. `Plex` `Jellyfin` `Emby` `+Stremio addons` · `Quest` · `Free`
 - [JellyfinVR](https://github.com/allexxex/jellyfinvr) - VR media client. `Jellyfin` · `Web` `Quest` · `GPL-3.0` `Free`

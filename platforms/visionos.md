@@ -2,12 +2,13 @@
 
 # visionOS
 
-Every app in this list that runs on visionOS. That is 34 apps with 24 for Plex and 30 for Jellyfin and 22 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on visionOS. That is 35 apps with 25 for Plex and 31 for Jellyfin and 23 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
 ## Video and general
 
+- [4XVR](https://www.altlabvr.com/4xvr-video-player) - VR video player for Meta Quest, PICO and Apple Vision Pro. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` `visionOS` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/) · [App Store](https://apps.apple.com/app/id6737879659)
 - [Aether Player](https://apps.apple.com/us/app/aether-player/id6775229911) - Media player that merges several servers into one deduplicated library and flags the better copy of a title. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Free`
 - [AllPlayer Pro](https://apps.apple.com/us/app/allplayer-pro/id6761591864) - Media player and manager with a movie wall, iCloud sync and playback from local, NAS and cloud sources. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` `watchOS` · `Free`
 - [ApexPlayer](https://apps.apple.com/us/app/apexplayer-own-your-feed/id6802367377) - Player for Jellyfin, Plex, Emby and ApexFeeder libraries with a one-time Pro purchase for the full library. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Freemium`

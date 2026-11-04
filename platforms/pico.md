@@ -8,7 +8,7 @@ Every app in this list that runs on Pico. That is 4 apps with 2 for Plex and 1 f
 
 ## Video and general
 
-- [4XVR](https://www.altlabvr.com/4xvr-video-player) - Meta Quest video player. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/)
+- [4XVR](https://www.altlabvr.com/4xvr-video-player) - VR video player for Meta Quest, PICO and Apple Vision Pro. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` `visionOS` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/) · [App Store](https://apps.apple.com/app/id6737879659)
 - [B0BEmby VR](https://github.com/wangbob-0787/B0BEmby-VR) - Virtual-cinema Emby client for the PICO 4. `Emby` · `Pico` · `Open source` `Free`
 - [LsVRPlayer](https://github.com/bibibivlin/LsVRPlayer) - PICO 4 VR player for local files, SMB shares and Emby. `Emby` · `Pico` · `MIT` `Free`
 - [picoplex-vr](https://github.com/bushibot/picoplex-vr) - Plex player for Pico VR headsets. `Plex` · `Pico` · `GPL-3.0`

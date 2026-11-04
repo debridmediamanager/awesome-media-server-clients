@@ -62,10 +62,11 @@
   url: https://www.altlabvr.com/4xvr-video-player
   links:
     meta: https://www.meta.com/experiences/4xvr-video-player/5936567899722707/
+    appstore: https://apps.apple.com/app/id6737879659
   servers: [plex, jellyfin, emby]
   also: [cloud, dlna, smb]
   official: false
-  platforms: [quest, pico]
+  platforms: [quest, pico, visionos]
   category: player
   media: [video]
   open_source: false
@@ -73,7 +74,7 @@
   price_note: $30
   status: unknown
   status_year: 2026
-  description: Meta Quest video player.
+  description: VR video player for Meta Quest, PICO and Apple Vision Pro.
   notes: Store listing names the servers as network sources; not DLNA-only.
 
 - name: 52XN Music King
@@ -2496,14 +2497,14 @@
   url: https://testflight.apple.com/join/6XjjJdSH
   servers: [plex]
   official: false
-  platforms: [ios]
+  platforms: [tvos]
   category: live-tv
   media: [video]
   open_source: null
   status: beta
   status_year: 2026
   description: Turns your library into themed 24/7 channels for TV-style channel surfing.
-  notes: Signs in via plex.tv/link. Apple platform not stated.
+  notes: 'Signs in via plex.tv/link. Apple TV build: its TestFlight icon is a layered tvOS image.'
 
 - name: Cadence
   url: https://github.com/MDaV05/cadence
@@ -2675,7 +2676,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, ipados]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -2812,7 +2813,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, ipados]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -2829,7 +2830,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, carplay]
+  platforms: [ios]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -2975,7 +2976,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video, live-tv]
   open_source: null
@@ -4494,14 +4495,14 @@
   url: https://testflight.apple.com/join/Vet98X4r
   servers: [emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
   status: beta
   status_year: 2026
   description: Aggregator player for several servers, with Dolby Vision support.
-  notes: Chinese-language app; TestFlight only; Apple platform not stated. Not DreamPlayer.
+  notes: Chinese-language app; TestFlight only; the build carries an iPad icon. Not DreamPlayer.
 
 - name: Dreamfin
   url: https://github.com/jrodzar/DreamFin
@@ -4785,14 +4786,16 @@
 
 - name: Eclipse Music
   url: https://eclipsemusic.app
+  links:
+    testflight: https://testflight.apple.com/join/GQvWjTWT
   servers: [plex]
   official: false
-  platforms: [web, android, ipados, carplay, windows, ios, android-auto]
+  platforms: [web, android, ipados, carplay, windows, ios, android-auto, macos, android-tv, fire-tv]
   category: music
   media: [music]
   open_source: null
   status: unknown
-  description: Music player for Android, CarPlay and Windows.
+  description: Music player with apps for phones, TVs, Windows and Mac, plus a web player.
   notes: Server support unconfirmed.
 
 - name: EclipsePlexClient
@@ -6305,7 +6308,7 @@
   url: https://github.com/kuuldor/Faun
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [linux]
   category: player
   media: [video]
   open_source: true
@@ -6313,6 +6316,7 @@
   status: active
   status_year: 2026
   description: QML desktop client for Plex Media Server.
+  notes: Build docs cover Linux only; no releases.
   long_tail: true
 
 - name: Feishin
@@ -7171,7 +7175,7 @@
   servers: [jellyfin, emby]
   also: [webdav, smb]
   official: false
-  platforms: [android, ios, windows, linux]
+  platforms: [android, windows, linux, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -7180,13 +7184,13 @@
   status: active
   status_year: 2026
   description: Flutter player with danmaku comments for server, WebDAV and SMB media.
-  notes: Flutter; platforms not named, assumed Android and iOS.
+  notes: README lists Android, Android TV, Windows and Linux; macOS is planned.
 
 - name: Flutterfin
   url: https://github.com/stainlesteel/Flutterfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, linux]
+  platforms: [android, linux, web]
   category: player
   media: [video]
   open_source: true
@@ -7426,7 +7430,7 @@
   url: https://github.com/ManiProjs/gelatin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, windows, macos, linux]
   category: player
   media: [video]
   open_source: true
@@ -7548,7 +7552,7 @@
   servers: [plex, jellyfin, emby]
   also: [smb, webdav, ftp, cloud, iptv, nfs, local]
   official: false
-  platforms: [ios, ipados, macos, windows, linux, tvos]
+  platforms: [ios, ipados, macos, tvos]
   category: player
   media: [video]
   open_source: false
@@ -8968,7 +8972,7 @@
     testflight: https://testflight.apple.com/join/etVSc7ZQ
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, carplay, android, android-auto, watchos]
+  platforms: [ios, ipados, carplay, android, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -12170,7 +12174,7 @@
   url: https://apps.apple.com/tr/app/jellystreamz-jellyfin-client/id6795484066
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [tvos]
   category: player
   media: [video]
   open_source: null
@@ -12178,8 +12182,8 @@
   status: active
   status_year: 2026
   aliases: [JellyStreamz – Jellyfin Client]
-  description: Native video client for Apple devices.
-  notes: 'By Darryl Polo. Correction: thought TestFlight-only, but listed on the App Store (seen in the Turkish store). TestFlight closed.'
+  description: Native Apple TV video client.
+  notes: By Darryl Polo. The App Store build is tvOS only, although the text names iPhone and iPad. TestFlight closed.
 
 - name: JellyTauri
   url: https://github.com/dan-online/jellytauri
@@ -13099,7 +13103,7 @@
   servers: [plex, jellyfin, emby]
   also: [stremio, iptv]
   official: false
-  platforms: [android, android-tv, ios, ipados, tvos]
+  platforms: [android, android-tv]
   category: player
   media: [video, live-tv]
   open_source: null
@@ -13107,6 +13111,7 @@
   status_year: 2026
   aliases: [KDTIVI – All-in-one Media]
   description: All-in-one media app combining servers, Stremio addons and M3U playlists.
+  notes: Its App Store app (id6754769190) was withdrawn by 2026-11; the Play listing still names Apple devices.
 
 - name: KenjaPlayer
   url: https://apps.apple.com/us/app/kenjaplayer-ai-video-player/id6792728329
@@ -14021,15 +14026,15 @@
     appstore: https://apps.apple.com/app/id6748318433
   servers: [jellyfin]
   official: false
-  platforms: [ios, macos, ipados, watchos]
+  platforms: [ios, ipados, watchos]
   category: live-tv
   media: [live-tv]
   open_source: true
   license: GPL-3.0
   status: active
   status_year: 2026
-  description: Live TV-only client for iPhone and Mac.
-  notes: Small project.
+  description: Live TV-only client for iPhone, iPad and Apple Watch.
+  notes: Small project. The Xcode project has iOS, tvOS and watchOS targets but no Mac one.
 
 - name: LM Music
   url: https://github.com/laomou/lm-music
@@ -14665,7 +14670,7 @@
   url: https://github.com/madari-media/one
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [web]
   category: player
   media: [video]
   open_source: true
@@ -14674,7 +14679,8 @@
   status: stale
   status_year: 2025
   aliases: [madari-media/one, one]
-  description: Open-source Jellyfin client.
+  description: Open-source Jellyfin web client.
+  notes: Hosted at one.madari.media; no Android or iOS build.
   long_tail: true
 
 - name: Maku
@@ -16969,7 +16975,7 @@
   servers: [jellyfin, emby]
   also: [cloud, fnos, webdav, smb, local, other]
   official: false
-  platforms: [macos, android, android-tv, ios, ipados, tvos, windows]
+  platforms: [macos, android, android-tv, ios, ipados, windows]
   category: player
   media: [video]
   open_source: false
@@ -16978,7 +16984,7 @@
   status_year: 2026
   aliases: [网易爆米花]
   description: Player for cloud drives, NAS, WebDAV, SMB, Emby and Jellyfin that matches posters into a personal library.
-  notes: by Guangzhou NetEase Computer System Co.Ltd. Simplified Chinese listing.
+  notes: by Guangzhou NetEase Computer System Co.Ltd. Simplified Chinese listing. The site names Apple TV, but neither App Store app has a tvOS build.
 
 - name: nettv-plex-client
   url: https://github.com/hitolaus/nettv-plex-client
@@ -20608,7 +20614,7 @@
     repo: https://github.com/michelknoop21/pleya
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados, android, windows, macos, linux, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -20617,7 +20623,7 @@
   status: active
   status_year: 2026
   description: Plex and Jellyfin client with a cinematic home, continue-watching rows and detail pages.
-  notes: by Michel Knoop.
+  notes: by Michel Knoop. Fork of Plezy; the desktop and Play downloads in its README are Plezy's own.
 
 - name: Plezo
   url: https://github.com/edrock200/plezo
@@ -21854,7 +21860,7 @@
   url: https://github.com/frankliu2023/reelcove
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -21863,7 +21869,7 @@
   status: active
   status_year: 2026
   description: Apple-device client built on the Swiftfin codebase.
-  notes: Swiftfin-based; exact Apple targets not stated, taken from Swiftfin.
+  notes: Swiftfin-based; the README names iPhone and iPad.
   long_tail: true
 
 - name: ReelFin
@@ -22731,7 +22737,7 @@
     testflight: https://testflight.apple.com/join/ASUrxDuq
   servers: [jellyfin]
   official: false
-  platforms: [ios, web]
+  platforms: [ios, web, ipados]
   category: books
   media: [books]
   open_source: true
@@ -22739,7 +22745,7 @@
   status: active
   status_year: 2026
   description: Native reader for books, comics and PDFs stored on a Jellyfin server.
-  notes: Platform not stated.
+  notes: TestFlight build for iPhone and iPad, plus a web app.
   long_tail: true
 
 - name: Selvania Ciné
@@ -23162,14 +23168,14 @@
   servers: [jellyfin]
   also: [stremio]
   official: false
-  platforms: [ios, macos]
+  platforms: [ios, macos, ipados]
   category: player
   media: [video]
   open_source: null
   status: beta
   status_year: 2026
   aliases: [Sleeve]
-  description: iPhone and Mac app that mixes a personal media server with addons you choose.
+  description: iPhone, iPad and Mac app that mixes a personal media server with addons you choose.
   notes: Unrelated to the App Store music players named Sleeve.
 
 - name: SlickRemote for Plex
@@ -24364,7 +24370,7 @@
     testflight: https://testflight.apple.com/join/MV16nHss
   servers: [plex]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos]
   category: player
   media: [video, music]
   open_source: true
@@ -24373,7 +24379,7 @@
   status_year: 2026
   aliases: [SURGE for Plex, 'SURGE: for Plex']
   description: Apple-native Plex client.
-  notes: Listed as Apple platforms; exact targets not stated.
+  notes: The developer's post names iOS, iPadOS and macOS; the repo holds only the privacy page.
   long_tail: true
 
 - name: SVPlayer
@@ -24444,7 +24450,7 @@
   url: https://github.com/Zelanh/swiftfin-home
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios]
   category: player
   media: [video]
   open_source: true
@@ -24675,7 +24681,7 @@
   servers: [plex]
   also: [streaming-services]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: music
   media: [music]
   open_source: null
@@ -24683,7 +24689,7 @@
   status_year: 2026
   aliases: [Synthesis – Plex & Apple Music]
   description: Music player with Apple Music alongside, credits, related music and playback to AirPlay and Plex players.
-  notes: TestFlight only; Apple platform not stated.
+  notes: TestFlight only; iPhone and iPad build.
 
 - name: Syravo
   url: https://apps.apple.com/us/app/syravo-iptv-m3u-player/id6797567023
@@ -25097,7 +25103,7 @@
   servers: [plex, jellyfin, emby]
   also: [cloud, local]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: false
@@ -25106,7 +25112,7 @@
   status_year: 2026
   aliases: ['Tilus: Media Player']
   description: Video player with its own engine for Dolby Vision and Atmos from USB, NAS, servers and the cloud.
-  notes: by Kirill Ustiuzhanin; Listing also mentions a Mac build
+  notes: by Kirill Ustiuzhanin. The text names Mac and Apple TV apps, but the App Store has iPhone and iPad builds only.
 
 - name: Timbre
   url: https://github.com/DanielTylerReece/Timbre
@@ -25516,7 +25522,7 @@
   servers: [plex]
   also: [iptv, smb]
   official: false
-  platforms: [ios, ipados, tvos, carplay]
+  platforms: [ios, ipados, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -25524,7 +25530,7 @@
   status: active
   status_year: 2026
   description: IPTV player for M3U links, Xtream panels, a Plex server or an SMB library.
-  notes: by Azad Mohamed.
+  notes: by Azad Mohamed. The text mentions a companion Apple TV app, but no tvOS build or sibling app is on the App Store.
 
 - name: tuifin
   url: https://github.com/crossatko/tuifin
@@ -26129,14 +26135,14 @@
   servers: [jellyfin, emby]
   also: [local]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
   status: beta
   status_year: 2026
   description: Local video library with TMDB matching that also connects to media servers, no account needed.
-  notes: TestFlight only; Apple platform not stated.
+  notes: TestFlight only; iPhone and iPad build.
 
 - name: vemm
   url: https://github.com/dragoshont/vemm
@@ -26456,7 +26462,7 @@
   url: https://github.com/vinnysaj/vinnyfin
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: true
@@ -26464,7 +26470,7 @@
   price: free
   status: active
   status_year: 2026
-  description: Video player for iPhone, iPad, Mac and Apple TV.
+  description: Video player for iPhone, iPad and Apple TV.
   long_tail: true
 
 - name: Viondo
@@ -28204,14 +28210,14 @@
   servers: [jellyfin, emby]
   also: [iptv, other]
   official: false
-  platforms: [ios]
+  platforms: [tvos]
   category: player
   media: [video, live-tv]
   open_source: null
   status: beta
   status_year: 2026
   description: Personal video aggregator with custom site configs, M3U IPTV and private media servers.
-  notes: TestFlight only; Apple platform not stated.
+  notes: TestFlight only; Apple TV build (its TestFlight icon is a layered tvOS image).
 
 - name: 浩视播放器
   url: https://wuhaohan.icu/apps/video.html

@@ -141,7 +141,7 @@
   url: https://apps.apple.com/us/app/accio-for-plex/id6759935357
   servers: [plex]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: admin
   media: [video]
   open_source: null
@@ -184,7 +184,7 @@
   servers: [jellyfin]
   also: [webdav, smb, cloud, subsonic, local]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -263,7 +263,7 @@
   servers: [plex, jellyfin, emby]
   also: [local]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video, music]
   open_source: false
@@ -295,7 +295,7 @@
     play: https://play.google.com/store/apps/details?id=com.attempt.afusekt
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, android-tv, ios, tvos]
+  platforms: [android, ipados, android-tv, ios, tvos]
   category: player
   media: [video]
   open_source: false
@@ -376,7 +376,7 @@
   servers: [plex, jellyfin]
   also: [iptv]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -535,7 +535,7 @@
   servers: [plex, jellyfin, emby]
   also: [local, cloud, smb]
   official: false
-  platforms: [ios, ipados, macos, watchos, tvos]
+  platforms: [ios, ipados, macos, visionos, watchos, tvos]
   category: player
   media: [video]
   open_source: false
@@ -581,7 +581,7 @@
   url: https://github.com/kyrollosnageh/AltEmby
   servers: [emby]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, ios, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -747,7 +747,7 @@
   servers: [jellyfin, emby]
   also: [subsonic, smb, webdav, dlna, cloud, other]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: null
@@ -1021,7 +1021,7 @@
   servers: [plex, jellyfin, emby]
   also: [other]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -1051,7 +1051,7 @@
   url: https://github.com/eslutz/A-Playa-Named-Gus
   servers: [jellyfin]
   official: false
-  platforms: [ios, visionos]
+  platforms: [macos, ios, ipados, tvos, visionos, watchos]
   category: player
   media: [video]
   open_source: true
@@ -1096,7 +1096,7 @@
   servers: [emby]
   also: [smb, webdav]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, tvos]
   category: player
   media: [video, music]
   open_source: false
@@ -1174,7 +1174,7 @@
     testflight: https://testflight.apple.com/join/kkC58n2w
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, macos]
+  platforms: [ios, ipados, macos, tvos]
   category: player
   media: [video]
   open_source: null
@@ -1244,7 +1244,7 @@
   url: https://github.com/benjamiinn1/armfin
   servers: [jellyfin]
   official: false
-  platforms: [watchos, ios]
+  platforms: [watchos]
   category: music
   media: [music]
   open_source: true
@@ -1262,7 +1262,7 @@
     play: https://play.google.com/store/apps/details?id=app.arnage.arnage
   servers: [plex, jellyfin]
   official: false
-  platforms: [android, android-tv, ios]
+  platforms: [android, ipados, android-tv, ios]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -1477,7 +1477,7 @@
   servers: [plex, jellyfin]
   also: [subsonic, webdav]
   official: false
-  platforms: [ios, ipados, macos, tvos, carplay]
+  platforms: [ios, ipados, macos, tvos, visionos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -1751,7 +1751,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -1825,7 +1825,7 @@
   servers: [plex]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -1942,7 +1942,7 @@
   url: https://apps.apple.com/us/app/bearfin/id6817142267
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: player
   media: [video]
   open_source: false
@@ -1973,7 +1973,7 @@
   servers: [plex, jellyfin, emby]
   also: [fnos, smb, webdav, ftp, nfs]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -2045,7 +2045,7 @@
   url: https://apps.apple.com/fr/app/bionic-tape/id6819212863
   servers: [plex]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: false
@@ -2134,7 +2134,7 @@
   url: https://apps.apple.com/hk/app/bloom-cinema/id6820236256
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -2240,7 +2240,7 @@
     play: https://play.google.com/store/apps/details?id=app.bookcamp.android
   servers: [plex]
   official: false
-  platforms: [ios, ipados, android, android-auto]
+  platforms: [ios, android, android-auto]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -2272,7 +2272,7 @@
   servers: [jellyfin]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [ios, watchos]
   category: audiobooks
   media: [audiobooks, books]
   open_source: false
@@ -2721,7 +2721,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video]
   open_source: false
@@ -2736,7 +2736,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -2798,7 +2798,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local, other]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, live-tv, music]
   open_source: false
@@ -2812,7 +2812,7 @@
   url: https://apps.apple.com/us/app/carscreen-video-in-your-car/id6819269005
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, carplay]
+  platforms: [ios, ipados, carplay]
   category: player
   media: [video]
   open_source: null
@@ -2859,7 +2859,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -2876,7 +2876,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -2893,7 +2893,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -3034,7 +3034,7 @@
   servers: [jellyfin]
   also: [other]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -3064,7 +3064,7 @@
   servers: [jellyfin, emby]
   also: [smb, local, iptv]
   official: false
-  platforms: [ios, ipados, macos, watchos, tvos]
+  platforms: [ios, ipados, macos, visionos, carplay, watchos, tvos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -3209,7 +3209,7 @@
   url: https://apps.apple.com/us/app/chroma-spatial-cinema/id6478800800
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, visionos, carplay]
   category: player
   media: [video]
   open_source: false
@@ -3330,7 +3330,7 @@
   url: https://apps.apple.com/hk/app/cinefin/id6824275546
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: player
   media: [video]
   open_source: false
@@ -3447,7 +3447,7 @@
   url: https://apps.apple.com/us/app/cinereel-media-server-player/id6792861697
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -3639,7 +3639,7 @@
   url: https://apps.apple.com/app/id6752622762
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [macos, ios, ipados, tvos, visionos, carplay]
   category: live-tv
   media: [video, live-tv]
   open_source: false
@@ -3654,7 +3654,7 @@
   url: https://apps.apple.com/us/app/codafy/id6782122345
   servers: [plex]
   official: false
-  platforms: [carplay, ios, watchos]
+  platforms: [ipados, carplay, ios, watchos]
   category: music
   media: [music]
   open_source: null
@@ -3700,7 +3700,7 @@
   servers: [jellyfin]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -3734,7 +3734,7 @@
     amazon: https://www.amazon.com/hz/mas/detail?ie=UTF8&ASIN=B0CY43YY8K&asin=B0CY43YY8K
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux, fire-tv]
+  platforms: [windows, linux, fire-tv]
   category: player
   media: [video]
   open_source: true
@@ -3765,7 +3765,7 @@
   url: https://apps.apple.com/us/app/conflux-video-player/id6450330892
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, ipados, tvos, macos]
+  platforms: [ios, ipados, tvos, macos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -3877,7 +3877,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [android, ios, macos, windows, linux]
+  platforms: [android, ios, macos, windows, linux, ipados]
   category: music
   media: [music]
   open_source: false
@@ -4102,7 +4102,7 @@
   servers: [plex, jellyfin, emby]
   also: [dlna, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video]
   open_source: false
@@ -4303,7 +4303,7 @@
   servers: [emby]
   also: [audiobookshelf, other]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, carplay]
   category: player
   media: [video, music, audiobooks, books]
   open_source: false
@@ -4377,7 +4377,7 @@
   servers: [plex, jellyfin, emby]
   also: [smb, local, cloud, subsonic, webdav, dlna]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [music]
   open_source: false
@@ -4671,7 +4671,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -4687,7 +4687,7 @@
   servers: [jellyfin, emby]
   also: [other]
   official: false
-  platforms: [ios, tvos, carplay]
+  platforms: [ios, ipados, tvos, carplay]
   category: player
   media: [video, music]
   open_source: null
@@ -4857,7 +4857,7 @@
   url: https://eclipsemusic.app
   servers: [plex]
   official: false
-  platforms: [android, carplay, windows, ios]
+  platforms: [android, ipados, carplay, windows, ios]
   category: music
   media: [music]
   open_source: null
@@ -5408,7 +5408,7 @@
   servers: [emby]
   official: true
   vendor: emby
-  platforms: [ios, ipados, watchos, carplay]
+  platforms: [macos, ios, ipados, watchos, carplay]
   category: player
   media: [video, music, photos, live-tv]
   open_source: null
@@ -5617,7 +5617,7 @@
   url: https://github.com/jsdfhasuh/emby_my_client
   servers: [emby]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -6112,7 +6112,7 @@
   url: https://github.com/KumaVolt/encheo
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux, android]
+  platforms: [windows, macos, linux, android, ios]
   category: player
   media: [video]
   open_source: true
@@ -6130,7 +6130,7 @@
     testflight: https://testflight.apple.com/join/HQTUPmE8
   servers: [plex]
   official: false
-  platforms: [ios, watchos]
+  platforms: [macos, ios, ipados, watchos]
   category: music
   media: [music]
   open_source: null
@@ -6158,7 +6158,7 @@
   url: https://github.com/enthu2005/reel
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -6204,7 +6204,7 @@
   servers: [plex, emby]
   also: [cloud, webdav, smb, ftp]
   official: false
-  platforms: [ios, ipados, tvos, macos]
+  platforms: [ios, ipados, tvos, macos, carplay]
   category: player
   media: [video]
   open_source: null
@@ -6486,7 +6486,7 @@
     appstore: https://apps.apple.com/us/app/filebar-media-player/id1558391784
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, ipados, tvos, macos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -6651,7 +6651,7 @@
   url: https://apps.apple.com/app/id6738301953
   servers: [jellyfin]
   official: false
-  platforms: [ios, macos, carplay]
+  platforms: [ios, macos, ipados, carplay]
   category: music
   media: [music]
   open_source: false
@@ -6856,7 +6856,7 @@
     play: https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, android]
+  platforms: [ios, android]
   category: music
   media: [music]
   open_source: false
@@ -7075,7 +7075,7 @@
   url: https://apps.apple.com/us/app/flick-for-plex/id6806605373
   servers: [plex]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: admin
   media: [video]
   open_source: null
@@ -7162,7 +7162,7 @@
   servers: [jellyfin, emby]
   also: [local]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: false
@@ -7236,7 +7236,7 @@
   servers: [plex]
   also: [ftp]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: false
@@ -7251,7 +7251,7 @@
   url: https://github.com/Ender-Kylin/Flumby
   servers: [emby]
   official: false
-  platforms: [android, ios, windows, macos, linux]
+  platforms: [android, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -8039,7 +8039,7 @@
   url: https://apps.apple.com/us/app/hakuro/id6756937091
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: false
@@ -8070,7 +8070,7 @@
   servers: [plex, jellyfin, emby]
   also: [cloud]
   official: false
-  platforms: [ios, tvos, macos]
+  platforms: [ios, ipados, tvos, macos, carplay]
   category: player
   media: [video]
   open_source: false
@@ -8188,7 +8188,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, audiobookshelf]
   official: false
-  platforms: [ios, android, carplay, android-auto]
+  platforms: [ios, android, ipados, carplay, android-auto]
   category: music
   media: [music, audiobooks, podcasts]
   open_source: null
@@ -8202,7 +8202,7 @@
   servers: [jellyfin]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, macos, watchos, tvos]
+  platforms: [ios, ipados, macos, visionos, watchos, tvos]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -8595,7 +8595,7 @@
   servers: [jellyfin]
   also: [streaming-services]
   official: false
-  platforms: [windows, macos, linux, android]
+  platforms: [windows, linux, android]
   category: player
   media: [video]
   open_source: true
@@ -8655,7 +8655,7 @@
   url: https://apps.apple.com/cn/app/iemc/id1467462861
   servers: [emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
@@ -8696,7 +8696,7 @@
   url: https://apps.apple.com/us/app/iiva/id1614231457
   servers: [emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -8776,7 +8776,7 @@
   url: https://apps.apple.com/app/id6755395866
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [macos, ios, ipados, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -8806,7 +8806,7 @@
   url: https://apps.apple.com/us/app/interlude-music/id1545773677
   servers: [plex]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [music]
   open_source: false
@@ -8858,7 +8858,7 @@
     appgallery: https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay
   servers: [jellyfin, emby]
   official: false
-  platforms: [android, ios, macos, tvos, windows, xbox, harmonyos]
+  platforms: [android, ios, macos, ipados, tvos, windows, xbox, harmonyos]
   category: player
   media: [video]
   open_source: true
@@ -8947,7 +8947,7 @@
   url: https://apps.apple.com/us/app/jamfin/id6814805439
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, watchos, carplay]
+  platforms: [ios, watchos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -8989,7 +8989,7 @@
   url: https://apps.apple.com/us/app/jammymusic/id6752684680
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [ios, carplay, watchos]
   category: music
   media: [music]
   open_source: false
@@ -9594,7 +9594,7 @@
     repo:2: https://github.com/JellyCast/jellycast-lgtv
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, ios, webos]
+  platforms: [ipados, android-tv, ios, webos]
   category: player
   media: [video]
   open_source: true
@@ -11343,7 +11343,7 @@
   url: https://github.com/tseho/jellyfin-vlc-shim
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: shim
   media: [video]
   open_source: true
@@ -11726,7 +11726,7 @@
   url: https://apps.apple.com/us/app/jellygo-jellyfin-client/id6760751654
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: player
   media: [video]
   open_source: false
@@ -11960,7 +11960,7 @@
   url: https://github.com/RousseAddict/jellyold
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -12050,7 +12050,7 @@
   url: https://apps.apple.com/us/app/jellyplayer/id6761337129
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [music]
   open_source: false
@@ -12079,7 +12079,7 @@
   url: https://github.com/NikolaDX/JellyPlayerSwift
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -12094,7 +12094,7 @@
   url: https://apps.apple.com/us/app/jellypod-retro-style-music/id6788034358
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [music]
   open_source: false
@@ -12185,7 +12185,7 @@
   url: https://apps.apple.com/app/id6748783768
   servers: [jellyfin]
   official: false
-  platforms: [tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -12356,7 +12356,7 @@
   url: https://apps.apple.com/us/app/jellystream/id6759179966
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [music]
   open_source: false
@@ -12618,7 +12618,7 @@
   url: https://apps.apple.com/app/id6752357290
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos, visionos, macos, watchos]
+  platforms: [ios, ipados, tvos, watchos]
   category: player
   media: [video]
   open_source: false
@@ -13148,7 +13148,7 @@
   url: https://github.com/BusterLandstrom/Jojk
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: music
   media: [music]
   open_source: true
@@ -13178,7 +13178,7 @@
   servers: [jellyfin, emby]
   also: [subsonic, webdav]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: null
@@ -13419,7 +13419,7 @@
   url: https://github.com/evropiani/Kinema
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -13707,7 +13707,7 @@
   servers: [emby]
   also: [smb, webdav, dlna]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -13741,7 +13741,7 @@
   servers: [emby]
   also: [webdav, smb]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: false
@@ -13801,7 +13801,7 @@
   url: https://github.com/jlipworth/Labstream
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [visionos, ios, ipados]
+  platforms: [macos, tvos, visionos, ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -13816,7 +13816,7 @@
   url: https://lagu.fm
   servers: [plex]
   official: false
-  platforms: [android, tvos, carplay, windows, ios]
+  platforms: [macos, android, ipados, tvos, carplay, windows, ios, watchos]
   category: music
   media: [music]
   open_source: null
@@ -13919,7 +13919,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, carplay]
+  platforms: [ios, ipados, carplay]
   category: player
   media: [video, live-tv]
   open_source: null
@@ -14137,7 +14137,7 @@
   servers: [plex]
   also: [subsonic, audiobookshelf, streaming-services]
   official: false
-  platforms: [ios, ipados, tvos, visionos, macos]
+  platforms: [ios, ipados, tvos]
   category: music
   media: [music, audiobooks]
   open_source: false
@@ -14215,7 +14215,7 @@
   servers: [jellyfin, emby]
   also: [iptv, cloud, local]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -14232,7 +14232,7 @@
     appstore: https://apps.apple.com/app/id6748318433
   servers: [jellyfin]
   official: false
-  platforms: [ios, macos, watchos]
+  platforms: [ios, macos, ipados, watchos]
   category: live-tv
   media: [live-tv]
   open_source: true
@@ -14262,7 +14262,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, tvos, carplay]
+  platforms: [ios, ipados, tvos, carplay]
   category: music
   media: [music]
   open_source: null
@@ -14723,7 +14723,7 @@
   servers: [jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, music]
   open_source: false
@@ -14933,7 +14933,7 @@
   url: https://apps.apple.com/us/app/manet-music/id6470928235
   servers: [jellyfin]
   official: false
-  platforms: [ios, carplay]
+  platforms: [macos, ios, ipados, carplay]
   category: music
   media: [music]
   open_source: false
@@ -15924,7 +15924,7 @@
   url: https://apps.apple.com/br/app/moodbx-series-pelis-y-juegos/id6769435122
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: player
   media: [video]
   open_source: false
@@ -15949,7 +15949,7 @@
   servers: [plex, jellyfin, emby]
   also: [silo]
   official: false
-  platforms: [android, android-tv, fire-tv, vega-os, ios, tvos, macos, windows, linux, web, tizen, webos, xbox, roku]
+  platforms: [android, ipados, android-tv, fire-tv, vega-os, ios, tvos, macos, windows, linux, web, tizen, webos, xbox, roku]
   category: player
   media: [video, music, live-tv]
   open_source: true
@@ -16199,7 +16199,7 @@
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
-  platforms: [ios, macos, android, linux, windows, carplay, android-auto]
+  platforms: [ios, macos, android, linux, windows, ipados, carplay, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -16346,7 +16346,7 @@
   servers: [plex, jellyfin, emby]
   also: [smb]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -16591,7 +16591,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, macos]
+  platforms: [ios, macos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -16607,7 +16607,7 @@
   servers: [plex, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -16835,7 +16835,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, watchos, carplay]
+  platforms: [ios, ipados, watchos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -16851,7 +16851,7 @@
   servers: [plex, jellyfin]
   also: [smb]
   official: false
-  platforms: [visionos, ios, macos]
+  platforms: [ipados, visionos, ios, macos]
   category: player
   media: [video]
   open_source: false
@@ -16908,7 +16908,7 @@
   servers: [jellyfin]
   also: [other]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: admin
   media: [video]
   open_source: false
@@ -16965,7 +16965,7 @@
   url: https://apps.apple.com/us/app/nautune/id6754812208
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: music
   media: [music]
   open_source: false
@@ -16980,7 +16980,7 @@
   servers: [emby]
   also: [subsonic, local]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -17131,7 +17131,7 @@
     other: https://discord.com/invite/6mm7YqvjW
   servers: [jellyfin]
   official: false
-  platforms: [tvos, ios]
+  platforms: [tvos]
   category: player
   media: [video]
   open_source: false
@@ -17284,7 +17284,7 @@
   url: https://github.com/realcgcristi/nextfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -17445,7 +17445,7 @@
   servers: [jellyfin, emby]
   also: [smb, webdav, local]
   official: false
-  platforms: [windows, macos, linux, android, ios, tvos, harmonyos, android-tv]
+  platforms: [windows, macos, linux, android, ios, ipados, tvos, harmonyos, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -17614,7 +17614,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
-  platforms: [ios, android]
+  platforms: [ios, android, ipados]
   category: music
   media: [music]
   open_source: false
@@ -17674,7 +17674,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [tvos, ios]
+  platforms: [ipados, tvos, ios]
   category: live-tv
   media: [video, live-tv]
   open_source: false
@@ -17744,7 +17744,7 @@
   servers: [plex]
   also: [other]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, tvos]
   category: player
   media: [video]
   open_source: false
@@ -17841,7 +17841,7 @@
   url: https://github.com/1824239290/OcPlayer
   servers: [jellyfin, emby]
   official: false
-  platforms: [ios, macos]
+  platforms: [ios, macos, ipados]
   category: player
   media: [video]
   open_source: true
@@ -17873,7 +17873,7 @@
   url: https://apps.apple.com/jp/app/oliplay/id6760545351
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: shim
   media: [video]
   open_source: null
@@ -18005,7 +18005,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, macos, watchos, tvos]
+  platforms: [ios, ipados, macos, visionos, watchos, tvos]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -18080,7 +18080,7 @@
   servers: [plex, jellyfin, emby]
   also: [smb, webdav, cloud, iptv]
   official: false
-  platforms: [ios, tvos]
+  platforms: [macos, ios, ipados, tvos, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -18140,7 +18140,7 @@
   servers: [emby]
   also: [iptv]
   official: false
-  platforms: [ios, tvos, fire-tv, web]
+  platforms: [ios, ipados, tvos, fire-tv, web]
   category: player
   media: [video, live-tv]
   open_source: true
@@ -18215,7 +18215,7 @@
   servers: [jellyfin]
   also: [other]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -18463,7 +18463,7 @@
   servers: [jellyfin]
   also: [smb]
   official: false
-  platforms: [ios, ipados, tvos, macos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -18549,7 +18549,7 @@
   url: https://apps.apple.com/us/app/peartune-self-hosted-music/id6796709523
   servers: [jellyfin, emby]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: false
@@ -18598,7 +18598,7 @@
   url: https://github.com/chasecheney/pelies
   servers: [plex]
   official: false
-  platforms: [tvos]
+  platforms: [macos, tvos]
   category: player
   media: [video]
   open_source: true
@@ -18655,7 +18655,7 @@
   url: https://github.com/minhtran162/phimne-flutter
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [macos, android, ios]
   category: player
   media: [video]
   open_source: true
@@ -18779,7 +18779,7 @@
   servers: [plex, jellyfin, emby]
   also: [silo, iptv, cloud]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -18797,7 +18797,7 @@
     play: https://play.google.com/store/apps/details?id=com.appsynergyts.phyn
   servers: [jellyfin]
   official: false
-  platforms: [macos, ios, android, quest, tvos]
+  platforms: [macos, ios, android, ipados, quest, tvos]
   category: player
   media: [video]
   open_source: false
@@ -18973,7 +18973,7 @@
   url: https://pixieplayer.app
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos, watchos]
+  platforms: [ios, ipados, macos, tvos, carplay, watchos]
   category: music
   media: [music, audiobooks]
   open_source: null
@@ -18986,7 +18986,7 @@
   url: https://github.com/schembora/plankton
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: true
@@ -19004,7 +19004,7 @@
   servers: [jellyfin, emby]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, visionos, ipados, carplay, watchos]
+  platforms: [ios, ipados, carplay, watchos]
   category: audiobooks
   media: [audiobooks]
   open_source: true
@@ -19049,7 +19049,7 @@
   url: https://github.com/FortNbreak/Plauri
   servers: [plex]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -19691,7 +19691,7 @@
   servers: [plex]
   official: true
   vendor: plex
-  platforms: [ios, android]
+  platforms: [ios, android, ipados]
   category: admin
   media: [video]
   open_source: null
@@ -20118,7 +20118,7 @@
   servers: [plex]
   also: [kodi]
   official: false
-  platforms: [ios, watchos]
+  platforms: [ios, ipados, watchos]
   category: remote
   media: [video]
   open_source: false
@@ -20491,7 +20491,7 @@
   servers: [plex]
   official: true
   vendor: plex
-  platforms: [ios, android]
+  platforms: [ios, android, ipados]
   category: photos
   media: [photos]
   open_source: null
@@ -20873,7 +20873,7 @@
   url: https://github.com/edrock200/plezo
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, ios]
+  platforms: [macos, android, ios]
   category: player
   media: [video]
   open_source: true
@@ -21019,7 +21019,7 @@
   servers: [jellyfin, emby]
   also: [webdav]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: null
@@ -21294,7 +21294,7 @@
   servers: [jellyfin, emby]
   also: [local, smb, ftp, webdav, cloud]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: false
@@ -21443,7 +21443,7 @@
   url: https://apps.apple.com/us/app/privateshelf-shelf-for-plex/id6758427607
   servers: [plex]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -21479,7 +21479,7 @@
   servers: [plex]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, android, watchos, carplay]
+  platforms: [ios, android, ipados, watchos, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -21673,7 +21673,7 @@
   servers: [jellyfin, emby]
   also: [webdav, smb, cloud, local, streaming-services]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, carplay]
   category: music
   media: [music, video]
   open_source: false
@@ -21826,7 +21826,7 @@
   servers: [plex, jellyfin]
   also: [subsonic, local, streaming-services]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: music
   media: [music]
   open_source: false
@@ -21840,7 +21840,7 @@
   url: https://apps.apple.com/cn/app/id6773220930
   servers: [plex, emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
@@ -21998,7 +21998,7 @@
   url: https://apps.apple.com/us/app/recto-audiobooks/id6763444940
   servers: [plex]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -22088,7 +22088,7 @@
   url: https://github.com/cj-vana/reel-client
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, tvos, macos, visionos, web, windows, linux]
+  platforms: [ios, ipados, tvos, macos, web, windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -22135,7 +22135,7 @@
   url: https://apps.apple.com/app/id6762079357
   servers: [jellyfin]
   official: false
-  platforms: [ios, tvos]
+  platforms: [macos, ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -22192,7 +22192,7 @@
   url: https://github.com/suhiymof/ReEmby
   servers: [jellyfin, emby]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -22220,7 +22220,7 @@
   url: https://apps.apple.com/us/app/reflix-emby-video-player/id6621243955
   servers: [emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -22423,7 +22423,7 @@
   url: https://apps.apple.com/de/app/rexyview/id6761977975
   servers: [plex]
   official: false
-  platforms: [ios, ipados, macos, watchos, tvos]
+  platforms: [ios, ipados, macos, visionos, watchos, tvos]
   category: player
   media: [video]
   open_source: false
@@ -22501,7 +22501,7 @@
   servers: [jellyfin]
   also: [streaming-services]
   official: false
-  platforms: [ios, ipados, macos, carplay]
+  platforms: [ios, macos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -22555,7 +22555,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, carplay]
+  platforms: [ios, ipados, carplay]
   category: music
   media: [music]
   open_source: false
@@ -22864,7 +22864,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, dlna]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -22978,7 +22978,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [linux, windows, android, android-tv, ios, carplay, android-auto]
+  platforms: [linux, windows, android, android-tv, ios, android-auto]
   category: music
   media: [music]
   open_source: true
@@ -23112,7 +23112,7 @@
     repo: https://github.com/Shadfin/app
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux, web]
+  platforms: [windows, linux, web]
   category: player
   media: [video]
   open_source: true
@@ -23296,7 +23296,7 @@
   url: https://apps.apple.com/us/app/sillon-musique/id6822914803
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados, macos, watchos, carplay]
+  platforms: [ios, macos, watchos, carplay]
   category: music
   media: [music]
   open_source: false
@@ -23385,7 +23385,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: music
   media: [music]
   open_source: false
@@ -23535,7 +23535,7 @@
   servers: [plex]
   also: [iptv, smb]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -23816,7 +23816,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, tvos, macos]
+  platforms: [ios, ipados, tvos, macos]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -23921,7 +23921,7 @@
   url: https://github.com/spool-player/spool
   servers: [jellyfin, emby]
   official: false
-  platforms: [webos, windows, macos, linux, android, android-tv]
+  platforms: [ios, tvos, webos, windows, macos, linux, android, android-tv]
   category: player
   media: [video]
   open_source: true
@@ -24194,7 +24194,7 @@
   servers: [jellyfin, emby]
   also: [subsonic, other]
   official: false
-  platforms: [ios, android]
+  platforms: [ios, android, ipados, carplay]
   category: music
   media: [music]
   open_source: null
@@ -24481,7 +24481,7 @@
   url: https://github.com/sukrasuki/Sukiflix
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -24508,7 +24508,7 @@
   url: https://apps.apple.com/app/id6743207349
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
@@ -24580,7 +24580,7 @@
   servers: [plex, jellyfin, emby]
   also: [streaming-services, local]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: music
   media: [music]
   open_source: false
@@ -24693,7 +24693,7 @@
   url: https://github.com/gaabsi/SweetFin
   servers: [jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: true
@@ -24828,7 +24828,7 @@
   servers: [jellyfin, emby]
   also: [smb, webdav]
   official: false
-  platforms: [android, ios]
+  platforms: [macos, android, ios, tvos]
   category: player
   media: [video]
   open_source: true
@@ -24972,7 +24972,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -25107,7 +25107,7 @@
     play: https://play.google.com/store/apps/details?id=com.tautulli.tautulli_remote
   servers: [plex]
   official: false
-  platforms: [android, ios]
+  platforms: [android, ios, ipados]
   category: admin
   media: [video]
   open_source: true
@@ -25136,7 +25136,7 @@
   servers: [jellyfin, emby]
   also: [local]
   official: false
-  platforms: [ios, tvos]
+  platforms: [macos, ios, ipados, tvos]
   category: player
   media: [video]
   open_source: null
@@ -25151,7 +25151,7 @@
   url: https://apps.apple.com/jp/app/tekstream/id6786884911
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video]
   open_source: null
@@ -25165,7 +25165,7 @@
   url: https://github.com/ILikeTeaALot/Tellyfin
   servers: [jellyfin]
   official: false
-  platforms: [windows, macos, linux]
+  platforms: [windows, linux]
   category: player
   media: [video]
   open_source: true
@@ -25196,7 +25196,7 @@
   url: https://apps.apple.com/cn/app/id6449966958
   servers: [emby]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video, music]
   open_source: false
@@ -25305,7 +25305,7 @@
     repo: https://github.com/chicring/Themby
   servers: [emby]
   official: false
-  platforms: [ios, android]
+  platforms: [macos, ios, android, ipados]
   category: player
   media: [video]
   open_source: false
@@ -25333,7 +25333,7 @@
   url: https://github.com/THISJOWI/THISFRAME
   servers: [jellyfin]
   official: false
-  platforms: [ios, macos, tvos, visionos]
+  platforms: [ios, macos, ipados, tvos, visionos]
   category: player
   media: [video]
   open_source: true
@@ -25365,7 +25365,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video, live-tv]
   open_source: null
@@ -25424,7 +25424,7 @@
   url: https://apps.apple.com/us/app/time-for-plex/id6792536676
   servers: [plex]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [watchos]
   category: player
   media: [video, music, live-tv]
   open_source: false
@@ -25439,7 +25439,7 @@
   url: https://github.com/bogdan-calapod/tinyfin
   servers: [jellyfin]
   official: false
-  platforms: [android, ios]
+  platforms: [android]
   category: player
   media: [video]
   open_source: true
@@ -25812,7 +25812,7 @@
   servers: [plex]
   also: [iptv, smb]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, carplay]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -25857,7 +25857,7 @@
   url: https://apps.apple.com/fr/app/tunefalls/id6793672766
   servers: [plex]
   official: false
-  platforms: [ios, ipados, macos]
+  platforms: [ios, macos]
   category: music
   media: [music]
   open_source: false
@@ -25955,7 +25955,7 @@
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [android-tv, fire-tv, tvos, android, ios, macos, windows, linux]
+  platforms: [ipados, android-tv, fire-tv, tvos, android, ios, macos, windows, linux]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -26242,7 +26242,7 @@
   url: https://apps.apple.com/us/app/varys-for-plex/id1450380518
   servers: [plex]
   official: false
-  platforms: [ios, watchos]
+  platforms: [ios, ipados, watchos]
   category: admin
   media: [video]
   open_source: null
@@ -26453,7 +26453,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, dlna, local]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, visionos]
   category: live-tv
   media: [live-tv, video]
   open_source: false
@@ -26468,7 +26468,7 @@
   servers: [plex]
   also: [audiobookshelf, other]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: music
   media: [podcasts]
   open_source: false
@@ -26499,7 +26499,7 @@
   servers: [plex, jellyfin, emby]
   also: [silo, webdav]
   official: false
-  platforms: [ios, ipados, macos, tvos]
+  platforms: [ios, ipados, macos, tvos, visionos]
   category: player
   media: [video]
   open_source: null
@@ -26529,7 +26529,7 @@
   url: https://apps.apple.com/us/app/vibe-personal-music-player/id6786501269
   servers: [jellyfin]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: music
   media: [music]
   open_source: false
@@ -26577,7 +26577,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, cloud]
   official: false
-  platforms: [ios]
+  platforms: [ios, ipados]
   category: player
   media: [video, music]
   open_source: false
@@ -26768,7 +26768,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv, local]
   official: false
-  platforms: [ios, ipados, carplay]
+  platforms: [ios, carplay]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -26798,7 +26798,7 @@
   servers: [plex]
   also: [smb, ftp, nfs, cloud, local]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios]
   category: player
   media: [video, music]
   open_source: false
@@ -26951,7 +26951,7 @@
   servers: [plex]
   also: [audiobookshelf]
   official: false
-  platforms: [ios, ipados, watchos, tvos]
+  platforms: [ios, ipados, carplay, watchos, tvos]
   category: audiobooks
   media: [audiobooks]
   open_source: false
@@ -27099,7 +27099,7 @@
     msstore: https://apps.microsoft.com/detail/9ns56d9hqn2w
   servers: [plex, jellyfin]
   official: false
-  platforms: [ios, ipados, macos, tvos, windows, xbox, android]
+  platforms: [ios, ipados, macos, tvos, windows, xbox, android, visionos]
   category: player
   media: [video]
   open_source: null
@@ -27132,7 +27132,7 @@
   servers: [jellyfin]
   also: [subsonic]
   official: false
-  platforms: [ios, windows, android, linux, macos]
+  platforms: [ios, windows, android, linux, macos, ipados]
   category: music
   media: [music]
   open_source: true
@@ -27208,7 +27208,7 @@
     repo:2: https://github.com/djmanri3/walkman-server
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [android, ios, web, macos]
+  platforms: [android, ios, web, macos, ipados]
   category: music
   media: [music]
   open_source: true
@@ -27289,7 +27289,7 @@
   url: https://apps.apple.com/app/id6822633437
   servers: [plex, jellyfin, emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: null
@@ -27526,7 +27526,7 @@
   servers: [emby]
   also: [iptv]
   official: false
-  platforms: [ios]
+  platforms: [macos, ios, ipados]
   category: player
   media: [video, live-tv]
   open_source: false
@@ -27570,7 +27570,7 @@
   url: https://apps.apple.com/us/app/wristamp/id6760357303
   servers: [plex]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [watchos]
   category: music
   media: [music]
   open_source: false
@@ -27585,7 +27585,7 @@
   url: https://apps.apple.com/us/app/wristrax/id6758014508
   servers: [plex]
   official: false
-  platforms: [watchos]
+  platforms: [ios, watchos]
   category: music
   media: [music]
   open_source: null
@@ -27598,7 +27598,7 @@
   url: https://apps.apple.com/us/app/wriststream-for-plex/id6751917976
   servers: [plex]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [watchos]
   category: music
   media: [music]
   open_source: false
@@ -27613,7 +27613,7 @@
   url: https://apps.apple.com/us/app/wristwatch-player/id6793179479
   servers: [plex]
   official: false
-  platforms: [ios, ipados, watchos]
+  platforms: [watchos]
   category: player
   media: [video]
   open_source: false
@@ -27788,7 +27788,7 @@
   servers: [emby]
   also: [other]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, visionos]
   category: player
   media: [video]
   open_source: false
@@ -28061,7 +28061,7 @@
   servers: [emby]
   also: [local, webdav, smb]
   official: false
-  platforms: [macos, ios]
+  platforms: [macos]
   category: player
   media: [video]
   open_source: false
@@ -28124,7 +28124,7 @@
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
-  platforms: [ios, ipados, android, web]
+  platforms: [ios, ipados, android, web, carplay]
   category: music
   media: [music]
   open_source: false
@@ -28139,7 +28139,7 @@
   url: https://apps.apple.com/cn/app/yybx/id1519723194
   servers: [emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -28155,7 +28155,7 @@
   servers: [plex, jellyfin, emby]
   also: [iptv]
   official: false
-  platforms: [ios, ipados, tvos]
+  platforms: [ios, ipados, tvos, carplay]
   category: live-tv
   media: [video, live-tv]
   open_source: false
@@ -28237,7 +28237,7 @@
     appstore: https://apps.apple.com/app/id1009747025
   servers: [jellyfin, emby]
   official: false
-  platforms: [ios, tvos]
+  platforms: [ios, ipados, tvos]
   category: player
   media: [video]
   open_source: false
@@ -28402,7 +28402,7 @@
   servers: [emby]
   also: [audiobookshelf, fnos, local, other]
   official: false
-  platforms: [ios, ipados]
+  platforms: [ios, ipados, carplay]
   category: audiobooks
   media: [audiobooks]
   open_source: false

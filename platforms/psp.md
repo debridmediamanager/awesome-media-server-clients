@@ -9,6 +9,6 @@ Every app in this list that runs on PSP. That is 2 apps with 1 for Plex and 2 fo
 ## Video and general
 
 - [PocketFin](https://github.com/CidVonHighwind/pocketfin) - PSP homebrew app for browsing and playing your library. `Jellyfin` · `PSP` · `GPL-3.0` `Free`
-- [PSPStreamer](https://github.com/dreimer1986/PSPStreamer) - Sony PSP player backed by a transcoding server, with watch-status sync and MilkDrop visualisers. `Plex` `Jellyfin` · `PSP` · `GPL-2.0`
+- [PSPStreamer](https://github.com/dreimer1986/PSPStreamer) - Sony PSP player backed by a transcoding server, with watch-status sync and MilkDrop visualisers. `Plex` `Jellyfin` · `Original Xbox` `PSP` · `GPL-2.0`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

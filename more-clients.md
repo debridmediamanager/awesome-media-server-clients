@@ -502,7 +502,7 @@ Smaller Plex and Jellyfin and Emby clients. They live only on GitHub with no rel
 ## Desktop shims and external players
 
 - [aubustou/plex-dlna-player](https://github.com/aubustou/plex-dlna-player) - Plays Plex to DLNA renderers as a Plex player. `Plex` · `Linux` · `GPL-3.0` `Stale 2024`
-- [chromebox-mediaplayer](https://github.com/HelamanWarrior/chromebox-mediaplayer) - Minimal cast-only media player for Jellyfin. `Jellyfin` · `Other device` · `Open source` `Free`
+- [chromebox-mediaplayer](https://github.com/HelamanWarrior/chromebox-mediaplayer) - Minimal cast-only media player for Jellyfin. `Jellyfin` · `Linux` · `Open source` `Free`
 - [jellyfin-mpv-shim-go](https://github.com/mancube/jellyfin-mpv-shim-go) - Cast target that plays Jellyfin items in mpv, written in Go. `Jellyfin` · `Windows` `macOS` `Linux` · `Open source` `Free`
 - [linux-emby-svp](https://github.com/krakerz/linux-emby-svp) - Wrapper for the Emby Linux client that adds SVP (SmoothVideo Project) support. `Emby` · `Linux` · `MIT` `Free`
 - [omplex](https://github.com/wnielson/omplex) - Raspberry Pi Plex player target that plays through OMXPlayer. `Plex` · `Linux` · `Open source` `Free` `Stale 2014`

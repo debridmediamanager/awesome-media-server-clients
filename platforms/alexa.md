@@ -2,7 +2,7 @@
 
 # Alexa
 
-Every app in this list that runs on Alexa. That is 8 apps with 6 for Plex and 1 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Alexa. That is 9 apps with 7 for Plex and 1 for Jellyfin and 2 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -21,6 +21,7 @@ Every app in this list that runs on Alexa. That is 8 apps with 6 for Plex and 1 
 ## Companions
 
 - [alexa-plex](https://github.com/OverloadUT/alexa-plex) - Alexa skill for controlling Plex. `Plex` · `Alexa` · `MIT` `Stale 2016`
+- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Alexa` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
 - [plex-alexa-skill-bridge](https://github.com/falk0069/plex-alexa-skill-bridge) - Self-hosted bridge that connects Alexa to a Plex server. `Plex` · `Alexa` · `Open source`
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

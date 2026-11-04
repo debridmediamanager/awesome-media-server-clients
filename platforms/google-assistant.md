@@ -12,6 +12,6 @@ Every app in this list that runs on Google Assistant. That is 2 apps with 1 for 
 
 ## Companions
 
-- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
+- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Alexa` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
 
 **More from DMM:** [Debrid Media Manager](https://debridmediamanager.com/) · [zurg](https://zurg.debridmediamanager.com/) · [rex](https://rex.debridmediamanager.com/) · [Docs](https://notes.debridmediamanager.com/) · [Sponsor](https://gatekeeper.debridmediamanager.com/) · [Discord](https://discord.com/invite/7u4YjMThXP) · [Reddit](https://www.reddit.com/r/debridmediamanager/)

@@ -10,7 +10,7 @@ Every app in this list that runs on Tizen. That is 25 apps with 8 for Plex and 1
 
 - [Emby for Samsung](https://emby.media/emby-for-samsung-smart-tv.html) - Samsung Tizen TV app, from the Samsung store or by USB install. `Emby` · `Tizen` · `Free`
 - [Jellyfin for Tizen](https://github.com/jellyfin/jellyfin-tizen) - Samsung TV app, in the Samsung store since 2026 for Tizen 6 (2021+) sets; older TVs can sideload it. `Jellyfin` · `Tizen` · `MPL-2.0` `Free`
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Other TV` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 
 ## Video and general
 

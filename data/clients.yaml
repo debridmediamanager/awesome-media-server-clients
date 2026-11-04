@@ -65,7 +65,7 @@
   servers: [plex, jellyfin, emby]
   also: [cloud, dlna, smb]
   official: false
-  platforms: [quest]
+  platforms: [quest, pico]
   category: player
   media: [video]
   open_source: false
@@ -3235,7 +3235,7 @@
   url: https://github.com/HelamanWarrior/chromebox-mediaplayer
   servers: [jellyfin]
   official: false
-  platforms: [other-device]
+  platforms: [linux]
   category: shim
   media: [video]
   open_source: true
@@ -4488,7 +4488,7 @@
   url: https://github.com/jackra1n/Dooplex
   servers: [plex]
   official: false
-  platforms: [other-tv, android-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -10107,7 +10107,7 @@
     repo: https://github.com/fengfp/jellyfin-androidtv-zidoo
   servers: [jellyfin]
   official: false
-  platforms: [android-tv, other-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true
@@ -12850,7 +12850,7 @@
   url: https://github.com/Cuteminded/JellyXR
   servers: [jellyfin]
   official: false
-  platforms: [quest, other-device, pc-vr]
+  platforms: [quest, pc-vr]
   category: player
   media: [video]
   open_source: true
@@ -18294,7 +18294,7 @@
   url: https://github.com/GR3ee3N/Oriel
   servers: [plex]
   official: false
-  platforms: [other-tv]
+  platforms: [kodi]
   category: player
   media: [video]
   open_source: true
@@ -18707,7 +18707,7 @@
     repo: https://github.com/d8ahazard/Phlex
   servers: [plex]
   official: false
-  platforms: [web, google-assistant]
+  platforms: [web, alexa, google-assistant]
   category: remote
   media: [video, music]
   open_source: true
@@ -19282,7 +19282,7 @@
   servers: [plex]
   official: true
   vendor: plex
-  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, vega-os, roku, webos, tizen, vizio, vidaa, ps4, ps5, xbox, android-auto, quest, chromecast]
+  platforms: [android, ios, ipados, android-tv, fire-tv, tvos, vega-os, roku, webos, tizen, vizio, vidaa, other-tv, ps4, ps5, xbox, android-auto, quest, chromecast]
   category: player
   media: [video, music, photos, live-tv]
   open_source: null
@@ -19443,7 +19443,7 @@
   url: https://github.com/maykar/plex_assistant
   servers: [plex]
   official: false
-  platforms: [home-assistant]
+  platforms: [google-assistant, home-assistant]
   category: bridge
   media: [video, music]
   open_source: true
@@ -20656,7 +20656,7 @@
   url: https://github.com/hpn789/PlexToZidoo
   servers: [plex]
   official: false
-  platforms: [other-tv]
+  platforms: [android-tv]
   category: shim
   media: [video]
   open_source: true
@@ -21523,7 +21523,7 @@
   servers: [plex, jellyfin]
   also: [dlna]
   official: false
-  platforms: [psp]
+  platforms: [xbox-original, psp]
   category: player
   media: [video, music]
   open_source: true
@@ -27448,7 +27448,7 @@
   url: https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/
   servers: [jellyfin, emby]
   official: false
-  platforms: [quest]
+  platforms: [quest, pc-vr]
   category: player
   media: [video]
   open_source: null
@@ -28252,7 +28252,7 @@
   url: https://github.com/zhenyuefu/zmby
   servers: [emby]
   official: false
-  platforms: [android-tv, other-tv]
+  platforms: [android-tv]
   category: player
   media: [video]
   open_source: true

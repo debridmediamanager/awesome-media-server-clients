@@ -2,7 +2,7 @@
 
 # Android TV
 
-Every app in this list that runs on Android TV. That is 212 apps with 64 for Plex and 158 for Jellyfin and 84 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android TV. That is 213 apps with 65 for Plex and 158 for Jellyfin and 84 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -10,7 +10,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 
 - [Emby for Android TV](https://emby.media/emby-for-android-tv.html) - Android TV and Google TV app. `Emby` · `Android TV` · `Free` · [Google Play](https://play.google.com/store/apps/details?id=tv.emby.embyatv)
 - [Jellyfin for Android TV](https://github.com/jellyfin/jellyfin-androidtv) - Android TV, Google TV and Fire TV app. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` · [Google Play](https://play.google.com/store/apps/details?id=org.jellyfin.androidtv) · [F-Droid](https://f-droid.org/packages/org.jellyfin.androidtv/)
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Other TV` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 
 ## Video and general
 
@@ -50,7 +50,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Cmby](https://github.com/CeRu-007/Cmby) - Flutter client for phones, TV boxes and desktops, distributed as release builds only. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV`
 - [CookeInCode/jellyfin-androidtv](https://github.com/CookeInCode/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [Dengying Player](https://github.com/hanshengcc/dengying-player) - Flutter and mpv player for Emby and Jellyfin. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `Android TV` · `MIT` `Free`
-- [Dooplex](https://github.com/jackra1n/Dooplex) - Client for Zidoo players that hands playback to the native player. `Plex` · `Android TV` `Other TV` · `GPL-3.0`
+- [Dooplex](https://github.com/jackra1n/Dooplex) - Client for Zidoo players that hands playback to the native player. `Plex` · `Android TV` · `GPL-3.0`
 - [DreamPlayer](https://apps.apple.com/us/app/dreamplayer-video-player/id6813066889) - Video player for MKV, MP4, TS and AVI files with hardware decoding and DTS/TrueHD audio. `Jellyfin` `Emby` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` · `Freemium` · [Source](https://github.com/mangeshghodke/DreamPlayer)
 - [Driftfin](https://github.com/dhrandy/Driftfin) - Google TV and Android TV client that also runs on older Fire TVs. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Open source` `Free`
 - [Dune Web](https://github.com/Sam42a/DUNE-WEB) - Web-based client for Android TV, from the Dune project. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Stale 2025`
@@ -151,6 +151,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Pictureshow](https://github.com/pictureshow/pictureshow) - Free open-source Android TV client. `Jellyfin` · `Android TV` · `MPL-2.0` `Free`
 - [Playable](https://gitee.com/leeczli/playable-apk) - Android and Android TV player with a poster wall, direct play and progress write-back. `Plex` `Jellyfin` `Emby` · `Android` `Android TV`
 - [PlexiPlay](https://github.com/Kahenis/plexiplay) - Closed-source Android TV Plex player distributed as an APK. `Plex` · `Android` `Android TV` · `Free` · [Source](https://github.com/Kahenis/plexiplay-android)
+- [PlexToZidoo](https://github.com/hpn789/PlexToZidoo) - Plays Plex items in the native player of Zidoo media players. `Plex` · `Android TV` · `Open source` `Stale 2023`
 - [Plezy](https://github.com/edde746/plezy) - Multi-server client with cross-server search, mpv playback and HDR; free from GitHub, paid in app stores. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Android Automotive` · `GPL-3.0` `Paid` · [Website](https://plezy.app) · [App Store](https://apps.apple.com/us/app/id6754315964) · [Google Play](https://play.google.com/store/apps/details?id=com.edde746.plezy) · [Microsoft Store](https://apps.microsoft.com/detail/9n5r1s1t68h7) · [Amazon](https://www.amazon.com/edde746-Plezy-for-Plex-Jellyfin/dp/B0GK65CVS1) · [Info](https://archlinux.org/packages/extra/x86_64/plezy/)
 - [Plix](https://github.com/Jman100/plix) - Flutter client for Plex and Jellyfin. `Plex` `Jellyfin` · `Windows` `Linux` `Android` `Android TV` · `Open source` `Free`
 - [Premflix](https://github.com/IamThejus/PremFlix) - Flutter client for Jellyfin. `Jellyfin` · `Windows` `macOS` `Linux` `Android` `Android TV` · `Open source` `Free`
@@ -201,7 +202,7 @@ Every app in this list that runs on Android TV. That is 212 apps with 64 for Ple
 - [Yamby](https://play.google.com/store/apps/details?id=com.hush.yamby) - Android and Android TV client with DanDanPlay danmaku comments. `Jellyfin` `Emby` · `Android` `Android TV` · `Freemium` · [Info](https://v2ex.com/t/1107970)
 - [Yonto Player](https://player.yonto.app/) - Android TV client set up by scanning a QR code with a phone. `Emby` · `Android` `Android TV` · `Freemium`
 - [Zerk Play](https://github.com/florinp93/Zerk-Play-2.0) - Emby-first desktop and Android TV player using mpv with HDR switching on Windows. `Jellyfin` `Emby` · `Windows` `Linux` `Android TV` · `GPL-3.0` `Free` `Beta`
-- [zmby](https://github.com/zhenyuefu/zmby) - Multi-server Emby client for Android TV and Zidoo players. `Emby` · `Android TV` `Other TV` · `GPL-3.0`
+- [zmby](https://github.com/zhenyuefu/zmby) - Multi-server Emby client for Android TV and Zidoo players. `Emby` · `Android TV` · `GPL-3.0`
 - [钢筋浏览器 TV](https://www.bilibili.com/video/BV16M4qzdEUW/) - Android TV browser that opens Emby, IPTV, web pages and SMB shares without Kodi. `Emby` `+IPTV` · `Android TV`
 
 ## Music

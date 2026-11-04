@@ -102,7 +102,7 @@ Apps made by Plex Inc. and the Jellyfin project and Emby LLC.
 
 ### Plex
 
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Other TV` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 - [Plexamp](https://plexamp.com/) - Plex's music player, with a headless mode for Raspberry Pi; the new desktop app is in beta. `Plex` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id1500797510) · [Google Play](https://play.google.com/store/apps/details?id=tv.plex.labs.plexamp)
 - [Plex Dash](https://apps.apple.com/app/id1500797677) - Server monitoring and management app for Plex Pass owners. `Plex` · `Android` `iOS` `iPadOS` · `Subscription` `Stale 2024`
 - [Plex Desktop](https://apps.microsoft.com/detail/XP9CDQW6ML4NQN) - Desktop app for Windows, macOS and Linux. `Plex` · `Windows` `macOS` `Linux` · `Freemium` · [Flathub](https://flathub.org/apps/tv.plex.PlexDesktop) · [Snap](https://snapcraft.io/plex-desktop)
@@ -716,7 +716,7 @@ Third-party video and general clients for Plex only.
 
 - [Amplify](https://github.com/brdunn/Amplify) - Android frontend for Plex Media Server. `Plex` · `Android` · `GPL-3.0` `Free` `Stale 2024`
 - [Android-TV-VHS-Video-Player](https://github.com/tonypeters/Android-TV-VHS-Video-Player) - Android TV Plex player with a VHS-style look. `Plex` · `Android TV` · `Apache-2.0` `Free`
-- [Dooplex](https://github.com/jackra1n/Dooplex) - Client for Zidoo players that hands playback to the native player. `Plex` · `Android TV` `Other TV` · `GPL-3.0`
+- [Dooplex](https://github.com/jackra1n/Dooplex) - Client for Zidoo players that hands playback to the native player. `Plex` · `Android TV` · `GPL-3.0`
 - [FreePlexity](https://github.com/crucifix86/freeplexity) - Android TV client. `Plex` · `Android TV` · `Open source`
 - [MyPlexPlayer](https://github.com/biskyt/MyPlexPlayer) - Client for Android TV, Fire TV and phones. `Plex` · `Android` `Android TV` `Fire TV` · `GPL-3.0`
 - [PlexiPlay](https://github.com/Kahenis/plexiplay) - Closed-source Android TV Plex player distributed as an APK. `Plex` · `Android` `Android TV` · `Free` · [Source](https://github.com/Kahenis/plexiplay-android)
@@ -840,7 +840,7 @@ Third-party video and general clients for Emby only. Many come from the large Ch
 - [WBEmby](https://github.com/WhiteBearWB/WBEmby) - Android TV client. `Emby` · `Android TV` · `Open source` `Free`
 - [WJPlayer](https://github.com/Maple-Ling/WJPlayer) - Android client for arm64 devices. `Emby` · `Android` · `Open source` `Free`
 - [Yonto Player](https://player.yonto.app/) - Android TV client set up by scanning a QR code with a phone. `Emby` · `Android` `Android TV` · `Freemium`
-- [zmby](https://github.com/zhenyuefu/zmby) - Multi-server Emby client for Android TV and Zidoo players. `Emby` · `Android TV` `Other TV` · `GPL-3.0`
+- [zmby](https://github.com/zhenyuefu/zmby) - Multi-server Emby client for Android TV and Zidoo players. `Emby` · `Android TV` · `GPL-3.0`
 - [影屿 CineIsle](https://github.com/nu1lkali/CineIsle) - Android player built on mpvEx that plays local files and Emby libraries. `Emby` · `Android` · `Apache-2.0`
 - [钢筋浏览器 TV](https://www.bilibili.com/video/BV16M4qzdEUW/) - Android TV browser that opens Emby, IPTV, web pages and SMB shares without Kodi. `Emby` `+IPTV` · `Android TV`
 
@@ -1350,7 +1350,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [PlexMusic.pak](https://github.com/thwonp/PlexMusicPak) - Plex music player pak for TrimUI Brick and other MinUI handhelds. `Plex` · `Retro handheld` · `Open source`
 - [PocketFin](https://github.com/CidVonHighwind/pocketfin) - PSP homebrew app for browsing and playing your library. `Jellyfin` · `PSP` · `GPL-3.0` `Free`
 - [PocketFlex](https://github.com/jackharvest/PocketFlex) - Client for the Miyoo Mini Plus retro handheld. `Plex` · `Retro handheld` · `MIT`
-- [PSPStreamer](https://github.com/dreimer1986/PSPStreamer) - Sony PSP player backed by a transcoding server, with watch-status sync and MilkDrop visualisers. `Plex` `Jellyfin` · `PSP` · `GPL-2.0`
+- [PSPStreamer](https://github.com/dreimer1986/PSPStreamer) - Sony PSP player backed by a transcoding server, with watch-status sync and MilkDrop visualisers. `Plex` `Jellyfin` · `Original Xbox` `PSP` · `GPL-2.0`
 - [Resonant-PS3](https://github.com/daedra000/Resonant-PS3) - Homebrew Plex music player for the PlayStation 3. `Plex` · `PS3` · `GPL-2.0`
 - [Saffron](https://github.com/xlanor/saffron) - Nintendo Switch homebrew client. `Plex` · `Switch` · `Apache-2.0`
 - [sammwyy/jellyfish](https://github.com/sammwyy/jellyfish) - PlayStation 2 homebrew music player. `Jellyfin` · `PS2` · `Open source`
@@ -1363,7 +1363,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 
 ### VR and XR
 
-- [4XVR](https://www.altlabvr.com/4xvr-video-player) - Meta Quest video player. `Plex` `Jellyfin` `Emby` · `Quest` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/)
+- [4XVR](https://www.altlabvr.com/4xvr-video-player) - Meta Quest video player. `Plex` `Jellyfin` `Emby` · `Quest` `Pico` · `Paid` · [Meta Store](https://www.meta.com/experiences/4xvr-video-player/5936567899722707/)
 - [Aurora for Plex](https://apps.apple.com/app/id6547867554) - Apple Vision Pro client. `Plex` · `visionOS`
 - [B0BEmby VR](https://github.com/wangbob-0787/B0BEmby-VR) - Virtual-cinema Emby client for the PICO 4. `Emby` · `Pico` · `Open source` `Free`
 - [CineDepth](https://www.reddit.com/r/VisionPro/comments/1vhjxm1/cinedepth_my_2dto3d_video_app_now_supports/) - Vision Pro player that converts 2D video to 3D. `Plex` `Jellyfin` `Emby` · `visionOS` · `Free`
@@ -1371,7 +1371,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Depthray](https://www.meta.com/experiences/depthray-3d-video-player/1343679048826072/) - Meta Quest player that converts 2D video to 3D. `Plex` `Jellyfin` `Emby` `+Stremio addons` · `Quest` · `Free`
 - [JellyTheatre](https://github.com/valentinp72/JellyTheatre) - Godot-based VR theatre client. `Jellyfin` · `Quest` · `GPL-3.0` · [Meta Store](https://www.meta.com/experiences/jellytheatre/4688003738150435/)
 - [JellyVR](https://github.com/VersaYT/JellyVR) - Godot-based VR client. `Jellyfin` · `Quest` `PC VR` · `Apache-2.0`
-- [JellyXR](https://github.com/Cuteminded/JellyXR) - VR media client for Quest and Steam Frame. `Jellyfin` · `Quest` `PC VR` `Other device` · `Apache-2.0` `Free`
+- [JellyXR](https://github.com/Cuteminded/JellyXR) - VR media client for Quest and Steam Frame. `Jellyfin` · `Quest` `PC VR` · `Apache-2.0` `Free`
 - [koko](https://www.reddit.com/r/OculusQuest/comments/1vxy7t0/i_made_a_quest_player_that_converts_your_whole/) - Meta Quest player that converts video to 3D live through a desktop companion. `Plex` `Jellyfin` · `Quest`
 - [LsVRPlayer](https://github.com/bibibivlin/LsVRPlayer) - PICO 4 VR player for local files, SMB shares and Emby. `Emby` · `Pico` · `MIT` `Free`
 - [Lumenoir](https://lumenoir.app/plex-meta-quest/) - Meta Quest movie theatre player. `Plex` `Jellyfin` `Emby` `+Silo` · `Quest` · `Freemium` · [Meta Store](https://www.meta.com/en-gb/experiences/lumenoir-movie-theater-video-player/1552281053325883/)
@@ -1381,7 +1381,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Screenlit](https://apps.apple.com/us/app/screenlit/id6499478407) - Vision Pro player for MV-HEVC, side-by-side 3D, VR180 and 360 video. `Plex` `Jellyfin` `Emby` · `visionOS` · `Paid`
 - [Suite Browser](https://www.reddit.com/r/VisionPro/comments/1wnddw0/suite_7_brings_virtual_projection_and/) - Apple Vision Pro browser with virtual projection that plays from media servers. `Plex` `Jellyfin` `Emby` · `visionOS`
 - [Tachi](https://github.com/buggzd/tachi) - Spatial media client for RayNeo Air glasses. `Jellyfin` · `Smart glasses` · `MIT` `Free`
-- [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) - Paid Meta Quest video player. `Jellyfin` `Emby` · `Quest` · `Paid`
+- [Whirligig](https://www.reddit.com/r/OculusQuest/comments/1v98kld/whirligig_major_update_goes_live_media_server/) - Paid Meta Quest video player. `Jellyfin` `Emby` · `Quest` `PC VR` · `Paid`
 
 ### TV operating systems
 
@@ -1403,7 +1403,6 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Native Jelly](https://github.com/sostk/native-jelly) - TV-first native app adapted from the PLX Native client. `Jellyfin` · `webOS` · `GPL-3.0` `Free`
 - [Neolume](https://github.com/itsab1989/neolume) - Client for 2014 Samsung Orsay TVs. `Plex` · `Other TV` · `Open source`
 - [OcenFin](https://github.com/seluce/OcenFin) - Sideloaded LG TV client. `Jellyfin` · `webOS` · `MIT`
-- [Oriel](https://github.com/GR3ee3N/Oriel) - Plex client for CoreELEC on Amlogic boxes. `Plex` · `Other TV` · `GPL-3.0`
 - [p2F](https://forums.plex.tv/t/p2f-is-still-alive-p2f-est-toujours-vivant/937932) - Plex client for the Freebox Revolution set-top box. `Plex` · `Other TV` · `Stale 2022`
 - [plezy-webos](https://github.com/GLNick/plezy-webos) - webOS port of the Plezy Flutter client. `Plex` `Jellyfin` `Emby` · `webOS` · `GPL-3.0` `Free`
 - [ploff-webos](https://github.com/lucabravi/ploff-webos) - Client for legacy LG webOS TVs. `Plex` · `webOS` · `MIT`
@@ -1455,6 +1454,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [Kofin PVR](https://github.com/kontell/pvr.kofin) - Kodi PVR add-on for watching Live TV. `Jellyfin` · `Kodi` · `GPL-2.0`
 - [mediaimporter.emby](https://github.com/Montellese/mediaimporter.emby) - Kodi add-on that imports Emby library items into Kodi's own library. `Emby` · `Kodi` · `GPL-2.0` `Free` `Stale 2023`
 - [mediaimporter.plex](https://github.com/Montellese/mediaimporter.plex) - Kodi media importer that brings a Plex library into Kodi. `Plex` · `Kodi` · `GPL-2.0` `Stale 2022`
+- [Oriel](https://github.com/GR3ee3N/Oriel) - Plex client for CoreELEC on Amlogic boxes. `Plex` · `Kodi` · `GPL-3.0`
 - [PlexKodiConnect](https://github.com/croneter/PlexKodiConnect) - Kodi add-on that syncs a library into Kodi's native database. `Plex` · `Kodi` · `GPL-2.0` `Free`
 - [plugin.video.emby.vfs](https://github.com/forbxy/plugin.video.emby.vfs) - Emby for Kodi Next Gen variant adapted to Kodi's VFS. `Emby` · `Kodi` · `GPL-3.0`
 - [PM4K](https://github.com/pannal/plex-for-kodi) - Kodi add-on with the Plex-style interface, forked from the official add-on. `Plex` · `Kodi` · `GPL-2.0` `Free` · [Website](https://pm4k.eu) · [Info](https://forums.plex.tv/t/pm4k-plexmod-for-kodi-18-19-20-21-22/481208)
@@ -1540,7 +1540,7 @@ Apps for consoles and headsets and cars and watches. Also TV systems and Kodi an
 - [PlexExternalPlayer](https://github.com/Kayomani/PlexExternalPlayer) - Opens Plex Web items in an external desktop player. `Plex` · `Windows` `Web` · `GPL-3.0` `Stale 2024`
 - [Plex-MPV-Shim](https://github.com/iwalton3/plex-mpv-shim) - Desktop cast target that plays items sent from other apps in mpv. `Plex` · `Windows` `macOS` `Linux` · `MIT` `Free` `Stale 2025`
 - [plex-to-vlc](https://github.com/soerenkampschroer/plex-to-vlc) - Sends Plex Web playback to VLC. `Plex` · `macOS` `Web` · `GPL-3.0` `Stale 2023`
-- [PlexToZidoo](https://github.com/hpn789/PlexToZidoo) - Plays Plex items in the native player of Zidoo media players. `Plex` · `Other TV` · `Open source` `Stale 2023`
+- [PlexToZidoo](https://github.com/hpn789/PlexToZidoo) - Plays Plex items in the native player of Zidoo media players. `Plex` · `Android TV` · `Open source` `Stale 2023`
 - [Rushy](https://github.com/brivera2005/Rushy) - Android TV media hub for Plex and Xtream sources. `Plex` `+IPTV` · `Android TV` · `Open source` `Free`
 - [Xnoppo](https://github.com/siberian-git/Xnoppo) - Lets Emby act as the interface while an Oppo UDP-203 player does the playback. `Emby` · `Other device` · `Open source` `Free` `Stale 2025`
 
@@ -1581,7 +1581,7 @@ These do not play media themselves. They control or manage a server or connect i
 - [hail-frequency](https://github.com/SpaceinvaderOne/hail-frequency) - Phone voice control for Emby and Jellyfin. `Jellyfin` `Emby` · `Web` · `GPL-3.0`
 - [heldover](https://github.com/anthonyonazure/heldover) - Picks titles across servers and sends them to a TV. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT`
 - [JellyRemote](https://github.com/TeeWare2026/JellyRemote) - Android remote that browses the library, picks what plays and controls playback on another client. `Jellyfin` · `Android` · `Open source`
-- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
+- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Alexa` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
 - [plexamp-nfc-listener](https://github.com/aubrey-wodonga/plexamp-nfc-listener) - Starts Plexamp playback from NFC tags. `Plex` · `Other device` · `MIT` `Stale 2023`
 - [plexamp-tui](https://github.com/spiercey/plexamp-tui) - Terminal remote that controls music players on the LAN. `Plex` · `CLI` · `MIT`
 - [Plex & Kodi Remote](https://apps.apple.com/app/id403716879) - iPhone remote control. `Plex` `+Kodi` · `iOS` `iPadOS` `watchOS` · `Stale 2019`
@@ -1654,7 +1654,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 - [Jellyamp (jellyfin-archive)](https://github.com/jellyfin-archive/jellyamp) - Early Electron desktop music player for Jellyfin, now archived. `Jellyfin` · `Windows` `macOS` `Linux` · `MIT` `Free` `Ended 2020`
 - [Jelly Desktop](https://github.com/imLinguin/jelly-desktop) - Community desktop client for Jellyfin, archived since 2022. `Jellyfin` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free` `Ended 2022`
 - [jellyfin-android-original](https://github.com/jellyfin-archive/jellyfin-android-original) - First Android app, replaced by Jellyfin for Android. `Jellyfin` · `Android` · `GPL-2.0` `Ended 2020`
-- [jellyfin-androidtv-zidoo](https://github.com/Andy2244/jellyfin-androidtv-zidoo) - Android TV client tuned for Zidoo media players. `Jellyfin` · `Android TV` `Other TV` · `GPL-2.0` `Free` `Ended 2024` · [Source](https://github.com/fengfp/jellyfin-androidtv-zidoo)
+- [jellyfin-androidtv-zidoo](https://github.com/Andy2244/jellyfin-androidtv-zidoo) - Android TV client tuned for Zidoo media players. `Jellyfin` · `Android TV` · `GPL-2.0` `Free` `Ended 2024` · [Source](https://github.com/fengfp/jellyfin-androidtv-zidoo)
 - [jellyfin-client-ios](https://github.com/jellyfin-archive/jellyfin-client-ios) - First iOS app, replaced by Jellyfin for iOS and Swiftfin. `Jellyfin` · `iOS` · `MPL-2.0` `Ended 2020`
 - [Jellyfin Legacy](https://github.com/jellyfin-archive/jellyfin-roku-legacy) - Former Roku app, archived in 2025 and frozen as the unsupported "Jellyfin Legacy" channel. `Jellyfin` · `Roku` · `GPL-2.0` `Ended 2025` · [Roku](https://channelstore.roku.com/details/cc5e559d08d9ec87c5f30dcebdeebc12/jellyfin)
 - [jellyfin-mpv-player](https://github.com/wzyoct/jellyfin-mpv-player) - Unofficial Windows x64 desktop client with mpv playback. `Jellyfin` · `Windows` · `MIT` `Free` `Ended 2026`
@@ -1677,7 +1677,7 @@ Apps that were withdrawn or archived or abandoned. Kept for reference.
 - [nettv-plex-client](https://github.com/hitolaus/nettv-plex-client) - Plex client for Philips NetTV smart TVs. `Plex` · `Other TV` · `Open source` `Ended 2014`
 - [PLAYz Media for PLEX](https://github.com/simonjhogan/PLAYz-Media-for-PLEX) - Plex app for older Samsung and LG smart TVs. `Plex` · `Other TV` · `Apache-2.0` `Ended 2015`
 - Plex Alexa skill - Voice control for Plex players on Echo devices, disabled on 15 June 2026. `Plex` · `Alexa` · `Ended 2026`
-- [plex_assistant](https://github.com/maykar/plex_assistant) - Home Assistant voice-casting component. `Plex` · `Home Assistant` · `MIT` `Ended 2021`
+- [plex_assistant](https://github.com/maykar/plex_assistant) - Home Assistant voice-casting component. `Plex` · `Google Assistant` `Home Assistant` · `MIT` `Ended 2021`
 - [PleXBMC](https://github.com/hippojay/plugin.video.plexbmc) - Early Plex add-on for XBMC and Kodi; the repository is archived. `Plex` · `Kodi` · `GPL-2.0` `Ended 2020`
 - [PlexFlux](https://github.com/brian9206/PlexFlux) - Music player. `Plex` · `Windows` · `MIT` `Ended 2018`
 - [PlexForBoxee](https://github.com/grantmcwilliams/PlexForBoxee) - Plex client for Boxee boxes. `Plex` · `Other TV` · `Open source` `Ended 2017`

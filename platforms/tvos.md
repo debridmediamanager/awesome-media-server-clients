@@ -9,7 +9,7 @@ Every app in this list that runs on tvOS. That is 263 apps with 143 for Plex and
 ## Official apps
 
 - [Emby for Apple TV](https://emby.media/emby-for-appletv.html) - Apple TV app with full playback for free users. `Emby` · `tvOS` · `Free`
-- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
+- [Plex](https://www.plex.tv/apps-devices/) - Plex's main app for films, shows, music, photos and Live TV/DVR, plus its free streaming channels. `Plex` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` `tvOS` `Vega OS` `Roku` `webOS` `Tizen` `VIDAA` `Vizio` `Other TV` `Chromecast` `Xbox` `PS4` `PS5` `Quest` `Android Auto` · `Freemium` · [App Store](https://apps.apple.com/app/id383457673) · [Google Play](https://play.google.com/store/apps/details?id=com.plexapp.android) · [Meta Store](https://www.meta.com/experiences/plex-find-movies-tv-shows/1136900442841511/)
 - [Swiftfin](https://github.com/jellyfin/Swiftfin) - Native Swift client and the only official Apple TV app, badged Official Beta. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `MPL-2.0` `Free` `Beta` · [App Store](https://apps.apple.com/app/id1604098728) · [TestFlight](https://testflight.apple.com/join/SqNPfdxq)
 
 ## Video and general

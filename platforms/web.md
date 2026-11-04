@@ -225,7 +225,7 @@ Every app in this list that runs on Web. That is 210 apps with 64 for Plex and 1
 - [hail-frequency](https://github.com/SpaceinvaderOne/hail-frequency) - Phone voice control for Emby and Jellyfin. `Jellyfin` `Emby` · `Web` · `GPL-3.0`
 - [heldover](https://github.com/anthonyonazure/heldover) - Picks titles across servers and sends them to a TV. `Plex` · `Windows` `macOS` `Linux` `Web` · `MIT`
 - [JellyStreams](https://store.elfhosted.com/blog/2026/09/11/jellystreams-your-addons-in-any-jellyfin-app/) - Hosted service that shows Stremio addon results inside any client app. `Jellyfin` `+Stremio addons` · `Web`
-- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
+- [Phlex](https://github.com/d8ahazard/FlexTV) - Voice interface for controlling Plex. `Plex` · `Web` `Alexa` `Google Assistant` · `Open source` `Stale 2023` · [Source](https://github.com/d8ahazard/Phlex)
 - [Plex-Remote (JackJPowell)](https://github.com/JackJPowell/Plex-Remote) - Plex remote control. `Plex` · `Web` · `Open source`
 - [stremio-jellyfin](https://github.com/akarazniewicz/stremio-jellyfin) - Stremio addon that puts your server's library into Stremio. `Jellyfin` `+Stremio addons` · `Web` · `Apache-2.0` `Stale 2024`
 - [Subfin](https://github.com/williamkray/subfin-plugin) - Server plugin that exposes an OpenSubsonic API so Subsonic music apps can connect. `Jellyfin` `+Subsonic` · `Web` · `MIT`

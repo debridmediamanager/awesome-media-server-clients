@@ -561,6 +561,8 @@
 
 - name: Altcast
   url: https://github.com/filipefilardi/altcast
+  links:
+    play: https://play.google.com/store/apps/details?id=com.silent_summit.altcast
   servers: [jellyfin]
   official: false
   platforms: [android, ios, macos]
@@ -588,6 +590,8 @@
 
 - name: Altsound
   url: https://github.com/filipefilardi/altsound
+  links:
+    play: https://play.google.com/store/apps/details?id=com.silent_summit.altsound
   servers: [jellyfin]
   official: false
   platforms: [android, macos, ios]
@@ -2721,6 +2725,8 @@
 
 - name: Caravela
   url: https://github.com/melojms/caravela
+  links:
+    amazon: https://www.amazon.com/dp/B0HNR62RQ9
   servers: [jellyfin]
   official: false
   platforms: [vega-os]
@@ -2732,7 +2738,6 @@
   status: active
   status_year: 2026
   description: Native app for Fire TV devices running Vega OS.
-  long_tail: true
 
 - name: CarCast
   url: https://apps.apple.com/us/app/carcast-m3u-iptv-player-m3u8/id6820999972
@@ -2974,6 +2979,7 @@
   url: https://github.com/samyyy2311/CassetteCat
   links:
     repo: https://github.com/samyyy2311/CassetteCat-Desktop
+    play: https://play.google.com/store/apps/details?id=in.caffeinelabs.cassettecat
   servers: [jellyfin]
   also: [subsonic, local]
   official: false
@@ -3902,6 +3908,8 @@
 
 - name: Cosmic Comics
   url: https://github.com/Nytuo/CosmicComics
+  links:
+    snap: https://snapcraft.io/cosmiccomics
   servers: [jellyfin]
   official: false
   platforms: [windows, macos, linux, android, ios]
@@ -3919,6 +3927,7 @@
   url: https://apps.apple.com/us/app/cottonmusic/id6752617064
   links:
     repo: https://github.com/pure-music/PureMusic
+    play: https://play.google.com/store/apps/details?id=com.caij.puremusic
   servers: [plex, jellyfin, emby]
   also: [subsonic]
   official: false
@@ -4175,6 +4184,8 @@
 
 - name: DashTune
   url: https://github.com/chamika/DashTune
+  links:
+    play: https://play.google.com/store/apps/details?id=com.chamika.dashtune
   servers: [jellyfin]
   official: false
   platforms: [android-automotive]
@@ -4185,7 +4196,6 @@
   status: active
   status_year: 2026
   description: Android Automotive music and audiobook player with offline downloads.
-  long_tail: true
 
 - name: dasunNimantha/plex-client
   url: https://github.com/dasunNimantha/plex-client
@@ -4545,6 +4555,7 @@
   url: https://apps.apple.com/hk/app/dorsal-music/id6762251157
   links:
     repo: https://github.com/jaredreich/dorsal
+    testflight: https://testflight.apple.com/join/p3cMepSH
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, carplay]
@@ -6458,6 +6469,7 @@
   url: https://github.com/jeffvli/feishin
   links:
     site: https://feishin.vercel.app
+    flathub: https://flathub.org/apps/org.jeffvli.feishin
   servers: [jellyfin]
   also: [subsonic]
   official: false
@@ -6619,6 +6631,10 @@
   url: https://github.com/finamp-app/finamp
   links:
     appstore: https://apps.apple.com/us/app/finamp/id1574922594
+    play: https://play.google.com/store/apps/details?id=com.unicornsonlsd.finamp
+    fdroid: https://f-droid.org/packages/com.unicornsonlsd.finamp/
+    flathub: https://flathub.org/apps/com.unicornsonlsd.finamp
+    aur: https://aur.archlinux.org/packages/finamp
   servers: [jellyfin]
   official: false
   platforms: [ios, android, carplay, ipados, android-auto, windows, linux, macos]
@@ -6685,6 +6701,7 @@
   url: https://github.com/jarnedemeulemeester/findroid
   links:
     play: https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin
+    fdroid: https://f-droid.org/packages/dev.jdtech.jellyfin/
   servers: [jellyfin]
   official: false
   platforms: [android]
@@ -6904,6 +6921,7 @@
   links:
     repo: https://github.com/leinelissen/jellyfin-audio-player
     fdroid: https://f-droid.org/packages/nl.moeilijkedingen.jellyfinaudioplayer/
+    play: https://play.google.com/store/apps/details?id=nl.moeilijkedingen.jellyfinaudioplayer
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, android]
@@ -7675,6 +7693,7 @@
   url: https://github.com/Fingel/gelly
   links:
     flathub: https://flathub.org/apps/io.m51.Gelly
+    aur: https://aur.archlinux.org/packages/gelly
   servers: [jellyfin]
   also: [subsonic]
   official: false
@@ -7785,6 +7804,8 @@
 
 - name: Glacier
   url: https://github.com/Glacier-Jellyfin/glacier-androidtv
+  links:
+    amazon: https://www.amazon.com/dp/B0HPL2YVVQ
   servers: [jellyfin]
   official: false
   platforms: [android-tv, fire-tv]
@@ -8883,6 +8904,7 @@
   url: https://apps.apple.com/us/app/interteno/id6787506017
   links:
     repo: https://github.com/Sproglet/Interteno
+    testflight: https://testflight.apple.com/join/4dQa8bMH
   servers: [plex]
   also: [other]
   official: false
@@ -8916,9 +8938,11 @@
   url: https://github.com/saltpi/iPlay
   links:
     appstore: https://apps.apple.com/app/id6480576133
+    play: https://play.google.com/store/apps/details?id=top.ourfor.app.iplay
+    appgallery: https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay
   servers: [jellyfin, emby]
   official: false
-  platforms: [android, ios, macos, tvos, windows, xbox]
+  platforms: [android, ios, macos, tvos, windows, xbox, harmonyos]
   category: player
   media: [video]
   open_source: true
@@ -9210,6 +9234,8 @@
   url: https://github.com/Jellify-Music/App
   links:
     appstore: https://apps.apple.com/us/app/jellify/id6736884612
+    play: https://play.google.com/store/apps/details?id=com.cosmonautical.jellify
+    testflight: https://testflight.apple.com/join/etVSc7ZQ
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, carplay, android, android-auto, watchos]
@@ -9241,6 +9267,8 @@
 
 - name: Jellium Desktop
   url: https://github.com/andrewrabert/jellium-desktop
+  links:
+    aur: https://aur.archlinux.org/packages/jellium-desktop-git
   servers: [jellyfin]
   official: false
   platforms: [windows, macos, linux]
@@ -9597,6 +9625,7 @@
   links:
     site: https://jellybox.app/
     appstore: https://apps.apple.com/us/app/jellybox-player/id6469732117
+    play: https://play.google.com/store/apps/details?id=com.prodigytech.jellybox
   servers: [jellyfin, emby]
   also: [subsonic]
   official: false
@@ -9610,8 +9639,7 @@
   status_year: 2026
   aliases: [JellyBox]
   description: Music player for desktop, phone and car.
-  notes: avdept's music player, not other apps named JellyBox. CarPlay and Android Auto/AAOS since v2.9.1; desktop builds
-    too.
+  notes: avdept's music player, not other apps named JellyBox. CarPlay and Android Auto/AAOS since v2.9.1; desktop builds too.
 
 - name: jellyboy
   url: https://apps.apple.com/us/app/jellyboy/id6802162329
@@ -9759,6 +9787,8 @@
 
 - name: JellyCine
   url: https://github.com/sureshfizzy/JellyCine
+  links:
+    play: https://play.google.com/store/apps/details?id=com.jellycine.app
   servers: [jellyfin, emby]
   official: false
   platforms: [android, android-tv]
@@ -10575,6 +10605,8 @@
 
 - name: Jellyfin for Roku
   url: https://github.com/jellyfin/jellyfin-roku
+  links:
+    roku: https://channelstore.roku.com/details/4d9e526a7d972d4decf98ea6a84000f7:c617f4902629cc0bd1e1411db1775cf3/jellyfin
   servers: [jellyfin]
   official: true
   vendor: jellyfin
@@ -10635,6 +10667,8 @@
 
 - name: Jellyfin for webOS
   url: https://github.com/jellyfin/jellyfin-webos
+  links:
+    lgstore: https://us.lgappstv.com/main/tvapp/detail?appId=1030579
   servers: [jellyfin]
   official: true
   vendor: jellyfin
@@ -10845,6 +10879,8 @@
 
 - name: Jellyfin Legacy
   url: https://github.com/jellyfin-archive/jellyfin-roku-legacy
+  links:
+    roku: https://channelstore.roku.com/details/cc5e559d08d9ec87c5f30dcebdeebc12/jellyfin
   servers: [jellyfin]
   official: true
   vendor: jellyfin
@@ -10976,6 +11012,8 @@
 
 - name: Jellyfin MPV Shim
   url: https://github.com/jellyfin/jellyfin-mpv-shim
+  links:
+    flathub: https://flathub.org/apps/com.github.iwalton3.jellyfin-mpv-shim
   servers: [jellyfin]
   official: true
   vendor: jellyfin
@@ -11361,6 +11399,8 @@
 
 - name: jellyfin-tui
   url: https://github.com/dhonus/jellyfin-tui
+  links:
+    aur: https://aur.archlinux.org/packages/jellyfin-tui
   servers: [jellyfin]
   official: false
   platforms: [cli, linux, macos]
@@ -11886,6 +11926,8 @@
 
 - name: jellyhaj
   url: https://github.com/owo-uwu-nyaa/jellyhaj
+  links:
+    aur: https://aur.archlinux.org/packages/jellyhaj
   servers: [jellyfin]
   official: false
   platforms: [cli]
@@ -12281,6 +12323,8 @@
 
 - name: JellyRock
   url: https://github.com/jellyrock/jellyrock
+  links:
+    roku: https://channelstore.roku.com/details/232f9e82db11ce628e3fe7e01382a330:a85d6e9e520567806e8dae1c0cabadd5/jellyrock
   servers: [jellyfin]
   official: false
   platforms: [roku]
@@ -12558,6 +12602,8 @@
 
 - name: JellyTheatre
   url: https://github.com/valentinp72/JellyTheatre
+  links:
+    meta: https://www.meta.com/experiences/jellytheatre/4688003738150435/
   servers: [jellyfin]
   official: false
   platforms: [quest]
@@ -12569,7 +12615,6 @@
   status_year: 2026
   description: Godot-based VR theatre client.
   notes: Hobby project; Godot VR.
-  long_tail: true
 
 - name: JellyTiger
   url: https://github.com/TigerBeanst/JellyTiger
@@ -13152,6 +13197,8 @@
 
 - name: jfsh
   url: https://github.com/hacel/jfsh
+  links:
+    aur: https://aur.archlinux.org/packages/jfsh
   servers: [jellyfin]
   official: false
   platforms: [cli]
@@ -13165,6 +13212,8 @@
 
 - name: jftui
   url: https://github.com/Aanok/jftui
+  links:
+    aur: https://aur.archlinux.org/packages/jftui
   servers: [jellyfin]
   official: false
   platforms: [cli]
@@ -14210,6 +14259,8 @@
 
 - name: Linthra
   url: https://github.com/TheZupZup/Linthra
+  links:
+    fdroid: https://f-droid.org/packages/io.github.thezupzup.linthra/
   servers: [plex, jellyfin]
   also: [subsonic, local]
   official: false
@@ -16055,6 +16106,8 @@
 
 - name: Momoka
   url: https://github.com/cudamin/Momoka
+  links:
+    msstore: https://apps.microsoft.com/detail/9NQJL7K0H8X0
   servers: [jellyfin, emby]
   also: [fnos]
   official: false
@@ -16067,7 +16120,6 @@
   status: active
   status_year: 2026
   description: WinUI media library client for Windows.
-  long_tail: true
 
 - name: MoodBX
   url: https://apps.apple.com/br/app/moodbx-series-pelis-y-juegos/id6769435122
@@ -16343,6 +16395,8 @@
 
 - name: Mozz
   url: https://github.com/brandomoore/Mozz
+  links:
+    testflight: https://testflight.apple.com/join/dmeawSSM
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
@@ -16932,6 +16986,8 @@
 
 - name: nahcon
   url: https://github.com/Nandanrmenon/nahcon
+  links:
+    play: https://play.google.com/store/apps/details?id=com.nahnah.nahcon
   servers: [jellyfin]
   official: false
   platforms: [android]
@@ -17564,6 +17620,8 @@
 
 - name: Nimbus Player
   url: https://github.com/JushiZen/Nimbus.Player
+  links:
+    msstore: https://apps.microsoft.com/detail/9NZGD27NW89W
   servers: [plex, jellyfin, emby]
   also: [fnos, smb, webdav, cloud]
   official: false
@@ -17610,6 +17668,8 @@
   url: https://github.com/AimesSoft/NipaPlay-Reload
   links:
     appstore: https://apps.apple.com/app/id6751284970
+    msstore: https://apps.microsoft.com/detail/9NMR8CLQ0GCR
+    aur: https://aur.archlinux.org/packages/nipaplay-reload
   servers: [jellyfin, emby]
   also: [smb, webdav, local]
   official: false
@@ -17746,6 +17806,8 @@
 
 - name: Norrklang
   url: https://github.com/koedastudio/norrklang
+  links:
+    play: https://play.google.com/store/apps/details?id=studio.koeda.norrklang
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
@@ -18761,6 +18823,7 @@
   links:
     appstore: https://apps.apple.com/app/id6811079730
     repo:Apple TV: https://github.com/PelagicaApp/pelagica-atv
+    testflight: https://testflight.apple.com/join/CUsEZtDK
   servers: [jellyfin]
   official: false
   platforms: [web, tizen, windows, linux, macos, tvos, webos]
@@ -20871,6 +20934,8 @@
 
 - name: plex-tui
   url: https://github.com/so1omon563/plex-tui
+  links:
+    aur: https://aur.archlinux.org/packages/plex-tui
   servers: [plex]
   official: false
   platforms: [cli]
@@ -21391,6 +21456,8 @@
 
 - name: pmcli
   url: https://github.com/Aanok/pmcli
+  links:
+    aur: https://aur.archlinux.org/packages/pmcli-git
   servers: [plex]
   official: false
   platforms: [cli]
@@ -22680,6 +22747,7 @@
   url: https://github.com/cromaguy/Rhythm
   links:
     fdroid: https://f-droid.org/packages/chromahub.rhythm.app/
+    play: https://play.google.com/store/apps/details?id=chromahub.rhythm.play
   servers: [jellyfin]
   also: [subsonic, local]
   official: false
@@ -22775,6 +22843,7 @@
   url: https://github.com/l984-451/Rivulet
   links:
     testflight: https://testflight.apple.com/join/TcCsF5As
+    appstore: https://apps.apple.com/app/id6756892857
   servers: [plex, jellyfin]
   also: [iptv]
   official: false
@@ -22843,6 +22912,9 @@
 
 - name: Rufin
   url: https://github.com/screwys/Rufin
+  links:
+    flathub: https://flathub.org/apps/io.github.screwys.Rufin
+    aur: https://aur.archlinux.org/packages/rufin-bin
   servers: [plex, jellyfin, emby]
   also: [subsonic, webdav, smb, local]
   official: false
@@ -23247,6 +23319,8 @@
 
 - name: Self-Shelf
   url: https://github.com/jacclyons/Self-Shelf
+  links:
+    testflight: https://testflight.apple.com/join/ASUrxDuq
   servers: [jellyfin]
   official: false
   platforms: [ios, web]
@@ -23392,6 +23466,8 @@
 
 - name: Shark Marmalade
   url: https://github.com/bendardenne/sharkmarmalade
+  links:
+    play: https://play.google.com/store/apps/details?id=be.bendardenne.jellyfin.aaos
   servers: [jellyfin]
   official: false
   platforms: [android-automotive]
@@ -23496,6 +23572,8 @@
 
 - name: Shuttle Music
   url: https://github.com/timusus/Shuttle2
+  links:
+    play: https://play.google.com/store/apps/details?id=com.simplecityapps.shuttle
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
@@ -23729,6 +23807,8 @@
 
 - name: SloppaTV
   url: https://github.com/brandonp2412/sloppaTV
+  links:
+    play: https://play.google.com/store/apps/details?id=app.sloppatv
   servers: [jellyfin]
   official: false
   platforms: [android-tv]
@@ -23791,6 +23871,7 @@
   url: https://apps.apple.com/us/app/sodalite/id6764418563
   links:
     repo: https://github.com/superuser404notfound/Sodalite
+    testflight: https://testflight.apple.com/join/nWeQzmBX
   servers: [jellyfin]
   also: [other]
   official: false
@@ -23898,6 +23979,8 @@
 
 - name: SonaWave
   url: https://github.com/Tlntin/SonaWave-Release
+  links:
+    appgallery: https://appgallery.huawei.com/app/detail?id=com.tlntin.sonawave
   servers: [jellyfin, emby]
   also: [subsonic, fnos, audiobookshelf, webdav]
   official: false
@@ -24368,6 +24451,7 @@
   url: https://github.com/benjaminRoberts01375/Stingray
   links:
     appstore: https://apps.apple.com/app/id6756280505
+    testflight: https://testflight.apple.com/join/GSgjYB22
   servers: [jellyfin]
   official: false
   platforms: [tvos]
@@ -24557,6 +24641,7 @@
   url: https://github.com/wunax/strimr
   links:
     appstore: https://apps.apple.com/app/id6757491271
+    testflight: https://testflight.apple.com/join/nayaffkP
   servers: [plex, jellyfin]
   official: false
   platforms: [ios, tvos, ipados, macos]
@@ -24862,6 +24947,8 @@
 
 - name: Supersonic
   url: https://github.com/supersonic-app/supersonic
+  links:
+    flathub: https://flathub.org/apps/io.github.dweymouth.supersonic
   servers: [jellyfin]
   also: [subsonic]
   official: false
@@ -24958,6 +25045,7 @@
   url: https://github.com/jellyfin/Swiftfin
   links:
     appstore: https://apps.apple.com/app/id1604098728
+    testflight: https://testflight.apple.com/join/SqNPfdxq
   servers: [jellyfin]
   official: true
   vendor: jellyfin
@@ -24985,8 +25073,10 @@
   status_year: 2026
   description: Swiftfin fork that adds Chromecast casting.
 
-- name: SwiftJelly
+- name: FinStream
   url: https://github.com/SilverMarcs/SwiftJelly
+  links:
+    appstore: https://apps.apple.com/app/id6761840798
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, macos, tvos]
@@ -24997,11 +25087,13 @@
   price: free
   status: active
   status_year: 2026
+  aliases: [SwiftJelly]
   description: SwiftUI client for Apple devices.
-  long_tail: true
 
 - name: Swiftly Music
   url: https://github.com/paulherter/swiftly-music
+  links:
+    testflight: https://testflight.apple.com/join/Ws5snXzX
   servers: [jellyfin]
   also: [subsonic]
   official: false
@@ -25022,6 +25114,7 @@
   links:
     appstore: https://apps.apple.com/app/id6806824067
     play: https://play.google.com/store/apps/details?id=de.paulherter.swiftly
+    testflight: https://testflight.apple.com/join/BKtrBmbz
   servers: [plex, jellyfin, emby]
   official: false
   platforms: [ios, ipados, tvos, macos, android, android-tv, linux, windows]
@@ -25085,6 +25178,8 @@
 
 - name: Switchfin
   url: https://github.com/dragonflylee/switchfin
+  links:
+    flathub: https://flathub.org/apps/fun.dragonfly.switchfin
   servers: [jellyfin]
   also: [webdav, ftp, other, local]
   official: false
@@ -25311,6 +25406,8 @@
 
 - name: Tauon Music Box
   url: https://github.com/Taiko2k/Tauon
+  links:
+    flathub: https://flathub.org/apps/com.github.taiko2k.tauonmb
   servers: [plex, jellyfin]
   also: [local, subsonic]
   official: false
@@ -25344,6 +25441,7 @@
   url: https://github.com/Tautulli/Tautulli-Remote
   links:
     appstore: https://apps.apple.com/app/id1570909086
+    play: https://play.google.com/store/apps/details?id=com.tautulli.tautulli_remote
   servers: [plex]
   official: false
   platforms: [android, ios]
@@ -25690,6 +25788,8 @@
 
 - name: TinyPlay
   url: https://github.com/YangHanqing/tinyplay
+  links:
+    appstore: https://apps.apple.com/app/id6788041703
   servers: [plex, jellyfin, emby]
   also: [iptv, other]
   official: false
@@ -25749,6 +25849,9 @@
 
 - name: Tizonia
   url: https://github.com/tizonia/tizonia-openmax-il
+  links:
+    snap: https://snapcraft.io/tizonia
+    aur: https://aur.archlinux.org/packages/tizonia-all-git
   servers: [plex]
   also: [other, streaming-services]
   official: false
@@ -25949,6 +26052,7 @@
   url: https://apps.apple.com/us/app/truffle-music-player-for-plex/id6829085593
   links:
     repo: https://github.com/vanities/truffle
+    testflight: https://testflight.apple.com/join/ZXeFFhZM
   servers: [plex]
   official: false
   platforms: [ios, ipados, carplay]
@@ -26011,6 +26115,9 @@
 
 - name: tsukimi
   url: https://github.com/tsukinaha/tsukimi
+  links:
+    flathub: https://flathub.org/apps/moe.tsuna.tsukimi
+    aur: https://aur.archlinux.org/packages/tsukimi-bin
   servers: [jellyfin]
   official: false
   platforms: [linux]
@@ -26181,6 +26288,7 @@
   links:
     repo: https://github.com/paradox-kush/tuvora
     play: https://play.google.com/store/apps/details?id=com.tuvora.mobile
+    testflight: https://testflight.apple.com/join/XDc6gVXc
   servers: [jellyfin, emby]
   also: [iptv]
   official: false
@@ -27265,6 +27373,8 @@
 
 - name: VoidTV for Jellyfin
   url: https://github.com/hritwikjohri/VoidTV-for-jellyfin
+  links:
+    play: https://play.google.com/store/apps/details?id=com.hritwik.avoid
   servers: [jellyfin]
   official: false
   platforms: [android-tv]
@@ -27510,6 +27620,7 @@
   url: https://apps.apple.com/us/app/watchamp-for-plex-jellyfin/id6761737569
   links:
     repo: https://github.com/fkick/WatchAmp
+    testflight: https://testflight.apple.com/join/vrehhvsY
   servers: [plex, jellyfin]
   also: [subsonic]
   official: false
@@ -27573,6 +27684,8 @@
 
 - name: Wavetile
   url: https://github.com/derrellwilliams/wavetile
+  links:
+    testflight: https://testflight.apple.com/join/pk9dyfMq
   servers: [jellyfin]
   official: false
   platforms: [ios]
@@ -28372,6 +28485,7 @@
   url: https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497
   links:
     repo: https://github.com/yuzicapp/yuzic
+    play: https://play.google.com/store/apps/details?id=com.arinora.rawarr
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
   official: false
@@ -28559,6 +28673,8 @@
 
 - name: Zoggyfin
   url: https://github.com/zog-tech/zoggyfin
+  links:
+    testflight: https://testflight.apple.com/join/qRFABNBJ
   servers: [jellyfin]
   official: false
   platforms: [ios, ipados, web, macos]

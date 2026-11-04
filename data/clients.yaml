@@ -7203,11 +7203,11 @@
   status_year: 2026
   description: Native Windows desktop client.
 
-- name: Fluent Player
+- name: IPTV Fluent
   url: https://apps.microsoft.com/detail/9pkmdlwbc8zj
   links:
     other: https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/
-  servers: [emby]
+  servers: [jellyfin, emby]
   also: [iptv]
   official: false
   platforms: [xbox, windows]
@@ -7216,7 +7216,8 @@
   open_source: false
   status: unknown
   status_year: 2025
-  description: Media hub player for Xbox.
+  aliases: [Fluent Player]
+  description: IPTV and media hub player for Xbox and Windows.
   notes: Microsoft Store app; announced June 2025.
 
 - name: Fluffin

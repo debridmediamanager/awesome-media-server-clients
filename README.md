@@ -388,6 +388,7 @@ Video and general clients that play from two or all three servers.
 - [Evervideo](https://apps.apple.com/us/app/evervideo/id6743504109) - Mac video player for local files, cloud storage, NAS and media servers, with offline playback and an equalizer. `Plex` `Jellyfin` `Emby` `+Subsonic` · `macOS` · `Free`
 - [Flick](https://github.com/seoloon/flick_desktop) - Customisable Rust desktop client for media servers. `Plex` `Jellyfin` · `Windows` `macOS` · `GPL-3.0` `Free`
 - [FloePlayer](https://apps.apple.com/us/app/floeplayer-video-player/id6817234839) - mpv-based video player for local files, media servers and network storage on Mac. `Jellyfin` `Emby` · `macOS` · `Free`
+- [IPTV Fluent](https://apps.microsoft.com/detail/9pkmdlwbc8zj) - IPTV and media hub player for Xbox and Windows. `Jellyfin` `Emby` `+IPTV` · `Windows` `Xbox` · [Info](https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/)
 - [Jeva](https://github.com/tearerry/Jeva) - Windows client with a streaming-service style interface. `Plex` `Jellyfin` `Emby` · `Windows` · `Open source` `Free`
 - [loemby](https://github.com/NPCDW/loemby) - Simple desktop media-server client. `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `MIT`
 - [MediaLib](https://github.com/Again0521/MediaLib) - Native macOS home media library and player. `Plex` `Jellyfin` `Emby` · `macOS` · `Apache-2.0` `Free`
@@ -880,7 +881,6 @@ Third-party video and general clients for Emby only. Many come from the large Ch
 - [EmbyFlix](https://github.com/J0n4e/Embyfix) - Netflix-style native macOS client written in SwiftUI. `Emby` · `macOS` · `GPL-3.0`
 - [EmbyMini](https://github.com/stqfdyr/embymini) - Rust desktop client modelled on SenPlayer, playing through mpv. `Emby` · `Windows` · `Open source` `Free`
 - [EmbyPlayer](https://github.com/desire668/embyplayer) - Windows desktop client on WinUI 3 with mpv playback and search across several servers. `Emby` · `Windows` · `Open source` `Free`
-- [Fluent Player](https://apps.microsoft.com/detail/9pkmdlwbc8zj) - Media hub player for Xbox. `Emby` `+IPTV` · `Windows` `Xbox` · [Info](https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/)
 - [Jinx](https://github.com/SeriousQY/JINX-EmbyClient) - Simple Windows client using mpv with Anime4K upscaling; release builds only. `Emby` · `Windows`
 - [Kude](https://apps.apple.com/us/app/kude/id6757255785) - Mac video player and library manager for WebDAV, Emby and SMB with a cinema-style view. `Emby` · `macOS` · `Paid`
 - [Mambo](https://github.com/Aaleo73/Mambo) - WinUI 3 Emby client using libmpv. `Emby` · `Windows` · `GPL-3.0`

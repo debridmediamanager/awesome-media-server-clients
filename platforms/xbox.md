@@ -2,7 +2,7 @@
 
 # Xbox
 
-Every app in this list that runs on Xbox. That is 18 apps with 4 for Plex and 14 for Jellyfin and 7 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Xbox. That is 18 apps with 4 for Plex and 15 for Jellyfin and 7 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -14,9 +14,9 @@ Every app in this list that runs on Xbox. That is 18 apps with 4 for Plex and 14
 
 ## Video and general
 
-- [Fluent Player](https://apps.microsoft.com/detail/9pkmdlwbc8zj) - Media hub player for Xbox. `Emby` `+IPTV` · `Windows` `Xbox` · [Info](https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/)
 - [Gelatinarm](https://github.com/gitman-101111/gelatinarm) - Native Xbox media client. `Jellyfin` · `Xbox` · `MIT` `Free`
 - [iPlay](https://github.com/saltpi/iPlay) - Cross-platform player for phones, Apple TV, Windows and Xbox. `Jellyfin` `Emby` · `Windows` `macOS` `Android` `iOS` `iPadOS` `HarmonyOS` `tvOS` `Xbox` · `GPL-3.0` · [App Store](https://apps.apple.com/app/id6480576133) · [Google Play](https://play.google.com/store/apps/details?id=top.ourfor.app.iplay) · [AppGallery](https://appgallery.huawei.com/app/detail?id=top.ourfor.app.iPlay)
+- [IPTV Fluent](https://apps.microsoft.com/detail/9pkmdlwbc8zj) - IPTV and media hub player for Xbox and Windows. `Jellyfin` `Emby` `+IPTV` · `Windows` `Xbox` · [Info](https://emby.media/community/topic/139659-fluent-player-media-hub-iptv-for-windows-and-xbox/)
 - [JellyBox](https://github.com/dfederm/JellyBox) - Native Xbox app. `Jellyfin` · `Xbox` · `MIT` `Free`
 - [JellyBox (JamesDearlove)](https://github.com/JamesDearlove/JellyBox) - Xbox client. `Jellyfin` · `Xbox` · `Open source` `Free` `Stale 2023`
 - [jellyfin-client-uwp](https://github.com/ujvarigergo1/jellyfin-client-uwp) - UWP client for Windows and Xbox. `Jellyfin` · `Windows` `Xbox` · `Open source` `Free` `Stale 2024`

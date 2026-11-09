@@ -398,7 +398,9 @@ def entry(a):
 
 INTRO = """# Awesome Media Server Clients [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Every app that plays from a [Plex](https://www.plex.tv/) or [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/) server. Phones and TVs and desktops. Browsers and consoles and headsets. Cars and watches and terminals. The list has the official apps and {third:,} third-party ones. Some are polished store apps. Others are small open-source projects.
+Every app that plays from a [Plex](https://www.plex.tv/) [Jellyfin](https://jellyfin.org/) or [Emby](https://emby.media/)
+server. Phones TVs desktops browsers consoles and more. The list includes official apps and {third:,} third-party
+ones from polished store apps to small open-source projects.
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](#from-the-maintainers)
 
@@ -409,7 +411,7 @@ Official downloads come only from [plex.tv](https://www.plex.tv/media-server-dow
 
 MAINTAINERS = """## From the maintainers
 
-This list is kept by the team behind Debrid Media Manager. We also make the projects below. They give the apps on this page a library to play.
+The Debrid Media Manager team keeps this list. We also make the projects below. They give these apps a library to play.
 
 - **[rex](https://rex.debridmediamanager.com/)** · Any source. Every Plex app. Your films and shows stay on a debrid service or a Usenet provider or any web server. rex shows them to the Plex apps as a normal server. When you press play it streams the file straight from where it lives. Nothing is downloaded first. [Docs](https://notes.debridmediamanager.com/rex/)
 - **[zurg](https://zurg.debridmediamanager.com/)** · Every debrid account and Usenet in one folder. Plex and Jellyfin and Emby read the folder through rclone like a normal drive. Infuse reads it directly. The public release covers Real-Debrid. [Sponsors](https://gatekeeper.debridmediamanager.com/) also get TorBox and AllDebrid and Premiumize and Debrid-Link and Offcloud and Usenet in the same folder. [Docs](https://notes.debridmediamanager.com/zurg/)

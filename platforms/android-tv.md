@@ -2,7 +2,7 @@
 
 # Android TV
 
-Every app in this list that runs on Android TV. That is 214 apps with 66 for Plex and 157 for Jellyfin and 85 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Android TV. That is 213 apps with 66 for Plex and 156 for Jellyfin and 85 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -63,7 +63,6 @@ Every app in this list that runs on Android TV. That is 214 apps with 66 for Ple
 - [Emfin](https://github.com/NextPlayerCloud/Emfin) - Third-party Android TV client. `Emby` · `Android TV` · `Open source` `Free`
 - [Entryway](https://github.com/YuSheng-Jack/Entryway_Release) - Closed-source player that combines media servers, IPTV and cloud drives in one app. `Plex` `Jellyfin` `Emby` `+Subsonic` `+fnOS` `+IPTV` · `Android` `Android TV`
 - [Ephyra](https://github.com/midasvo/ephyra) - Client for Android phones, tablets and Android TV. `Jellyfin` · `Android` `Android TV` · `GPL-3.0`
-- [EzPzTV](https://github.com/Xaque8787/ezpztv-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [FamilyFlix](https://github.com/sjdigitall-maker/FamilyFlix) - Customised Android TV client for a private Jellyfin server. `Jellyfin` · `Android TV` · `Open source` `Free`
 - [Fathom](https://github.com/TraceApps/fathom) - Desktop client with a built-in YouTube player and Seerr requests. `Jellyfin` · `Windows` `Linux` `Android` `Android TV` `Android Auto` · `AGPL-3.0`
 - [fengymi/jellyfin-androidtv](https://github.com/fengymi/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` · `GPL-2.0` `Free`

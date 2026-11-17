@@ -501,20 +501,6 @@
   notes: Hobby project. Repository holds only an installer.
   long_tail: true
 
-- name: Allerix
-  url: https://github.com/AlleriaLabs/Allerix
-  servers: [jellyfin]
-  official: false
-  platforms: [android]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Branded fork built for the Alleria Filmotheque.
-  notes: Platforms not stated.
-
 - name: AllPlayer Pro
   url: https://apps.apple.com/us/app/allplayer-pro/id6761591864
   servers: [plex, jellyfin, emby]
@@ -2301,8 +2287,6 @@
 
 - name: boum
   url: https://github.com/henniaufmrenni/boum
-  links:
-    fdroid: https://apt.izzysoft.de/fdroid/index/apk/de.eindm.boum
   servers: [jellyfin]
   official: false
   platforms: [android]
@@ -3046,7 +3030,7 @@
   notes: by 曙光 乐.
 
 - name: Celo
-  url: https://apps.apple.com/cn/app/celo/id6802992811
+  url: https://apps.apple.com/us/app/celo/id6802992811
   servers: [plex, jellyfin, emby]
   also: [smb, webdav, local]
   official: false
@@ -3058,7 +3042,7 @@
   status: active
   status_year: 2026
   description: Library player with subtitle translation, downloads, offline viewing and local file playback.
-  notes: by Shangqiu Bairui Information Consulting Co., Ltd; Chinese-language listing
+  notes: by Shangqiu Bairui Information Consulting Co., Ltd; gone from the China store (2026-11-17).
 
 - name: C-Film
   url: https://apps.apple.com/hk/app/c-film/id6789828713
@@ -6075,21 +6059,6 @@
   description: Native client with an Apple Watch companion app.
   notes: TestFlight only.
 
-- name: enthu2005/reel
-  url: https://github.com/enthu2005/reel
-  servers: [plex]
-  official: false
-  platforms: [windows, fire-tv]
-  category: player
-  media: [video]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Java Plex client.
-  notes: Listed as a Java app under desktop clients; platforms not stated. Not related to other apps called Reel.
-  long_tail: true
-
 - name: Entryway
   url: https://github.com/YuSheng-Jack/Entryway_Release
   servers: [plex, jellyfin, emby]
@@ -6197,23 +6166,6 @@
   status: active
   status_year: 2026
   description: Customised build of the Finamp music player.
-
-- name: EzPzTV
-  url: https://github.com/Xaque8787/ezpztv-androidtv
-  servers: [jellyfin]
-  official: false
-  platforms: [android-tv, fire-tv]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-2.0
-  price: free
-  status: stale
-  status_year: 2024
-  aliases: [ezpztv-androidtv]
-  description: Android TV client fork.
-  notes: fork of jellyfin/jellyfin-androidtv.
-  long_tail: true
 
 - name: fabean/jellyfin-tui
   url: https://github.com/fabean/jellyfin-tui
@@ -9259,21 +9211,6 @@
   status_year: 2026
   description: Reader for ebooks and comics that also plays audiobooks.
   notes: iOS via TestFlight; Android via IzzyOnDroid.
-
-- name: JellyBoost
-  url: https://github.com/landai-n/jellyboost
-  servers: [jellyfin]
-  official: false
-  platforms: [android]
-  category: player
-  media: [video]
-  open_source: true
-  license: GPL-3.0
-  price: free
-  status: active
-  status_year: 2026
-  description: Native Android client.
-  long_tail: true
 
 - name: JellyBox (JamesDearlove)
   url: https://github.com/JamesDearlove/JellyBox
@@ -13711,7 +13648,6 @@
 - name: LeyTV
   url: https://apps.apple.com/us/app/leytv-iptv-media-player/id6815275073
   links:
-    testflight: https://testflight.apple.com/join/tGMEk552
     other: https://www.reddit.com/r/CarPlay/comments/1xmeapt/works_with_272_i_made_a_carplay_video_app_that/
   servers: [plex, jellyfin, emby]
   also: [iptv]
@@ -13725,7 +13661,7 @@
   status_year: 2026
   aliases: [LeyTV IPTV Media Player, LeyTV – IPTV Media Player]
   description: iPhone video app that plays on CarPlay screens.
-  notes: TestFlight build; CarPlay post 2026-11-03.
+  notes: CarPlay post 2026-11-03.
 
 - name: Libravia
   url: https://github.com/schillt/libravia
@@ -18425,20 +18361,6 @@
   status_year: 2026
   description: Windows video player with HDR output and a built-in client.
 
-- name: Perch
-  url: https://github.com/Robin-Parapex/Perch
-  servers: [plex]
-  official: false
-  platforms: [tvos]
-  category: player
-  media: [video]
-  open_source: true
-  status: active
-  status_year: 2026
-  description: Apple TV client with Home Assistant and Seerr integration.
-  notes: Hobby project.
-  long_tail: true
-
 - name: P-fin
   url: https://github.com/varunaditya-plus/P-Fin
   servers: [jellyfin]
@@ -22053,19 +21975,6 @@
   description: Android media player fork that adds music sources.
   notes: fork of Riteshp2001/mpvRx; Android inferred from that base.
 
-- name: Resonant-PS3
-  url: https://github.com/daedra000/Resonant-PS3
-  servers: [plex]
-  official: false
-  platforms: [ps3]
-  category: music
-  media: [music]
-  open_source: true
-  license: GPL-2.0
-  status: active
-  status_year: 2026
-  description: Homebrew Plex music player for the PlayStation 3.
-
 - name: resonite-plex
   url: https://github.com/ikanibee/resonite-plex
   servers: [plex]
@@ -23576,20 +23485,6 @@
   status_year: 2026
   description: Android client with a translucent liquid-glass interface.
 
-- name: Spin Desktop
-  url: https://github.com/Toomiiverse/spin-desktop
-  servers: [jellyfin]
-  official: false
-  platforms: [windows]
-  category: music
-  media: [music]
-  open_source: true
-  price: free
-  status: active
-  status_year: 2026
-  description: Desktop music player with a ZZZ-themed look.
-  long_tail: true
-
 - name: SpinePlay
   url: https://github.com/smartdevuk/spineplay
   servers: [plex]
@@ -24104,7 +23999,7 @@
   notes: Lets Amperfy, Tempus, Substreamer, Aonsoku, Strawberry and MusicBee reach the server. Young project.
 
 - name: SubFlow
-  url: https://apps.apple.com/cn/app/subflow-ai-%E5%AD%97%E5%B9%95%E6%92%AD%E6%94%BE%E5%99%A8/id6818683677
+  url: https://apps.apple.com/us/app/subflow-ai-subtitle-player/id6818683677
   servers: [jellyfin, emby]
   also: [smb, webdav, ftp, local]
   official: false
@@ -24118,7 +24013,7 @@
   status_year: 2026
   aliases: [SubFlow - AI 字幕播放器]
   description: Video player that generates on-device AI subtitles for shares and servers; Pro adds subtitle export.
-  notes: by 博 邢; Chinese-language listing
+  notes: by 博 邢; gone from the China store (2026-11-17).
 
 - name: SubMusic
   url: https://github.com/memen45/SubMusic
@@ -26001,23 +25896,7 @@
   status: active
   status_year: 2026
   description: Desktop front end that plays through mpv for HDR output.
-  notes: Not Vela Player (HarmonyOS) or ppx-lubing/vela-emby-player.
-
-- name: Vela Emby Player
-  url: https://github.com/PPX-LuBing/vela-emby-player
-  servers: [emby]
-  official: false
-  platforms: [macos]
-  category: player
-  media: [video]
-  open_source: true
-  license: MIT
-  price: free
-  status: active
-  status_year: 2026
-  description: Tauri desktop player for Emby with mpv playback.
-  notes: Not the same as roethlar/vela or Vela Player.
-  long_tail: true
+  notes: Not Vela Player (HarmonyOS).
 
 - name: Vela Player
   url: https://vela.app.mahui.me/
@@ -27810,9 +27689,8 @@
   description: Android TV and phone music player for self-hosted libraries.
 
 - name: Yuzic
-  url: https://apps.apple.com/us/app/yuzic-navidrome-jellyfin/id6740042497
+  url: https://github.com/yuzicapp/yuzic
   links:
-    repo: https://github.com/yuzicapp/yuzic
     play: https://play.google.com/store/apps/details?id=com.arinora.rawarr
   servers: [plex, jellyfin, emby]
   also: [subsonic, local]
@@ -27820,7 +27698,8 @@
   platforms: [ios, ipados, android, carplay, android-auto]
   category: music
   media: [music]
-  open_source: false
+  open_source: true
+  license: GPL-3.0
   price: free
   status: active
   status_year: 2026

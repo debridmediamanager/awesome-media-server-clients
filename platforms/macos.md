@@ -2,7 +2,7 @@
 
 # macOS
 
-Every app in this list that runs on macOS. That is 364 apps with 144 for Plex and 284 for Jellyfin and 152 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on macOS. That is 363 apps with 144 for Plex and 284 for Jellyfin and 151 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -251,7 +251,6 @@ Every app in this list that runs on macOS. That is 364 apps with 144 for Plex an
 - [Ultimate Media Player (Toby Jones)](https://apps.apple.com/us/app/ultimate-media-player/id6803723173) - Player for Jellyfin, Plex and IPTV sources with a 3D conversion mode. `Plex` `Jellyfin` `Emby` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Vanto](https://apps.apple.com/us/app/vanto-nas-media-player/id6794951510) - Media player for media servers and NAS shares that lets the phone control playback on Apple TV. `Plex` `Jellyfin` `Emby` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`
 - [Vela](https://github.com/roethlar/vela) - Desktop front end that plays through mpv for HDR output. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `MIT` `Free`
-- [Vela Emby Player](https://github.com/PPX-LuBing/vela-emby-player) - Tauri desktop player for Emby with mpv playback. `Emby` · `macOS` · `MIT` `Free`
 - [Vesper](https://testflight.apple.com/join/mcCk473Y) - Video player with Library Sync for media servers and WebDAV shares. `Plex` `Jellyfin` `Emby` `+Silo` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Beta`
 - [VidHub](https://apps.apple.com/app/id1659622164) - Video player and media library app with an Apple TV build. `Plex` `Jellyfin` `Emby` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.oumi.utility.media.hub)
 - [VidyeoFE](https://github.com/han-sz/VidyeoFE) - Native macOS front end for Plex. `Plex` · `macOS` · `Open source` `Free`

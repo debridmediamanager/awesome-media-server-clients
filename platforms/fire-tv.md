@@ -2,7 +2,7 @@
 
 # Fire TV
 
-Every app in this list that runs on Fire TV. That is 64 apps with 24 for Plex and 51 for Jellyfin and 18 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Fire TV. That is 62 apps with 23 for Plex and 50 for Jellyfin and 18 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -24,8 +24,6 @@ Every app in this list that runs on Fire TV. That is 64 apps with 24 for Plex an
 - [CookeInCode/jellyfin-androidtv](https://github.com/CookeInCode/jellyfin-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [DreamPlayer](https://apps.apple.com/us/app/dreamplayer-video-player/id6813066889) - Video player for MKV, MP4, TS and AVI files with hardware decoding and DTS/TrueHD audio. `Jellyfin` `Emby` · `Android` `iOS` `iPadOS` `Android TV` `Fire TV` · `Freemium` · [Source](https://github.com/mangeshghodke/DreamPlayer)
 - [Driftfin](https://github.com/dhrandy/Driftfin) - Google TV and Android TV client that also runs on older Fire TVs. `Jellyfin` · `Android` `Android TV` `Fire TV` · `Open source` `Free`
-- [enthu2005/reel](https://github.com/enthu2005/reel) - Java Plex client. `Plex` · `Windows` `Fire TV` · `Open source` `Free`
-- [EzPzTV](https://github.com/Xaque8787/ezpztv-androidtv) - Android TV client fork. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free` `Stale 2024`
 - [Firefin](https://github.com/ZepiGit/Firefin) - Native 32-bit Kotlin client for older Fire TV devices. `Jellyfin` · `Android TV` `Fire TV` · `GPL-2.0` `Free`
 - [firetv-jellyfin-client](https://github.com/RT993/firetv-jellyfin-client) - Lightweight client for old Fire Stick devices. `Jellyfin` · `Android TV` `Fire TV` · `Open source` `Free`
 - [Glacier](https://github.com/Glacier-Jellyfin/glacier-androidtv) - Client for Android TV, Google TV and Fire TV. `Jellyfin` · `Android TV` `Fire TV` · `GPL-3.0` `Free` · [Amazon](https://www.amazon.com/dp/B0HPL2YVVQ)

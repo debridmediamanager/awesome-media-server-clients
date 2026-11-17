@@ -2,7 +2,7 @@
 
 # Windows
 
-Every app in this list that runs on Windows. That is 303 apps with 91 for Plex and 209 for Jellyfin and 118 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on Windows. That is 301 apps with 90 for Plex and 208 for Jellyfin and 118 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -56,7 +56,6 @@ Every app in this list that runs on Windows. That is 303 apps with 91 for Plex a
 - [embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer) - Sends items from the server's web client to a local mpv, VLC or PotPlayer and syncs progress back. `Plex` `Jellyfin` `Emby` · `Windows` `macOS` `Linux` · `Apache-2.0`
 - [Emby Watch Party Client](https://codeberg.org/Hazing6995/emby-watchparty-client) - Kotlin Multiplatform client with a Continue Watching row and watch-party playback sync. `Emby` · `Windows` `macOS` `Linux` `Android` · `Open source`
 - [encheo](https://github.com/KumaVolt/encheo) - Cross-platform media player for desktop and Android that puts Plex first. `Plex` · `Windows` `macOS` `Linux` `Android` `iOS` · `MPL-2.0` `Free`
-- [enthu2005/reel](https://github.com/enthu2005/reel) - Java Plex client. `Plex` · `Windows` `Fire TV` · `Open source` `Free`
 - [ExoCinema](https://github.com/UhhErix/ExoCinema) - Windows 11 client with a native mpv player. `Jellyfin` · `Windows` · `Open source` `Free`
 - [Fathom](https://github.com/TraceApps/fathom) - Desktop client with a built-in YouTube player and Seerr requests. `Jellyfin` · `Windows` `Linux` `Android` `Android TV` `Android Auto` · `AGPL-3.0`
 - [Finar](https://gitlab.com/Openlyst/finar) - Flutter client for video and music with downloads, multiple accounts and game controller support. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `Android` `iOS` · `AGPL-3.0` · [Website](https://openlyst.ink) · [AUR](https://aur.archlinux.org/packages/finar-bin)
@@ -297,7 +296,6 @@ Every app in this list that runs on Windows. That is 303 apps with 91 for Plex a
 - [SonaWave](https://github.com/Tlntin/SonaWave-Release) - Multi-source music player for desktop and mobile. `Jellyfin` `Emby` `+Subsonic` `+Audiobookshelf` `+fnOS` · `Windows` `macOS` `Linux` `Android` `HarmonyOS` `Android TV` · [AppGallery](https://appgallery.huawei.com/app/detail?id=com.tlntin.sonawave)
 - [Songsta](https://github.com/steggi-bernd/Songsta) - Music player for your own collection on Windows, Linux and Android. `Jellyfin` `+Subsonic` · `Windows` `Linux` `Android` · `GPL-3.0` `Free`
 - [Sonixd Redux](https://github.com/joffrey-b/Sonixd-Redux) - Desktop music client forked from Sonixd. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free`
-- [Spin Desktop](https://github.com/Toomiiverse/spin-desktop) - Desktop music player with a ZZZ-themed look. `Jellyfin` · `Windows` · `Open source` `Free`
 - [Spotifin](https://github.com/EduardoV-V/spotifin) - Spotify-like music player. `Jellyfin` · `Windows` `Linux` `Android` · `MIT` `Free`
 - [Supersonic](https://github.com/supersonic-app/supersonic) - Desktop music player. `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` · `GPL-3.0` `Free` · [Flathub](https://flathub.org/apps/io.github.dweymouth.supersonic)
 - [SylphyMusic](https://github.com/ymltsh/SylphyMusic) - Multi-source music player that also streams from WebDAV. `Emby` `+Subsonic` · `Windows` `Android` · `MIT` `Free`

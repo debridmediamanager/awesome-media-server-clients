@@ -2,7 +2,7 @@
 
 # tvOS
 
-Every app in this list that runs on tvOS. That is 257 apps with 139 for Plex and 196 for Jellyfin and 123 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
+Every app in this list that runs on tvOS. That is 256 apps with 138 for Plex and 196 for Jellyfin and 123 for Emby. Apps for more than one server count once per server. The legend is in [README.md](../README.md#legend) and every other platform is in [PLATFORMS.md](../PLATFORMS.md).
 
 > **Want these apps to play straight from debrid or Usenet?** [rex](https://rex.debridmediamanager.com/) and [zurg](https://zurg.debridmediamanager.com/) are made by the team that keeps this list. [See what they do.](../README.md#from-the-maintainers)
 
@@ -154,7 +154,6 @@ Every app in this list that runs on tvOS. That is 257 apps with 139 for Plex and
 - [Parallax](https://apps.apple.com/br/app/parallax-media-player/id6796474963) - Jellyfin player for multiple servers and SMB shares, written in Swift and SwiftUI. `Jellyfin` · `iOS` `iPadOS` `tvOS` · `Paid` · [Source](https://github.com/eutialia/Parallax)
 - [Pelagica](https://github.com/PelagicaApp/pelagica) - Self-hosted web client that is also packaged for TVs. `Jellyfin` · `Windows` `macOS` `Linux` `Web` `tvOS` `webOS` `Tizen` · `GPL-3.0` `Free` · [App Store](https://apps.apple.com/app/id6811079730) · [Source (Apple TV)](https://github.com/PelagicaApp/pelagica-atv) · [TestFlight](https://testflight.apple.com/join/CUsEZtDK)
 - [pelies](https://github.com/chasecheney/pelies) - Plex player for Apple TV. `Plex` · `macOS` `tvOS` · `Open source` `Free`
-- [Perch](https://github.com/Robin-Parapex/Perch) - Apple TV client with Home Assistant and Seerr integration. `Plex` · `tvOS` · `Open source`
 - [Photon Player](https://apps.apple.com/us/app/photon-player/id6804291311) - Native player joining media servers, cloud and network storage and live TV; extra servers need Pro. `Plex` `Jellyfin` `Emby` `+Silo` `+IPTV` · `macOS` `iOS` `iPadOS` `tvOS` `visionOS` · `Freemium`
 - [Phyn](https://apps.apple.com/app/id6457674815) - Player for Mac, iPhone, Android and Quest. `Jellyfin` · `macOS` `Android` `iOS` `iPadOS` `Android TV` `tvOS` `Quest` · `Freemium` · [Google Play](https://play.google.com/store/apps/details?id=com.appsynergyts.phyn) · [Meta Store](https://www.meta.com/experiences/phyn-jellyfin-media-player/8075426475891543/)
 - [Pippin](https://apps.apple.com/us/app/pippin/id6783976415) - Customisable Plex and Jellyfin client with hardware-accelerated playback, custom shelves and filters. `Plex` `Jellyfin` · `macOS` `iOS` `iPadOS` `tvOS` · `Freemium`

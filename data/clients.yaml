@@ -15790,19 +15790,21 @@
   notes: Mopidy extension; no standalone interface.
 
 - name: Morph Audiophile
-  url: https://emby.media/community/topic/150555-morph-audiophile-%E2%80%93-android-music-player-for-emby-bit-perfect-usb-dac-driver-free-beta-testers-wan/
+  url: https://morphaudiophile.com/
+  links:
+    play: https://play.google.com/apps/testing/it.paolo.morph
   servers: [jellyfin, emby]
-  also: [subsonic, smb, dlna]
+  also: [subsonic, smb, webdav, dlna, local]
   official: false
-  platforms: [android]
+  platforms: [android, android-auto]
   category: music
   media: [music]
-  open_source: null
+  open_source: false
   price: free
   status: beta
   status_year: 2026
-  description: Android music player with a bit-perfect USB DAC driver.
-  notes: Free beta.
+  description: Android music player with its own USB DAC driver for bit-perfect PCM, native DSD and multichannel.
+  notes: Free during the beta, a Google Play closed test open to anyone.
 
 - name: Mortalfin
   url: https://github.com/mortaljinx/mortalfin

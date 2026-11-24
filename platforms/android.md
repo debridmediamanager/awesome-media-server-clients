@@ -294,7 +294,7 @@ Every app in this list that runs on Android. That is 368 apps with 111 for Plex 
 - [L-MUSIC](https://gitee.com/lxsol/l-music) - Android music player for media servers, Navidrome/Subsonic, Synology Audio Station and WebDAV. `Plex` `Emby` `+Subsonic` · `Android`
 - [LuSound](https://github.com/ion-lgb/lusound) - Android music player for local files and private-cloud libraries. `Plex` `Jellyfin` `+Subsonic` · `Android` · `GPL-3.0` `Free`
 - [Meringo](https://meringo.app) - Paid Android music player. `Jellyfin` · `Android` `Android Auto` · `Paid`
-- [Morph Audiophile](https://emby.media/community/topic/150555-morph-audiophile-%E2%80%93-android-music-player-for-emby-bit-perfect-usb-dac-driver-free-beta-testers-wan/) - Android music player with a bit-perfect USB DAC driver. `Jellyfin` `Emby` `+Subsonic` · `Android` · `Free` `Beta`
+- [Morph Audiophile](https://morphaudiophile.com/) - Android music player with its own USB DAC driver for bit-perfect PCM, native DSD and multichannel. `Jellyfin` `Emby` `+Subsonic` · `Android` `Android Auto` · `Free` `Beta` · [Google Play](https://play.google.com/apps/testing/it.paolo.morph)
 - [Mozz](https://github.com/brandomoore/Mozz) - Music app that builds queues with sonic analysis. `Plex` `Jellyfin` `+Subsonic` · `Windows` `macOS` `Linux` `Android` `iOS` `iPadOS` `CarPlay` `Android Auto` · `Open source` `Free` · [TestFlight](https://testflight.apple.com/join/dmeawSSM)
 - [Mu3ic](https://mu3ic.xyz) - Android music player for Navidrome/Subsonic and media servers. `Jellyfin` `Emby` `+Subsonic` · `Android` `Android Auto` · `Freemium`
 - [MusicBridge](https://github.com/lux032/MusicBridge) - Android music client with Plex compatibility and Sonos push. `Plex` · `Android` · `MIT` `Free`
